@@ -10,12 +10,19 @@ test('all legacy filters are present in the shared filter bar',()=>{
  for(const category of ['earnings','ipo','sports','geopolitical','crypto']) assert.match(html,new RegExp(`value="${category}"`));
 });
 
-test('one-minute live refresh is wired without page reloads',()=>{
+test('one-minute browser refresh is wired without page reloads',()=>{
  assert.match(app,/setInterval\(refreshEverything,LIVE_REFRESH_MS\)/);
  assert.match(app,/const y=window\.scrollY/);
  assert.doesNotMatch(app,/location\.reload/);
- assert.doesNotMatch(app,/refreshMarketData/);
- assert.doesNotMatch(app,/refreshDashboardData/);
+});
+
+test('GitHub-only frontend has no Worker or live-config dependency',()=>{
+ assert.doesNotMatch(app,/liveDataBase/);
+ assert.doesNotMatch(app,/loadLiveConfig/);
+ assert.doesNotMatch(app,/fetchWorkerSnapshot/);
+ assert.doesNotMatch(app,/live-config\.json/);
+ assert.match(app,/\.\/news\.json/);
+ assert.match(app,/\.\/nifty-in-news\.json/);
 });
 
 test('continuous ticker and News navigation replace the old market snapshot',()=>{
