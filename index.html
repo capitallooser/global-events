@@ -6,6 +6,7 @@
 <meta name="theme-color" content="#0b0e14">
 <title>Global Market Intelligence</title>
 <link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="./filters.css">
 </head>
 <body>
 <main>
@@ -31,7 +32,7 @@
 
 <section id="updateBar" class="updatebar">
   <span class="statusdot"></span><strong id="updateState">Checking update status…</strong>
-  <span id="lastUpdated"></span><span id="sourceHealth"></span>
+  <span id="lastUpdated"></span><span id="sourceHealth"></span><span id="liveRefreshState" class="live-refresh-state">Auto-refresh starting…</span>
 </section>
 
 <section id="marketStripSection" class="market-section">
@@ -45,12 +46,54 @@
   </div>
 </section>
 
+<section id="sharedFilters" class="shared-filters" aria-label="Event filters">
+  <div class="filter-head">
+    <div><p class="eyebrow">FILTER EVENTS</p><h2>Find what matters</h2></div>
+    <span id="filterScope" class="method-note">All regions</span>
+  </div>
+  <div class="quick-filters" aria-label="Date range">
+    <button data-win="today">Today</button>
+    <button data-win="7d">Next 7 Days</button>
+    <button class="active" data-win="30d">Next 30 Days</button>
+    <button data-win="all">All Upcoming</button>
+  </div>
+  <div class="filter-toolbar">
+    <label class="search-filter">Search<input id="q" placeholder="Search events"></label>
+    <label id="countryFilterLabel">Country<select id="country">
+      <option value="all">All</option><option value="IN">India</option><option value="US">United States</option><option value="GLOBAL">Global</option>
+    </select></label>
+    <label>Category<select id="category">
+      <option value="all">All categories</option>
+      <option value="central_bank">Central banks</option>
+      <option value="politics">Politics</option>
+      <option value="geopolitical">Geopolitical</option>
+      <option value="holiday">Market holidays</option>
+      <option value="economic">Economic</option>
+      <option value="earnings">Earnings</option>
+      <option value="ipo">IPO</option>
+      <option value="crypto">Crypto</option>
+      <option value="sports">Sports</option>
+      <option value="other">Other</option>
+    </select></label>
+    <label>Importance<select id="importance">
+      <option value="all">All</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option>
+    </select></label>
+    <label>Historical impact<select id="impact">
+      <option value="all">All historical impact</option>
+      <option value="very_high">Very high</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option><option value="no_history">No history yet</option>
+    </select></label>
+    <label>Sort<select id="sort">
+      <option value="date">Soonest first</option><option value="impact">Highest market impact</option>
+    </select></label>
+  </div>
+</section>
+
 <section id="overviewPanel" class="tab-panel active">
   <section id="moversSection" class="movers-section">
     <div class="section-head"><div><p class="eyebrow">UPCOMING MARKET MOVERS</p><h2>Top 5 upcoming market movers</h2></div><span class="method-note">Historical impact first</span></div>
     <div id="movers" class="movers"></div>
   </section>
-  <div class="panel-title"><div><p class="eyebrow">UPCOMING</p><h2>Highest-impact events</h2></div></div>
+  <div class="panel-title"><div><p class="eyebrow">UPCOMING</p><h2>Filtered upcoming events</h2></div></div>
   <section id="overviewEvents"></section>
 </section>
 
@@ -75,13 +118,7 @@
 <section id="globalPanel" class="tab-panel"><div class="panel-title"><div><p class="eyebrow">GLOBAL</p><h2>Global catalysts</h2></div></div><section id="globalEvents"></section></section>
 
 <section id="moversPanel" class="tab-panel">
-  <div class="panel-title"><div><p class="eyebrow">RANKED BY HISTORY</p><h2>Market Movers</h2></div></div>
-  <section class="toolbar compact">
-    <label>Search<input id="q" placeholder="Search events"></label>
-    <label>Region<select id="country"><option value="all">All</option><option value="IN">India</option><option value="US">US</option><option value="GLOBAL">Global</option></select></label>
-    <label>Category<select id="category"><option value="all">All</option><option value="economic">Economic</option><option value="central_bank">Central bank</option><option value="politics">Politics / Elections</option><option value="geopolitical">Geopolitical</option><option value="holiday">Holidays</option><option value="crypto">Crypto</option></select></label>
-    <label>Impact<select id="impact"><option value="all">All</option><option value="very_high">Very high</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option><option value="no_history">No history</option></select></label>
-  </section>
+  <div class="panel-title"><div><p class="eyebrow">RANKED BY HISTORY</p><h2>Market Movers</h2><p class="sub">Use the shared filters above to narrow this ranking.</p></div></div>
   <section id="rankedEvents"></section>
 </section>
 
