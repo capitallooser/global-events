@@ -23,4 +23,13 @@ class MarketPriceTests(unittest.TestCase):
         self.assertEqual(q['price'],100)
         self.assertEqual(q['status'],'Last available')
 
+    def test_parse_nseix_gift_snapshot(self):
+        now=datetime(2026,8,21,11,0,tzinfo=timezone.utc)
+        text="24,231.85\n153.55 (0.64%)\nNormal Market Open\nCurrent Day\nDate : 21-Aug-2026"
+        q=mp.parse_nseix_gift(text,now)
+        self.assertEqual(q['key'],'gift_nifty')
+        self.assertEqual(q['price'],24231.85)
+        self.assertAlmostEqual(q['changePct'],0.64)
+        self.assertEqual(q['sourceName'],'NSE IX')
+
 if __name__=='__main__': unittest.main()
