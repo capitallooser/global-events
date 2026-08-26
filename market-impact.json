@@ -1,17 +1,11 @@
 {
-  "updatedAt": "2026-08-26T20:31:19Z",
+  "updatedAt": "2026-08-26T21:31:04Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
     "threeDayDefinition": "Close-to-close through third reaction session",
-    "niftyForUSEvents": "US events are measured from NIFTY event-day close to the following Indian trading sessions because the releases occur after the Indian cash-market close.",
-    "impactThresholdsAvgAbs1dPct": {
-      "very_high": 1.25,
-      "high": 0.8,
-      "medium": 0.4,
-      "low": 0.0
-    },
-    "disclaimer": "Historical frequency and historical movement are descriptive statistics, not a forecast or guarantee of future direction."
+    "indiaForUSEvents": "US events are measured from the Indian event-day close to following Indian trading sessions because major U.S. releases occur after the Indian cash-market close.",
+    "disclaimer": "Historical frequency and movement are descriptive statistics, not a forecast or guarantee."
   },
   "benchmarks": {
     "nifty": {
@@ -19,10 +13,40 @@
       "priceSource": "Yahoo Finance chart",
       "points": 2131
     },
+    "banknifty": {
+      "label": "Bank NIFTY",
+      "priceSource": "Yahoo Finance chart",
+      "points": 2132
+    },
+    "sensex": {
+      "label": "Sensex",
+      "priceSource": "Yahoo Finance chart",
+      "points": 2128
+    },
     "sp500": {
       "label": "S&P 500",
       "priceSource": "Yahoo Finance chart",
       "points": 2174
+    },
+    "nasdaq": {
+      "label": "Nasdaq Composite",
+      "priceSource": "Yahoo Finance chart",
+      "points": 2174
+    },
+    "gold": {
+      "label": "Gold",
+      "priceSource": "Yahoo Finance chart",
+      "points": 2175
+    },
+    "usdinr": {
+      "label": "USD/INR",
+      "priceSource": "Yahoo Finance chart",
+      "points": 2253
+    },
+    "bitcoin": {
+      "label": "Bitcoin",
+      "priceSource": "Yahoo Finance chart",
+      "points": 3160
     }
   },
   "eventTypes": {
@@ -30,8 +54,8 @@
       "label": "Federal Reserve FOMC",
       "historySource": "Federal Reserve",
       "historicalEvents": 45,
-      "impactScore": 0.98,
-      "impactLevel": "high",
+      "impactScore": 2.52,
+      "impactLevel": "very_high",
       "markets": {
         "nifty": {
           "label": "NIFTY 50",
@@ -56,6 +80,58 @@
             "avgAbsMovePct": 1.52,
             "medianAbsMovePct": 1.14,
             "maxAbsMovePct": 5.32
+          },
+          "bias": "Mixed / neutral"
+        },
+        "banknifty": {
+          "label": "Bank NIFTY",
+          "oneDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 48.9,
+            "downPct": 51.1,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.11,
+            "avgAbsMovePct": 0.83,
+            "medianAbsMovePct": 0.66,
+            "maxAbsMovePct": 3.39
+          },
+          "threeDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 44.4,
+            "downPct": 55.6,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.21,
+            "avgAbsMovePct": 1.96,
+            "medianAbsMovePct": 1.44,
+            "maxAbsMovePct": 9.26
+          },
+          "bias": "Mixed / neutral"
+        },
+        "sensex": {
+          "label": "Sensex",
+          "oneDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 53.3,
+            "downPct": 46.7,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.05,
+            "avgAbsMovePct": 0.72,
+            "medianAbsMovePct": 0.5,
+            "maxAbsMovePct": 3.26
+          },
+          "threeDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 48.9,
+            "downPct": 51.1,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.01,
+            "avgAbsMovePct": 1.5,
+            "medianAbsMovePct": 1.11,
+            "maxAbsMovePct": 5.22
           },
           "bias": "Mixed / neutral"
         },
@@ -84,6 +160,110 @@
             "maxAbsMovePct": 5.34
           },
           "bias": "Mild bearish tendency"
+        },
+        "nasdaq": {
+          "label": "Nasdaq Composite",
+          "oneDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 57.8,
+            "downPct": 42.2,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.21,
+            "avgAbsMovePct": 1.31,
+            "medianAbsMovePct": 1.25,
+            "maxAbsMovePct": 4.06
+          },
+          "threeDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 53.3,
+            "downPct": 46.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.22,
+            "avgAbsMovePct": 2.18,
+            "medianAbsMovePct": 1.82,
+            "maxAbsMovePct": 7.3
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "gold": {
+          "label": "Gold",
+          "oneDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 55.6,
+            "downPct": 42.2,
+            "flatPct": 2.2,
+            "avgReturnPct": 0.07,
+            "avgAbsMovePct": 0.58,
+            "medianAbsMovePct": 0.32,
+            "maxAbsMovePct": 4.36
+          },
+          "threeDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 55.6,
+            "downPct": 44.4,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.32,
+            "avgAbsMovePct": 1.55,
+            "medianAbsMovePct": 0.86,
+            "maxAbsMovePct": 8.61
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "usdinr": {
+          "label": "USD/INR",
+          "oneDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 51.1,
+            "downPct": 48.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.01,
+            "avgAbsMovePct": 0.18,
+            "medianAbsMovePct": 0.13,
+            "maxAbsMovePct": 0.75
+          },
+          "threeDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 51.1,
+            "downPct": 48.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.1,
+            "avgAbsMovePct": 0.38,
+            "medianAbsMovePct": 0.27,
+            "maxAbsMovePct": 1.87
+          },
+          "bias": "Mixed / neutral"
+        },
+        "bitcoin": {
+          "label": "Bitcoin",
+          "oneDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 53.3,
+            "downPct": 46.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.5,
+            "avgAbsMovePct": 2.52,
+            "medianAbsMovePct": 1.82,
+            "maxAbsMovePct": 9.69
+          },
+          "threeDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 55.6,
+            "downPct": 44.4,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.02,
+            "avgAbsMovePct": 3.71,
+            "medianAbsMovePct": 3.01,
+            "maxAbsMovePct": 12.08
+          },
+          "bias": "Mixed / neutral"
         }
       }
     },
@@ -91,8 +271,8 @@
       "label": "US Consumer Price Index",
       "historySource": "U.S. BLS",
       "historicalEvents": 103,
-      "impactScore": 0.85,
-      "impactLevel": "high",
+      "impactScore": 2.76,
+      "impactLevel": "very_high",
       "markets": {
         "nifty": {
           "label": "NIFTY 50",
@@ -117,6 +297,58 @@
             "avgAbsMovePct": 1.44,
             "medianAbsMovePct": 1.22,
             "maxAbsMovePct": 12.06
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "banknifty": {
+          "label": "Bank NIFTY",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 55.3,
+            "downPct": 44.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.01,
+            "avgAbsMovePct": 0.9,
+            "medianAbsMovePct": 0.67,
+            "maxAbsMovePct": 9.5
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 59.2,
+            "downPct": 40.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.23,
+            "avgAbsMovePct": 1.77,
+            "medianAbsMovePct": 1.43,
+            "maxAbsMovePct": 12.79
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "sensex": {
+          "label": "Sensex",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 61.2,
+            "downPct": 38.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.03,
+            "avgAbsMovePct": 0.69,
+            "medianAbsMovePct": 0.42,
+            "maxAbsMovePct": 8.18
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 61.2,
+            "downPct": 38.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.2,
+            "avgAbsMovePct": 1.46,
+            "medianAbsMovePct": 1.3,
+            "maxAbsMovePct": 12.07
           },
           "bias": "Mild bullish tendency"
         },
@@ -145,6 +377,110 @@
             "maxAbsMovePct": 7.03
           },
           "bias": "Mild bullish tendency"
+        },
+        "nasdaq": {
+          "label": "Nasdaq Composite",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 58.3,
+            "downPct": 41.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.15,
+            "avgAbsMovePct": 1.09,
+            "medianAbsMovePct": 0.72,
+            "maxAbsMovePct": 7.35
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 66.0,
+            "downPct": 34.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.45,
+            "avgAbsMovePct": 1.76,
+            "medianAbsMovePct": 1.32,
+            "maxAbsMovePct": 8.14
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "gold": {
+          "label": "Gold",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 60.2,
+            "downPct": 39.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.29,
+            "avgAbsMovePct": 0.73,
+            "medianAbsMovePct": 0.58,
+            "maxAbsMovePct": 3.56
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 59.2,
+            "downPct": 40.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.3,
+            "avgAbsMovePct": 1.28,
+            "medianAbsMovePct": 0.99,
+            "maxAbsMovePct": 8.64
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "usdinr": {
+          "label": "USD/INR",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 47.6,
+            "downPct": 52.4,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.02,
+            "avgAbsMovePct": 0.29,
+            "medianAbsMovePct": 0.21,
+            "maxAbsMovePct": 2.21
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 54.4,
+            "downPct": 44.7,
+            "flatPct": 1.0,
+            "avgReturnPct": 0.01,
+            "avgAbsMovePct": 0.41,
+            "medianAbsMovePct": 0.31,
+            "maxAbsMovePct": 1.76
+          },
+          "bias": "Mixed / neutral"
+        },
+        "bitcoin": {
+          "label": "Bitcoin",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 52.4,
+            "downPct": 47.6,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.33,
+            "avgAbsMovePct": 2.76,
+            "medianAbsMovePct": 1.89,
+            "maxAbsMovePct": 13.32
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 51.5,
+            "downPct": 48.5,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.49,
+            "avgAbsMovePct": 4.77,
+            "medianAbsMovePct": 3.54,
+            "maxAbsMovePct": 29.66
+          },
+          "bias": "Mixed / neutral"
         }
       }
     },
@@ -152,8 +488,8 @@
       "label": "US Employment Situation (NFP)",
       "historySource": "U.S. BLS",
       "historicalEvents": 112,
-      "impactScore": 0.97,
-      "impactLevel": "high",
+      "impactScore": 2.24,
+      "impactLevel": "very_high",
       "markets": {
         "nifty": {
           "label": "NIFTY 50",
@@ -178,6 +514,58 @@
             "avgAbsMovePct": 1.33,
             "medianAbsMovePct": 0.85,
             "maxAbsMovePct": 12.73
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "banknifty": {
+          "label": "Bank NIFTY",
+          "oneDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 50.0,
+            "downPct": 50.0,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.11,
+            "avgAbsMovePct": 1.05,
+            "medianAbsMovePct": 0.74,
+            "maxAbsMovePct": 10.51
+          },
+          "threeDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 57.1,
+            "downPct": 42.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.13,
+            "avgAbsMovePct": 1.76,
+            "medianAbsMovePct": 1.06,
+            "maxAbsMovePct": 15.45
+          },
+          "bias": "Mixed / neutral"
+        },
+        "sensex": {
+          "label": "Sensex",
+          "oneDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 58.0,
+            "downPct": 42.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.03,
+            "avgAbsMovePct": 0.91,
+            "medianAbsMovePct": 0.62,
+            "maxAbsMovePct": 8.97
+          },
+          "threeDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 57.1,
+            "downPct": 42.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.16,
+            "avgAbsMovePct": 1.34,
+            "medianAbsMovePct": 0.87,
+            "maxAbsMovePct": 12.93
           },
           "bias": "Mild bullish tendency"
         },
@@ -206,6 +594,110 @@
             "maxAbsMovePct": 7.67
           },
           "bias": "Mixed / neutral"
+        },
+        "nasdaq": {
+          "label": "Nasdaq Composite",
+          "oneDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 51.8,
+            "downPct": 48.2,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.05,
+            "avgAbsMovePct": 1.28,
+            "medianAbsMovePct": 1.25,
+            "maxAbsMovePct": 5.82
+          },
+          "threeDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 54.5,
+            "downPct": 45.5,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.02,
+            "avgAbsMovePct": 1.82,
+            "medianAbsMovePct": 1.53,
+            "maxAbsMovePct": 7.75
+          },
+          "bias": "Mixed / neutral"
+        },
+        "gold": {
+          "label": "Gold",
+          "oneDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 57.1,
+            "downPct": 42.9,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.03,
+            "avgAbsMovePct": 0.86,
+            "medianAbsMovePct": 0.61,
+            "maxAbsMovePct": 4.09
+          },
+          "threeDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 50.9,
+            "downPct": 49.1,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.2,
+            "avgAbsMovePct": 1.55,
+            "medianAbsMovePct": 1.09,
+            "maxAbsMovePct": 6.27
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "usdinr": {
+          "label": "USD/INR",
+          "oneDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 46.4,
+            "downPct": 53.6,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.05,
+            "avgAbsMovePct": 0.28,
+            "medianAbsMovePct": 0.18,
+            "maxAbsMovePct": 2.29
+          },
+          "threeDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 63.4,
+            "downPct": 36.6,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.16,
+            "avgAbsMovePct": 0.51,
+            "medianAbsMovePct": 0.33,
+            "maxAbsMovePct": 2.79
+          },
+          "bias": "Mixed / neutral"
+        },
+        "bitcoin": {
+          "label": "Bitcoin",
+          "oneDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 50.0,
+            "downPct": 50.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.28,
+            "avgAbsMovePct": 2.24,
+            "medianAbsMovePct": 1.47,
+            "maxAbsMovePct": 18.19
+          },
+          "threeDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 51.8,
+            "downPct": 48.2,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.11,
+            "avgAbsMovePct": 3.36,
+            "medianAbsMovePct": 2.18,
+            "maxAbsMovePct": 18.07
+          },
+          "bias": "Mixed / neutral"
         }
       }
     },
@@ -213,8 +705,8 @@
       "label": "US Producer Price Index",
       "historySource": "U.S. BLS",
       "historicalEvents": 103,
-      "impactScore": 0.86,
-      "impactLevel": "high",
+      "impactScore": 2.48,
+      "impactLevel": "very_high",
       "markets": {
         "nifty": {
           "label": "NIFTY 50",
@@ -239,6 +731,58 @@
             "avgAbsMovePct": 1.34,
             "medianAbsMovePct": 1.12,
             "maxAbsMovePct": 6.5
+          },
+          "bias": "Mixed / neutral"
+        },
+        "banknifty": {
+          "label": "Bank NIFTY",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 52.4,
+            "downPct": 47.6,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.05,
+            "avgAbsMovePct": 0.95,
+            "medianAbsMovePct": 0.65,
+            "maxAbsMovePct": 5.1
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 49.5,
+            "downPct": 50.5,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.26,
+            "avgAbsMovePct": 1.68,
+            "medianAbsMovePct": 1.22,
+            "maxAbsMovePct": 10.5
+          },
+          "bias": "Mixed / neutral"
+        },
+        "sensex": {
+          "label": "Sensex",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 50.5,
+            "downPct": 49.5,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.02,
+            "avgAbsMovePct": 0.74,
+            "medianAbsMovePct": 0.47,
+            "maxAbsMovePct": 4.04
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 48.5,
+            "downPct": 51.5,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.11,
+            "avgAbsMovePct": 1.36,
+            "medianAbsMovePct": 1.08,
+            "maxAbsMovePct": 6.71
           },
           "bias": "Mixed / neutral"
         },
@@ -267,6 +811,110 @@
             "maxAbsMovePct": 12.96
           },
           "bias": "Mild bullish tendency"
+        },
+        "nasdaq": {
+          "label": "Nasdaq Composite",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 55.3,
+            "downPct": 44.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.0,
+            "avgAbsMovePct": 1.04,
+            "medianAbsMovePct": 0.73,
+            "maxAbsMovePct": 9.43
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 60.2,
+            "downPct": 39.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.22,
+            "avgAbsMovePct": 1.71,
+            "medianAbsMovePct": 1.27,
+            "maxAbsMovePct": 13.17
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "gold": {
+          "label": "Gold",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 53.4,
+            "downPct": 46.6,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.07,
+            "avgAbsMovePct": 0.86,
+            "medianAbsMovePct": 0.53,
+            "maxAbsMovePct": 11.37
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 60.2,
+            "downPct": 39.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.14,
+            "avgAbsMovePct": 1.57,
+            "medianAbsMovePct": 1.09,
+            "maxAbsMovePct": 9.47
+          },
+          "bias": "Mixed / neutral"
+        },
+        "usdinr": {
+          "label": "USD/INR",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 51.5,
+            "downPct": 48.5,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.04,
+            "avgAbsMovePct": 0.29,
+            "medianAbsMovePct": 0.19,
+            "maxAbsMovePct": 1.91
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 58.3,
+            "downPct": 41.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.1,
+            "avgAbsMovePct": 0.46,
+            "medianAbsMovePct": 0.3,
+            "maxAbsMovePct": 2.18
+          },
+          "bias": "Mixed / neutral"
+        },
+        "bitcoin": {
+          "label": "Bitcoin",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 41.7,
+            "downPct": 58.3,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.76,
+            "avgAbsMovePct": 2.48,
+            "medianAbsMovePct": 1.37,
+            "maxAbsMovePct": 37.17
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 46.6,
+            "downPct": 53.4,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.29,
+            "avgAbsMovePct": 4.17,
+            "medianAbsMovePct": 3.02,
+            "maxAbsMovePct": 34.27
+          },
+          "bias": "Mild bearish tendency"
         }
       }
     },
@@ -274,8 +922,8 @@
       "label": "US JOLTS",
       "historySource": "U.S. BLS",
       "historicalEvents": 103,
-      "impactScore": 0.73,
-      "impactLevel": "medium",
+      "impactScore": 2.45,
+      "impactLevel": "very_high",
       "markets": {
         "nifty": {
           "label": "NIFTY 50",
@@ -300,6 +948,58 @@
             "avgAbsMovePct": 1.05,
             "medianAbsMovePct": 0.7,
             "maxAbsMovePct": 6.42
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "banknifty": {
+          "label": "Bank NIFTY",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 51.5,
+            "downPct": 48.5,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.01,
+            "avgAbsMovePct": 0.97,
+            "medianAbsMovePct": 0.73,
+            "maxAbsMovePct": 7.11
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 47.6,
+            "downPct": 52.4,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.06,
+            "avgAbsMovePct": 1.46,
+            "medianAbsMovePct": 1.01,
+            "maxAbsMovePct": 8.29
+          },
+          "bias": "Mixed / neutral"
+        },
+        "sensex": {
+          "label": "Sensex",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 57.3,
+            "downPct": 42.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.02,
+            "avgAbsMovePct": 0.72,
+            "medianAbsMovePct": 0.59,
+            "maxAbsMovePct": 5.59
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 57.3,
+            "downPct": 42.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.19,
+            "avgAbsMovePct": 1.06,
+            "medianAbsMovePct": 0.76,
+            "maxAbsMovePct": 6.4
           },
           "bias": "Mild bullish tendency"
         },
@@ -328,6 +1028,110 @@
             "maxAbsMovePct": 7.12
           },
           "bias": "Mild bullish tendency"
+        },
+        "nasdaq": {
+          "label": "Nasdaq Composite",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 63.1,
+            "downPct": 36.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.36,
+            "avgAbsMovePct": 0.98,
+            "medianAbsMovePct": 0.74,
+            "maxAbsMovePct": 6.23
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 65.0,
+            "downPct": 35.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.41,
+            "avgAbsMovePct": 1.76,
+            "medianAbsMovePct": 1.63,
+            "maxAbsMovePct": 5.87
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "gold": {
+          "label": "Gold",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 59.2,
+            "downPct": 40.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.11,
+            "avgAbsMovePct": 0.69,
+            "medianAbsMovePct": 0.53,
+            "maxAbsMovePct": 2.69
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 63.1,
+            "downPct": 36.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.37,
+            "avgAbsMovePct": 1.18,
+            "medianAbsMovePct": 0.75,
+            "maxAbsMovePct": 5.16
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "usdinr": {
+          "label": "USD/INR",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 55.3,
+            "downPct": 44.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.07,
+            "avgAbsMovePct": 0.28,
+            "medianAbsMovePct": 0.21,
+            "maxAbsMovePct": 1.69
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 54.4,
+            "downPct": 45.6,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.1,
+            "avgAbsMovePct": 0.46,
+            "medianAbsMovePct": 0.31,
+            "maxAbsMovePct": 2.64
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "bitcoin": {
+          "label": "Bitcoin",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 48.5,
+            "downPct": 51.5,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.06,
+            "avgAbsMovePct": 2.45,
+            "medianAbsMovePct": 1.74,
+            "maxAbsMovePct": 14.13
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 48.5,
+            "downPct": 51.5,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.1,
+            "avgAbsMovePct": 3.77,
+            "medianAbsMovePct": 2.69,
+            "maxAbsMovePct": 23.47
+          },
+          "bias": "Mixed / neutral"
         }
       }
     },
@@ -335,8 +1139,8 @@
       "label": "US Employment Cost Index",
       "historySource": "U.S. BLS",
       "historicalEvents": 35,
-      "impactScore": 1.04,
-      "impactLevel": "high",
+      "impactScore": 2.07,
+      "impactLevel": "very_high",
       "markets": {
         "nifty": {
           "label": "NIFTY 50",
@@ -361,6 +1165,58 @@
             "avgAbsMovePct": 1.6,
             "medianAbsMovePct": 1.06,
             "maxAbsMovePct": 8.47
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "banknifty": {
+          "label": "Bank NIFTY",
+          "oneDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 60.0,
+            "downPct": 40.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.07,
+            "avgAbsMovePct": 1.26,
+            "medianAbsMovePct": 0.6,
+            "maxAbsMovePct": 8.32
+          },
+          "threeDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 57.1,
+            "downPct": 42.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.51,
+            "avgAbsMovePct": 2.21,
+            "medianAbsMovePct": 1.08,
+            "maxAbsMovePct": 13.72
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "sensex": {
+          "label": "Sensex",
+          "oneDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 57.1,
+            "downPct": 42.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.08,
+            "avgAbsMovePct": 0.86,
+            "medianAbsMovePct": 0.44,
+            "maxAbsMovePct": 5.94
+          },
+          "threeDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 62.9,
+            "downPct": 37.1,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.35,
+            "avgAbsMovePct": 1.66,
+            "medianAbsMovePct": 1.03,
+            "maxAbsMovePct": 8.58
           },
           "bias": "Mild bullish tendency"
         },
@@ -389,6 +1245,110 @@
             "maxAbsMovePct": 5.09
           },
           "bias": "Mild bullish tendency"
+        },
+        "nasdaq": {
+          "label": "Nasdaq Composite",
+          "oneDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 51.4,
+            "downPct": 48.6,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.03,
+            "avgAbsMovePct": 1.3,
+            "medianAbsMovePct": 1.0,
+            "maxAbsMovePct": 4.17
+          },
+          "threeDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 54.3,
+            "downPct": 45.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.72,
+            "avgAbsMovePct": 2.2,
+            "medianAbsMovePct": 2.07,
+            "maxAbsMovePct": 7.44
+          },
+          "bias": "Mixed / neutral"
+        },
+        "gold": {
+          "label": "Gold",
+          "oneDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 48.6,
+            "downPct": 51.4,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.07,
+            "avgAbsMovePct": 0.73,
+            "medianAbsMovePct": 0.72,
+            "maxAbsMovePct": 2.3
+          },
+          "threeDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 45.7,
+            "downPct": 54.3,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.03,
+            "avgAbsMovePct": 1.1,
+            "medianAbsMovePct": 0.95,
+            "maxAbsMovePct": 3.03
+          },
+          "bias": "Mixed / neutral"
+        },
+        "usdinr": {
+          "label": "USD/INR",
+          "oneDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 37.1,
+            "downPct": 62.9,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.06,
+            "avgAbsMovePct": 0.24,
+            "medianAbsMovePct": 0.17,
+            "maxAbsMovePct": 0.75
+          },
+          "threeDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 48.6,
+            "downPct": 51.4,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.01,
+            "avgAbsMovePct": 0.36,
+            "medianAbsMovePct": 0.25,
+            "maxAbsMovePct": 2.13
+          },
+          "bias": "Mild bearish tendency"
+        },
+        "bitcoin": {
+          "label": "Bitcoin",
+          "oneDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 42.9,
+            "downPct": 57.1,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.04,
+            "avgAbsMovePct": 2.07,
+            "medianAbsMovePct": 1.74,
+            "maxAbsMovePct": 7.83
+          },
+          "threeDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 51.4,
+            "downPct": 48.6,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.69,
+            "avgAbsMovePct": 3.29,
+            "medianAbsMovePct": 2.13,
+            "maxAbsMovePct": 12.62
+          },
+          "bias": "Mild bearish tendency"
         }
       }
     }
@@ -442,10 +1402,40 @@
         "source": "Yahoo Finance chart",
         "points": 2131
       },
+      "banknifty": {
+        "status": "ok",
+        "source": "Yahoo Finance chart",
+        "points": 2132
+      },
+      "sensex": {
+        "status": "ok",
+        "source": "Yahoo Finance chart",
+        "points": 2128
+      },
       "sp500": {
         "status": "ok",
         "source": "Yahoo Finance chart",
         "points": 2174
+      },
+      "nasdaq": {
+        "status": "ok",
+        "source": "Yahoo Finance chart",
+        "points": 2174
+      },
+      "gold": {
+        "status": "ok",
+        "source": "Yahoo Finance chart",
+        "points": 2175
+      },
+      "usdinr": {
+        "status": "ok",
+        "source": "Yahoo Finance chart",
+        "points": 2253
+      },
+      "bitcoin": {
+        "status": "ok",
+        "source": "Yahoo Finance chart",
+        "points": 3160
       }
     }
   }
