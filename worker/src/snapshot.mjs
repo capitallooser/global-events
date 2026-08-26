@@ -1,3 +1,5 @@
+import {collectMarket} from './market.mjs';
+
 export const REFRESH_MS=60000;
 
 export function emptySnapshot(updatedAt=new Date().toISOString()){
@@ -15,6 +17,9 @@ export function emptySnapshot(updatedAt=new Date().toISOString()){
 }
 
 export async function refreshSnapshot(fetchImpl=fetch,now=new Date()){
-  void fetchImpl;
-  return emptySnapshot(now.toISOString());
+  const base=emptySnapshot(now.toISOString());
+  try{base.market=await collectMarket(fetchImpl,now);}catch(error){
+    base.market={instruments:[],sourceHealth:{market:{status:'error',error:String(error).slice(0,180)}}};
+  }
+  return base;
 }
