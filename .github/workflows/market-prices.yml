@@ -2,7 +2,7 @@ name: Refresh Market Prices
 
 on:
   schedule:
-    # 08:05, 11:05, 14:05, 15:05, 20:05, 22:05 IST
+    # Slow fallback snapshots; the one-minute live layer is Cloudflare Worker.
     - cron: "35 2 * * *"
     - cron: "35 5 * * *"
     - cron: "35 8 * * *"
@@ -34,9 +34,10 @@ jobs:
           import json
           from pathlib import Path
           data=json.loads(Path('market-prices.json').read_text())
-          required={'nifty','banknifty','sensex','gift_nifty','usdinr','sp500','nasdaq','gold','bitcoin'}
+          required={'nifty','banknifty','sensex','usdinr','sp500','nasdaq','gold','crude','bitcoin'}
           keys={x['key'] for x in data.get('instruments',[])}
           assert required <= keys, f'Missing instruments: {required-keys}'
+          assert 'gift_nifty' not in keys, 'GIFT Nifty must not be present'
           for row in data['instruments']:
               assert row['status'] in {'Live','Delayed','Last available','Unavailable'}
           print('Validated market snapshots:',len(data['instruments']))
