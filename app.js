@@ -17,4 +17,4 @@ document.querySelectorAll("[data-win]").forEach(b=>b.onclick=()=>{document.query
 ["q","country","category","importance"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",render));
 $("listBtn").onclick=()=>{view="list";$("listBtn").classList.add("active");$("calBtn").classList.remove("active");render()};
 $("calBtn").onclick=()=>{view="calendar";$("calBtn").classList.add("active");$("listBtn").classList.remove("active");render()};
-try{const r=await fetch("./data/events.json");if(!r.ok)throw Error();const feed=await r.json();all=feed;render()}catch{$("status").innerHTML='<div class="empty">Unable to load events.</div>'}
+try{const r=await fetch("./events.json");if(!r.ok)throw Error();const feed=await r.json();all=feed;render()}catch{$("status").innerHTML='<div class="empty">Unable to load events.</div>'}
