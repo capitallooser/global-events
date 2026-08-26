@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-26T21:35:47Z",
+  "updatedAt": "2026-08-26T23:16:25Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
     "threeDayDefinition": "Close-to-close through third reaction session",
-    "indiaForUSEvents": "US events are measured from the Indian event-day close to following Indian trading sessions because major U.S. releases occur after the Indian cash-market close.",
+    "indiaForUSEvents": "US and post-India-close global events are measured from the Indian event-day close to following Indian trading sessions. India post-close macro releases use the next Indian trading session.",
     "disclaimer": "Historical frequency and movement are descriptive statistics, not a forecast or guarantee."
   },
   "benchmarks": {
@@ -38,10 +38,15 @@
       "priceSource": "Yahoo Finance chart",
       "points": 2175
     },
+    "crude": {
+      "label": "WTI Crude Oil",
+      "priceSource": "Yahoo Finance chart",
+      "points": 2176
+    },
     "usdinr": {
       "label": "USD/INR",
       "priceSource": "Yahoo Finance chart",
-      "points": 2253
+      "points": 2252
     },
     "bitcoin": {
       "label": "Bitcoin",
@@ -53,6 +58,7 @@
     "fomc": {
       "label": "Federal Reserve FOMC",
       "historySource": "Federal Reserve",
+      "reactionRule": "default",
       "historicalEvents": 45,
       "impactScore": 2.52,
       "impactLevel": "very_high",
@@ -213,6 +219,32 @@
           },
           "bias": "Mild bullish tendency"
         },
+        "crude": {
+          "label": "WTI Crude Oil",
+          "oneDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 60.0,
+            "downPct": 40.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.31,
+            "avgAbsMovePct": 1.85,
+            "medianAbsMovePct": 1.45,
+            "maxAbsMovePct": 6.95
+          },
+          "threeDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 46.7,
+            "downPct": 53.3,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.2,
+            "avgAbsMovePct": 3.21,
+            "medianAbsMovePct": 2.72,
+            "maxAbsMovePct": 8.56
+          },
+          "bias": "Mild bullish tendency"
+        },
         "usdinr": {
           "label": "USD/INR",
           "oneDay": {
@@ -270,6 +302,7 @@
     "us_cpi": {
       "label": "US Consumer Price Index",
       "historySource": "U.S. BLS",
+      "reactionRule": "default",
       "historicalEvents": 103,
       "impactScore": 2.76,
       "impactLevel": "very_high",
@@ -430,6 +463,32 @@
           },
           "bias": "Mild bullish tendency"
         },
+        "crude": {
+          "label": "WTI Crude Oil",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 64.1,
+            "downPct": 35.0,
+            "flatPct": 1.0,
+            "avgReturnPct": 0.55,
+            "avgAbsMovePct": 1.69,
+            "medianAbsMovePct": 1.24,
+            "maxAbsMovePct": 6.79
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 60.2,
+            "downPct": 38.8,
+            "flatPct": 1.0,
+            "avgReturnPct": 0.92,
+            "avgAbsMovePct": 3.09,
+            "medianAbsMovePct": 2.03,
+            "maxAbsMovePct": 18.29
+          },
+          "bias": "Mild bullish tendency"
+        },
         "usdinr": {
           "label": "USD/INR",
           "oneDay": {
@@ -487,8 +546,9 @@
     "us_nfp": {
       "label": "US Employment Situation (NFP)",
       "historySource": "U.S. BLS",
+      "reactionRule": "default",
       "historicalEvents": 112,
-      "impactScore": 2.24,
+      "impactScore": 2.39,
       "impactLevel": "very_high",
       "markets": {
         "nifty": {
@@ -647,6 +707,32 @@
           },
           "bias": "Mild bullish tendency"
         },
+        "crude": {
+          "label": "WTI Crude Oil",
+          "oneDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 59.8,
+            "downPct": 40.2,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.68,
+            "avgAbsMovePct": 2.39,
+            "medianAbsMovePct": 1.61,
+            "maxAbsMovePct": 23.81
+          },
+          "threeDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 58.0,
+            "downPct": 42.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.38,
+            "avgAbsMovePct": 3.6,
+            "medianAbsMovePct": 2.33,
+            "maxAbsMovePct": 25.14
+          },
+          "bias": "Mild bullish tendency"
+        },
         "usdinr": {
           "label": "USD/INR",
           "oneDay": {
@@ -704,6 +790,7 @@
     "us_ppi": {
       "label": "US Producer Price Index",
       "historySource": "U.S. BLS",
+      "reactionRule": "default",
       "historicalEvents": 103,
       "impactScore": 2.48,
       "impactLevel": "very_high",
@@ -864,6 +951,32 @@
           },
           "bias": "Mixed / neutral"
         },
+        "crude": {
+          "label": "WTI Crude Oil",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 43.7,
+            "downPct": 56.3,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.43,
+            "avgAbsMovePct": 1.82,
+            "medianAbsMovePct": 1.51,
+            "maxAbsMovePct": 9.29
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 53.4,
+            "downPct": 46.6,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.01,
+            "avgAbsMovePct": 3.21,
+            "medianAbsMovePct": 2.37,
+            "maxAbsMovePct": 19.85
+          },
+          "bias": "Mild bearish tendency"
+        },
         "usdinr": {
           "label": "USD/INR",
           "oneDay": {
@@ -921,6 +1034,7 @@
     "us_jolts": {
       "label": "US JOLTS",
       "historySource": "U.S. BLS",
+      "reactionRule": "default",
       "historicalEvents": 103,
       "impactScore": 2.45,
       "impactLevel": "very_high",
@@ -1081,6 +1195,32 @@
           },
           "bias": "Mild bullish tendency"
         },
+        "crude": {
+          "label": "WTI Crude Oil",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 52.4,
+            "downPct": 47.6,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.28,
+            "avgAbsMovePct": 1.91,
+            "medianAbsMovePct": 1.39,
+            "maxAbsMovePct": 12.13
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 54.4,
+            "downPct": 45.6,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.37,
+            "avgAbsMovePct": 3.63,
+            "medianAbsMovePct": 3.19,
+            "maxAbsMovePct": 17.92
+          },
+          "bias": "Mixed / neutral"
+        },
         "usdinr": {
           "label": "USD/INR",
           "oneDay": {
@@ -1138,6 +1278,7 @@
     "us_eci": {
       "label": "US Employment Cost Index",
       "historySource": "U.S. BLS",
+      "reactionRule": "default",
       "historicalEvents": 35,
       "impactScore": 2.07,
       "impactLevel": "very_high",
@@ -1298,6 +1439,32 @@
           },
           "bias": "Mixed / neutral"
         },
+        "crude": {
+          "label": "WTI Crude Oil",
+          "oneDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 45.7,
+            "downPct": 54.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.53,
+            "avgAbsMovePct": 1.94,
+            "medianAbsMovePct": 1.05,
+            "maxAbsMovePct": 25.1
+          },
+          "threeDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 37.1,
+            "downPct": 62.9,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.23,
+            "avgAbsMovePct": 3.86,
+            "medianAbsMovePct": 2.66,
+            "maxAbsMovePct": 35.39
+          },
+          "bias": "Mixed / neutral"
+        },
         "usdinr": {
           "label": "USD/INR",
           "oneDay": {
@@ -1351,6 +1518,1566 @@
           "bias": "Mild bearish tendency"
         }
       }
+    },
+    "rbi_mpc": {
+      "label": "RBI Monetary Policy Committee",
+      "historySource": "Reserve Bank of India",
+      "reactionRule": "event_day",
+      "historicalEvents": 12,
+      "impactScore": 4.49,
+      "impactLevel": "very_high",
+      "markets": {
+        "nifty": {
+          "label": "NIFTY 50",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 50.0,
+            "downPct": 50.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.26,
+            "avgAbsMovePct": 0.55,
+            "medianAbsMovePct": 0.39,
+            "maxAbsMovePct": 2.05
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 66.7,
+            "downPct": 33.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.6,
+            "avgAbsMovePct": 1.19,
+            "medianAbsMovePct": 0.94,
+            "maxAbsMovePct": 3.52
+          },
+          "bias": "Mixed / neutral"
+        },
+        "banknifty": {
+          "label": "Bank NIFTY",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 66.7,
+            "downPct": 33.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.39,
+            "avgAbsMovePct": 0.59,
+            "medianAbsMovePct": 0.49,
+            "maxAbsMovePct": 1.47
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 75.0,
+            "downPct": 25.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.87,
+            "avgAbsMovePct": 1.22,
+            "medianAbsMovePct": 0.93,
+            "maxAbsMovePct": 3.7
+          },
+          "bias": "Historically bullish"
+        },
+        "sensex": {
+          "label": "Sensex",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 58.3,
+            "downPct": 41.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.26,
+            "avgAbsMovePct": 0.56,
+            "medianAbsMovePct": 0.42,
+            "maxAbsMovePct": 2.16
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 66.7,
+            "downPct": 33.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.56,
+            "avgAbsMovePct": 1.16,
+            "medianAbsMovePct": 0.93,
+            "maxAbsMovePct": 3.38
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "sp500": {
+          "label": "S&P 500",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 75.0,
+            "downPct": 25.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 1.36,
+            "avgAbsMovePct": 1.55,
+            "medianAbsMovePct": 0.83,
+            "maxAbsMovePct": 9.52
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 75.0,
+            "downPct": 25.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 1.39,
+            "avgAbsMovePct": 1.58,
+            "medianAbsMovePct": 0.89,
+            "maxAbsMovePct": 7.64
+          },
+          "bias": "Historically bullish"
+        },
+        "nasdaq": {
+          "label": "Nasdaq Composite",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 83.3,
+            "downPct": 16.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 1.71,
+            "avgAbsMovePct": 1.98,
+            "medianAbsMovePct": 1.0,
+            "maxAbsMovePct": 12.16
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 83.3,
+            "downPct": 16.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 1.86,
+            "avgAbsMovePct": 2.0,
+            "medianAbsMovePct": 1.01,
+            "maxAbsMovePct": 9.54
+          },
+          "bias": "Historically bullish"
+        },
+        "gold": {
+          "label": "Gold",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 75.0,
+            "downPct": 25.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.5,
+            "avgAbsMovePct": 1.15,
+            "medianAbsMovePct": 0.77,
+            "maxAbsMovePct": 2.97
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 66.7,
+            "downPct": 33.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 1.65,
+            "avgAbsMovePct": 2.39,
+            "medianAbsMovePct": 2.18,
+            "maxAbsMovePct": 8.55
+          },
+          "bias": "Historically bullish"
+        },
+        "crude": {
+          "label": "WTI Crude Oil",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 58.3,
+            "downPct": 41.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.51,
+            "avgAbsMovePct": 1.13,
+            "medianAbsMovePct": 0.71,
+            "maxAbsMovePct": 4.65
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 66.7,
+            "downPct": 33.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 1.36,
+            "avgAbsMovePct": 2.52,
+            "medianAbsMovePct": 2.46,
+            "maxAbsMovePct": 6.42
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "usdinr": {
+          "label": "USD/INR",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 41.7,
+            "downPct": 58.3,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.07,
+            "avgAbsMovePct": 0.18,
+            "medianAbsMovePct": 0.19,
+            "maxAbsMovePct": 0.38
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 41.7,
+            "downPct": 58.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.03,
+            "avgAbsMovePct": 0.23,
+            "medianAbsMovePct": 0.17,
+            "maxAbsMovePct": 0.77
+          },
+          "bias": "Mild bearish tendency"
+        },
+        "bitcoin": {
+          "label": "Bitcoin",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 58.3,
+            "downPct": 41.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 3.07,
+            "avgAbsMovePct": 4.49,
+            "medianAbsMovePct": 2.88,
+            "maxAbsMovePct": 12.52
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 75.0,
+            "downPct": 25.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 3.98,
+            "avgAbsMovePct": 4.58,
+            "medianAbsMovePct": 3.02,
+            "maxAbsMovePct": 12.06
+          },
+          "bias": "Mild bullish tendency"
+        }
+      },
+      "dateProvenance": [
+        {
+          "date": "2024-04-05",
+          "sourceName": "Reserve Bank of India",
+          "sourceUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57540"
+        },
+        {
+          "date": "2024-06-07",
+          "sourceName": "Reserve Bank of India",
+          "sourceUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57540"
+        },
+        {
+          "date": "2024-08-08",
+          "sourceName": "Reserve Bank of India",
+          "sourceUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57540"
+        },
+        {
+          "date": "2024-10-09",
+          "sourceName": "Reserve Bank of India",
+          "sourceUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57540"
+        },
+        {
+          "date": "2024-12-06",
+          "sourceName": "Reserve Bank of India",
+          "sourceUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57540"
+        },
+        {
+          "date": "2025-02-07",
+          "sourceName": "Reserve Bank of India",
+          "sourceUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57540"
+        },
+        {
+          "date": "2025-04-09",
+          "sourceName": "Reserve Bank of India",
+          "sourceUrl": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=23139"
+        },
+        {
+          "date": "2025-06-06",
+          "sourceName": "Reserve Bank of India",
+          "sourceUrl": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=23139"
+        },
+        {
+          "date": "2025-08-07",
+          "sourceName": "Reserve Bank of India",
+          "sourceUrl": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=23139"
+        },
+        {
+          "date": "2025-10-01",
+          "sourceName": "Reserve Bank of India",
+          "sourceUrl": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=23139"
+        },
+        {
+          "date": "2025-12-05",
+          "sourceName": "Reserve Bank of India",
+          "sourceUrl": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=23139"
+        },
+        {
+          "date": "2026-02-06",
+          "sourceName": "Reserve Bank of India",
+          "sourceUrl": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=23139"
+        }
+      ]
+    },
+    "india_cpi": {
+      "label": "India Consumer Price Index (CPI)",
+      "historySource": "MoSPI",
+      "reactionRule": "next_session",
+      "historicalEvents": 17,
+      "impactScore": 1.86,
+      "impactLevel": "very_high",
+      "markets": {
+        "nifty": {
+          "label": "NIFTY 50",
+          "oneDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 41.2,
+            "downPct": 58.8,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.09,
+            "avgAbsMovePct": 0.45,
+            "medianAbsMovePct": 0.36,
+            "maxAbsMovePct": 1.36
+          },
+          "threeDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 52.9,
+            "downPct": 47.1,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.27,
+            "avgAbsMovePct": 1.0,
+            "medianAbsMovePct": 0.87,
+            "maxAbsMovePct": 3.42
+          },
+          "bias": "Mild bearish tendency"
+        },
+        "banknifty": {
+          "label": "Bank NIFTY",
+          "oneDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 64.7,
+            "downPct": 35.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.04,
+            "avgAbsMovePct": 0.59,
+            "medianAbsMovePct": 0.25,
+            "maxAbsMovePct": 2.09
+          },
+          "threeDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 64.7,
+            "downPct": 35.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.68,
+            "avgAbsMovePct": 1.29,
+            "medianAbsMovePct": 1.02,
+            "maxAbsMovePct": 5.58
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "sensex": {
+          "label": "Sensex",
+          "oneDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 41.2,
+            "downPct": 58.8,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.1,
+            "avgAbsMovePct": 0.42,
+            "medianAbsMovePct": 0.3,
+            "maxAbsMovePct": 1.25
+          },
+          "threeDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 52.9,
+            "downPct": 47.1,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.28,
+            "avgAbsMovePct": 0.92,
+            "medianAbsMovePct": 0.83,
+            "maxAbsMovePct": 3.48
+          },
+          "bias": "Mild bearish tendency"
+        },
+        "sp500": {
+          "label": "S&P 500",
+          "oneDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 47.1,
+            "downPct": 52.9,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.24,
+            "avgAbsMovePct": 0.55,
+            "medianAbsMovePct": 0.32,
+            "maxAbsMovePct": 2.24
+          },
+          "threeDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 47.1,
+            "downPct": 52.9,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.37,
+            "avgAbsMovePct": 1.12,
+            "medianAbsMovePct": 0.71,
+            "maxAbsMovePct": 4.42
+          },
+          "bias": "Mixed / neutral"
+        },
+        "nasdaq": {
+          "label": "Nasdaq Composite",
+          "oneDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 41.2,
+            "downPct": 58.8,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.33,
+            "avgAbsMovePct": 0.83,
+            "medianAbsMovePct": 0.65,
+            "maxAbsMovePct": 3.07
+          },
+          "threeDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 47.1,
+            "downPct": 52.9,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.52,
+            "avgAbsMovePct": 1.48,
+            "medianAbsMovePct": 1.04,
+            "maxAbsMovePct": 5.66
+          },
+          "bias": "Mild bearish tendency"
+        },
+        "gold": {
+          "label": "Gold",
+          "oneDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 64.7,
+            "downPct": 35.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.37,
+            "avgAbsMovePct": 0.97,
+            "medianAbsMovePct": 0.73,
+            "maxAbsMovePct": 3.35
+          },
+          "threeDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 64.7,
+            "downPct": 35.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.63,
+            "avgAbsMovePct": 1.65,
+            "medianAbsMovePct": 1.28,
+            "maxAbsMovePct": 5.83
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "crude": {
+          "label": "WTI Crude Oil",
+          "oneDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 47.1,
+            "downPct": 52.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.25,
+            "avgAbsMovePct": 1.58,
+            "medianAbsMovePct": 0.97,
+            "maxAbsMovePct": 7.26
+          },
+          "threeDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 52.9,
+            "downPct": 47.1,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.64,
+            "avgAbsMovePct": 2.41,
+            "medianAbsMovePct": 2.17,
+            "maxAbsMovePct": 9.99
+          },
+          "bias": "Mixed / neutral"
+        },
+        "usdinr": {
+          "label": "USD/INR",
+          "oneDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 58.8,
+            "downPct": 41.2,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.1,
+            "avgAbsMovePct": 0.18,
+            "medianAbsMovePct": 0.12,
+            "maxAbsMovePct": 0.65
+          },
+          "threeDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 58.8,
+            "downPct": 41.2,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.02,
+            "avgAbsMovePct": 0.32,
+            "medianAbsMovePct": 0.24,
+            "maxAbsMovePct": 0.79
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "bitcoin": {
+          "label": "Bitcoin",
+          "oneDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 64.7,
+            "downPct": 35.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.97,
+            "avgAbsMovePct": 1.86,
+            "medianAbsMovePct": 1.73,
+            "maxAbsMovePct": 4.53
+          },
+          "threeDay": {
+            "sample": 17,
+            "directionReady": true,
+            "upPct": 47.1,
+            "downPct": 52.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.34,
+            "avgAbsMovePct": 2.82,
+            "medianAbsMovePct": 2.31,
+            "maxAbsMovePct": 6.15
+          },
+          "bias": "Mild bullish tendency"
+        }
+      },
+      "dateProvenance": [
+        {
+          "date": "2024-09-12",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://mospi.gov.in/sites/default/files/Advance_Release_Calendar_16082024.pdf"
+        },
+        {
+          "date": "2024-10-14",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://mospi.gov.in/sites/default/files/Advance_Release_Calendar_16082024.pdf"
+        },
+        {
+          "date": "2024-11-12",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://mospi.gov.in/sites/default/files/Advance_Release_Calendar_16082024.pdf"
+        },
+        {
+          "date": "2024-12-12",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://mospi.gov.in/sites/default/files/Advance_Release_Calendar_16082024.pdf"
+        },
+        {
+          "date": "2025-01-13",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://mospi.gov.in/sites/default/files/Advance_Release_Calendar_16082024.pdf"
+        },
+        {
+          "date": "2025-02-12",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://mospi.gov.in/sites/default/files/Advance_Release_Calendar_16082024.pdf"
+        },
+        {
+          "date": "2025-04-15",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-05-13",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-06-12",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-07-14",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-08-12",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-09-12",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-10-13",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-11-12",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-12-12",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2026-01-12",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2026-02-12",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        }
+      ]
+    },
+    "india_gdp": {
+      "label": "India GDP",
+      "historySource": "MoSPI",
+      "reactionRule": "next_session",
+      "historicalEvents": 9,
+      "impactScore": 2.65,
+      "impactLevel": "very_high",
+      "markets": {
+        "nifty": {
+          "label": "NIFTY 50",
+          "oneDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 33.3,
+            "downPct": 66.7,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.11,
+            "avgAbsMovePct": 0.46,
+            "medianAbsMovePct": 0.17,
+            "maxAbsMovePct": 1.24
+          },
+          "threeDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 33.3,
+            "downPct": 66.7,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.23,
+            "avgAbsMovePct": 1.02,
+            "medianAbsMovePct": 1.17,
+            "maxAbsMovePct": 1.64
+          },
+          "bias": "Historically bearish"
+        },
+        "banknifty": {
+          "label": "Bank NIFTY",
+          "oneDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 44.4,
+            "downPct": 55.6,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.2,
+            "avgAbsMovePct": 0.46,
+            "medianAbsMovePct": 0.48,
+            "maxAbsMovePct": 1.14
+          },
+          "threeDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 44.4,
+            "downPct": 55.6,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.4,
+            "avgAbsMovePct": 1.17,
+            "medianAbsMovePct": 0.77,
+            "maxAbsMovePct": 2.92
+          },
+          "bias": "Mild bearish tendency"
+        },
+        "sensex": {
+          "label": "Sensex",
+          "oneDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 33.3,
+            "downPct": 66.7,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.12,
+            "avgAbsMovePct": 0.45,
+            "medianAbsMovePct": 0.24,
+            "maxAbsMovePct": 1.29
+          },
+          "threeDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 33.3,
+            "downPct": 66.7,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.23,
+            "avgAbsMovePct": 0.92,
+            "medianAbsMovePct": 0.95,
+            "maxAbsMovePct": 1.56
+          },
+          "bias": "Historically bearish"
+        },
+        "sp500": {
+          "label": "S&P 500",
+          "oneDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 55.6,
+            "downPct": 44.4,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.47,
+            "avgAbsMovePct": 0.66,
+            "medianAbsMovePct": 0.41,
+            "maxAbsMovePct": 2.12
+          },
+          "threeDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 55.6,
+            "downPct": 44.4,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.27,
+            "avgAbsMovePct": 1.02,
+            "medianAbsMovePct": 0.9,
+            "maxAbsMovePct": 2.57
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "nasdaq": {
+          "label": "Nasdaq Composite",
+          "oneDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 33.3,
+            "downPct": 66.7,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.62,
+            "avgAbsMovePct": 1.07,
+            "medianAbsMovePct": 0.67,
+            "maxAbsMovePct": 3.26
+          },
+          "threeDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 66.7,
+            "downPct": 33.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.04,
+            "avgAbsMovePct": 1.58,
+            "medianAbsMovePct": 1.56,
+            "maxAbsMovePct": 3.31
+          },
+          "bias": "Historically bearish"
+        },
+        "gold": {
+          "label": "Gold",
+          "oneDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 77.8,
+            "downPct": 22.2,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.84,
+            "avgAbsMovePct": 1.06,
+            "medianAbsMovePct": 0.83,
+            "maxAbsMovePct": 2.48
+          },
+          "threeDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 66.7,
+            "downPct": 33.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 1.27,
+            "avgAbsMovePct": 1.87,
+            "medianAbsMovePct": 2.11,
+            "maxAbsMovePct": 3.48
+          },
+          "bias": "Historically bullish"
+        },
+        "crude": {
+          "label": "WTI Crude Oil",
+          "oneDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 66.7,
+            "downPct": 33.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.96,
+            "avgAbsMovePct": 2.65,
+            "medianAbsMovePct": 2.47,
+            "maxAbsMovePct": 6.28
+          },
+          "threeDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 66.7,
+            "downPct": 33.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 1.54,
+            "avgAbsMovePct": 4.16,
+            "medianAbsMovePct": 3.39,
+            "maxAbsMovePct": 11.4
+          },
+          "bias": "Historically bullish"
+        },
+        "usdinr": {
+          "label": "USD/INR",
+          "oneDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 66.7,
+            "downPct": 33.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.11,
+            "avgAbsMovePct": 0.19,
+            "medianAbsMovePct": 0.15,
+            "maxAbsMovePct": 0.67
+          },
+          "threeDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 88.9,
+            "downPct": 11.1,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.35,
+            "avgAbsMovePct": 0.38,
+            "medianAbsMovePct": 0.28,
+            "maxAbsMovePct": 1.1
+          },
+          "bias": "Historically bullish"
+        },
+        "bitcoin": {
+          "label": "Bitcoin",
+          "oneDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 44.4,
+            "downPct": 55.6,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.11,
+            "avgAbsMovePct": 0.92,
+            "medianAbsMovePct": 0.61,
+            "maxAbsMovePct": 1.97
+          },
+          "threeDay": {
+            "sample": 9,
+            "directionReady": true,
+            "upPct": 44.4,
+            "downPct": 55.6,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.11,
+            "avgAbsMovePct": 2.11,
+            "medianAbsMovePct": 1.81,
+            "maxAbsMovePct": 5.06
+          },
+          "bias": "Mild bearish tendency"
+        }
+      },
+      "dateProvenance": [
+        {
+          "date": "2024-08-30",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://mospi.gov.in/sites/default/files/Advance_Release_Calendar_16082024.pdf"
+        },
+        {
+          "date": "2024-11-29",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://mospi.gov.in/sites/default/files/Advance_Release_Calendar_16082024.pdf"
+        },
+        {
+          "date": "2025-01-07",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://mospi.gov.in/sites/default/files/Advance_Release_Calendar_16082024.pdf"
+        },
+        {
+          "date": "2025-02-28",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://mospi.gov.in/sites/default/files/Advance_Release_Calendar_16082024.pdf"
+        },
+        {
+          "date": "2025-05-30",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-08-29",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-11-28",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2026-01-07",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2026-02-27",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        }
+      ]
+    },
+    "india_iip": {
+      "label": "India Index of Industrial Production (IIP)",
+      "historySource": "MoSPI",
+      "reactionRule": "next_session",
+      "historicalEvents": 12,
+      "impactScore": 2.05,
+      "impactLevel": "very_high",
+      "markets": {
+        "nifty": {
+          "label": "NIFTY 50",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 50.0,
+            "downPct": 50.0,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.06,
+            "avgAbsMovePct": 0.36,
+            "medianAbsMovePct": 0.3,
+            "maxAbsMovePct": 1.47
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 41.7,
+            "downPct": 58.3,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.14,
+            "avgAbsMovePct": 0.57,
+            "medianAbsMovePct": 0.49,
+            "maxAbsMovePct": 1.05
+          },
+          "bias": "Mixed / neutral"
+        },
+        "banknifty": {
+          "label": "Bank NIFTY",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 58.3,
+            "downPct": 41.7,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.03,
+            "avgAbsMovePct": 0.42,
+            "medianAbsMovePct": 0.3,
+            "maxAbsMovePct": 1.42
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 33.3,
+            "downPct": 66.7,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.1,
+            "avgAbsMovePct": 0.82,
+            "medianAbsMovePct": 0.7,
+            "maxAbsMovePct": 2.07
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "sensex": {
+          "label": "Sensex",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 50.0,
+            "downPct": 50.0,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.05,
+            "avgAbsMovePct": 0.36,
+            "medianAbsMovePct": 0.3,
+            "maxAbsMovePct": 1.36
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 50.0,
+            "downPct": 50.0,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.09,
+            "avgAbsMovePct": 0.51,
+            "medianAbsMovePct": 0.44,
+            "maxAbsMovePct": 1.05
+          },
+          "bias": "Mixed / neutral"
+        },
+        "sp500": {
+          "label": "S&P 500",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 50.0,
+            "downPct": 50.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.13,
+            "avgAbsMovePct": 0.35,
+            "medianAbsMovePct": 0.27,
+            "maxAbsMovePct": 1.04
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 58.3,
+            "downPct": 41.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.43,
+            "avgAbsMovePct": 0.94,
+            "medianAbsMovePct": 0.81,
+            "maxAbsMovePct": 2.11
+          },
+          "bias": "Mixed / neutral"
+        },
+        "nasdaq": {
+          "label": "Nasdaq Composite",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 50.0,
+            "downPct": 50.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.02,
+            "avgAbsMovePct": 0.63,
+            "medianAbsMovePct": 0.55,
+            "maxAbsMovePct": 1.5
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 58.3,
+            "downPct": 41.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.5,
+            "avgAbsMovePct": 1.13,
+            "medianAbsMovePct": 1.06,
+            "maxAbsMovePct": 1.99
+          },
+          "bias": "Mixed / neutral"
+        },
+        "gold": {
+          "label": "Gold",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 75.0,
+            "downPct": 25.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.3,
+            "avgAbsMovePct": 0.79,
+            "medianAbsMovePct": 0.65,
+            "maxAbsMovePct": 1.29
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 58.3,
+            "downPct": 41.7,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.66,
+            "avgAbsMovePct": 2.32,
+            "medianAbsMovePct": 0.71,
+            "maxAbsMovePct": 12.81
+          },
+          "bias": "Historically bullish"
+        },
+        "crude": {
+          "label": "WTI Crude Oil",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 41.7,
+            "downPct": 58.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.26,
+            "avgAbsMovePct": 1.62,
+            "medianAbsMovePct": 1.3,
+            "maxAbsMovePct": 3.75
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 58.3,
+            "downPct": 41.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.15,
+            "avgAbsMovePct": 2.35,
+            "medianAbsMovePct": 1.54,
+            "maxAbsMovePct": 4.68
+          },
+          "bias": "Mild bearish tendency"
+        },
+        "usdinr": {
+          "label": "USD/INR",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 83.3,
+            "downPct": 16.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.2,
+            "avgAbsMovePct": 0.22,
+            "medianAbsMovePct": 0.12,
+            "maxAbsMovePct": 0.67
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 66.7,
+            "downPct": 33.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.19,
+            "avgAbsMovePct": 0.43,
+            "medianAbsMovePct": 0.46,
+            "maxAbsMovePct": 0.92
+          },
+          "bias": "Historically bullish"
+        },
+        "bitcoin": {
+          "label": "Bitcoin",
+          "oneDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 16.7,
+            "downPct": 83.3,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.83,
+            "avgAbsMovePct": 2.05,
+            "medianAbsMovePct": 1.41,
+            "maxAbsMovePct": 5.83
+          },
+          "threeDay": {
+            "sample": 12,
+            "directionReady": true,
+            "upPct": 41.7,
+            "downPct": 58.3,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.5,
+            "avgAbsMovePct": 3.5,
+            "medianAbsMovePct": 2.64,
+            "maxAbsMovePct": 11.84
+          },
+          "bias": "Historically bearish"
+        }
+      },
+      "dateProvenance": [
+        {
+          "date": "2025-01-10",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://mospi.gov.in/sites/default/files/Advance_Release_Calendar_16082024.pdf"
+        },
+        {
+          "date": "2025-02-12",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://mospi.gov.in/sites/default/files/Advance_Release_Calendar_16082024.pdf"
+        },
+        {
+          "date": "2025-04-28",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-05-28",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-06-30",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-07-28",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-08-28",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-09-29",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-10-28",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-12-01",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2025-12-29",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        },
+        {
+          "date": "2026-01-28",
+          "sourceName": "Ministry of Statistics and Programme Implementation",
+          "sourceUrl": "https://new.mospi.gov.in/uploads/documents/documents/1763622194822-ARC%20updated%20till%20October%202025.pdf"
+        }
+      ]
+    },
+    "boe_mpc": {
+      "label": "Bank of England Monetary Policy Committee",
+      "historySource": "Bank of England",
+      "reactionRule": "global_decision",
+      "historicalEvents": 16,
+      "impactScore": 1.86,
+      "impactLevel": "very_high",
+      "markets": {
+        "nifty": {
+          "label": "NIFTY 50",
+          "oneDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 43.8,
+            "downPct": 56.2,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.02,
+            "avgAbsMovePct": 0.72,
+            "medianAbsMovePct": 0.64,
+            "maxAbsMovePct": 1.52
+          },
+          "threeDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 62.5,
+            "downPct": 37.5,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.12,
+            "avgAbsMovePct": 1.37,
+            "medianAbsMovePct": 1.13,
+            "maxAbsMovePct": 4.07
+          },
+          "bias": "Mild bearish tendency"
+        },
+        "banknifty": {
+          "label": "Bank NIFTY",
+          "oneDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 37.5,
+            "downPct": 62.5,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.12,
+            "avgAbsMovePct": 0.73,
+            "medianAbsMovePct": 0.52,
+            "maxAbsMovePct": 1.58
+          },
+          "threeDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 56.2,
+            "downPct": 43.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.11,
+            "avgAbsMovePct": 1.35,
+            "medianAbsMovePct": 1.07,
+            "maxAbsMovePct": 3.52
+          },
+          "bias": "Mild bearish tendency"
+        },
+        "sensex": {
+          "label": "Sensex",
+          "oneDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 43.8,
+            "downPct": 56.2,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.03,
+            "avgAbsMovePct": 0.71,
+            "medianAbsMovePct": 0.57,
+            "maxAbsMovePct": 1.63
+          },
+          "threeDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 62.5,
+            "downPct": 37.5,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.07,
+            "avgAbsMovePct": 1.3,
+            "medianAbsMovePct": 0.99,
+            "maxAbsMovePct": 4.0
+          },
+          "bias": "Mild bearish tendency"
+        },
+        "sp500": {
+          "label": "S&P 500",
+          "oneDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 56.2,
+            "downPct": 43.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.21,
+            "avgAbsMovePct": 0.63,
+            "medianAbsMovePct": 0.49,
+            "maxAbsMovePct": 1.7
+          },
+          "threeDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 81.2,
+            "downPct": 18.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.78,
+            "avgAbsMovePct": 1.65,
+            "medianAbsMovePct": 1.52,
+            "maxAbsMovePct": 6.08
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "nasdaq": {
+          "label": "Nasdaq Composite",
+          "oneDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 62.5,
+            "downPct": 37.5,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.26,
+            "avgAbsMovePct": 1.0,
+            "medianAbsMovePct": 0.86,
+            "maxAbsMovePct": 2.51
+          },
+          "threeDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 87.5,
+            "downPct": 12.5,
+            "flatPct": 0.0,
+            "avgReturnPct": 1.0,
+            "avgAbsMovePct": 2.25,
+            "medianAbsMovePct": 1.98,
+            "maxAbsMovePct": 7.95
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "gold": {
+          "label": "Gold",
+          "oneDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 56.2,
+            "downPct": 43.8,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.03,
+            "avgAbsMovePct": 0.79,
+            "medianAbsMovePct": 0.66,
+            "maxAbsMovePct": 2.51
+          },
+          "threeDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 43.8,
+            "downPct": 56.2,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.07,
+            "avgAbsMovePct": 1.64,
+            "medianAbsMovePct": 1.3,
+            "maxAbsMovePct": 4.77
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "crude": {
+          "label": "WTI Crude Oil",
+          "oneDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 43.8,
+            "downPct": 56.2,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.03,
+            "avgAbsMovePct": 1.11,
+            "medianAbsMovePct": 0.75,
+            "maxAbsMovePct": 3.17
+          },
+          "threeDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 50.0,
+            "downPct": 50.0,
+            "flatPct": 0.0,
+            "avgReturnPct": -1.17,
+            "avgAbsMovePct": 3.24,
+            "medianAbsMovePct": 2.05,
+            "maxAbsMovePct": 14.33
+          },
+          "bias": "Mild bearish tendency"
+        },
+        "usdinr": {
+          "label": "USD/INR",
+          "oneDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 50.0,
+            "downPct": 50.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.07,
+            "avgAbsMovePct": 0.28,
+            "medianAbsMovePct": 0.21,
+            "maxAbsMovePct": 1.49
+          },
+          "threeDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 56.2,
+            "downPct": 43.8,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.04,
+            "avgAbsMovePct": 0.35,
+            "medianAbsMovePct": 0.25,
+            "maxAbsMovePct": 1.52
+          },
+          "bias": "Mixed / neutral"
+        },
+        "bitcoin": {
+          "label": "Bitcoin",
+          "oneDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 50.0,
+            "downPct": 50.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.25,
+            "avgAbsMovePct": 1.86,
+            "medianAbsMovePct": 1.63,
+            "maxAbsMovePct": 6.4
+          },
+          "threeDay": {
+            "sample": 16,
+            "directionReady": true,
+            "upPct": 37.5,
+            "downPct": 62.5,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.47,
+            "avgAbsMovePct": 2.6,
+            "medianAbsMovePct": 2.03,
+            "maxAbsMovePct": 7.9
+          },
+          "bias": "Mixed / neutral"
+        }
+      },
+      "dateProvenance": [
+        {
+          "date": "2024-02-01",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2022/december/mpc-dates-for-2024"
+        },
+        {
+          "date": "2024-03-21",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2022/december/mpc-dates-for-2024"
+        },
+        {
+          "date": "2024-05-09",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2022/december/mpc-dates-for-2024"
+        },
+        {
+          "date": "2024-06-20",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2022/december/mpc-dates-for-2024"
+        },
+        {
+          "date": "2024-08-01",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2022/december/mpc-dates-for-2024"
+        },
+        {
+          "date": "2024-09-19",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2022/december/mpc-dates-for-2024"
+        },
+        {
+          "date": "2024-11-07",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2022/december/mpc-dates-for-2024"
+        },
+        {
+          "date": "2024-12-19",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2022/december/mpc-dates-for-2024"
+        },
+        {
+          "date": "2025-02-06",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2024/september/monetary-policy-committee-dates-for-2025"
+        },
+        {
+          "date": "2025-03-20",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2024/september/monetary-policy-committee-dates-for-2025"
+        },
+        {
+          "date": "2025-05-08",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2024/september/monetary-policy-committee-dates-for-2025"
+        },
+        {
+          "date": "2025-06-19",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2024/september/monetary-policy-committee-dates-for-2025"
+        },
+        {
+          "date": "2025-08-07",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2024/september/monetary-policy-committee-dates-for-2025"
+        },
+        {
+          "date": "2025-09-18",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2024/september/monetary-policy-committee-dates-for-2025"
+        },
+        {
+          "date": "2025-11-06",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2024/september/monetary-policy-committee-dates-for-2025"
+        },
+        {
+          "date": "2025-12-18",
+          "sourceName": "Bank of England",
+          "sourceUrl": "https://www.bankofengland.co.uk/news/2024/september/monetary-policy-committee-dates-for-2025"
+        }
+      ]
     }
   },
   "status": {
@@ -1394,6 +3121,10 @@
       "fomc": {
         "status": "ok",
         "events": 48
+      },
+      "official_india_global": {
+        "status": "ok",
+        "events": 66
       }
     },
     "prices": {
@@ -1427,10 +3158,15 @@
         "source": "Yahoo Finance chart",
         "points": 2175
       },
+      "crude": {
+        "status": "ok",
+        "source": "Yahoo Finance chart",
+        "points": 2176
+      },
       "usdinr": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2253
+        "points": 2252
       },
       "bitcoin": {
         "status": "ok",
