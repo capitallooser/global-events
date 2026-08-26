@@ -32,4 +32,13 @@ class MarketPriceTests(unittest.TestCase):
         self.assertAlmostEqual(q['changePct'],0.64)
         self.assertEqual(q['sourceName'],'NSE IX')
 
+    def test_parse_nseix_near_month_gift_future_block(self):
+        now=datetime(2026,8,21,11,0,tzinfo=timezone.utc)
+        text='''Current Day\nDate : 21-Aug-2026\nIntra Day Price - Near month GIFT NIFTY Future\n24329\n43 (0.18%)\nOpen\n24282.5\nHigh\n24364'''
+        q=mp.parse_nseix_gift(text,now)
+        self.assertEqual(q['price'],24329)
+        self.assertEqual(q['change'],43)
+        self.assertAlmostEqual(q['changePct'],0.18)
+        self.assertEqual(q['status'],'Delayed')
+
 if __name__=='__main__': unittest.main()
