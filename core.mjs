@@ -1,5 +1,5 @@
 export const categories=["economic","central_bank","politics","holiday","earnings","ipo","crypto","sports","geopolitical","other"];
-export const LIVE_REFRESH_MS={market:120000,data:300000};
+export const LIVE_REFRESH_MS=60000;
 export function validateEvent(e){
  return !!(e&&e.id&&e.title&&e.start&&e.country&&e.region&&categories.includes(e.category)&&
  ["high","medium","low"].includes(e.importance)&&e.sourceName&&/^https:\/\//.test(e.sourceUrl||"")&&e.updatedAt);
