@@ -1,0 +1,37 @@
+name: Refresh event data
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test updater
+        run: python -m unittest discover -s tests -v
+
+      - name: Refresh online event dataset
+        run: python scripts/update_events.py
+
+      - name: Commit changed event data
+        run: |
+          if git diff --quiet -- docs/data/events.json; then
+            echo "No event changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/events.json
+          git commit -m "chore: refresh event data"
+          git push
