@@ -3,6 +3,7 @@ name: Verify Market Intelligence V3
 on:
   push:
     branches:
+      - main
       - feature/market-intelligence-v3
   workflow_dispatch:
 
