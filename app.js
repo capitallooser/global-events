@@ -11,7 +11,7 @@ let news=[],niftyInNews=[];
 let currentTab='overview',filterWindow='30d';
 const now=new Date();let calendarYear=now.getFullYear(),calendarMonth=now.getMonth();
 const $=id=>document.getElementById(id);
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#39;'}[c]));
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl=u=>/^https:\/\//i.test(String(u||''))?String(u):'#';
 const prettyImpact=l=>({very_high:'Very high',high:'High',medium:'Medium',low:'Low',no_history:'No history'})[l]||'No history';
 const fetchJSON=path=>fetch(path,{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject(new Error(`${path}: ${r.status}`)));
