@@ -31,4 +31,12 @@ class EciNumericDateTests(unittest.TestCase):
         self.assertIn('2026-07-30',dates)
         self.assertIn('2026-08-02',dates)
 
+    def test_extracts_general_assembly_poll_and_counting_dates(self):
+        text='''General Election to Legislative Assemblies of Example State\nDate of Poll: 15-11-2026\nDate of Counting: 18-11-2026'''
+        rows=pe.extract_eci_general_elections(text,'https://www.eci.gov.in/election-details/example','2026-08-27T00:00:00Z')
+        dates=[r['start'][:10] for r in rows]
+        self.assertIn('2026-11-15',dates)
+        self.assertIn('2026-11-18',dates)
+        self.assertTrue(all(r['country']=='IN' for r in rows))
+
 if __name__=='__main__': unittest.main()
