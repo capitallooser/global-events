@@ -24,12 +24,14 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Test political and macro sources
-        run: python -m unittest test_political_events.py test_macro_sources.py -v
+      - name: Test political, macro and exchange sources
+        run: python -m unittest test_political_events.py test_macro_sources.py test_india_exchange_events.py -v
       - name: Refresh election calendar
         run: python update_political_events.py
       - name: Add official India macro schedule
         run: python macro_sources.py
+      - name: Add official NSE exchange calendar
+        run: python india_exchange_events.py
       - name: Validate enriched feed
         run: |
           python - <<'PY'
@@ -42,6 +44,7 @@ jobs:
           assert any(e.get('eventKey')=='india_cpi' for e in events), 'India CPI schedule missing'
           assert any(e.get('eventKey')=='india_iip' for e in events), 'India IIP schedule missing'
           assert any(e.get('eventKey')=='india_gdp' for e in events), 'India GDP schedule missing'
+          assert any(e.get('eventType')=='exchange' for e in events), 'NSE exchange events missing'
           print('Validated enriched feed:',len(events))
           PY
       - name: Commit enrichment
@@ -53,5 +56,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add events.json political_events.json source-status.json
-          git commit -m "chore: enrich elections and India macro events"
+          git commit -m "chore: enrich elections and India market events"
           git push
