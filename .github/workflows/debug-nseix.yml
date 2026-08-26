@@ -1,0 +1,53 @@
+name: Diagnose NSE IX Public Feed
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/debug-nseix.yml
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect public NSE IX responses
+        shell: bash
+        run: |
+          python - <<'PY'
+          import re, urllib.request
+          from urllib.parse import urljoin
+
+          pages=[
+            'https://www.nseix.com/',
+            'https://www1.nseix.com/',
+            'https://www.nseix.com/markets/most-active',
+            'https://www1.nseix.com/markets/most-active',
+            'https://www.nseix.com/markets/derivatives-watch',
+          ]
+          for url in pages:
+              print('\n===',url,'===')
+              try:
+                  req=urllib.request.Request(url,headers={
+                      'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36',
+                      'Accept':'text/html,application/xhtml+xml,application/json,*/*',
+                      'Accept-Language':'en-US,en;q=0.9',
+                  })
+                  with urllib.request.urlopen(req,timeout=25) as r:
+                      raw=r.read().decode('utf-8','replace')
+                      print('status',r.status,'length',len(raw),'content-type',r.headers.get('content-type'))
+                  low=raw.lower()
+                  for token in ['gift nifty','near month','24329','derivatives-watch','most-active','api/']:
+                      print(token, token in low)
+                  for pattern in [r'.{0,160}gift.{0,220}',r'.{0,160}near month.{0,220}',r'.{0,120}/api/.{0,220}',r'.{0,120}ajax.{0,220}']:
+                      hits=re.findall(pattern,raw,re.I|re.S)
+                      for hit in hits[:8]: print('MATCH',re.sub(r'\s+',' ',hit)[:500])
+                  scripts=re.findall(r'<script[^>]+src=["\']([^"\']+)["\']',raw,re.I)
+                  print('scripts',len(scripts))
+                  for src in scripts[-15:]: print('SCRIPT',urljoin(url,src))
+              except Exception as exc:
+                  print('ERROR',repr(exc))
+          PY
