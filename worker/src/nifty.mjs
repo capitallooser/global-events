@@ -70,7 +70,7 @@ export function reasonForStory(story){
   const t=`${story?.title||''} ${story?.reason||''}`.toLowerCase();
   if(/\b(quarter|quarterly|earnings|profit|revenue|guidance|results)\b/.test(t))return 'Earnings / guidance';
   if(/\b(rbi|reserve bank of india|sebi|regulator|regulatory|restriction|penalty)\b/.test(t))return 'RBI / regulatory action';
-  if(/\b(contract|order win|wins? (?:a |an )?(?:large |major )?order|deal win|award(?:ed)? order)\b/.test(t))return 'Contract / order win';
+  if(/\b(contract|order win|(?:wins?|signs?) (?:another |a |an )?(?:large |major )?order|deal win|award(?:ed)? order)\b/.test(t))return 'Contract / order win';
   if(/\b(merger|acquisition|acquire|takeover|amalgamation)\b/.test(t))return 'M&A / corporate action';
   if(/\b(capex|capacity expansion|new plant|expansion plan|investment plan)\b/.test(t))return 'Capex / expansion';
   if(/\b(stake sale|stake purchase|buys stake|sells stake)\b/.test(t))return 'Stake transaction';
