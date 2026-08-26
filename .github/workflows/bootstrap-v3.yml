@@ -55,13 +55,15 @@ jobs:
 
           ids={e.get('id') for e in events}
           assert 'us-federal-general-election-2026' in ids, '3 Nov 2026 US federal election missing'
-          assert any(e.get('country')=='IN' and e.get('eventType')=='election' for e in events) or status.get('sources',{}).get('elections_india'), 'India election source not represented'
+          india_elections=status.get('sources',{}).get('india_elections',{})
+          assert india_elections.get('status') in {'ok','error'}, 'India election source health missing'
           required={'nifty','banknifty','sensex','gift_nifty','usdinr','sp500','nasdaq','gold','bitcoin'}
           keys={x.get('key') for x in prices.get('instruments',[])}
           assert required <= keys, f'Missing instruments: {required-keys}'
           assert 'eventTypes' in impact
           assert len(events) > 0
           print('Events:',len(events))
+          print('India election source:',india_elections)
           print('Price instruments:',len(prices.get('instruments',[])))
           print('Historical event types:',len(impact.get('eventTypes',{})))
           print('Sources:',len(status.get('sources',{})))
