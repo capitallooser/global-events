@@ -2,7 +2,7 @@ name: Analyze Historical Market Impact
 
 on:
   schedule:
-    # Once daily after the final 10 PM IST event refresh.
+    # Once daily after the final event/market enrichment run.
     - cron: "45 16 * * *"
   workflow_dispatch:
 
@@ -24,7 +24,7 @@ jobs:
       - name: Test historical analysis
         run: python -m unittest test_market_impact.py -v
 
-      - name: Build NIFTY and S&P 500 historical reaction statistics
+      - name: Build expanded historical reaction statistics
         run: python analyze_market_impact.py
 
       - name: Validate output
@@ -38,11 +38,11 @@ jobs:
           data = json.loads(path.read_text())
           assert "updatedAt" in data
           assert "eventTypes" in data
+          expected={"nifty","banknifty","sensex","sp500","nasdaq","gold","usdinr","bitcoin"}
+          assert expected <= set(data.get("benchmarks",{})), f"Missing benchmark metadata: {expected-set(data.get('benchmarks',{}))}"
           print("Event types analyzed:", len(data["eventTypes"]))
           for key, row in data["eventTypes"].items():
-              assert row["impactLevel"] in {
-                  "very_high", "high", "medium", "low", "no_history"
-              }
+              assert row["impactLevel"] in {"very_high", "high", "medium", "low", "no_history"}
           PY
 
       - name: Commit changed analysis

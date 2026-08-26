@@ -1,0 +1,67 @@
+name: Verify Market Intelligence V3
+
+on:
+  push:
+    branches:
+      - feature/market-intelligence-v3
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Python tests
+        run: python -m unittest discover -p "test_*.py" -v
+
+      - name: Run JavaScript tests
+        run: node --test test_*.mjs
+
+      - name: Check JavaScript syntax
+        run: node --check app.js
+
+      - name: Compile Python files
+        run: python -m py_compile *.py
+
+      - name: Validate JSON and workflow YAML
+        run: |
+          python - <<'PY'
+          import glob, json
+          from pathlib import Path
+          try:
+              import yaml
+          except ImportError:
+              yaml = None
+
+          for path in glob.glob('*.json'):
+              with open(path, encoding='utf-8') as handle:
+                  json.load(handle)
+              print('JSON OK:', path)
+
+          if yaml is None:
+              print('PyYAML not installed; workflow YAML syntax will be checked by GitHub when loading workflows.')
+          else:
+              for path in glob.glob('.github/workflows/*.yml'):
+                  with open(path, encoding='utf-8') as handle:
+                      yaml.safe_load(handle)
+                  print('YAML OK:', path)
+
+          required = [
+              'index.html','app.js','styles.css','events.json','source-status.json',
+              'market-impact.json','market-prices.json','update_market_prices.py',
+              'update_political_events.py','macro_sources.py','india_exchange_events.py'
+          ]
+          missing = [p for p in required if not Path(p).exists()]
+          assert not missing, f'Missing required files: {missing}'
+          print('Required files present')
+          PY
