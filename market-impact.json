@@ -1,8 +1,452 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-08-26T20:31:19Z",
   "methodology": {
-    "disclaimer": "Run the Analyze Historical Market Impact workflow once to generate NIFTY/S&P statistics."
+    "minimumDirectionalSample": 8,
+    "oneDayDefinition": "Close-to-close first reaction session",
+    "threeDayDefinition": "Close-to-close through third reaction session",
+    "niftyForUSEvents": "US events are measured from NIFTY event-day close to the following Indian trading sessions because the releases occur after the Indian cash-market close.",
+    "impactThresholdsAvgAbs1dPct": {
+      "very_high": 1.25,
+      "high": 0.8,
+      "medium": 0.4,
+      "low": 0.0
+    },
+    "disclaimer": "Historical frequency and historical movement are descriptive statistics, not a forecast or guarantee of future direction."
   },
-  "benchmarks": {},
-  "eventTypes": {}
+  "benchmarks": {
+    "nifty": {
+      "label": "NIFTY 50",
+      "priceSource": "Yahoo Finance chart",
+      "points": 2131
+    },
+    "sp500": {
+      "label": "S&P 500",
+      "priceSource": "Yahoo Finance chart",
+      "points": 2174
+    }
+  },
+  "eventTypes": {
+    "fomc": {
+      "label": "Federal Reserve FOMC",
+      "historySource": "Federal Reserve",
+      "historicalEvents": 45,
+      "impactScore": 0.98,
+      "impactLevel": "high",
+      "markets": {
+        "nifty": {
+          "label": "NIFTY 50",
+          "oneDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 51.1,
+            "downPct": 48.9,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.06,
+            "avgAbsMovePct": 0.7,
+            "medianAbsMovePct": 0.49,
+            "maxAbsMovePct": 3.26
+          },
+          "threeDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 53.3,
+            "downPct": 46.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.03,
+            "avgAbsMovePct": 1.52,
+            "medianAbsMovePct": 1.14,
+            "maxAbsMovePct": 5.32
+          },
+          "bias": "Mixed / neutral"
+        },
+        "sp500": {
+          "label": "S&P 500",
+          "oneDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 42.2,
+            "downPct": 57.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.02,
+            "avgAbsMovePct": 0.98,
+            "medianAbsMovePct": 0.85,
+            "maxAbsMovePct": 2.99
+          },
+          "threeDay": {
+            "sample": 45,
+            "directionReady": true,
+            "upPct": 51.1,
+            "downPct": 48.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.03,
+            "avgAbsMovePct": 1.61,
+            "medianAbsMovePct": 1.25,
+            "maxAbsMovePct": 5.34
+          },
+          "bias": "Mild bearish tendency"
+        }
+      }
+    },
+    "us_cpi": {
+      "label": "US Consumer Price Index",
+      "historySource": "U.S. BLS",
+      "historicalEvents": 103,
+      "impactScore": 0.85,
+      "impactLevel": "high",
+      "markets": {
+        "nifty": {
+          "label": "NIFTY 50",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 60.2,
+            "downPct": 39.8,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.04,
+            "avgAbsMovePct": 0.7,
+            "medianAbsMovePct": 0.44,
+            "maxAbsMovePct": 8.3
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 62.1,
+            "downPct": 37.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.21,
+            "avgAbsMovePct": 1.44,
+            "medianAbsMovePct": 1.22,
+            "maxAbsMovePct": 12.06
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "sp500": {
+          "label": "S&P 500",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 56.3,
+            "downPct": 43.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.03,
+            "avgAbsMovePct": 0.85,
+            "medianAbsMovePct": 0.55,
+            "maxAbsMovePct": 5.54
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 63.1,
+            "downPct": 36.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.26,
+            "avgAbsMovePct": 1.39,
+            "medianAbsMovePct": 1.08,
+            "maxAbsMovePct": 7.03
+          },
+          "bias": "Mild bullish tendency"
+        }
+      }
+    },
+    "us_nfp": {
+      "label": "US Employment Situation (NFP)",
+      "historySource": "U.S. BLS",
+      "historicalEvents": 112,
+      "impactScore": 0.97,
+      "impactLevel": "high",
+      "markets": {
+        "nifty": {
+          "label": "NIFTY 50",
+          "oneDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 58.0,
+            "downPct": 42.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.04,
+            "avgAbsMovePct": 0.91,
+            "medianAbsMovePct": 0.62,
+            "maxAbsMovePct": 8.76
+          },
+          "threeDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 60.7,
+            "downPct": 39.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.17,
+            "avgAbsMovePct": 1.33,
+            "medianAbsMovePct": 0.85,
+            "maxAbsMovePct": 12.73
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "sp500": {
+          "label": "S&P 500",
+          "oneDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 54.5,
+            "downPct": 45.5,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.01,
+            "avgAbsMovePct": 0.97,
+            "medianAbsMovePct": 0.84,
+            "maxAbsMovePct": 5.97
+          },
+          "threeDay": {
+            "sample": 112,
+            "directionReady": true,
+            "upPct": 56.2,
+            "downPct": 43.8,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.01,
+            "avgAbsMovePct": 1.42,
+            "medianAbsMovePct": 0.97,
+            "maxAbsMovePct": 7.67
+          },
+          "bias": "Mixed / neutral"
+        }
+      }
+    },
+    "us_ppi": {
+      "label": "US Producer Price Index",
+      "historySource": "U.S. BLS",
+      "historicalEvents": 103,
+      "impactScore": 0.86,
+      "impactLevel": "high",
+      "markets": {
+        "nifty": {
+          "label": "NIFTY 50",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 49.5,
+            "downPct": 50.5,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.02,
+            "avgAbsMovePct": 0.72,
+            "medianAbsMovePct": 0.46,
+            "maxAbsMovePct": 3.81
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 47.6,
+            "downPct": 52.4,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.13,
+            "avgAbsMovePct": 1.34,
+            "medianAbsMovePct": 1.12,
+            "maxAbsMovePct": 6.5
+          },
+          "bias": "Mixed / neutral"
+        },
+        "sp500": {
+          "label": "S&P 500",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 55.3,
+            "downPct": 44.7,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.02,
+            "avgAbsMovePct": 0.86,
+            "medianAbsMovePct": 0.65,
+            "maxAbsMovePct": 9.51
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 54.4,
+            "downPct": 45.6,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.17,
+            "avgAbsMovePct": 1.38,
+            "medianAbsMovePct": 0.97,
+            "maxAbsMovePct": 12.96
+          },
+          "bias": "Mild bullish tendency"
+        }
+      }
+    },
+    "us_jolts": {
+      "label": "US JOLTS",
+      "historySource": "U.S. BLS",
+      "historicalEvents": 103,
+      "impactScore": 0.73,
+      "impactLevel": "medium",
+      "markets": {
+        "nifty": {
+          "label": "NIFTY 50",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 57.3,
+            "downPct": 42.7,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.0,
+            "avgAbsMovePct": 0.7,
+            "medianAbsMovePct": 0.53,
+            "maxAbsMovePct": 5.56
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 55.3,
+            "downPct": 44.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.18,
+            "avgAbsMovePct": 1.05,
+            "medianAbsMovePct": 0.7,
+            "maxAbsMovePct": 6.42
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "sp500": {
+          "label": "S&P 500",
+          "oneDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 57.3,
+            "downPct": 42.7,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.25,
+            "avgAbsMovePct": 0.73,
+            "medianAbsMovePct": 0.51,
+            "maxAbsMovePct": 6.0
+          },
+          "threeDay": {
+            "sample": 103,
+            "directionReady": true,
+            "upPct": 65.0,
+            "downPct": 35.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.26,
+            "avgAbsMovePct": 1.35,
+            "medianAbsMovePct": 1.05,
+            "maxAbsMovePct": 7.12
+          },
+          "bias": "Mild bullish tendency"
+        }
+      }
+    },
+    "us_eci": {
+      "label": "US Employment Cost Index",
+      "historySource": "U.S. BLS",
+      "historicalEvents": 35,
+      "impactScore": 1.04,
+      "impactLevel": "high",
+      "markets": {
+        "nifty": {
+          "label": "NIFTY 50",
+          "oneDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 60.0,
+            "downPct": 40.0,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.1,
+            "avgAbsMovePct": 0.85,
+            "medianAbsMovePct": 0.46,
+            "maxAbsMovePct": 5.74
+          },
+          "threeDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 65.7,
+            "downPct": 34.3,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.31,
+            "avgAbsMovePct": 1.6,
+            "medianAbsMovePct": 1.06,
+            "maxAbsMovePct": 8.47
+          },
+          "bias": "Mild bullish tendency"
+        },
+        "sp500": {
+          "label": "S&P 500",
+          "oneDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 57.1,
+            "downPct": 42.9,
+            "flatPct": 0.0,
+            "avgReturnPct": -0.01,
+            "avgAbsMovePct": 1.04,
+            "medianAbsMovePct": 0.86,
+            "maxAbsMovePct": 3.63
+          },
+          "threeDay": {
+            "sample": 35,
+            "directionReady": true,
+            "upPct": 57.1,
+            "downPct": 42.9,
+            "flatPct": 0.0,
+            "avgReturnPct": 0.37,
+            "avgAbsMovePct": 1.58,
+            "medianAbsMovePct": 1.11,
+            "maxAbsMovePct": 5.09
+          },
+          "bias": "Mild bullish tendency"
+        }
+      }
+    }
+  },
+  "status": {
+    "history": {
+      "bls_2018": {
+        "status": "ok",
+        "events": 53
+      },
+      "bls_2019": {
+        "status": "ok",
+        "events": 53
+      },
+      "bls_2020": {
+        "status": "ok",
+        "events": 53
+      },
+      "bls_2021": {
+        "status": "ok",
+        "events": 53
+      },
+      "bls_2022": {
+        "status": "ok",
+        "events": 53
+      },
+      "bls_2023": {
+        "status": "ok",
+        "events": 53
+      },
+      "bls_2024": {
+        "status": "ok",
+        "events": 53
+      },
+      "bls_2025": {
+        "status": "ok",
+        "events": 48
+      },
+      "bls_2026": {
+        "status": "ok",
+        "events": 54
+      },
+      "fomc": {
+        "status": "ok",
+        "events": 48
+      }
+    },
+    "prices": {
+      "nifty": {
+        "status": "ok",
+        "source": "Yahoo Finance chart",
+        "points": 2131
+      },
+      "sp500": {
+        "status": "ok",
+        "source": "Yahoo Finance chart",
+        "points": 2174
+      }
+    }
+  }
 }
