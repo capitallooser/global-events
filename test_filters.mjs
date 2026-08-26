@@ -30,6 +30,11 @@ test('impact sort ranks by impact score then date',()=>{
  assert.deepEqual(out.map(x=>x.id),['us-fed','in-cpi','in-holiday']);
 });
 
+test('legacy search, category and importance filters still combine',()=>{
+ const out=filterEvents(events,{window:'7d',country:'all',category:'economic',importance:'high',query:'inflation',impact:'all',sort:'date'},NOW,impactLookup);
+ assert.deepEqual(out.map(x=>x.id),['in-cpi']);
+});
+
 test('live refresh policy uses 2 minute market and 5 minute dashboard intervals',async()=>{
  const core=await import('./core.mjs');
  assert.deepEqual(core.LIVE_REFRESH_MS,{market:120000,data:300000});
