@@ -4,7 +4,10 @@ on:
   push:
     branches:
       - main
-      - feature/market-intelligence-v3
+      - "feature/**"
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
