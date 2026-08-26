@@ -10,12 +10,22 @@ test('all legacy filters are present in the shared filter bar',()=>{
  for(const category of ['earnings','ipo','sports','geopolitical','crypto']) assert.match(html,new RegExp(`value="${category}"`));
 });
 
-test('live refresh is wired without page reloads',()=>{
- assert.match(app,/LIVE_REFRESH_MS/);
- assert.match(app,/setInterval\(refreshMarketData,LIVE_REFRESH_MS\.market\)/);
- assert.match(app,/setInterval\(refreshDashboardData,LIVE_REFRESH_MS\.data\)/);
+test('one-minute live refresh is wired without page reloads',()=>{
+ assert.match(app,/setInterval\(refreshEverything,LIVE_REFRESH_MS\)/);
  assert.match(app,/const y=window\.scrollY/);
  assert.doesNotMatch(app,/location\.reload/);
+ assert.doesNotMatch(app,/refreshMarketData/);
+ assert.doesNotMatch(app,/refreshDashboardData/);
+});
+
+test('continuous ticker and News navigation replace the old market snapshot',()=>{
+ assert.match(html,/id="marketTicker"/);
+ assert.match(html,/id="tickerTrack"/);
+ assert.match(html,/data-tab="news"/);
+ assert.doesNotMatch(html,/giftNiftyLive/);
+ assert.doesNotMatch(html,/tv-single-ticker/);
+ assert.doesNotMatch(html,/NSEIX:NIFTY1!/);
+ assert.doesNotMatch(html,/tradingview/i);
 });
 
 test('region tabs keep shared filter state but lock their region',()=>{
