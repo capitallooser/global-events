@@ -7,11 +7,11 @@ const TICKER_ORDER=['nifty','banknifty','sensex','sp500','nasdaq','gold','crude'
 const TICKER_LABELS={nifty:'NIFTY 50',banknifty:'Bank NIFTY',sensex:'Sensex',sp500:'S&P 500',nasdaq:'Nasdaq',gold:'Gold',crude:'WTI Crude',usdinr:'USD/INR',bitcoin:'Bitcoin'};
 
 let all=[],marketImpact={eventTypes:{}},marketPrices={instruments:[]},surprises={},sourceStatus=null,alertState=null;
-let news=[],niftyInNews=[],liveDataBase='';
+let news=[],niftyInNews=[];
 let currentTab='overview',filterWindow='30d';
 const now=new Date();let calendarYear=now.getFullYear(),calendarMonth=now.getMonth();
 const $=id=>document.getElementById(id);
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#39;'}[c]));
 const safeUrl=u=>/^https:\/\//i.test(String(u||''))?String(u):'#';
 const prettyImpact=l=>({very_high:'Very high',high:'High',medium:'Medium',low:'Low',no_history:'No history'})[l]||'No history';
 const fetchJSON=path=>fetch(path,{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject(new Error(`${path}: ${r.status}`)));
@@ -109,12 +109,10 @@ function renderDataViews(){renderTicker();renderOverview();renderRegion();render
 function applyFilters(){renderOverview();renderRegion();renderRanked();renderCount();}
 function switchTab(tab){currentTab=tab;document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));$(`${tab}Panel`)?.classList.add('active');updateFilterVisibility();if(tab==='calendar')renderCalendar();if(tab==='news')renderNewsViews();renderCount();}
 
-async function loadLiveConfig(){try{const cfg=await fetchJSON('./live-config.json');liveDataBase=String(cfg.liveDataBase||'').replace(/\/$/,'');}catch{liveDataBase='';}}
-async function fetchWorkerSnapshot(){if(!liveDataBase)return null;return fetchJSON(`${liveDataBase}/api/snapshot`);}
 async function fetchStaticBundle(){
-  const paths=['./events.json','./market-impact.json','./market-prices.json','./surprises.json','./source-status.json','./alert-state.json'];
+  const paths=['./events.json','./market-impact.json','./market-prices.json','./surprises.json','./source-status.json','./alert-state.json','./news.json','./nifty-in-news.json'];
   const results=await Promise.allSettled(paths.map(fetchJSON));
-  return {events:results[0],impact:results[1],market:results[2],surprises:results[3],status:results[4],alerts:results[5]};
+  return {events:results[0],impact:results[1],market:results[2],surprises:results[3],status:results[4],alerts:results[5],news:results[6],nifty:results[7]};
 }
 function applyStaticResult(bundle){
   if(bundle.events.status==='fulfilled')all=bundle.events.value;
@@ -123,29 +121,19 @@ function applyStaticResult(bundle){
   if(bundle.surprises.status==='fulfilled'){const p=bundle.surprises.value||{};surprises=p.events||p;}
   if(bundle.status.status==='fulfilled')sourceStatus=bundle.status.value;
   if(bundle.alerts.status==='fulfilled')alertState=bundle.alerts.value;
-}
-function applyWorkerSnapshot(s){
-  if(!s)return;
-  if(s.market?.instruments?.length)marketPrices=s.market;
-  if(Array.isArray(s.news))news=s.news;
-  if(Array.isArray(s.niftyInNews))niftyInNews=s.niftyInNews;
-  if(Array.isArray(s.events)&&s.events.length)all=s.events;
-  if(s.impact?.eventTypes&&Object.keys(s.impact.eventTypes).length)marketImpact=s.impact;
-  if(s.surprises?.events)surprises=s.surprises.events;
-  if(s.alerts)alertState=s.alerts;
-  if(s.sourceStatus?.sources&&Object.keys(s.sourceStatus.sources).length){sourceStatus={...(sourceStatus||{}),...s.sourceStatus,sources:{...(sourceStatus?.sources||{}),...s.sourceStatus.sources}};}
+  if(bundle.news.status==='fulfilled'){const p=bundle.news.value||{};news=Array.isArray(p)?p:(p.items||[]);}
+  if(bundle.nifty.status==='fulfilled'){const p=bundle.nifty.value||{};niftyInNews=Array.isArray(p)?p:(p.items||[]);}
 }
 
 async function refreshEverything(){
   const y=window.scrollY;
   const dialog=$('detailDialog'),openEventId=dialog?.open?dialog.dataset.eventId:'';
-  const [staticResult,workerResult]=await Promise.allSettled([fetchStaticBundle(),fetchWorkerSnapshot()]);
-  if(staticResult.status==='fulfilled')applyStaticResult(staticResult.value);
-  if(workerResult.status==='fulfilled')applyWorkerSnapshot(workerResult.value);
+  const bundle=await fetchStaticBundle();
+  applyStaticResult(bundle);
   renderUpdateStatus(sourceStatus);
   renderDataViews();
   if(openEventId&&dialog?.open)dialog.dataset.eventId=openEventId;
-  $('liveRefreshState').textContent=`Auto-refresh every 1 min · checked ${new Date().toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit',second:'2-digit'})}`;
+  $('liveRefreshState').textContent=`Browser checks every 1 min · checked ${new Date().toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit',second:'2-digit'})}`;
   requestAnimationFrame(()=>window.scrollTo({top:y,left:0,behavior:'auto'}));
 }
 
@@ -167,6 +155,5 @@ function bindControls(){
 ensureTickerShell();
 bindControls();
 updateFilterVisibility();
-await loadLiveConfig();
 await refreshEverything();
 setInterval(refreshEverything,LIVE_REFRESH_MS);
