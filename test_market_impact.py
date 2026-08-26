@@ -6,7 +6,12 @@ spec=importlib.util.spec_from_file_location('impact',MODULE); impact=importlib.u
 
 class ImpactTests(unittest.TestCase):
   def test_expanded_benchmark_set(self):
-    self.assertTrue({'nifty','banknifty','sensex','sp500','nasdaq','gold','usdinr','bitcoin'} <= set(impact.BENCHMARKS))
+    self.assertTrue({'nifty','banknifty','sensex','sp500','nasdaq','gold','crude','usdinr','bitcoin'} <= set(impact.BENCHMARKS))
+  def test_india_and_global_event_families_present(self):
+    self.assertTrue({'rbi_mpc','india_cpi','india_gdp','india_iip','india_wpi','ecb_mpc','boe_mpc'} <= set(impact.EVENT_TYPES))
+  def test_crude_benchmark_present(self):
+    self.assertIn('crude', impact.BENCHMARKS)
+    self.assertEqual(impact.BENCHMARKS['crude']['yahoo'],'CL=F')
   def test_classify_bls(self):
     self.assertEqual(impact.classify_bls_release('Consumer Price Index for July 2026'),'us_cpi')
     self.assertEqual(impact.classify_bls_release('Employment Situation for July 2026'),'us_nfp')
@@ -16,6 +21,9 @@ class ImpactTests(unittest.TestCase):
   def test_us_event_us_uses_event_session(self):
     prices={'2025-01-14':100.0,'2025-01-15':102.0,'2025-01-16':103.0}
     self.assertAlmostEqual(impact.reaction_return(prices,date(2025,1,15),'US','US',1),2.0)
+  def test_explicit_next_session_rule(self):
+    prices={'2025-01-14':100.0,'2025-01-15':102.0,'2025-01-16':105.0}
+    self.assertAlmostEqual(impact.reaction_return(prices,date(2025,1,15),'IN','IN',1,'next_session'),(105/102-1)*100)
   def test_direction_hidden_under_eight(self):
     s=impact.summarize([1,-1,1,-1,1,-1,1]); self.assertFalse(s['directionReady']); self.assertIsNone(s['upPct'])
   def test_impact_thresholds(self):
