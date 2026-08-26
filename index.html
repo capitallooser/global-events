@@ -36,7 +36,13 @@
 
 <section id="marketStripSection" class="market-section">
   <div class="section-head"><div><p class="eyebrow">MARKETS</p><h2 id="marketStripTitle">Market snapshot</h2></div><span id="marketUpdated" class="method-note"></span></div>
-  <div id="marketStrip" class="market-strip"></div>
+  <div class="market-strip">
+    <article id="giftNiftyLive" class="quote" style="min-width:260px;display:block;padding:8px 10px">
+      <tv-single-ticker symbol="NSEIX:NIFTY1!" style="display:block;width:100%"></tv-single-ticker>
+      <small style="display:block;margin-top:4px">GIFT Nifty 50 futures · TradingView / NSE IX</small>
+    </article>
+    <div id="marketStrip" style="display:contents"></div>
+  </div>
 </section>
 
 <section id="overviewPanel" class="tab-panel active">
@@ -99,6 +105,23 @@
 </main>
 
 <dialog id="detailDialog" class="detail-dialog"><button id="closeDialog" class="dialog-close" aria-label="Close">×</button><div id="detailContent"></div></dialog>
+<script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-single-ticker.js"></script>
 <script type="module" src="./app.js"></script>
+<script>
+(function(){
+  function syncGiftNifty(){
+    const active=document.querySelector('#tabs button.active')?.dataset.tab||'overview';
+    const widget=document.getElementById('giftNiftyLive');
+    if(widget)widget.hidden=!['overview','india'].includes(active);
+    document.querySelectorAll('#marketStrip .quote').forEach(card=>{
+      if(card.querySelector('strong')?.textContent.trim()==='GIFT Nifty')card.hidden=true;
+    });
+  }
+  const strip=document.getElementById('marketStrip');
+  if(strip)new MutationObserver(syncGiftNifty).observe(strip,{childList:true});
+  document.querySelectorAll('#tabs button').forEach(button=>button.addEventListener('click',()=>setTimeout(syncGiftNifty,0)));
+  setTimeout(syncGiftNifty,0);
+})();
+</script>
 </body>
 </html>
