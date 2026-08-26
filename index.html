@@ -1,96 +1,104 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Global Market Events</title>
+<meta name="theme-color" content="#0b0e14">
+<title>Global Market Intelligence</title>
 <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 <main>
-<header>
+<header class="hero">
   <div>
     <p class="eyebrow">MARKET EVENT INTELLIGENCE</p>
     <h1>Global Events</h1>
-    <p class="sub">Important dates and their historical NIFTY 50 / S&amp;P 500 market reactions.</p>
+    <p class="sub">Upcoming market catalysts, historical reactions, elections and zero-cost market monitoring.</p>
   </div>
   <div id="count" class="count"></div>
 </header>
 
+<nav id="tabs" class="tabs" aria-label="Dashboard sections">
+  <button class="active" data-tab="overview">Overview</button>
+  <button data-tab="calendar">Calendar</button>
+  <button data-tab="india">India</button>
+  <button data-tab="us">US</button>
+  <button data-tab="global">Global</button>
+  <button data-tab="movers">Market Movers</button>
+  <button data-tab="ai">AI Assistant</button>
+  <button data-tab="alerts">Alerts</button>
+</nav>
+
 <section id="updateBar" class="updatebar">
-  <span class="statusdot"></span>
-  <strong id="updateState">Checking update status…</strong>
-  <span id="lastUpdated"></span>
-  <span id="sourceHealth"></span>
+  <span class="statusdot"></span><strong id="updateState">Checking update status…</strong>
+  <span id="lastUpdated"></span><span id="sourceHealth"></span>
 </section>
 
-<section id="moversSection" class="movers-section" hidden>
-  <div class="section-head">
-    <div>
-      <p class="eyebrow">UPCOMING MARKET MOVERS</p>
-      <h2>Highest historical impact</h2>
-    </div>
-    <span class="method-note">Based on average absolute 1-day index movement</span>
+<section id="marketStripSection" class="market-section">
+  <div class="section-head"><div><p class="eyebrow">MARKETS</p><h2 id="marketStripTitle">Market snapshot</h2></div><span id="marketUpdated" class="method-note"></span></div>
+  <div id="marketStrip" class="market-strip"></div>
+</section>
+
+<section id="overviewPanel" class="tab-panel active">
+  <section id="moversSection" class="movers-section">
+    <div class="section-head"><div><p class="eyebrow">UPCOMING MARKET MOVERS</p><h2>Top 5 upcoming market movers</h2></div><span class="method-note">Historical impact first</span></div>
+    <div id="movers" class="movers"></div>
+  </section>
+  <div class="panel-title"><div><p class="eyebrow">UPCOMING</p><h2>Highest-impact events</h2></div></div>
+  <section id="overviewEvents"></section>
+</section>
+
+<section id="calendarPanel" class="tab-panel">
+  <div class="calendar-toolbar">
+    <button id="prevMonth" aria-label="Previous month">‹</button>
+    <div><p class="eyebrow">MONTHLY HEAT MAP</p><h2 id="calendarTitle"></h2></div>
+    <button id="nextMonth" aria-label="Next month">›</button>
+    <button id="todayMonth" class="secondary">Today</button>
   </div>
-  <div id="movers" class="movers"></div>
+  <div id="monthSummary" class="month-summary"></div>
+  <div class="calendar-filters">
+    <select id="calendarRegion"><option value="all">All regions</option><option value="IN">India</option><option value="US">US</option><option value="GLOBAL">Global</option></select>
+    <select id="calendarMode"><option value="important">High + Very High</option><option value="all">All events</option><option value="elections">Elections / Politics</option><option value="economic">Economic</option><option value="central_bank">Central banks</option></select>
+  </div>
+  <div class="calendar-weekdays"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div>
+  <div id="calendarGrid" class="calendar-grid"></div>
 </section>
 
-<section class="quick">
-  <button data-win="today">Today</button>
-  <button data-win="7d">Next 7 Days</button>
-  <button class="active" data-win="30d">Next 30 Days</button>
-  <button data-win="all">All Upcoming</button>
+<section id="indiaPanel" class="tab-panel"><div class="panel-title"><div><p class="eyebrow">INDIA</p><h2>India market calendar</h2><p class="sub">RBI, CPI, WPI, GDP, IIP, elections and market events.</p></div></div><section id="indiaEvents"></section></section>
+<section id="usPanel" class="tab-panel"><div class="panel-title"><div><p class="eyebrow">UNITED STATES</p><h2>US market calendar</h2><p class="sub">FOMC, CPI, NFP, PPI, JOLTS, elections and major releases.</p></div></div><section id="usEvents"></section></section>
+<section id="globalPanel" class="tab-panel"><div class="panel-title"><div><p class="eyebrow">GLOBAL</p><h2>Global catalysts</h2></div></div><section id="globalEvents"></section></section>
+
+<section id="moversPanel" class="tab-panel">
+  <div class="panel-title"><div><p class="eyebrow">RANKED BY HISTORY</p><h2>Market Movers</h2></div></div>
+  <section class="toolbar compact">
+    <label>Search<input id="q" placeholder="Search events"></label>
+    <label>Region<select id="country"><option value="all">All</option><option value="IN">India</option><option value="US">US</option><option value="GLOBAL">Global</option></select></label>
+    <label>Category<select id="category"><option value="all">All</option><option value="economic">Economic</option><option value="central_bank">Central bank</option><option value="politics">Politics / Elections</option><option value="geopolitical">Geopolitical</option><option value="holiday">Holidays</option><option value="crypto">Crypto</option></select></label>
+    <label>Impact<select id="impact"><option value="all">All</option><option value="very_high">Very high</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option><option value="no_history">No history</option></select></label>
+  </section>
+  <section id="rankedEvents"></section>
 </section>
 
-<section class="toolbar">
-  <label>Search<input id="q" placeholder="Search events"></label>
-  <label>Country<select id="country">
-    <option value="all">All</option><option value="IN">India</option>
-    <option value="US">United States</option><option value="GLOBAL">Global</option>
-  </select></label>
-  <label>Category<select id="category">
-    <option value="all">All categories</option>
-    <option value="central_bank">Central banks</option>
-    <option value="politics">Politics</option>
-    <option value="geopolitical">Geopolitical</option>
-    <option value="holiday">Market holidays</option>
-    <option value="economic">Economic</option>
-    <option value="earnings">Earnings</option>
-    <option value="ipo">IPO</option>
-    <option value="crypto">Crypto</option>
-    <option value="sports">Sports</option>
-    <option value="other">Other</option>
-  </select></label>
-  <label>Importance<select id="importance">
-    <option value="all">All</option><option value="high">High</option>
-    <option value="medium">Medium</option><option value="low">Low</option>
-  </select></label>
-  <label>Market impact<select id="impact">
-    <option value="all">All historical impact</option>
-    <option value="very_high">Very high</option>
-    <option value="high">High</option>
-    <option value="medium">Medium</option>
-    <option value="low">Low</option>
-    <option value="no_history">No history yet</option>
-  </select></label>
-  <label>Sort<select id="sort">
-    <option value="date">Soonest first</option>
-    <option value="impact">Highest market impact</option>
-  </select></label>
+<section id="aiPanel" class="tab-panel">
+  <div class="assistant-shell">
+    <div><p class="eyebrow">ASK MARKET AI</p><h2>Market Assistant</h2><p class="sub">Answers from the event calendar, market prices and historical reaction statistics already loaded on this site.</p></div>
+    <div class="suggested-questions" id="suggestedQuestions">
+      <button>What can affect NIFTY tomorrow?</button><button>What are the biggest risks this week?</button><button>How much can CPI impact NIFTY?</button><button>Compare NIFTY and S&amp;P reaction to FOMC</button>
+    </div>
+    <form id="aiForm" class="ai-form"><input id="aiQuestion" placeholder="Ask a market question…" autocomplete="off"><button type="submit">Ask</button></form>
+    <div id="aiAnswer" class="ai-answer"><p>Ask a question to begin. The zero-cost assistant works even without an external AI API.</p></div>
+  </div>
 </section>
 
-<div class="switch">
-  <button class="active" id="listBtn">List</button>
-  <button id="calBtn">Calendar</button>
-</div>
+<section id="alertsPanel" class="tab-panel">
+  <div class="panel-title"><div><p class="eyebrow">ZERO-COST ALERTS</p><h2>Telegram alerts</h2></div></div>
+  <div class="setup-card"><h3>Very High Impact alerts</h3><p>Telegram is sent by GitHub Actions. Bot credentials are stored only in GitHub Secrets and never exposed on this public site.</p><ol><li>Create a Telegram bot with BotFather.</li><li>Add <code>TELEGRAM_BOT_TOKEN</code> and <code>TELEGRAM_CHAT_ID</code> in repository Actions secrets.</li><li>Run the Telegram Alerts workflow once to test.</li></ol><p id="alertState" class="method-note"></p></div>
+</section>
 
-<div id="status"></div>
-<section id="events"></section>
-
-<footer>
-  Historical up/down frequencies and movement statistics describe past market behaviour; they are not predictions or guarantees. Dates are sourced from official/public calendars. Always verify the official source before trading.
-</footer>
+<footer>Historical frequencies and movement statistics describe past behaviour, not future certainty. Free/public market quotes may be delayed. Verify official sources before trading.</footer>
 </main>
+
+<dialog id="detailDialog" class="detail-dialog"><button id="closeDialog" class="dialog-close" aria-label="Close">×</button><div id="detailContent"></div></dialog>
 <script type="module" src="./app.js"></script>
 </body>
 </html>
