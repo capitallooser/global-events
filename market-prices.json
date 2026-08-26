@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T21:30:59Z",
+  "updatedAt": "2026-08-26T21:35:37Z",
   "instruments": [
     {
       "key": "nifty",
@@ -40,7 +40,7 @@
       "sourceTimestamp": null,
       "sourceName": null,
       "status": "Unavailable",
-      "error": "HTTP Error 404: Not Found; HTTP Error 404: Not Found; NSE IX: unable to parse GIFT Nifty from NSE IX"
+      "error": "HTTP Error 404: Not Found; HTTP Error 404: Not Found; NSE IX https://www.nseix.com/: unable to parse GIFT Nifty from NSE IX; NSE IX https://www1.nseix.com/: unable to parse GIFT Ni"
     },
     {
       "key": "sp500",
@@ -85,10 +85,10 @@
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 78678.9531,
-      "change": 150.5391,
-      "changePct": 0.192,
-      "sourceTimestamp": "2026-08-26T21:30:57Z",
+      "price": 78776.8828,
+      "change": 248.4688,
+      "changePct": 0.316,
+      "sourceTimestamp": "2026-08-26T21:35:38Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
@@ -108,7 +108,7 @@
     },
     "gift_nifty": {
       "status": "error",
-      "error": "HTTP Error 404: Not Found; HTTP Error 404: Not Found; NSE IX: unable to parse GIFT Nifty from NSE IX"
+      "error": "HTTP Error 404: Not Found; HTTP Error 404: Not Found; NSE IX https://www.nseix.com/: unable to parse GIFT Nifty from NSE IX; NSE IX https://www1.nseix.com/: unable to parse GIFT Ni"
     },
     "sp500": {
       "status": "ok",
