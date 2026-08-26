@@ -1,0 +1,496 @@
+name: Refresh Global Events
+
+on:
+  schedule:
+    # GitHub Actions cron uses UTC.
+    # IST schedule:
+    # 08:00 IST -> 02:30 UTC
+    # 11:00 IST -> 05:30 UTC
+    # 14:00 IST -> 08:30 UTC
+    # 15:00 IST -> 09:30 UTC
+    # 20:00 IST -> 14:30 UTC
+    # 22:00 IST -> 16:30 UTC
+    - cron: "30 2 * * *"
+    - cron: "30 5 * * *"
+    - cron: "30 8 * * *"
+    - cron: "30 9 * * *"
+    - cron: "30 14 * * *"
+    - cron: "30 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh events from free public sources
+        shell: bash
+        run: |
+          python <<'PY'
+          import json
+          import re
+          import urllib.request
+          from datetime import datetime, timezone
+          from html.parser import HTMLParser
+          from pathlib import Path
+
+          ROOT = Path(".")
+          MANUAL = ROOT / "manual_events.json"
+          OUTPUT = ROOT / "events.json"
+          STATUS = ROOT / "source-status.json"
+
+          HOLIDAY_COUNTRIES = {
+              "IN": "India", "US": "United States", "GB": "United Kingdom",
+              "DE": "Germany", "FR": "France", "IT": "Italy", "ES": "Spain",
+              "CA": "Canada", "AU": "Australia", "NZ": "New Zealand",
+              "JP": "Japan", "KR": "South Korea", "SG": "Singapore",
+              "BR": "Brazil", "MX": "Mexico", "ZA": "South Africa",
+              "CH": "Switzerland", "NL": "Netherlands", "SE": "Sweden",
+              "NO": "Norway", "DK": "Denmark", "FI": "Finland",
+              "PL": "Poland", "AT": "Austria", "BE": "Belgium",
+              "IE": "Ireland", "PT": "Portugal", "GR": "Greece"
+          }
+
+          BLS_ICS = "https://www.bls.gov/schedule/news_release/bls.ics"
+          NAGER_COUNTRIES = "https://date.nager.at/api/v3/AvailableCountries"
+          FED_FOMC = "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+          ECB_MPC = "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+          BOE_MPC = "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates"
+          RBI_MPC = "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62422"
+
+          HIGH_BLS = (
+              "consumer price index", "employment situation",
+              "producer price index", "job openings and labor turnover",
+              "employment cost index", "productivity and costs",
+              "real earnings"
+          )
+
+          class TextExtractor(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.parts = []
+              def handle_data(self, data):
+                  t = " ".join(data.split())
+                  if t:
+                      self.parts.append(t)
+              def text(self):
+                  return "\n".join(self.parts)
+
+          def fetch_text(url):
+              req = urllib.request.Request(
+                  url,
+                  headers={
+                      "User-Agent": "Mozilla/5.0 GlobalEventsDashboard/2.0",
+                      "Accept": "*/*"
+                  }
+              )
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  return response.read().decode("utf-8", errors="replace")
+
+          def fetch_json(url):
+              return json.loads(fetch_text(url))
+
+          def slug(value):
+              s = "".join(c.lower() if c.isalnum() else "-" for c in value)
+              return re.sub(r"-+", "-", s).strip("-")
+
+          def event_id(prefix, title, start):
+              return f"{prefix}-{start[:10]}-{slug(title)[:70]}"
+
+          def normalize_holiday(country, region, row, updated_at):
+              name = row.get("localName") or row["name"]
+              return {
+                  "id": event_id(f"holiday-{country.lower()}", name, row["date"]),
+                  "title": name,
+                  "start": f"{row['date']}T00:00:00Z",
+                  "end": None,
+                  "country": country,
+                  "region": region,
+                  "category": "holiday",
+                  "importance": "medium",
+                  "summary": f"Public holiday in {region}: {row['name']}.",
+                  "sourceName": "Nager.Date",
+                  "sourceUrl": "https://date.nager.at/",
+                  "updatedAt": updated_at
+              }
+
+          def unfold_ics(text):
+              lines = text.replace("\r\n", "\n").split("\n")
+              result = []
+              for line in lines:
+                  if line.startswith((" ", "\t")) and result:
+                      result[-1] += line[1:]
+                  else:
+                      result.append(line)
+              return result
+
+          def parse_ics_datetime(value):
+              raw = value.strip()
+              if ":" in raw:
+                  raw = raw.rsplit(":", 1)[-1]
+              if re.fullmatch(r"\d{8}", raw):
+                  return f"{raw[:4]}-{raw[4:6]}-{raw[6:8]}T00:00:00Z"
+              match = re.match(r"(\d{8})T(\d{6})", raw)
+              if not match:
+                  return None
+              date, time = match.groups()
+              hour = (int(time[:2]) + 4) % 24
+              return f"{date[:4]}-{date[4:6]}-{date[6:8]}T{hour:02d}:{time[2:4]}:{time[4:6]}Z"
+
+          def parse_bls_ics(text, updated_at):
+              events = []
+              current = {}
+              in_event = False
+              for line in unfold_ics(text):
+                  if line == "BEGIN:VEVENT":
+                      current, in_event = {}, True
+                  elif line == "END:VEVENT":
+                      if in_event:
+                          title = current.get("SUMMARY", "").strip()
+                          start = parse_ics_datetime(current.get("DTSTART", ""))
+                          if title and start:
+                              low = title.lower()
+                              importance = "high" if any(k in low for k in HIGH_BLS) else "medium"
+                              events.append({
+                                  "id": event_id("bls", title, start),
+                                  "title": title,
+                                  "start": start,
+                                  "end": None,
+                                  "country": "US",
+                                  "region": "United States",
+                                  "category": "economic",
+                                  "importance": importance,
+                                  "summary": "Scheduled U.S. Bureau of Labor Statistics release.",
+                                  "sourceName": "U.S. Bureau of Labor Statistics",
+                                  "sourceUrl": "https://www.bls.gov/schedule/",
+                                  "updatedAt": updated_at
+                              })
+                      current, in_event = {}, False
+                  elif in_event and ":" in line:
+                      key, value = line.split(":", 1)
+                      current[key.split(";", 1)[0]] = value
+              return events
+
+          MONTHS = {
+              month: index for index, month in enumerate(
+                  ["January", "February", "March", "April", "May", "June",
+                   "July", "August", "September", "October", "November", "December"], 1
+              )
+          }
+
+          def html_text(html):
+              parser = TextExtractor()
+              parser.feed(html)
+              return parser.text()
+
+          def parse_fed_fomc(html, updated_at):
+              text = html_text(html)
+              events = []
+              now_year = datetime.now(timezone.utc).year
+
+              for year in (now_year, now_year + 1):
+                  marker = f"{year} FOMC Meetings"
+                  pos = text.find(marker)
+                  if pos < 0:
+                      continue
+
+                  section = text[pos:pos + 7000]
+                  next_marker = section.find(f"{year + 1} FOMC Meetings")
+                  if next_marker > 0:
+                      section = section[:next_marker]
+
+                  for month, month_num in MONTHS.items():
+                      match = re.search(
+                          rf"\b{month}\b(.{{0,120}}?)(\d{{1,2}})(?:-(\d{{1,2}}))?",
+                          section,
+                          re.S
+                      )
+                      if not match:
+                          continue
+                      first_day = int(match.group(2))
+                      last_day = int(match.group(3) or first_day)
+                      start = f"{year:04d}-{month_num:02d}-{first_day:02d}T13:00:00Z"
+                      end = f"{year:04d}-{month_num:02d}-{last_day:02d}T20:00:00Z"
+
+                      events.append({
+                          "id": f"fomc-{year}-{month_num:02d}-{first_day:02d}",
+                          "title": "Federal Reserve FOMC Meeting",
+                          "start": start,
+                          "end": end,
+                          "country": "US",
+                          "region": "United States",
+                          "category": "central_bank",
+                          "importance": "high",
+                          "summary": "Scheduled Federal Open Market Committee monetary-policy meeting.",
+                          "sourceName": "Federal Reserve",
+                          "sourceUrl": FED_FOMC,
+                          "updatedAt": updated_at
+                      })
+              return events
+
+          def parse_ecb(html, updated_at):
+              text = html_text(html)
+              events = []
+              pattern = re.compile(
+                  r"(\d{2})/(\d{2})/(\d{4})\s+Governing Council of the ECB:"
+                  r".{0,260}?monetary policy meeting.{0,180}?"
+                  r"\(Day 2\), followed by press conference",
+                  re.S | re.I
+              )
+
+              for day, month, year in pattern.findall(text):
+                  start = f"{year}-{month}-{day}T12:30:00Z"
+                  events.append({
+                      "id": f"ecb-{year}-{month}-{day}",
+                      "title": "ECB Monetary Policy Decision",
+                      "start": start,
+                      "end": None,
+                      "country": "GLOBAL",
+                      "region": "Euro Area",
+                      "category": "central_bank",
+                      "importance": "high",
+                      "summary": "ECB Governing Council monetary-policy meeting followed by press conference.",
+                      "sourceName": "European Central Bank",
+                      "sourceUrl": ECB_MPC,
+                      "updatedAt": updated_at
+                  })
+              return events
+
+          def parse_boe(html, updated_at):
+              text = html_text(html)
+              events = []
+              now_year = datetime.now(timezone.utc).year
+
+              for year in (now_year, now_year + 1):
+                  pos = text.find(f"{year} confirmed dates")
+                  if pos < 0:
+                      pos = text.find(f"{year} provisional dates")
+                  if pos < 0:
+                      continue
+
+                  section = text[pos:pos + 3500]
+                  for month, month_num in MONTHS.items():
+                      days = re.findall(
+                          rf"(?:Monday|Tuesday|Wednesday|Thursday|Friday)\s+"
+                          rf"(\d{{1,2}})\s+{month}\b",
+                          section
+                      )
+                      for day_text in days:
+                          day = int(day_text)
+                          start = f"{year}-{month_num:02d}-{day:02d}T11:00:00Z"
+                          events.append({
+                              "id": f"boe-{year}-{month_num:02d}-{day:02d}",
+                              "title": "Bank of England MPC Decision",
+                              "start": start,
+                              "end": None,
+                              "country": "GLOBAL",
+                              "region": "United Kingdom",
+                              "category": "central_bank",
+                              "importance": "high",
+                              "summary": "Scheduled Bank of England Monetary Policy Committee decision.",
+                              "sourceName": "Bank of England",
+                              "sourceUrl": BOE_MPC,
+                              "updatedAt": updated_at
+                          })
+              return events
+
+          def parse_rbi(html, updated_at):
+              text = html_text(html)
+              events = []
+              pattern = re.compile(
+                  r"(January|February|March|April|May|June|July|August|September|October|November|December)"
+                  r"\s+(\d{1,2}),\s*(\d{1,2})\s+and\s+(\d{1,2}),\s*(\d{4})",
+                  re.I
+              )
+
+              for month_name, first_day, second_day, final_day, year in pattern.findall(text):
+                  month_num = MONTHS[month_name.title()]
+                  start = f"{int(year):04d}-{month_num:02d}-{int(first_day):02d}T03:30:00Z"
+                  end = f"{int(year):04d}-{month_num:02d}-{int(final_day):02d}T06:30:00Z"
+                  events.append({
+                      "id": f"rbi-mpc-{year}-{month_num:02d}-{int(first_day):02d}",
+                      "title": "RBI Monetary Policy Committee Meeting",
+                      "start": start,
+                      "end": end,
+                      "country": "IN",
+                      "region": "India",
+                      "category": "central_bank",
+                      "importance": "high",
+                      "summary": "Scheduled Reserve Bank of India Monetary Policy Committee meeting.",
+                      "sourceName": "Reserve Bank of India",
+                      "sourceUrl": RBI_MPC,
+                      "updatedAt": updated_at
+                  })
+              return events
+
+          def dedupe(events):
+              importance_rank = {"high": 0, "medium": 1, "low": 2}
+              seen = {}
+              for event in events:
+                  key = (
+                      event["title"].strip().lower(),
+                      event["start"][:10],
+                      event["category"],
+                      event["region"]
+                  )
+                  seen[key] = event
+              return sorted(
+                  seen.values(),
+                  key=lambda event: (
+                      event["start"],
+                      importance_rank.get(event["importance"], 9),
+                      event["title"]
+                  )
+              )
+
+          def collect(name, function, status, events):
+              try:
+                  rows = function()
+                  events.extend(rows)
+                  status[name] = {"status": "ok", "events": len(rows)}
+              except Exception as exc:
+                  status[name] = {
+                      "status": "error",
+                      "events": 0,
+                      "error": str(exc)[:220]
+                  }
+
+          now = datetime.now(timezone.utc)
+          updated_at = now.replace(microsecond=0).isoformat().replace("+00:00", "Z")
+          years = (now.year, now.year + 1)
+
+          if MANUAL.exists():
+              events = json.loads(MANUAL.read_text())
+          elif OUTPUT.exists():
+              events = json.loads(OUTPUT.read_text())
+          else:
+              events = []
+
+          status = {
+              "manual_fallback": {
+                  "status": "ok",
+                  "events": len(events)
+              }
+          }
+
+          def collect_holidays():
+              available = {
+                  row["countryCode"]
+                  for row in fetch_json(NAGER_COUNTRIES)
+              }
+              rows = []
+              for code, region in HOLIDAY_COUNTRIES.items():
+                  if code not in available:
+                      continue
+                  for year in years:
+                      url = f"https://date.nager.at/api/v3/PublicHolidays/{year}/{code}"
+                      for row in fetch_json(url):
+                          rows.append(
+                              normalize_holiday(code, region, row, updated_at)
+                          )
+              return rows
+
+          collect("world_holidays", collect_holidays, status, events)
+          collect(
+              "us_bls",
+              lambda: parse_bls_ics(fetch_text(BLS_ICS), updated_at),
+              status,
+              events
+          )
+          collect(
+              "federal_reserve",
+              lambda: parse_fed_fomc(fetch_text(FED_FOMC), updated_at),
+              status,
+              events
+          )
+          collect(
+              "ecb",
+              lambda: parse_ecb(fetch_text(ECB_MPC), updated_at),
+              status,
+              events
+          )
+          collect(
+              "bank_of_england",
+              lambda: parse_boe(fetch_text(BOE_MPC), updated_at),
+              status,
+              events
+          )
+          collect(
+              "rbi",
+              lambda: parse_rbi(fetch_text(RBI_MPC), updated_at),
+              status,
+              events
+          )
+
+          today = now.date().isoformat()
+          final_events = [
+              event for event in dedupe(events)
+              if event["start"][:10] >= today
+          ]
+
+          OUTPUT.write_text(
+              json.dumps(final_events, indent=2, ensure_ascii=False) + "\n"
+          )
+          STATUS.write_text(
+              json.dumps({
+                  "updatedAt": updated_at,
+                  "eventCount": len(final_events),
+                  "sources": status
+              }, indent=2) + "\n"
+          )
+
+          print(f"Generated {len(final_events)} upcoming events")
+          for source, details in status.items():
+              print(source, details)
+
+          if not final_events:
+              raise SystemExit("No events generated; refusing to publish an empty feed.")
+          PY
+
+      - name: Validate generated feed
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          events = json.loads(Path("events.json").read_text())
+          required = {
+              "id", "title", "start", "country", "region",
+              "category", "importance", "sourceName",
+              "sourceUrl", "updatedAt"
+          }
+
+          assert events, "events.json is empty"
+          for event in events:
+              missing = required - set(event)
+              assert not missing, f"Missing fields {missing}: {event}"
+              assert event["sourceUrl"].startswith("https://")
+              assert event["importance"] in {"high", "medium", "low"}
+
+          print(f"Validated {len(events)} events")
+          PY
+
+      - name: Commit updated feed
+        run: |
+          if git diff --quiet -- events.json source-status.json; then
+            echo "No changes to publish."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add events.json source-status.json
+          git commit -m "chore: refresh global events"
+          git push
