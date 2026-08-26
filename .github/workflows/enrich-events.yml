@@ -1,0 +1,57 @@
+name: Enrich Elections and India Macro Events
+
+on:
+  schedule:
+    # Run after the primary event refresh.
+    - cron: "40 2 * * *"
+    - cron: "40 5 * * *"
+    - cron: "40 8 * * *"
+    - cron: "40 9 * * *"
+    - cron: "40 14 * * *"
+    - cron: "40 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test political and macro sources
+        run: python -m unittest test_political_events.py test_macro_sources.py -v
+      - name: Refresh election calendar
+        run: python update_political_events.py
+      - name: Add official India macro schedule
+        run: python macro_sources.py
+      - name: Validate enriched feed
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          events=json.loads(Path('events.json').read_text())
+          assert events, 'events.json is empty'
+          ids={e['id'] for e in events}
+          assert 'us-federal-general-election-2026' in ids, '3 Nov 2026 US federal election missing'
+          assert any(e.get('eventKey')=='india_cpi' for e in events), 'India CPI schedule missing'
+          assert any(e.get('eventKey')=='india_iip' for e in events), 'India IIP schedule missing'
+          assert any(e.get('eventKey')=='india_gdp' for e in events), 'India GDP schedule missing'
+          print('Validated enriched feed:',len(events))
+          PY
+      - name: Commit enrichment
+        run: |
+          if git diff --quiet -- events.json political_events.json source-status.json; then
+            echo "No enrichment changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add events.json political_events.json source-status.json
+          git commit -m "chore: enrich elections and India macro events"
+          git push
