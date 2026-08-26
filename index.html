@@ -1,13 +1,96 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Global Events</title><link rel="stylesheet" href="./styles.css"></head><body>
-<main><header><div><p class="eyebrow">MARKET & WORLD CALENDAR</p><h1>Global Events</h1><p class="sub">Important upcoming dates across India, the US and the world.</p></div><div id="count" class="count"></div></header>
-<section class="quick"><button data-win="today">Today</button><button data-win="7d">Next 7 Days</button><button class="active" data-win="30d">Next 30 Days</button><button data-win="all">All Upcoming</button></section>
-<section class="toolbar">
-<label>Search<input id="q" placeholder="Search events"></label>
-<label>Country<select id="country"><option value="all">All</option><option value="IN">India</option><option value="US">United States</option><option value="GLOBAL">Global</option></select></label>
-<label>Category<select id="category"><option value="all">All categories</option><option value="central_bank">Central banks</option><option value="politics">Politics</option><option value="geopolitical">Geopolitical</option><option value="holiday">Market holidays</option><option value="economic">Economic</option><option value="earnings">Earnings</option><option value="ipo">IPO</option><option value="crypto">Crypto</option><option value="sports">Sports</option><option value="other">Other</option></select></label>
-<label>Importance<select id="importance"><option value="all">All</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option></select></label>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Global Market Events</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<main>
+<header>
+  <div>
+    <p class="eyebrow">MARKET EVENT INTELLIGENCE</p>
+    <h1>Global Events</h1>
+    <p class="sub">Important dates and their historical NIFTY 50 / S&amp;P 500 market reactions.</p>
+  </div>
+  <div id="count" class="count"></div>
+</header>
+
+<section id="updateBar" class="updatebar">
+  <span class="statusdot"></span>
+  <strong id="updateState">Checking update status…</strong>
+  <span id="lastUpdated"></span>
+  <span id="sourceHealth"></span>
 </section>
-<div class="switch"><button class="active" id="listBtn">List</button><button id="calBtn">Calendar</button></div>
-<div id="status"></div><section id="events"></section>
-<footer>Dates are sourced from official/public calendars. Always open the source before acting on a market-sensitive event.</footer>
-</main><script type="module" src="./app.js"></script></body></html>
+
+<section id="moversSection" class="movers-section" hidden>
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">UPCOMING MARKET MOVERS</p>
+      <h2>Highest historical impact</h2>
+    </div>
+    <span class="method-note">Based on average absolute 1-day index movement</span>
+  </div>
+  <div id="movers" class="movers"></div>
+</section>
+
+<section class="quick">
+  <button data-win="today">Today</button>
+  <button data-win="7d">Next 7 Days</button>
+  <button class="active" data-win="30d">Next 30 Days</button>
+  <button data-win="all">All Upcoming</button>
+</section>
+
+<section class="toolbar">
+  <label>Search<input id="q" placeholder="Search events"></label>
+  <label>Country<select id="country">
+    <option value="all">All</option><option value="IN">India</option>
+    <option value="US">United States</option><option value="GLOBAL">Global</option>
+  </select></label>
+  <label>Category<select id="category">
+    <option value="all">All categories</option>
+    <option value="central_bank">Central banks</option>
+    <option value="politics">Politics</option>
+    <option value="geopolitical">Geopolitical</option>
+    <option value="holiday">Market holidays</option>
+    <option value="economic">Economic</option>
+    <option value="earnings">Earnings</option>
+    <option value="ipo">IPO</option>
+    <option value="crypto">Crypto</option>
+    <option value="sports">Sports</option>
+    <option value="other">Other</option>
+  </select></label>
+  <label>Importance<select id="importance">
+    <option value="all">All</option><option value="high">High</option>
+    <option value="medium">Medium</option><option value="low">Low</option>
+  </select></label>
+  <label>Market impact<select id="impact">
+    <option value="all">All historical impact</option>
+    <option value="very_high">Very high</option>
+    <option value="high">High</option>
+    <option value="medium">Medium</option>
+    <option value="low">Low</option>
+    <option value="no_history">No history yet</option>
+  </select></label>
+  <label>Sort<select id="sort">
+    <option value="date">Soonest first</option>
+    <option value="impact">Highest market impact</option>
+  </select></label>
+</section>
+
+<div class="switch">
+  <button class="active" id="listBtn">List</button>
+  <button id="calBtn">Calendar</button>
+</div>
+
+<div id="status"></div>
+<section id="events"></section>
+
+<footer>
+  Historical up/down frequencies and movement statistics describe past market behaviour; they are not predictions or guarantees. Dates are sourced from official/public calendars. Always verify the official source before trading.
+</footer>
+</main>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
