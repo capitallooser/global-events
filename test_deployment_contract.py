@@ -1,25 +1,24 @@
-import json, unittest
+import unittest
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parent
 
 class DeploymentContractTests(unittest.TestCase):
-    def test_live_config_exists_and_does_not_guess_worker_url(self):
-        path=ROOT/'live-config.json'
-        self.assertTrue(path.exists())
-        cfg=json.loads(path.read_text())
-        self.assertIn('liveDataBase',cfg)
-        value=cfg['liveDataBase']
-        self.assertTrue(value=='' or value.startswith('https://'))
-        if value:
-            self.assertNotIn('<account-subdomain>',value)
+    def test_cloudflare_is_not_a_production_dependency(self):
+        self.assertFalse((ROOT/'live-config.json').exists())
+        self.assertFalse((ROOT/'.github/workflows/deploy-worker.yml').exists())
 
-    def test_worker_deployment_workflow_references_secret_names_not_values(self):
-        text=(ROOT/'.github/workflows/deploy-worker.yml').read_text()
-        self.assertIn('CLOUDFLARE_API_TOKEN',text)
-        self.assertIn('CLOUDFLARE_ACCOUNT_ID',text)
-        self.assertIn('cloudflare/wrangler-action@v3',text)
-        self.assertIn('workingDirectory: worker',text)
+    def test_market_prices_refresh_every_five_minutes(self):
+        text=(ROOT/'.github/workflows/market-prices.yml').read_text()
+        self.assertIn('*/5 * * * *',text)
+        self.assertNotIn('Cloudflare Worker',text)
+
+    def test_news_refresh_workflow_exists(self):
+        text=(ROOT/'.github/workflows/news.yml').read_text()
+        self.assertIn('*/5 * * * *',text)
+        self.assertIn('node refresh_news.mjs',text)
+        self.assertIn('news.json',text)
+        self.assertIn('nifty-in-news.json',text)
 
     def test_nifty50_fallback_sync_workflow_exists(self):
         text=(ROOT/'.github/workflows/nifty50.yml').read_text()
