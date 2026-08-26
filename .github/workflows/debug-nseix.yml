@@ -14,40 +14,52 @@ jobs:
   inspect:
     runs-on: ubuntu-latest
     steps:
-      - name: Inspect public NSE IX responses
+      - name: Inspect NSE IX JavaScript data endpoints
         shell: bash
         run: |
           python - <<'PY'
           import re, urllib.request
           from urllib.parse import urljoin
 
-          pages=[
-            'https://www.nseix.com/',
-            'https://www1.nseix.com/',
-            'https://www.nseix.com/markets/most-active',
-            'https://www1.nseix.com/markets/most-active',
-            'https://www.nseix.com/markets/derivatives-watch',
-          ]
-          for url in pages:
-              print('\n===',url,'===')
-              try:
-                  req=urllib.request.Request(url,headers={
-                      'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36',
-                      'Accept':'text/html,application/xhtml+xml,application/json,*/*',
-                      'Accept-Language':'en-US,en;q=0.9',
-                  })
-                  with urllib.request.urlopen(req,timeout=25) as r:
-                      raw=r.read().decode('utf-8','replace')
-                      print('status',r.status,'length',len(raw),'content-type',r.headers.get('content-type'))
-                  low=raw.lower()
-                  for token in ['gift nifty','near month','24329','derivatives-watch','most-active','api/']:
-                      print(token, token in low)
-                  for pattern in [r'.{0,160}gift.{0,220}',r'.{0,160}near month.{0,220}',r'.{0,120}/api/.{0,220}',r'.{0,120}ajax.{0,220}']:
-                      hits=re.findall(pattern,raw,re.I|re.S)
-                      for hit in hits[:8]: print('MATCH',re.sub(r'\s+',' ',hit)[:500])
-                  scripts=re.findall(r'<script[^>]+src=["\']([^"\']+)["\']',raw,re.I)
-                  print('scripts',len(scripts))
-                  for src in scripts[-15:]: print('SCRIPT',urljoin(url,src))
+          headers={
+              'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36',
+              'Accept':'*/*','Accept-Language':'en-US,en;q=0.9'
+          }
+          def fetch(url):
+              req=urllib.request.Request(url,headers=headers)
+              with urllib.request.urlopen(req,timeout=30) as r:
+                  return r.read().decode('utf-8','replace')
+
+          homes=['https://www.nseix.com/','https://www1.nseix.com/']
+          scripts=[]
+          for home in homes:
+              raw=fetch(home)
+              for src in re.findall(r'<script[^>]+src=["\']([^"\']+)["\']',raw,re.I):
+                  full=urljoin(home,src)
+                  if 'jquery' not in full.lower() and full not in scripts:scripts.append(full)
+
+          print('Scripts to inspect:',len(scripts))
+          endpoint_candidates=set()
+          for url in scripts:
+              try:raw=fetch(url)
               except Exception as exc:
-                  print('ERROR',repr(exc))
+                  print('SCRIPT ERROR',url,repr(exc));continue
+              print('\n=== SCRIPT',url,'length',len(raw),'===')
+              for pattern in [
+                  r'https?://[^"\'`\\\s]+',
+                  r'["\']([^"\']*(?:api|market|index|quote|future|nifty)[^"\']*)["\']'
+              ]:
+                  for hit in re.findall(pattern,raw,re.I):
+                      val=hit if isinstance(hit,str) else hit[0]
+                      if 4 < len(val) < 300:endpoint_candidates.add(val)
+              for token in ['gift nifty','gift_nifty','near month','mostactive','most-active','derivatives','marketwatch','livewatch','indexvalue','nifty']:
+                  pos=raw.lower().find(token)
+                  if pos>=0:
+                      snippet=re.sub(r'\s+',' ',raw[max(0,pos-500):pos+800])
+                      print('TOKEN',token,'=>',snippet[:1300])
+          print('\n=== ENDPOINT CANDIDATES ===')
+          for item in sorted(endpoint_candidates):
+              low=item.lower()
+              if any(k in low for k in ['api','market','nifty','quote','future','index','live']):
+                  print(item[:300])
           PY
