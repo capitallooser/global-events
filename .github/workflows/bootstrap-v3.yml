@@ -1,5 +1,6 @@
 name: Bootstrap Market Intelligence V3 Data
 
+# One-time production bootstrap: rerun after GIFT Nifty parser correction.
 on:
   push:
     branches:
