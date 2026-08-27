@@ -1,0 +1,46 @@
+name: Refresh Market News
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-live-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Test news logic
+        run: node --test test_worker_news.mjs test_worker_nifty.mjs test_news_ui.mjs
+      - name: Refresh market news
+        run: node refresh_news.mjs
+      - name: Validate output
+        run: |
+          node - <<'NODE'
+          const fs=require('node:fs');
+          const news=JSON.parse(fs.readFileSync('news.json','utf8'));
+          const nifty=JSON.parse(fs.readFileSync('nifty-in-news.json','utf8'));
+          if(!Array.isArray(news.items)) throw new Error('news.items must be an array');
+          if(!Array.isArray(nifty.items)) throw new Error('nifty items must be an array');
+          console.log(`Validated ${news.items.length} news stories and ${nifty.items.length} NIFTY rows`);
+          NODE
+      - name: Commit changed news feeds
+        run: |
+          if git diff --quiet -- news.json nifty-in-news.json; then
+            echo "No news feed changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news.json nifty-in-news.json
+          git commit -m "chore: refresh market news"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push

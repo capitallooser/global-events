@@ -14,10 +14,16 @@
   <div>
     <p class="eyebrow">MARKET EVENT INTELLIGENCE</p>
     <h1>Global Events</h1>
-    <p class="sub">Upcoming market catalysts, historical reactions, elections and zero-cost market monitoring.</p>
+    <p class="sub">Upcoming market catalysts, historical reactions, elections, market-moving news and zero-cost market monitoring.</p>
   </div>
   <div id="count" class="count"></div>
 </header>
+
+<section id="marketTicker" class="market-ticker" aria-label="Market ticker">
+  <div class="ticker-viewport">
+    <div id="tickerTrack" class="ticker-track" aria-live="off"></div>
+  </div>
+</section>
 
 <nav id="tabs" class="tabs" aria-label="Dashboard sections">
   <button class="active" data-tab="overview">Overview</button>
@@ -26,24 +32,14 @@
   <button data-tab="us">US</button>
   <button data-tab="global">Global</button>
   <button data-tab="movers">Market Movers</button>
+  <button data-tab="news">News</button>
   <button data-tab="ai">AI Assistant</button>
   <button data-tab="alerts">Alerts</button>
 </nav>
 
 <section id="updateBar" class="updatebar">
   <span class="statusdot"></span><strong id="updateState">Checking update status…</strong>
-  <span id="lastUpdated"></span><span id="sourceHealth"></span><span id="liveRefreshState" class="live-refresh-state">Auto-refresh starting…</span>
-</section>
-
-<section id="marketStripSection" class="market-section">
-  <div class="section-head"><div><p class="eyebrow">MARKETS</p><h2 id="marketStripTitle">Market snapshot</h2></div><span id="marketUpdated" class="method-note"></span></div>
-  <div class="market-strip">
-    <article id="giftNiftyLive" class="quote" style="min-width:260px;display:block;padding:8px 10px">
-      <tv-single-ticker symbol="NSEIX:NIFTY1!" style="display:block;width:100%"></tv-single-ticker>
-      <small style="display:block;margin-top:4px">GIFT Nifty 50 futures · TradingView / NSE IX</small>
-    </article>
-    <div id="marketStrip" style="display:contents"></div>
-  </div>
+  <span id="lastUpdated"></span><span id="sourceHealth"></span><span id="liveRefreshState" class="live-refresh-state">1-minute auto-refresh starting…</span>
 </section>
 
 <section id="sharedFilters" class="shared-filters" aria-label="Event filters">
@@ -93,6 +89,14 @@
     <div class="section-head"><div><p class="eyebrow">UPCOMING MARKET MOVERS</p><h2>Top 5 upcoming market movers</h2></div><span class="method-note">Historical impact first</span></div>
     <div id="movers" class="movers"></div>
   </section>
+  <section class="news-section overview-news-section">
+    <div class="section-head"><div><p class="eyebrow">BREAKING / MARKET-MOVING</p><h2>Market-moving news</h2></div><span class="method-note">High + Very High relevance</span></div>
+    <div id="marketMovingNews"><div class="empty compact-empty">Live news will appear here.</div></div>
+  </section>
+  <section class="news-section">
+    <div class="section-head"><div><p class="eyebrow">NIFTY 50</p><h2>NIFTY 50 Stocks in News</h2></div><span class="method-note">Reason + source evidence</span></div>
+    <div id="niftyInNews"><div class="empty compact-empty">NIFTY 50 news matches will appear here.</div></div>
+  </section>
   <div class="panel-title"><div><p class="eyebrow">UPCOMING</p><h2>Filtered upcoming events</h2></div></div>
   <section id="overviewEvents"></section>
 </section>
@@ -113,13 +117,30 @@
   <div id="calendarGrid" class="calendar-grid"></div>
 </section>
 
-<section id="indiaPanel" class="tab-panel"><div class="panel-title"><div><p class="eyebrow">INDIA</p><h2>India market calendar</h2><p class="sub">RBI, CPI, WPI, GDP, IIP, elections and market events.</p></div></div><section id="indiaEvents"></section></section>
+<section id="indiaPanel" class="tab-panel">
+  <div class="panel-title"><div><p class="eyebrow">INDIA</p><h2>India market calendar</h2><p class="sub">RBI, CPI, WPI, GDP, IIP, elections and market events.</p></div></div>
+  <section class="news-section region-news"><div class="section-head"><div><p class="eyebrow">NIFTY 50</p><h2>Stocks in News</h2></div></div><div id="indiaNiftyInNews"><div class="empty compact-empty">NIFTY 50 news matches will appear here.</div></div></section>
+  <section id="indiaEvents"></section>
+</section>
 <section id="usPanel" class="tab-panel"><div class="panel-title"><div><p class="eyebrow">UNITED STATES</p><h2>US market calendar</h2><p class="sub">FOMC, CPI, NFP, PPI, JOLTS, elections and major releases.</p></div></div><section id="usEvents"></section></section>
-<section id="globalPanel" class="tab-panel"><div class="panel-title"><div><p class="eyebrow">GLOBAL</p><h2>Global catalysts</h2></div></div><section id="globalEvents"></section></section>
+<section id="globalPanel" class="tab-panel"><div class="panel-title"><div><p class="eyebrow">GLOBAL</p><h2>Global catalysts</h2><p class="sub">Major central-bank, geopolitical and cross-market events.</p></div></div><section id="globalEvents"></section></section>
 
 <section id="moversPanel" class="tab-panel">
   <div class="panel-title"><div><p class="eyebrow">RANKED BY HISTORY</p><h2>Market Movers</h2><p class="sub">Use the shared filters above to narrow this ranking.</p></div></div>
   <section id="rankedEvents"></section>
+</section>
+
+<section id="newsPanel" class="tab-panel">
+  <div class="panel-title"><div><p class="eyebrow">LIVE MARKET INTELLIGENCE</p><h2>Market News</h2><p class="sub">Major India, US and Global market-moving headlines with transparent relevance ranking.</p></div></div>
+  <div class="news-filter-toolbar">
+    <label>Region<select id="newsRegion"><option value="all">All regions</option><option value="IN">India</option><option value="US">United States</option><option value="GLOBAL">Global</option></select></label>
+    <label>Relevance<select id="newsRelevance"><option value="all">All relevance</option><option value="very_high">Very High</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option></select></label>
+    <label>Category<select id="newsCategory"><option value="all">All categories</option><option value="central_bank">Central banks / rates</option><option value="inflation_macro">Inflation / macro</option><option value="geopolitics">Geopolitics</option><option value="government_regulation">Government / regulation</option><option value="oil_commodities">Oil / commodities</option><option value="earnings_guidance">Earnings / guidance</option><option value="corporate_actions">Corporate actions / M&amp;A</option><option value="banking_credit">Banking / credit</option><option value="technology">Technology</option><option value="crypto">Crypto</option><option value="other_market_moving">Other</option></select></label>
+    <label>Source<select id="newsSource"><option value="all">All sources</option></select></label>
+    <label class="news-search">Search<input id="newsQuery" placeholder="Search market news"></label>
+    <label class="toggle-filter"><input id="newsNiftyOnly" type="checkbox"> NIFTY 50 only</label>
+  </div>
+  <div id="allNews"><div class="empty">Live market news will appear here.</div></div>
 </section>
 
 <section id="aiPanel" class="tab-panel">
@@ -138,27 +159,10 @@
   <div class="setup-card"><h3>Very High Impact alerts</h3><p>Telegram is sent by GitHub Actions. Bot credentials are stored only in GitHub Secrets and never exposed on this public site.</p><ol><li>Create a Telegram bot with BotFather.</li><li>Add <code>TELEGRAM_BOT_TOKEN</code> and <code>TELEGRAM_CHAT_ID</code> in repository Actions secrets.</li><li>Run the Telegram Alerts workflow once to test.</li></ol><p id="alertState" class="method-note"></p></div>
 </section>
 
-<footer>Historical frequencies and movement statistics describe past behaviour, not future certainty. Free/public market quotes may be delayed. Verify official sources before trading.</footer>
+<footer>Historical frequencies and movement statistics describe past behaviour, not future certainty. Free/public market quotes and news feeds may be delayed. Verify original and official sources before trading.</footer>
 </main>
 
 <dialog id="detailDialog" class="detail-dialog"><button id="closeDialog" class="dialog-close" aria-label="Close">×</button><div id="detailContent"></div></dialog>
-<script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-single-ticker.js"></script>
 <script type="module" src="./app.js"></script>
-<script>
-(function(){
-  function syncGiftNifty(){
-    const active=document.querySelector('#tabs button.active')?.dataset.tab||'overview';
-    const widget=document.getElementById('giftNiftyLive');
-    if(widget)widget.hidden=!['overview','india'].includes(active);
-    document.querySelectorAll('#marketStrip .quote').forEach(card=>{
-      if(card.querySelector('strong')?.textContent.trim()==='GIFT Nifty')card.hidden=true;
-    });
-  }
-  const strip=document.getElementById('marketStrip');
-  if(strip)new MutationObserver(syncGiftNifty).observe(strip,{childList:true});
-  document.querySelectorAll('#tabs button').forEach(button=>button.addEventListener('click',()=>setTimeout(syncGiftNifty,0)));
-  setTimeout(syncGiftNifty,0);
-})();
-</script>
 </body>
 </html>

@@ -17,28 +17,15 @@ class MarketPriceTests(unittest.TestCase):
         q = mp.normalize_quote('sp500','S&P 500',6500,6480,old.timestamp(),'Yahoo Finance',now)
         self.assertEqual(q['status'],'Delayed')
 
-    def test_preserve_cached_quote_on_failure(self):
-        cached={'price':100,'change':1,'changePct':1,'sourceTimestamp':'2026-08-26T10:00:00Z','sourceName':'x','status':'Live'}
-        q=mp.unavailable_or_cached('gift_nifty','GIFT Nifty',cached,'source failed')
-        self.assertEqual(q['price'],100)
+    def test_instrument_contract_has_crude_and_no_gift_nifty(self):
+        self.assertIn('crude', mp.INSTRUMENTS)
+        self.assertEqual(mp.INSTRUMENTS['crude'], ('WTI Crude Oil', ['CL=F']))
+        self.assertNotIn('gift_nifty', mp.INSTRUMENTS)
+
+    def test_cached_crude_falls_back_to_last_available(self):
+        cached={'price':64.5,'change':1.0,'changePct':1.57,'sourceTimestamp':'2026-08-26T10:00:00Z','sourceName':'Yahoo Finance','status':'Live'}
+        q=mp.unavailable_or_cached('crude','WTI Crude Oil',cached,'source failed')
+        self.assertEqual(q['price'],64.5)
         self.assertEqual(q['status'],'Last available')
-
-    def test_parse_nseix_gift_snapshot(self):
-        now=datetime(2026,8,21,11,0,tzinfo=timezone.utc)
-        text="24,231.85\n153.55 (0.64%)\nNormal Market Open\nCurrent Day\nDate : 21-Aug-2026"
-        q=mp.parse_nseix_gift(text,now)
-        self.assertEqual(q['key'],'gift_nifty')
-        self.assertEqual(q['price'],24231.85)
-        self.assertAlmostEqual(q['changePct'],0.64)
-        self.assertEqual(q['sourceName'],'NSE IX')
-
-    def test_parse_nseix_near_month_gift_future_block(self):
-        now=datetime(2026,8,21,11,0,tzinfo=timezone.utc)
-        text='''Current Day\nDate : 21-Aug-2026\nIntra Day Price - Near month GIFT NIFTY Future\n24329\n43 (0.18%)\nOpen\n24282.5\nHigh\n24364'''
-        q=mp.parse_nseix_gift(text,now)
-        self.assertEqual(q['price'],24329)
-        self.assertEqual(q['change'],43)
-        self.assertAlmostEqual(q['changePct'],0.18)
-        self.assertEqual(q['status'],'Delayed')
 
 if __name__=='__main__': unittest.main()

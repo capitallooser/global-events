@@ -4,6 +4,13 @@ on:
   schedule:
     # Once daily after the final event/market enrichment run.
     - cron: "45 16 * * *"
+  push:
+    branches:
+      - feature/minute-market-intelligence
+    paths:
+      - "analyze_market_impact.py"
+      - "historical_event_dates.py"
+      - ".github/workflows/market-impact.yml"
   workflow_dispatch:
 
 permissions:
@@ -15,14 +22,19 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Test historical analysis
-        run: python -m unittest test_market_impact.py -v
+      - name: Test historical date sources and analysis
+        run: python -m unittest test_historical_event_dates.py test_market_impact.py -v
+
+      - name: Refresh official India and global historical dates
+        run: python historical_event_dates.py
 
       - name: Build expanded historical reaction statistics
         run: python analyze_market_impact.py
@@ -33,26 +45,37 @@ jobs:
           import json
           from pathlib import Path
 
-          path = Path("market-impact.json")
-          assert path.exists(), "market-impact.json was not generated"
-          data = json.loads(path.read_text())
-          assert "updatedAt" in data
-          assert "eventTypes" in data
-          expected={"nifty","banknifty","sensex","sp500","nasdaq","gold","usdinr","bitcoin"}
-          assert expected <= set(data.get("benchmarks",{})), f"Missing benchmark metadata: {expected-set(data.get('benchmarks',{}))}"
-          print("Event types analyzed:", len(data["eventTypes"]))
-          for key, row in data["eventTypes"].items():
-              assert row["impactLevel"] in {"very_high", "high", "medium", "low", "no_history"}
+          dates=Path('historical-event-dates.json')
+          assert dates.exists(), 'historical-event-dates.json was not generated'
+          dp=json.loads(dates.read_text())
+          assert isinstance(dp.get('rows'),list)
+          for row in dp['rows']:
+              assert row['sourceUrl'].startswith('https://')
+
+          path=Path('market-impact.json')
+          assert path.exists(), 'market-impact.json was not generated'
+          data=json.loads(path.read_text())
+          assert 'updatedAt' in data and 'eventTypes' in data
+          expected={'nifty','banknifty','sensex','sp500','nasdaq','gold','crude','usdinr','bitcoin'}
+          assert expected <= set(data.get('benchmarks',{})), f"Missing benchmark metadata: {expected-set(data.get('benchmarks',{}))}"
+          for key,row in data['eventTypes'].items():
+              assert row['impactLevel'] in {'very_high','high','medium','low','no_history'}
+              if row.get('historicalEvents',0)>0:
+                  assert row.get('markets') is not None
+          for key in ('rbi_mpc','india_cpi','india_iip','boe_mpc'):
+              row=data['eventTypes'].get(key)
+              assert row and row.get('historicalEvents',0)>0, f'Missing generated historical family: {key}'
+          print('Event types analyzed:',len(data['eventTypes']))
           PY
 
       - name: Commit changed analysis
         run: |
-          if git diff --quiet -- market-impact.json; then
+          if git diff --quiet -- market-impact.json historical-event-dates.json; then
             echo "No historical analysis changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add market-impact.json
+          git add market-impact.json historical-event-dates.json
           git commit -m "chore: update historical market impact"
           git push

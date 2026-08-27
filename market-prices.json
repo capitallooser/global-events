@@ -1,135 +1,26 @@
 {
   "updatedAt": "2026-08-26T21:35:37Z",
   "instruments": [
-    {
-      "key": "nifty",
-      "label": "NIFTY 50",
-      "price": 24207.75,
-      "change": -126.8,
-      "changePct": -0.521,
-      "sourceTimestamp": "2026-08-26T09:55:00Z",
-      "sourceName": "Yahoo Finance",
-      "status": "Delayed"
-    },
-    {
-      "key": "banknifty",
-      "label": "Bank NIFTY",
-      "price": 57783.75,
-      "change": 269.55,
-      "changePct": 0.469,
-      "sourceTimestamp": "2026-08-26T09:55:00Z",
-      "sourceName": "Yahoo Finance",
-      "status": "Delayed"
-    },
-    {
-      "key": "sensex",
-      "label": "Sensex",
-      "price": 77472.9375,
-      "change": -183.1525,
-      "changePct": -0.236,
-      "sourceTimestamp": "2026-08-26T09:55:00Z",
-      "sourceName": "Yahoo Finance",
-      "status": "Delayed"
-    },
-    {
-      "key": "gift_nifty",
-      "label": "GIFT Nifty",
-      "price": null,
-      "change": null,
-      "changePct": null,
-      "sourceTimestamp": null,
-      "sourceName": null,
-      "status": "Unavailable",
-      "error": "HTTP Error 404: Not Found; HTTP Error 404: Not Found; NSE IX https://www.nseix.com/: unable to parse GIFT Nifty from NSE IX; NSE IX https://www1.nseix.com/: unable to parse GIFT Ni"
-    },
-    {
-      "key": "sp500",
-      "label": "S&P 500",
-      "price": 7675.7,
-      "change": -1.58,
-      "changePct": -0.021,
-      "sourceTimestamp": "2026-08-26T20:35:00Z",
-      "sourceName": "Yahoo Finance",
-      "status": "Delayed"
-    },
-    {
-      "key": "nasdaq",
-      "label": "Nasdaq Composite",
-      "price": 26130.197,
-      "change": -21.102,
-      "changePct": -0.081,
-      "sourceTimestamp": "2026-08-26T21:15:00Z",
-      "sourceName": "Yahoo Finance",
-      "status": "Live"
-    },
-    {
-      "key": "gold",
-      "label": "Gold",
-      "price": 4647.7998,
-      "change": -46.7002,
-      "changePct": -0.995,
-      "sourceTimestamp": "2026-08-26T20:59:59Z",
-      "sourceName": "Yahoo Finance",
-      "status": "Live"
-    },
-    {
-      "key": "usdinr",
-      "label": "USD/INR",
-      "price": 95.402,
-      "change": 0.0,
-      "changePct": 0.0,
-      "sourceTimestamp": "2026-08-26T20:00:31Z",
-      "sourceName": "Yahoo Finance",
-      "status": "Delayed"
-    },
-    {
-      "key": "bitcoin",
-      "label": "Bitcoin",
-      "price": 78776.8828,
-      "change": 248.4688,
-      "changePct": 0.316,
-      "sourceTimestamp": "2026-08-26T21:35:38Z",
-      "sourceName": "Yahoo Finance",
-      "status": "Live"
-    }
+    {"key":"nifty","label":"NIFTY 50","price":24207.75,"change":-126.8,"changePct":-0.521,"sourceTimestamp":"2026-08-26T09:55:00Z","sourceName":"Yahoo Finance","status":"Delayed"},
+    {"key":"banknifty","label":"Bank NIFTY","price":57783.75,"change":269.55,"changePct":0.469,"sourceTimestamp":"2026-08-26T09:55:00Z","sourceName":"Yahoo Finance","status":"Delayed"},
+    {"key":"sensex","label":"Sensex","price":77472.9375,"change":-183.1525,"changePct":-0.236,"sourceTimestamp":"2026-08-26T09:55:00Z","sourceName":"Yahoo Finance","status":"Delayed"},
+    {"key":"sp500","label":"S&P 500","price":7675.7,"change":-1.58,"changePct":-0.021,"sourceTimestamp":"2026-08-26T20:35:00Z","sourceName":"Yahoo Finance","status":"Delayed"},
+    {"key":"nasdaq","label":"Nasdaq Composite","price":26130.197,"change":-21.102,"changePct":-0.081,"sourceTimestamp":"2026-08-26T21:15:00Z","sourceName":"Yahoo Finance","status":"Live"},
+    {"key":"gold","label":"Gold","price":4647.7998,"change":-46.7002,"changePct":-0.995,"sourceTimestamp":"2026-08-26T20:59:59Z","sourceName":"Yahoo Finance","status":"Live"},
+    {"key":"crude","label":"WTI Crude Oil","price":null,"change":null,"changePct":null,"sourceTimestamp":null,"sourceName":null,"status":"Unavailable","error":"Awaiting next free market-data refresh."},
+    {"key":"usdinr","label":"USD/INR","price":95.402,"change":0.0,"changePct":0.0,"sourceTimestamp":"2026-08-26T20:00:31Z","sourceName":"Yahoo Finance","status":"Delayed"},
+    {"key":"bitcoin","label":"Bitcoin","price":78776.8828,"change":248.4688,"changePct":0.316,"sourceTimestamp":"2026-08-26T21:35:38Z","sourceName":"Yahoo Finance","status":"Live"}
   ],
   "sourceHealth": {
-    "nifty": {
-      "status": "ok",
-      "symbol": "^NSEI"
-    },
-    "banknifty": {
-      "status": "ok",
-      "symbol": "^NSEBANK"
-    },
-    "sensex": {
-      "status": "ok",
-      "symbol": "^BSESN"
-    },
-    "gift_nifty": {
-      "status": "error",
-      "error": "HTTP Error 404: Not Found; HTTP Error 404: Not Found; NSE IX https://www.nseix.com/: unable to parse GIFT Nifty from NSE IX; NSE IX https://www1.nseix.com/: unable to parse GIFT Ni"
-    },
-    "sp500": {
-      "status": "ok",
-      "symbol": "^GSPC"
-    },
-    "nasdaq": {
-      "status": "ok",
-      "symbol": "^IXIC"
-    },
-    "gold": {
-      "status": "ok",
-      "symbol": "GC=F"
-    },
-    "usdinr": {
-      "status": "ok",
-      "symbol": "INR=X"
-    },
-    "bitcoin": {
-      "status": "ok",
-      "symbol": "BTC-USD"
-    }
+    "nifty":{"status":"ok","symbol":"^NSEI"},
+    "banknifty":{"status":"ok","symbol":"^NSEBANK"},
+    "sensex":{"status":"ok","symbol":"^BSESN"},
+    "sp500":{"status":"ok","symbol":"^GSPC"},
+    "nasdaq":{"status":"ok","symbol":"^IXIC"},
+    "gold":{"status":"ok","symbol":"GC=F"},
+    "crude":{"status":"error","error":"Awaiting next free market-data refresh."},
+    "usdinr":{"status":"ok","symbol":"INR=X"},
+    "bitcoin":{"status":"ok","symbol":"BTC-USD"}
   },
   "disclaimer": "Free/public market data may be delayed. This feed is not exchange-grade tick data."
 }

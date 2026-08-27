@@ -1,0 +1,62 @@
+name: Sync NIFTY 50 Constituents
+
+on:
+  schedule:
+    - cron: "20 0 * * *"
+  push:
+    branches:
+      - feature/minute-market-intelligence
+    paths:
+      - "sync_nifty50.py"
+      - "test_nifty50.py"
+      - ".github/workflows/nifty50.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test constituent normalizer
+        run: python -m unittest test_nifty50.py -v
+
+      - name: Sync official NIFTY 50 list
+        run: python sync_nifty50.py
+
+      - name: Validate fallback
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('nifty50.json').read_text())
+          rows=data.get('constituents',[])
+          assert 45 <= len(rows) <= 55, f'Unexpected NIFTY 50 row count: {len(rows)}'
+          symbols=[r['symbol'] for r in rows]
+          assert len(symbols)==len(set(symbols)), 'Duplicate NIFTY symbols'
+          assert all(r.get('aliases') for r in rows), 'Every constituent needs aliases'
+          print('Validated NIFTY 50 fallback:',len(rows))
+          PY
+
+      - name: Commit changed constituent list
+        run: |
+          if git diff --quiet -- nifty50.json; then
+            echo "No constituent changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add nifty50.json
+          git commit -m "chore: sync NIFTY 50 constituents"
+          git push

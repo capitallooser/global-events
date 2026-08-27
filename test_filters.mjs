@@ -35,7 +35,7 @@ test('legacy search, category and importance filters still combine',()=>{
  assert.deepEqual(out.map(x=>x.id),['in-cpi']);
 });
 
-test('live refresh policy uses 2 minute market and 5 minute dashboard intervals',async()=>{
+test('all dashboard data refreshes every minute',async()=>{
  const core=await import('./core.mjs');
- assert.deepEqual(core.LIVE_REFRESH_MS,{market:120000,data:300000});
+ assert.equal(core.LIVE_REFRESH_MS,60000);
 });

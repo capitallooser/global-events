@@ -32,7 +32,9 @@ jobs:
         run: node --test test_*.mjs
 
       - name: Check JavaScript syntax
-        run: node --check app.js
+        run: |
+          node --check app.js
+          node --check refresh_news.mjs
 
       - name: Compile Python files
         run: python -m py_compile *.py
@@ -62,8 +64,9 @@ jobs:
 
           required = [
               'index.html','app.js','styles.css','events.json','source-status.json',
-              'market-impact.json','market-prices.json','update_market_prices.py',
-              'update_political_events.py','macro_sources.py','india_exchange_events.py'
+              'market-impact.json','market-prices.json','news.json','nifty-in-news.json',
+              'refresh_news.mjs','update_market_prices.py','update_political_events.py',
+              'macro_sources.py','india_exchange_events.py'
           ]
           missing = [p for p in required if not Path(p).exists()]
           assert not missing, f'Missing required files: {missing}'
