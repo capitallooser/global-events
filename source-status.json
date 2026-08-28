@@ -31,9 +31,9 @@
       "events": 6
     },
     "india_elections": {
-      "status": "ok",
+      "status": "error",
       "events": 0,
-      "source": "Election Commission of India"
+      "error": "HTTP Error 406: Not Acceptable"
     },
     "us_elections": {
       "status": "ok",
