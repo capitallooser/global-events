@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-26T18:56:41Z",
-  "eventCount": 722,
+  "updatedAt": "2026-08-28T07:07:41Z",
+  "eventCount": 690,
   "sources": {
     "manual_fallback": {
       "status": "ok",
-      "events": 5
+      "events": 6
     },
     "world_holidays": {
       "status": "ok",
@@ -29,26 +29,6 @@
     "rbi": {
       "status": "ok",
       "events": 6
-    },
-    "india_elections": {
-      "status": "ok",
-      "events": 0,
-      "source": "Election Commission of India"
-    },
-    "us_elections": {
-      "status": "ok",
-      "events": 1,
-      "source": "Federal Election Commission"
-    },
-    "india_macro_calendar": {
-      "status": "ok",
-      "events": 22,
-      "source": "MoSPI/OEA official schedules"
-    },
-    "india_exchange_calendar": {
-      "status": "ok",
-      "events": 7,
-      "source": "NSE official 2026 trading-holiday circular and holidays page"
     }
   }
 }
