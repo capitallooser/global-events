@@ -1,26 +1,134 @@
 {
-  "updatedAt": "2026-08-26T21:35:37Z",
+  "updatedAt": "2026-08-28T21:17:09Z",
   "instruments": [
-    {"key":"nifty","label":"NIFTY 50","price":24207.75,"change":-126.8,"changePct":-0.521,"sourceTimestamp":"2026-08-26T09:55:00Z","sourceName":"Yahoo Finance","status":"Delayed"},
-    {"key":"banknifty","label":"Bank NIFTY","price":57783.75,"change":269.55,"changePct":0.469,"sourceTimestamp":"2026-08-26T09:55:00Z","sourceName":"Yahoo Finance","status":"Delayed"},
-    {"key":"sensex","label":"Sensex","price":77472.9375,"change":-183.1525,"changePct":-0.236,"sourceTimestamp":"2026-08-26T09:55:00Z","sourceName":"Yahoo Finance","status":"Delayed"},
-    {"key":"sp500","label":"S&P 500","price":7675.7,"change":-1.58,"changePct":-0.021,"sourceTimestamp":"2026-08-26T20:35:00Z","sourceName":"Yahoo Finance","status":"Delayed"},
-    {"key":"nasdaq","label":"Nasdaq Composite","price":26130.197,"change":-21.102,"changePct":-0.081,"sourceTimestamp":"2026-08-26T21:15:00Z","sourceName":"Yahoo Finance","status":"Live"},
-    {"key":"gold","label":"Gold","price":4647.7998,"change":-46.7002,"changePct":-0.995,"sourceTimestamp":"2026-08-26T20:59:59Z","sourceName":"Yahoo Finance","status":"Live"},
-    {"key":"crude","label":"WTI Crude Oil","price":null,"change":null,"changePct":null,"sourceTimestamp":null,"sourceName":null,"status":"Unavailable","error":"Awaiting next free market-data refresh."},
-    {"key":"usdinr","label":"USD/INR","price":95.402,"change":0.0,"changePct":0.0,"sourceTimestamp":"2026-08-26T20:00:31Z","sourceName":"Yahoo Finance","status":"Delayed"},
-    {"key":"bitcoin","label":"Bitcoin","price":78776.8828,"change":248.4688,"changePct":0.316,"sourceTimestamp":"2026-08-26T21:35:38Z","sourceName":"Yahoo Finance","status":"Live"}
+    {
+      "key": "nifty",
+      "label": "NIFTY 50",
+      "price": 24175.6504,
+      "change": -32.1496,
+      "changePct": -0.133,
+      "sourceTimestamp": "2026-08-28T09:55:00Z",
+      "sourceName": "Yahoo Finance",
+      "status": "Delayed"
+    },
+    {
+      "key": "banknifty",
+      "label": "Bank NIFTY",
+      "price": 57496.3008,
+      "change": -287.4992,
+      "changePct": -0.498,
+      "sourceTimestamp": "2026-08-28T09:55:00Z",
+      "sourceName": "Yahoo Finance",
+      "status": "Delayed"
+    },
+    {
+      "key": "sensex",
+      "label": "Sensex",
+      "price": 77264.5078,
+      "change": -208.3922,
+      "changePct": -0.269,
+      "sourceTimestamp": "2026-08-28T09:55:00Z",
+      "sourceName": "Yahoo Finance",
+      "status": "Delayed"
+    },
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "price": 7711.76,
+      "change": -19.23,
+      "changePct": -0.249,
+      "sourceTimestamp": "2026-08-28T20:35:00Z",
+      "sourceName": "Yahoo Finance",
+      "status": "Live"
+    },
+    {
+      "key": "nasdaq",
+      "label": "Nasdaq Composite",
+      "price": 26402.424,
+      "change": -138.928,
+      "changePct": -0.523,
+      "sourceTimestamp": "2026-08-28T21:10:00Z",
+      "sourceName": "Yahoo Finance",
+      "status": "Live"
+    },
+    {
+      "key": "gold",
+      "label": "Gold",
+      "price": 4504.1001,
+      "change": -159.8999,
+      "changePct": -3.428,
+      "sourceTimestamp": "2026-08-28T20:59:57Z",
+      "sourceName": "Yahoo Finance",
+      "status": "Live"
+    },
+    {
+      "key": "crude",
+      "label": "WTI Crude Oil",
+      "price": 83.44,
+      "change": -0.09,
+      "changePct": -0.108,
+      "sourceTimestamp": "2026-08-28T20:59:58Z",
+      "sourceName": "Yahoo Finance",
+      "status": "Live"
+    },
+    {
+      "key": "usdinr",
+      "label": "USD/INR",
+      "price": 95.37,
+      "change": -0.16,
+      "changePct": -0.167,
+      "sourceTimestamp": "2026-08-28T20:04:39Z",
+      "sourceName": "Yahoo Finance",
+      "status": "Delayed"
+    },
+    {
+      "key": "bitcoin",
+      "label": "Bitcoin",
+      "price": 77406.4766,
+      "change": -2855.3834,
+      "changePct": -3.558,
+      "sourceTimestamp": "2026-08-28T21:17:04Z",
+      "sourceName": "Yahoo Finance",
+      "status": "Live"
+    }
   ],
   "sourceHealth": {
-    "nifty":{"status":"ok","symbol":"^NSEI"},
-    "banknifty":{"status":"ok","symbol":"^NSEBANK"},
-    "sensex":{"status":"ok","symbol":"^BSESN"},
-    "sp500":{"status":"ok","symbol":"^GSPC"},
-    "nasdaq":{"status":"ok","symbol":"^IXIC"},
-    "gold":{"status":"ok","symbol":"GC=F"},
-    "crude":{"status":"error","error":"Awaiting next free market-data refresh."},
-    "usdinr":{"status":"ok","symbol":"INR=X"},
-    "bitcoin":{"status":"ok","symbol":"BTC-USD"}
+    "nifty": {
+      "status": "ok",
+      "symbol": "^NSEI"
+    },
+    "banknifty": {
+      "status": "ok",
+      "symbol": "^NSEBANK"
+    },
+    "sensex": {
+      "status": "ok",
+      "symbol": "^BSESN"
+    },
+    "sp500": {
+      "status": "ok",
+      "symbol": "^GSPC"
+    },
+    "nasdaq": {
+      "status": "ok",
+      "symbol": "^IXIC"
+    },
+    "gold": {
+      "status": "ok",
+      "symbol": "GC=F"
+    },
+    "crude": {
+      "status": "ok",
+      "symbol": "CL=F"
+    },
+    "usdinr": {
+      "status": "ok",
+      "symbol": "INR=X"
+    },
+    "bitcoin": {
+      "status": "ok",
+      "symbol": "BTC-USD"
+    }
   },
   "disclaimer": "Free/public market data may be delayed. This feed is not exchange-grade tick data."
 }
