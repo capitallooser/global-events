@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T07:57:48.070Z",
+  "updatedAt": "2026-08-29T08:11:45.692Z",
   "sourceHealth": {
     "India Market News": {
       "status": "ok",
@@ -442,6 +442,24 @@
       "region": "GLOBAL",
       "category": "central_bank",
       "relevanceScore": 69,
+      "relevanceLevel": "high",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Reuters"
+      ]
+    },
+    {
+      "id": "news-1cf3wty",
+      "title": "Bank of England's Bailey sees 'subdued' second-round inflation effects for now - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb2QydWdoanp1clRlWTVBQW9mRFZhcVBPWEJkcHB5M0RjSWRLTXJjcjNHbUU3cFJ4dHpNbFhXcjN0elBrWnVFSHYtZFJ2cEUxQ2FMWm1YRVFQZlJONE9LQ1pHTnRJNXVfcHNqc1ZhakxiVkdvdFhSNWo2ZEFJMXdPZWVhcy0teHNkRVJiNVk2LTdpX2piWFpIZzdhU0xnYk0yWVZqdkh5VV9weUpfS1VxZE9pYw?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-08-28T16:09:50.000Z",
+      "region": "GLOBAL",
+      "category": "central_bank",
+      "relevanceScore": 67,
       "relevanceLevel": "high",
       "reason": "Central-bank / rates development",
       "matchedStocks": [],
@@ -1226,11 +1244,11 @@
       ]
     },
     {
-      "id": "news-1olp15e",
+      "id": "news-ylymeh",
       "title": "Bank of England expected to hold rates despite jump in oil prices - Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT3Vkd1ZRTVpCSmYzMU9IM2ZENFZqelRla0ZmVUpzMkpuMDdKSThsdVprZ2JSaDB4Q3NERnhkUFVQal9PVG5zMllWRXRWb0EtN3BGUy1sTnE1aHZUTGtoUng5aHZaam9aSzJpMXZveVAyTEVrc1dxb1MyNk9ZYlpSRERraHM?oc=5",
       "source": "Financial Times",
-      "publishedAt": "2026-07-27T07:00:00.000Z",
+      "publishedAt": "2026-07-26T07:00:00.000Z",
       "region": "GLOBAL",
       "category": "central_bank",
       "relevanceScore": 56,
@@ -1241,6 +1259,24 @@
       "official": false,
       "corroboratingSources": [
         "Financial Times"
+      ]
+    },
+    {
+      "id": "news-1ygkxrk",
+      "title": "Jio Platforms IPO: SEBI clears DRHP; here's all you need to know - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ3JybzZzOW1ZN1dycTBzZnJ6U0tTemNrOGJnNkVaNi1OSGRZLTI1bVdpSERWbHhZLWR6ekdUN2VjZVlxb3RFa1BCZHQ5bTgxWGRTeU1pVXB1Zk9VeVczbmtPaTlRbUItV1g2dlRyenJRQXlOX1lBUmxrbWFrSE5RMUp3TzlWd2E1NXJpbE9HVUwxdUVtbWN3S0FhNFFQTmlVYUZ1U295bHo3MXFocHkzeGZnZjBUNGRr0gG-AUFVX3lxTE1kQWdESkpiWUExTTF6M00wbGVzNE5OUWZDX3pjTklWdFdXRUlHdEI2aXFHRm1YTTFTbFVRT1hLbmZZb09ub2hnYVRvVk9fandIWHRLZ0VkYkNDU2d2N0swUEZGZ0hqYXdZekpFZmpQYVg2Um9VNF9PV1NTUk5VV3VmcVBOUno4Wlh1U2R2NEZ2OFFRMjFEMEE1UW1fbXRkVGRpUHhPai1JVjZ5XzdOeXFKaVFHaWcxaEk5OXJwNWc?oc=5",
+      "source": "Livemint",
+      "publishedAt": "2026-08-29T08:03:27.000Z",
+      "region": "IN",
+      "category": "government_regulation",
+      "relevanceScore": 55,
+      "relevanceLevel": "medium",
+      "reason": "Government / regulatory development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Livemint"
       ]
     },
     {
@@ -1259,24 +1295,6 @@
       "official": false,
       "corroboratingSources": [
         "Barchart.com"
-      ]
-    },
-    {
-      "id": "news-1v6ul3p",
-      "title": "Indian stock market: How are Sensex and Nifty 50 likely to perform next week amid US-Iran war uncertainty? - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOOTMzdnJjN2R1VU1qeHIyRXphNk51SW5vU1lyLVZqdk14bVdsNWRZWDZQQW5FTWp1a3BMUHh0cnMydWhaUnlXWG9YRTFBUEpJMDJqYWhpNXVyYmFzWFVLcHJyUGl0ZkhvZHVvZ3JadWpFSDFiSkZQX2UwdDJzMEZuakRZWTlHTzRkcjBMTDZSSnd5X1pPdzBqRFlURW41N2ZmNW4tVlJtLWZGMXF2cjAzWnBJUnlTS0xJbFNVRjJzcDNlWkRleXhkLXNKMU5KTVZnXzEteE4tSi1NcUpGY0ZLdlFJZDF4M3hkeFljS0FfWWw2eEd6cHRFRlpyMjlqZkFZY3d1c9IBigJBVV95cUxPbFk4dWg3cGhKVFpwR0tlZGlNd3Q5cHU5UDREY2ZBNWtiNEJoV2JRcExsSk9NUDE3ZW5vZEFOZjIySTZKMENxR0ZhbFI0ZmxKNHlXYnV2cmZoc2otcUJHYndIVWU2TGdWeHU2MDBIUElhQ3BpYzhRQXdMOG1qQndXbFNTbGNaYlhFNDAwNEdaMWNmUDhWeE95U3J6MVJGYnB3Q0pwRms0M21zUFhlS2d4WGZUWnQwaXQ5S1FvVkFqcmdzSjQwWnhBaWhLWGNCZlVJb3hUdzFDTVBKd0tGc3huWnZtWC00WWZ1TkFXTUZFM1pfQjNxdFJiamNranRIWlVYU0ZIYUgxTE9qQQ?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-08-16T07:00:00.000Z",
-      "region": "IN",
-      "category": "geopolitics",
-      "relevanceScore": 53,
-      "relevanceLevel": "medium",
-      "reason": "Geopolitical development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Livemint"
       ]
     },
     {
@@ -1583,24 +1601,6 @@
       "official": false,
       "corroboratingSources": [
         "International Business Times"
-      ]
-    },
-    {
-      "id": "news-1fhqu24",
-      "title": "Jackson Hole: Will Kevin Warsh's inflation warning put Nifty under pressure on Monday? - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOMHZDSEpjVF84UURMQjVJZ0JDZnE4X1Nrci1nUWE5WVZlTkcxWEJiWjZILTd2Z2p4X253aGYwajNpcnBSaHNScUpzUXFuaXdqM2Jhb25vTjh5UzhsSjc3TGJHVTg5a3ZIR0EzRnBPd01NWVZJTnpBUzlHV3psVW9WWHc2aHRPSkJmUE5IdW9tblJycFl6YS1SZkNvaVFCcmVFSWVxQ3FfdGxqOGxZOFF4elhFeUsxRDNDN25SZU9MMWpENmVqSzFzbmRoaUg5YXp2QXRYdUxGSVl4anB1WU0zY1poa0xQN0xXbGpqcWpR0gHzAUFVX3lxTE9ENmc5Z2N6UmlOWkZKbzVQOGRnamdieGxvX05veGx0SFMxOGkxOWtOdzMyUXZzNGVQVmtLQmItdHZQQnlZWXdvZ3VmNzZPTHZRQk94S0lzQ2JBcmtBM1NwbmJxTjdGbWJNQWtPTFRmTF8ybTMzV1MxQ0x3SC1ZMlV5TFBOVU5xUnk5emI3QmgtbkVsbGQ1Y2ZzaUc4OWJlTWJtV0NtMkNyVDc1RFhVYUItNlNTakVlYWZBY3U1bF9ZY2dBR2Z2V1Z1cFhDeWpwRHB0ek00dUswRDdWTFN1cVducnFNV0V2Q2c4Q1dOX0xmMXRTYw?oc=5",
-      "source": "The Economic Times",
-      "publishedAt": "2026-08-28T15:41:32.000Z",
-      "region": "IN",
-      "category": "inflation_macro",
-      "relevanceScore": 46,
-      "relevanceLevel": "medium",
-      "reason": "Inflation / macro data",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "The Economic Times"
       ]
     },
     {
@@ -2720,6 +2720,24 @@
       ]
     },
     {
+      "id": "news-1yt2tmm",
+      "title": "Bank of England Expected to Send Hawkish Signals - stonex.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ0xYbnVXWVNLSVI1VzhHNWVSQU5fejlaUUtaSHlGU3FYbVJFa19rYTM5Y2dtbXhwUEVVZXJXRlFreC1nQ0Uxb1pyZ1NINXoteXhTLUdMb1Z0NVdMWWlHTUhOazBXNFFTTEJiSjBNY1pxOEpEaXB6U3VlZm5fU2RRYWNJOU5kRVNuNjBsM3pSYUk?oc=5",
+      "source": "stonex.com",
+      "publishedAt": "2026-04-29T15:47:21.000Z",
+      "region": "GLOBAL",
+      "category": "central_bank",
+      "relevanceScore": 41,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "stonex.com"
+      ]
+    },
+    {
       "id": "news-1b7lvi4",
       "title": "US Stock Market Today S&P 500 Futures Flat As Traders Await Fed Decision - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOUVRQ296c2l3LWVvRU9mZGV5emhtNXY5eGFOQTVVT2Ztd2xIRzNneURZUEhwbnFEQnRSb0F6LXBfWXRpcU5td2pWTVBlZnNYM3l5TUYxdGpxWVZVYjk5T0tjNjE3cDRmb1piYXdMR29MMFRfeFJmazVSVG0wdjN1eG55dDNrdlJPcW5PX3Bmd18zdw?oc=5",
@@ -2882,6 +2900,24 @@
       ]
     },
     {
+      "id": "news-1ibvtbl",
+      "title": "Nasdaq and S&P 500 Climb as Nvidia Earnings Fuel Tech Rally - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUFlkYUpWNHI2b1lkcGdrZG15OVhNRjdkclBSRGJveXctSDI1dG1DdUJNMFFLbTduM0RLR0x2Ynlla051SU5IaUFxbC1wT0lWV25YSXUtRUhHOXJILUd1c2g2Q2RLX3pjcUs2eDVMdDJ0dTdTZENqbGpBUGVMS2RnaFo5SnowSmxkUkYyQ3pXSldIYjZobEtMXzhNY0pzZG1ERk5zSnNTQXRKSGRDZTdtTFBjbUh0UFdoazhN?oc=5",
+      "source": "TradingView",
+      "publishedAt": "2026-08-27T19:16:04.000Z",
+      "region": "US",
+      "category": "earnings_guidance",
+      "relevanceScore": 40,
+      "relevanceLevel": "medium",
+      "reason": "Earnings / guidance update",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "TradingView"
+      ]
+    },
+    {
       "id": "news-18qvn71",
       "title": "UK Inflation Rises to 3.3% Following Iran War Oil Price Surge - Morningstar",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVkpESWNtY0pmcmJ6eWJySHNnbEplTWNPVmlNTHBzNm5RN1d2LVlON3FWS051d3U1Z2lQVW0tdURtbDZJWU1INFlRVGI3eV9zeG9PTF9FT3V4bHI1UHFaZU4tUG1BdnhUTmhBT19OTm11YTBBV1R3eWVCTzlFekc5b05JSklXalZNUi1MLThIQUhhZmpUNjh3dEZuYXBfYTVscUNN?oc=5",
@@ -3041,24 +3077,6 @@
       "official": false,
       "corroboratingSources": [
         "The Economic Times"
-      ]
-    },
-    {
-      "id": "news-4ribxk",
-      "title": "Buy or sell stocks: Sumeet Bagadia recommends three shares to buy on Monday — 31 August 2026 - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPM0ZNY0V0Z0s3eUdrQVBQd2lPcHVDcXUyb0FCRVA2SU5UX3Y3RFlabnlzZUpiT3d0RjBjSXpZVHJ3R2paWjd3Z3UtQkdZT3JHWU1ISF92MU1Ua0o2Wi1oOEk5OFNGNFRxbDExUXJLUENSVkd2MXdHNmNzMUNkRVU3cTZnc1A2ZjdQdWNkYl9XTWlYRnZKb1JCaUJXc1pvWmNBdWZ2Tk9JNldXcERqWjRnb2d1WE9MOVFCY3o5eWdUUFVuR252YzMxa2d5SWlWZXhHRUJnalZyd1liQjdQQ0xQVGlSRnNZTmNIWjU3UHNtbDDSAfYBQVVfeXFMTnY3d1VrOHFfQ3UtYWdBZ3VvMFEyOGdqRGttWHNFTGtGNENZbEFLbXhYZEZnNmpYUVlGRG83NkZZdGZxSFVYU1c4OEVyNURJVjF2eWJLMjZLRFRqeDNBb3N6YVZRVHU3MFF6Y1NYNVZ1U2ZiQmZWbF9Gdm52bGlINWZNLW5hcHBXUVJ2OTFySW0xNUkycXF0WXgwMFp4RWctMUhpdVAxeDFQV09zZ2JxLXd0SnpsdDFKY2pFdHQ0bjIzNjdZME9CalFBdWFQWlhhOTFoS3NranlLZll1RDNkMGhGUl9xM3NicExpbUp1TTV5VlRXTnVB?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-08-29T07:06:37.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 37,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Livemint"
       ]
     },
     {
@@ -3763,6 +3781,24 @@
       "official": false,
       "corroboratingSources": [
         "Bloomberg.com"
+      ]
+    },
+    {
+      "id": "news-4ribxk",
+      "title": "Buy or sell stocks: Sumeet Bagadia recommends three shares to buy on Monday — 31 August 2026 - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPM0ZNY0V0Z0s3eUdrQVBQd2lPcHVDcXUyb0FCRVA2SU5UX3Y3RFlabnlzZUpiT3d0RjBjSXpZVHJ3R2paWjd3Z3UtQkdZT3JHWU1ISF92MU1Ua0o2Wi1oOEk5OFNGNFRxbDExUXJLUENSVkd2MXdHNmNzMUNkRVU3cTZnc1A2ZjdQdWNkYl9XTWlYRnZKb1JCaUJXc1pvWmNBdWZ2Tk9JNldXcERqWjRnb2d1WE9MOVFCY3o5eWdUUFVuR252YzMxa2d5SWlWZXhHRUJnalZyd1liQjdQQ0xQVGlSRnNZTmNIWjU3UHNtbDDSAfYBQVVfeXFMTnY3d1VrOHFfQ3UtYWdBZ3VvMFEyOGdqRGttWHNFTGtGNENZbEFLbXhYZEZnNmpYUVlGRG83NkZZdGZxSFVYU1c4OEVyNURJVjF2eWJLMjZLRFRqeDNBb3N6YVZRVHU3MFF6Y1NYNVZ1U2ZiQmZWbF9Gdm52bGlINWZNLW5hcHBXUVJ2OTFySW0xNUkycXF0WXgwMFp4RWctMUhpdVAxeDFQV09zZ2JxLXd0SnpsdDFKY2pFdHQ0bjIzNjdZME9CalFBdWFQWlhhOTFoS3NranlLZll1RDNkMGhGUl9xM3NicExpbUp1TTV5VlRXTnVB?oc=5",
+      "source": "Livemint",
+      "publishedAt": "2026-08-29T07:06:37.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Livemint"
       ]
     },
     {
@@ -4852,11 +4888,11 @@
       ]
     },
     {
-      "id": "news-1k73fel",
-      "title": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 17 August - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZUNCVGpRS1lVaFNCVDlIdThZTWsxamFqYzZ0SFJwTm4teHFKSXZXaFhWblN0WUFRbzk3S1I0VmxNZUNReDFQcVFMa2ZEd1ljblhaZlBCMW9FVW8ybmhUS1NfLS1sSWxKOWhyenExYUJFNGkzYzc3LUFEdHZXWjR4Z2ZtOWp6YUVsZ2tRelVGdTdKbzl4ajB0VUJpZHk5cDUxUl9rNm5MbmhWbDlLdWc2a2o4cWJFdGs1XzcxU21SOUEyS0otVnBVSUcwVVNsaW9leHBYZjhmdEhZYVlaN1NZQzhCRzlRY3c2?oc=5",
-      "source": "TradingView",
-      "publishedAt": "2026-08-16T07:00:00.000Z",
+      "id": "news-1e7gf0f",
+      "title": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 17 August - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNS1ZhcGRVN2EtZ1oyOEZiM3o2ZUw0ZGF0ZlNTSWJEYmZaMUVra2JFa19RQk9ZdXZwb3RiNzFTa0JHWTluY1VNMDRWYkhfTjRrZmQxa1Rwa3VQNzdNdVc3V2d0bE8tN2Q0eGR1dnEyUnl5czlZcDdqYzZWUDF2QkZJd3NaOFJlcTdwZ1BTMGdDcFE5X0tyal81RURKV29WeDVnWGxQWkhBN2lMaU5xMVhUNEV1U2wxT2wxZ1ZOY2tjRnEyQXpQTm5lQWNBbkllc1M4RVhZWWdNOFVsYWpYTDVFXzktNEs4NzBrc012emR2T2xFUkNYcWg4Z2JR0gH_AUFVX3lxTE5RTVZoSFNqLUJLQXZlZDlnNldaUS1uLWgxRFdFaVJGU294akNmYnBucFh1blZ5dHFDWDBrOFlnTnZEclhXblRHUzdRclI5TWd0V0UtaFptTHlKV1R1UEZKRHJwLVh2RlV4Tkg5THdhVjFwU2l3MU5TWDgwaDlwOEFhWHVCY0VUdXhKVDRPbGFmZzN6MDVFaENTN01yVm1pTzhYc09XTDhaa3NBTkllZmpLWVpGSkFCY2tlczBTZHljSHo3d2tFZ21Fdzl6ZWdZRHRGVnkyQ0hrUVhXd3VyZTN1NlZvYmlkSXA4N2pqVzVZN2JvWmVNSElMYWZzaUMtTQ?oc=5",
+      "source": "Livemint",
+      "publishedAt": "2026-08-17T07:00:00.000Z",
       "region": "IN",
       "category": "other_market_moving",
       "relevanceScore": 23,
@@ -4866,7 +4902,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "TradingView"
+        "Livemint"
       ]
     },
     {
@@ -5050,6 +5086,24 @@
       ]
     },
     {
+      "id": "news-rik6gg",
+      "title": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 10 August - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaTdoQ2NHTVh2MGdQQlZzQllwN0RBMlZLTm9hb0IxN1ZsLWxfMlNwSU9JOHFVaXBmX0RtOEk3QTNKd2ZrOE1YMVBkWTRPRWxON3h2Yl8yeUVxMUZIamJoeHRpc0NRX2hBVGpYcWNxbFJxY2RnUTJaS05nS1dscERlZm83ZG52X2RVQkdham5ua1k4T1ZyanRHVTgxcmZHV0kxbWpWSTl0NGJZLUY1Z0RzTGV1Q2FaVHRMMEYtMTRLai1XRGE3aWM2MWRCRzNBYV8xb3JwZ2w3SWRVRmtPdmF1TlBEVFh3a0la?oc=5",
+      "source": "TradingView",
+      "publishedAt": "2026-08-09T07:00:00.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 23,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "TradingView"
+      ]
+    },
+    {
       "id": "news-1fvd7qo",
       "title": "Share Market Live News: Indian Stock Market Prediction, Nifty 50 - Liquide Blog",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVkJSQS1BbTl4c0huZVVMZ3lDUkI1QjdZVGpCRndoeFdMbVlUOXRQdkxYempBUE5RcldadUpoWXdENG5BeHZuMFVVbjVncFk3b25MY3FyLVBWc3hVdUJKeXNrV1A3R3JuYjd5VEVzZ0ZjUF9Fam9FUmFEUExsR3BfSXdseUVGYjVScFE0VzdzSGhJdw?oc=5",
@@ -5119,24 +5173,6 @@
       "official": false,
       "corroboratingSources": [
         "World Gold Council"
-      ]
-    },
-    {
-      "id": "news-1kltims",
-      "title": "How the S&P 500 finished May with nine consecutive weekly gains - Chase Bank",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbzNJa2xISGY0UnZqMmI3NFp3amt2SnBLR3YwSHZ6TkxmZXJDVklrdnVkZDdXeWtCZnIycmozN2lqa2Z6anptZ2tPeWJLUGtWbmhSMFdyeWZsbW5kdl9nTjBBY3Z0WG0zT0hZMlhlQW9mVUl2MHhmRUtWRWdFd0dsT1pMSm4zRDV4VDRoaF92ZGZ1V2hKeXBGbGpUcFlKMnhOeUlxZ0xpN2E4alhQR3kzSVBiODVaOERqQlE?oc=5",
-      "source": "Chase Bank",
-      "publishedAt": "2026-06-03T07:00:00.000Z",
-      "region": "US",
-      "category": "banking_credit",
-      "relevanceScore": 23,
-      "relevanceLevel": "low",
-      "reason": "Banking / credit development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Chase Bank"
       ]
     },
     {
@@ -5466,24 +5502,6 @@
       ]
     },
     {
-      "id": "news-f1acko",
-      "title": "UK strengthens commitment to global development as Foreign Secretary becomes UK Governor to the World Bank - GOV.UK",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdzN4dVVvYThvRVBWTTZOaWNlcmNLMUhINVJSQzlzOVM3NzIxN0s5aTVZUlBNSHFlTGM0TFV3cjYwRUItUUttUjJOYTNBcEZ6bWtMQzJNenBVQU93U1MzT1lxR1dYemVwYUVYTDNPcEFjR1BYamhiT2RzcWZONkVYRXpMbC14eHk4RmRGTW41aHRlNjF2QUluQnI0UEhUaGdWdnRHbHpzXzd2OTBmeHJIalVvYWZVVzE4RXpwcGg5dkJhZW5LRzNmSmJ4d1N4R2JtbWVLUnhEbzQ?oc=5",
-      "source": "GOV.UK",
-      "publishedAt": "2026-07-27T07:00:00.000Z",
-      "region": "GLOBAL",
-      "category": "banking_credit",
-      "relevanceScore": 15,
-      "relevanceLevel": "low",
-      "reason": "Banking / credit development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "GOV.UK"
-      ]
-    },
-    {
       "id": "news-a0rvfn",
       "title": "Rising oil prices could force up UK interest rates, say economists - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaTVzUUNJTXVzUDZvb1JmVWlscnVPNThZN1VzSzNsLXdOcXNILURvenBORjcyNThKbW9YcXhDZk04VTFjLUpVR0tJQk1XamtZTkZGY21WS3I4b0pXUU9IeVRGUlNuWXFhX2hSZDNldGRKekVFdW5hUXdqaTRZMTRHLWc0eEVhSVBNVUJUUi1aMWlDeEp3XzNJQlNZUlFSeGxwbC16WnhhVTlDUzN2UGdXandwZHg?oc=5",
@@ -5571,24 +5589,6 @@
       "official": false,
       "corroboratingSources": [
         "Bloomberg.com"
-      ]
-    },
-    {
-      "id": "news-pkfwwv",
-      "title": "Five ways the Iran peace deal could affect you and your money - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4bVBKTUVIVUhibFRVWkRGSTBMakszaFNFV1lNQ0dCMk9naDdncHRIQjdFMklUQXhuTm1iaFlGZk1iRWVMNkw2bjFVN3RUU0MyUXdfVFI1Z2t1UQ?oc=5",
-      "source": "BBC",
-      "publishedAt": "2026-06-19T07:00:00.000Z",
-      "region": "GLOBAL",
-      "category": "other_market_moving",
-      "relevanceScore": 15,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "BBC"
       ]
     },
     {
