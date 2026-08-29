@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T07:39:04Z",
+  "updatedAt": "2026-08-29T07:50:35Z",
   "instruments": [
     {
       "key": "nifty",
@@ -64,9 +64,9 @@
     {
       "key": "crude",
       "label": "WTI Crude Oil",
-      "price": 83.44,
-      "change": -0.09,
-      "changePct": -0.108,
+      "price": 83.4,
+      "change": -0.13,
+      "changePct": -0.156,
       "sourceTimestamp": "2026-08-28T20:55:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Delayed"
@@ -84,10 +84,10 @@
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 77601.0703,
-      "change": -237.3197,
-      "changePct": -0.305,
-      "sourceTimestamp": "2026-08-29T07:38:59Z",
+      "price": 77627.3516,
+      "change": -211.0384,
+      "changePct": -0.271,
+      "sourceTimestamp": "2026-08-29T07:50:33Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
