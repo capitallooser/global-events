@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T05:44:56Z",
+  "updatedAt": "2026-08-30T08:44:09Z",
   "events": [
     {
       "id": "us-federal-general-election-2026",
@@ -15,14 +15,14 @@
       "summary": "The next regularly scheduled U.S. federal General Election date. Congressional elections on this date determine the composition of the 120th Congress.",
       "sourceName": "Federal Election Commission",
       "sourceUrl": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
-      "updatedAt": "2026-08-30T05:44:56Z"
+      "updatedAt": "2026-08-30T08:44:09Z"
     }
   ],
   "sources": {
     "india_elections": {
-      "status": "error",
+      "status": "ok",
       "events": 0,
-      "error": "HTTP Error 406: Not Acceptable"
+      "source": "Election Commission of India"
     },
     "us_elections": {
       "status": "ok",
