@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T18:35:31Z",
+  "updatedAt": "2026-09-01T18:50:57Z",
   "instruments": [
     {
       "key": "nifty",
@@ -29,46 +29,45 @@
       "changePct": -0.414,
       "sourceTimestamp": "2026-09-01T09:55:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Last available",
-      "error": "HTTP Error 400: Bad Request"
+      "status": "Delayed"
     },
     {
       "key": "sp500",
       "label": "S&P 500",
-      "price": 7624.3398,
-      "change": -61.8002,
-      "changePct": -0.804,
-      "sourceTimestamp": "2026-09-01T18:35:30Z",
+      "price": 7616.8398,
+      "change": -69.3002,
+      "changePct": -0.902,
+      "sourceTimestamp": "2026-09-01T18:50:56Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
     {
       "key": "nasdaq",
       "label": "Nasdaq Composite",
-      "price": 26069.3926,
-      "change": -301.4964,
-      "changePct": -1.143,
-      "sourceTimestamp": "2026-09-01T18:35:29Z",
+      "price": 26037.6875,
+      "change": -333.2015,
+      "changePct": -1.264,
+      "sourceTimestamp": "2026-09-01T18:50:55Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
     {
       "key": "gold",
       "label": "Gold",
-      "price": 4388.2002,
-      "change": -93.2998,
-      "changePct": -2.082,
-      "sourceTimestamp": "2026-09-01T18:25:16Z",
+      "price": 4377.5,
+      "change": -104.0,
+      "changePct": -2.321,
+      "sourceTimestamp": "2026-09-01T18:40:44Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
     {
       "key": "crude",
       "label": "WTI Crude Oil",
-      "price": 89.98,
-      "change": 4.22,
-      "changePct": 4.921,
-      "sourceTimestamp": "2026-09-01T18:25:31Z",
+      "price": 90.42,
+      "change": 4.66,
+      "changePct": 5.434,
+      "sourceTimestamp": "2026-09-01T18:40:55Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
@@ -85,10 +84,10 @@
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 76879.0,
-      "change": -1680.11,
-      "changePct": -2.139,
-      "sourceTimestamp": "2026-09-01T18:35:27Z",
+      "price": 76879.8516,
+      "change": -1679.2584,
+      "changePct": -2.138,
+      "sourceTimestamp": "2026-09-01T18:50:51Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
@@ -103,8 +102,8 @@
       "symbol": "^NSEBANK"
     },
     "sensex": {
-      "status": "error",
-      "error": "HTTP Error 400: Bad Request"
+      "status": "ok",
+      "symbol": "^BSESN"
     },
     "sp500": {
       "status": "ok",
