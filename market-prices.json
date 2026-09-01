@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-01T03:00:51Z",
+  "updatedAt": "2026-09-01T03:21:06Z",
   "instruments": [
     {
       "key": "nifty",
       "label": "NIFTY 50",
       "price": 24080.4004,
-      "change": -95.2496,
+      "change": -95.2996,
       "changePct": -0.394,
       "sourceTimestamp": "2026-08-31T09:55:00Z",
       "sourceName": "Yahoo Finance",
@@ -25,7 +25,7 @@
       "key": "sensex",
       "label": "Sensex",
       "price": 76957.2734,
-      "change": -307.2366,
+      "change": -307.2266,
       "changePct": -0.398,
       "sourceTimestamp": "2026-08-31T09:55:00Z",
       "sourceName": "Yahoo Finance",
@@ -54,20 +54,20 @@
     {
       "key": "gold",
       "label": "Gold",
-      "price": 4484.2998,
-      "change": 2.7998,
-      "changePct": 0.062,
-      "sourceTimestamp": "2026-09-01T02:50:48Z",
+      "price": 4490.0,
+      "change": 8.5,
+      "changePct": 0.19,
+      "sourceTimestamp": "2026-09-01T03:10:55Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
     {
       "key": "crude",
       "label": "WTI Crude Oil",
-      "price": 86.75,
-      "change": 0.99,
-      "changePct": 1.154,
-      "sourceTimestamp": "2026-09-01T02:50:47Z",
+      "price": 86.78,
+      "change": 1.02,
+      "changePct": 1.189,
+      "sourceTimestamp": "2026-09-01T03:10:59Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
@@ -77,17 +77,17 @@
       "price": 95.152,
       "change": 0.0,
       "changePct": 0.0,
-      "sourceTimestamp": "2026-09-01T02:43:19Z",
+      "sourceTimestamp": "2026-09-01T03:11:59Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 78409.9297,
-      "change": -149.1803,
-      "changePct": -0.19,
-      "sourceTimestamp": "2026-09-01T03:00:45Z",
+      "price": 78433.9688,
+      "change": -125.1413,
+      "changePct": -0.159,
+      "sourceTimestamp": "2026-09-01T03:21:02Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
