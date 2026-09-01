@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T16:52:17Z",
+  "updatedAt": "2026-09-01T16:57:41Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
@@ -16,7 +16,7 @@
     "banknifty": {
       "label": "Bank NIFTY",
       "priceSource": "Yahoo Finance chart",
-      "points": 2136
+      "points": 2137
     },
     "sensex": {
       "label": "Sensex",
@@ -31,27 +31,27 @@
     "nasdaq": {
       "label": "Nasdaq Composite",
       "priceSource": "Yahoo Finance chart",
-      "points": 2177
+      "points": 2178
     },
     "gold": {
       "label": "Gold",
       "priceSource": "Yahoo Finance chart",
-      "points": 2178
+      "points": 2179
     },
     "crude": {
       "label": "WTI Crude Oil",
       "priceSource": "Yahoo Finance chart",
-      "points": 2179
+      "points": 2180
     },
     "usdinr": {
       "label": "USD/INR",
       "priceSource": "Yahoo Finance chart",
-      "points": 2255
+      "points": 2256
     },
     "bitcoin": {
       "label": "Bitcoin",
       "priceSource": "Yahoo Finance chart",
-      "points": 3163
+      "points": 3166
     }
   },
   "eventTypes": {
@@ -3136,7 +3136,7 @@
       "banknifty": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2136
+        "points": 2137
       },
       "sensex": {
         "status": "ok",
@@ -3151,27 +3151,27 @@
       "nasdaq": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2177
+        "points": 2178
       },
       "gold": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2178
+        "points": 2179
       },
       "crude": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2179
+        "points": 2180
       },
       "usdinr": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2255
+        "points": 2256
       },
       "bitcoin": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 3163
+        "points": 3166
       }
     }
   }
