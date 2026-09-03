@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T21:41:26Z",
+  "updatedAt": "2026-09-03T21:53:11Z",
   "instruments": [
     {
       "key": "nifty",
@@ -55,21 +55,21 @@
       "key": "gold",
       "label": "Gold",
       "price": 4520.2998,
-      "change": 105.6998,
-      "changePct": 2.394,
+      "change": -19.6002,
+      "changePct": -0.432,
       "sourceTimestamp": "2026-09-03T21:00:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Live"
+      "status": "Delayed"
     },
     {
       "key": "crude",
       "label": "WTI Crude Oil",
       "price": 91.67,
-      "change": 0.66,
-      "changePct": 0.725,
+      "change": 0.37,
+      "changePct": 0.405,
       "sourceTimestamp": "2026-09-03T20:59:57Z",
       "sourceName": "Yahoo Finance",
-      "status": "Live"
+      "status": "Delayed"
     },
     {
       "key": "usdinr",
