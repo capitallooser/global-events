@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-03T06:13:49.508Z",
-  "source": "https://archives.nseindia.com/content/indices/ind_nifty50list.csv",
-  "status": "ok",
-  "error": null,
+  "updatedAt": "2026-09-03T06:37:20.581Z",
+  "source": "https://capitallooser.github.io/global-events/nifty50.json",
+  "status": "fallback",
+  "error": "TypeError: fetch failed",
   "items": [
     {
       "symbol": "ONGC",
@@ -18,22 +18,6 @@
         "Business Standard"
       ],
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTjhhbmlSaDZDMElaQnIxN0tvWm1NUkhPRHZwYzNaR1pzSjlEUldDT3I1dFBuaFJiM0psSTI5clUyU0k3WExJeWZYS1ZrRjhITkF2OWwtT1lTaDdMZ25Pai1hb3pmUTR1QXFSaWRER3RYYXRvWjBwUTltaXU5d2FFb2NjWTZvMUhjZF9hdVVMUXNjY3lvc0t5TkZjNW1qWmg0N1FGV3Y4dUc1dHR1QnFkXzktZFlLZzhMcldLeUlTSUJuWHJXb3JPdNIBzgFBVV95cUxOZ2VOOUExX0JoeHk0U3BWdHplSDNGN2JvWnhuaEdycklhNDZ5emZrOUVaM2tzUE9uX3Btdm9peUJvWldIU1RUTlBsWUsxT3NiU1dla0tEUzlPTUhHX2FOZ2RjZENCZ0pSRFRzRlM4UnF4SGVaT0dFNS1Cb1R1VG54ZHBpTFdqMmppdllHTGxKY3Bjbm8tX2pxM3ZMS0Ezd09DRU9MWlRWeVZTX21hSUpSaWk0TF9nWDYtUldoX05DSURNbElDdTk2cU9LbFNmZw?oc=5"
-    },
-    {
-      "symbol": "WIPRO",
-      "company": "Wipro Ltd.",
-      "industry": "Information Technology",
-      "relevanceLevel": "low",
-      "relevanceScore": 33,
-      "reason": "Company-specific development",
-      "latestHeadline": "Wipro Renews Digital Workplace Deal with ABB | Tata Motors Records Strong CV Sales Growth | Top Buzzing Stocks Today - Equitymaster",
-      "relatedStoryCount": 3,
-      "publishedAt": "2026-09-03T00:30:00.000Z",
-      "sources": [
-        "Equitymaster",
-        "Upstox"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNZ295QVVrRVVJS1VHRjZlOTRtSTBaYzhGN1lleTdLZW1iekpPZzFnZzg5M3U3Y011cUQwZU16QWE3VVN1X3F6ci04dDdad1ZPaWhxVjQxRGpmVml4VnJRWnRtX3o0M0pEejF4bUpvZHQ2MUZSTFU1RjZBdFRjV0ZWREJEYXdJMWU5SmdjWHZPQjN4Z2tFQmhVd2U1WEtwVEJNaDhoaUVHMklJaGRoOFhBQjhDc3RXYTNBWWdRWU9lNHVOcWNMSHpnZWpPdVpWQWtLRGlNTkw4cFJ2c1BBWDRRMUhUUXFPRUUtSWJxM3FQT2wySTV0bnF0bmcxdzU1QnotX2xv?oc=5"
     },
     {
       "symbol": "COALINDIA",
@@ -52,21 +36,6 @@
         "Livemint"
       ],
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWDB5RHRjcGN3WGZMSnExU3ZlQkRSS18yMV9RemJacWdTQzV5MkJtLURXOW90NXloZjdZOWpoV1ZuX0tkeWx0WjhPMGVqQlFxbzNEVklQSVRPR194cEcyelFVWFd3R2M1M25pN3pvNWxNREV1Z2lJVFk5a3lTYm5jV3hYS2tQSkRPczFEb2JNWVRYazZmSzFneWtfT084SXdvQ3dHR3V0a3hsSVRXYWhfTVg0WVF5ZzIyejdrakF0RmZQWWl5azlVRkxSR1hIWUdlR05zY2tMbUVqQmvSAeABQVVfeXFMTXNVUkR5SS1lbEwzb2loV2dmNlVPeU80bTJkV25GMFFnU0pWajQ0N1lXdFE0bkpuOS1ZOEtvY3hJUlM1cjJqTllLVlZrWjRUM0w1QVA2UWg3eFl2NDU4Y20tcGFDenA4X18zd0ItTXpJdFRKYmhGTkZ1d19hSjB6R0QxS1lQN05fR0N6Y1dZX3hidDlGUzNUbm5naDJfT25CUmR0VGFYTlhaSTNjOFRXRS1rbDRzRWNES3d3bzFMX3VWNlJKSy04VHVtUmlnZ1JoSEFqT0NaX0Z5bldUT3hZX2Q?oc=5"
-    },
-    {
-      "symbol": "EICHERMOT",
-      "company": "Eicher Motors Ltd.",
-      "industry": "Automobile and Auto Components",
-      "relevanceLevel": "low",
-      "relevanceScore": 33,
-      "reason": "Company-specific development",
-      "latestHeadline": "Top gainers and losers, Sept 2: Eicher Motors, Wipro fall 3%, Coal India soars 4%; check list - Upstox",
-      "relatedStoryCount": 2,
-      "publishedAt": "2026-09-02T11:08:43.000Z",
-      "sources": [
-        "Upstox"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQWhzeEl4N1k5V0Z5UFBWUDQ2N25KRDh4ckQ5SEJfdmJKRHU1enIxbDRHVk1TRkNnMlJ6TlI1WlJXeGpybERTTUN0bVE5OTQwVUc1QzBONC1LSzdlbTRhOGlmVVhNYUliZG0tOEtiNTlaV3QxMm5TT1cwTVVIVjM0TTVWbGRRLUVKWS1HZEtIbkNya2dkSi1pOF9mdGloUHRGVmhrMEhiLTZlcHZYVjZXSEdqYV9JQXR0ekVuZW5yZDA0NVJndTAxelBELVZfYk1sOVFKWmQ3Mko4c3N5TlE?oc=5"
     },
     {
       "symbol": "HDFCBANK",
@@ -112,6 +81,37 @@
         "Equitymaster"
       ],
       "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPc3pqdXdaRGtDQ3J3aEhhd3VBZDRVYlJoS25oU1R3bnhuLUNKeXlwQmJyNURMcHVyZV9Ld29YZTFjM0thU1lSZHdSQUEyVmxNMlVMVFFOdzlnMW5WY2NNZklTeUZ5UGVzajNCWWwyUzJhMmVVVXZFckxNamF2cU1waXpWZVI0LXRwalJUMURsZ0hramJHejdjX0xhcHc3SG1fRkdJMzJCUTRweEtCZ1UzNDlLR04zYldMUjRDU0ZDWTNqMktGeDZ6LWVfY0JhQzYzRzhoZC16eUxZNm55cFZPblczZ2YwTm5uOUdJcWRmYlFvdE45emVSV295TkJaLW9kN1I0cmZwLXp6WWF6WnZteXhXZzhETzFCRzdyS3F3N1FzSDFRZzNLUC01UFZybUVpNGc?oc=5"
+    },
+    {
+      "symbol": "WIPRO",
+      "company": "Wipro Ltd.",
+      "industry": "Information Technology",
+      "relevanceLevel": "low",
+      "relevanceScore": 25,
+      "reason": "Company-specific development",
+      "latestHeadline": "Wipro Renews Digital Workplace Deal with ABB | Tata Motors Records Strong CV Sales Growth | Top Buzzing Stocks Today - Equitymaster",
+      "relatedStoryCount": 2,
+      "publishedAt": "2026-09-03T00:30:00.000Z",
+      "sources": [
+        "Equitymaster",
+        "Upstox"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNZ295QVVrRVVJS1VHRjZlOTRtSTBaYzhGN1lleTdLZW1iekpPZzFnZzg5M3U3Y011cUQwZU16QWE3VVN1X3F6ci04dDdad1ZPaWhxVjQxRGpmVml4VnJRWnRtX3o0M0pEejF4bUpvZHQ2MUZSTFU1RjZBdFRjV0ZWREJEYXdJMWU5SmdjWHZPQjN4Z2tFQmhVd2U1WEtwVEJNaDhoaUVHMklJaGRoOFhBQjhDc3RXYTNBWWdRWU9lNHVOcWNMSHpnZWpPdVpWQWtLRGlNTkw4cFJ2c1BBWDRRMUhUUXFPRUUtSWJxM3FQT2wySTV0bnF0bmcxdzU1QnotX2xv?oc=5"
+    },
+    {
+      "symbol": "EICHERMOT",
+      "company": "Eicher Motors Ltd.",
+      "industry": "Automobile and Auto Components",
+      "relevanceLevel": "low",
+      "relevanceScore": 25,
+      "reason": "Company-specific development",
+      "latestHeadline": "Top gainers and losers, Sept 2: Eicher Motors, Wipro fall 3%, Coal India soars 4%; check list - Upstox",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-09-02T11:08:43.000Z",
+      "sources": [
+        "Upstox"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQWhzeEl4N1k5V0Z5UFBWUDQ2N25KRDh4ckQ5SEJfdmJKRHU1enIxbDRHVk1TRkNnMlJ6TlI1WlJXeGpybERTTUN0bVE5OTQwVUc1QzBONC1LSzdlbTRhOGlmVVhNYUliZG0tOEtiNTlaV3QxMm5TT1cwTVVIVjM0TTVWbGRRLUVKWS1HZEtIbkNya2dkSi1pOF9mdGloUHRGVmhrMEhiLTZlcHZYVjZXSEdqYV9JQXR0ekVuZW5yZDA0NVJndTAxelBELVZfYk1sOVFKWmQ3Mko4c3N5TlE?oc=5"
     },
     {
       "symbol": "LT",
