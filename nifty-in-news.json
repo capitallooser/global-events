@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-03T20:17:07.136Z",
-  "source": "https://archives.nseindia.com/content/indices/ind_nifty50list.csv",
-  "status": "ok",
-  "error": null,
+  "updatedAt": "2026-09-03T20:33:41.283Z",
+  "source": "https://capitallooser.github.io/global-events/nifty50.json",
+  "status": "fallback",
+  "error": "TypeError: fetch failed",
   "items": [
     {
       "symbol": "ITC",
@@ -35,6 +35,21 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaFZzQS15Zl9WYWhMU1h3eloteGczRTFpMVlOWTc0NzBfWGRtbUVxTFN3UTNiaTI0d3JGN25JUzRCdGdBdW1PNUpHU3NldXBoZG1rek5seVJyc042bXhVenA4SHpDdmFpcE5pRTdPMVBzU0dOWHVJa3BEN2VRYWlkWDNBaDJCb1B2bG9OM1hjWDhST2VBX2VYVU5YblFYQmotOU5GcVRqUzdJck1ldGdVR01nRTZkMWh3V2VXX1NUZGQzLW1pOHJsTG02RQ?oc=5"
     },
     {
+      "symbol": "ETERNAL",
+      "company": "Eternal Ltd.",
+      "industry": "Consumer Services",
+      "relevanceLevel": "low",
+      "relevanceScore": 33,
+      "reason": "Company-specific development",
+      "latestHeadline": "Sensex Today Trades Higher | Nifty Below 23,850 | Eternal & Bharat Elec Top Losers - Equitymaster",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-09-03T04:35:48.000Z",
+      "sources": [
+        "Equitymaster"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNY1FyRGJ2NlZtaGhZbmdjMmVvcVdDZFZ1YWs4MENKNm9TaDBvemZOb3I1dUJNUmxnaS04YlhrTWxvaFJJZ1J1QTZta0JLVU1DT0hCX0pNZEtmeGE5X3JiNkt6OXlvX1prSUhxWGhjN19JRXBoVGFtMFVCc1czRFVJaGdtdzE0MWVTdEZyeWZHUTFIVks1LUR0d3V3T1hTWnhIVEJzbVRKS3F3cFRjMW1MSGhfUm54YTUxTjJGZWtvTTlsMWhRYmRzLVRmRWJoRUlBa2JhbFJn?oc=5"
+    },
+    {
       "symbol": "COALINDIA",
       "company": "Coal India Ltd.",
       "industry": "Oil Gas & Consumable Fuels",
@@ -47,7 +62,7 @@
       "sources": [
         "Business Standard",
         "theweek.in",
-        "tradingview.com"
+        "TradingView"
       ],
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWDB5RHRjcGN3WGZMSnExU3ZlQkRSS18yMV9RemJacWdTQzV5MkJtLURXOW90NXloZjdZOWpoV1ZuX0tkeWx0WjhPMGVqQlFxbzNEVklQSVRPR194cEcyelFVWFd3R2M1M25pN3pvNWxNREV1Z2lJVFk5a3lTYm5jV3hYS2tQSkRPczFEb2JNWVRYazZmSzFneWtfT084SXdvQ3dHR3V0a3hsSVRXYWhfTVg0WVF5ZzIyejdrakF0RmZQWWl5azlVRkxSR1hIWUdlR05zY2tMbUVqQmvSAeABQVVfeXFMTXNVUkR5SS1lbEwzb2loV2dmNlVPeU80bTJkV25GMFFnU0pWajQ0N1lXdFE0bkpuOS1ZOEtvY3hJUlM1cjJqTllLVlZrWjRUM0w1QVA2UWg3eFl2NDU4Y20tcGFDenA4X18zd0ItTXpJdFRKYmhGTkZ1d19hSjB6R0QxS1lQN05fR0N6Y1dZX3hidDlGUzNUbm5naDJfT25CUmR0VGFYTlhaSTNjOFRXRS1rbDRzRWNES3d3bzFMX3VWNlJKSy04VHVtUmlnZ1JoSEFqT0NaX0Z5bldUT3hZX2Q?oc=5"
     },
@@ -65,6 +80,66 @@
         "Equitymaster"
       ],
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNZ295QVVrRVVJS1VHRjZlOTRtSTBaYzhGN1lleTdLZW1iekpPZzFnZzg5M3U3Y011cUQwZU16QWE3VVN1X3F6ci04dDdad1ZPaWhxVjQxRGpmVml4VnJRWnRtX3o0M0pEejF4bUpvZHQ2MUZSTFU1RjZBdFRjV0ZWREJEYXdJMWU5SmdjWHZPQjN4Z2tFQmhVd2U1WEtwVEJNaDhoaUVHMklJaGRoOFhBQjhDc3RXYTNBWWdRWU9lNHVOcWNMSHpnZWpPdVpWQWtLRGlNTkw4cFJ2c1BBWDRRMUhUUXFPRUUtSWJxM3FQT2wySTV0bnF0bmcxdzU1QnotX2xv?oc=5"
+    },
+    {
+      "symbol": "MARUTI",
+      "company": "Maruti Suzuki India Ltd.",
+      "industry": "Automobile and Auto Components",
+      "relevanceLevel": "low",
+      "relevanceScore": 23,
+      "reason": "Company-specific development",
+      "latestHeadline": "Sensex Today Ends Flat | Nifty Below 24,100 | Maruti Suzuki & SBI Top Losers - Equitymaster",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-09-01T10:23:27.000Z",
+      "sources": [
+        "Equitymaster"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdGxXUTh0eE5vQlVBbS0zNGxDbUJ0cW5OMGhTZGJZVmNSejRyRjE2cGt4Um9tZFFoX19LeGctQ0Z2VmtQZnpxRzlqbTRWTDhqU3JJODUtYVJJM1dXMUQ5QXR2bDJ1b1FIdWw2amVIcWx2blJZRUoxMGs3UVI2bHdJc0xKQVhjeDlPQjdjR2VxN3Zxb0ptSmM2YUVaa1hXRVRXdU1XMkI0ekZKSXRKQW1fNzN3QlpUdnFTeHFBSEFmWEI4TGduYy13Tl9tM04yZw?oc=5"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "company": "HDFC Bank Ltd.",
+      "industry": "Financial Services",
+      "relevanceLevel": "low",
+      "relevanceScore": 23,
+      "reason": "Company-specific development",
+      "latestHeadline": "Indian stock market today: Sensex, Nifty fall as US-Iran tensions, higher yields weigh, HDFC Bank lead gains - BusinessLine",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-08-31T04:42:56.000Z",
+      "sources": [
+        "BusinessLine"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPQmxUekFqTlp6bW1YUHgxbzhsTFNfcmt2ejV0MTFpdDlUT0EzOG1BbHAwMjNxY05leUduVDVuUTFjUndEdEhoN3FidTlQVERVeEowUUdlb21IZTZJNkxGam1FNGxzMk0yMFEybWNxRHZGdGh4REt0ZjgzSUtYWXN1bFo5Yy1HQ2dGbmtOcktUeFVsM0lZQzAxU1c5OXlEZ0wtY3lOZnRoSmc3RmtsOGFtUVdiVE9IZEpNVC01eUhUdjhkU2ozR3BOdU9oMGtCbDRDZTdTUVFJeWk3VDBVenUySlM5WDVraFFRUGUtRWl5bGhueUM1NUUtejUzOGNtQdIBhAJBVV95cUxQaFhhTXFjTmFpOG1ZS0VXbDJRdFRsXy1MVklaZTFVYVlXeGRNdWtRbzU2LVpNOVEtazlDWU1wamszRENobmg1WGJXeWtiQWVoMGFoN0pxQjU5bUJEa2V3b3JzLTI3OXZEbjNsX3VUWHdDRDd3cVVpVDU3WXdIa0Z1SURPa0ZxY3ZYRVpXSjRTbTN5cWFZM2J2RlJvWXJNQmpRajJWa29zXzVRbEVTNzhDUmJsQzFEaXUtYm1vQXZqSXhWcktCTDFXbGVmV190OURqdlFsYkFrMWlta0pMY0ZicUQxTHlSYk1wa05jVTVGRzcyMVZXYTJ5SHIwT09oekl4aGV3YQ?oc=5"
+    },
+    {
+      "symbol": "INFY",
+      "company": "Infosys Ltd.",
+      "industry": "Information Technology",
+      "relevanceLevel": "low",
+      "relevanceScore": 23,
+      "reason": "Company-specific development",
+      "latestHeadline": "Sensex Today Trades Lower | Nifty Below 24,100 | Tata Steel & Infosys Top Losers - Equitymaster",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-08-31T04:38:36.000Z",
+      "sources": [
+        "Equitymaster"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSVluTVdGb0ZLcE1YWWs5bmlRdGpSRkhRVGtadXVnQnpOMG4xelEtWVc5VDY1cS1NN3BzVFFreTcyQXo3aGVST2pubHp0NXlRdlJfaGhhWC1zSDZ5TzFiak9IRk9pcjJPUDE5ams5NEk1TWh6UmVpUzUtWXRmalNaLXhxSl92UWpZNWg5Qm9aN09GX3VPb1VkR1B1bXdPczZQNlp2bmxDQzVuMm9rUk00S2pvUUxYTGNlWXd2LTBKSlZqTktHUExqYzdXMUp0cnEyOENV?oc=5"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "industry": "Metals & Mining",
+      "relevanceLevel": "low",
+      "relevanceScore": 23,
+      "reason": "Company-specific development",
+      "latestHeadline": "Sensex Today Trades Lower | Nifty Below 24,100 | Tata Steel & Infosys Top Losers - Equitymaster",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-08-31T04:38:36.000Z",
+      "sources": [
+        "Equitymaster"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSVluTVdGb0ZLcE1YWWs5bmlRdGpSRkhRVGtadXVnQnpOMG4xelEtWVc5VDY1cS1NN3BzVFFreTcyQXo3aGVST2pubHp0NXlRdlJfaGhhWC1zSDZ5TzFiak9IRk9pcjJPUDE5ams5NEk1TWh6UmVpUzUtWXRmalNaLXhxSl92UWpZNWg5Qm9aN09GX3VPb1VkR1B1bXdPczZQNlp2bmxDQzVuMm9rUk00S2pvUUxYTGNlWXd2LTBKSlZqTktHUExqYzdXMUp0cnEyOENV?oc=5"
     },
     {
       "symbol": "M&M",
