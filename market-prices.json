@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T13:18:30Z",
+  "updatedAt": "2026-09-04T13:34:12Z",
   "instruments": [
     {
       "key": "nifty",
@@ -34,40 +34,40 @@
     {
       "key": "sp500",
       "label": "S&P 500",
-      "price": 7747.71,
-      "change": 81.11,
-      "changePct": 1.058,
-      "sourceTimestamp": "2026-09-03T20:49:08Z",
+      "price": 7743.3701,
+      "change": -4.3399,
+      "changePct": -0.056,
+      "sourceTimestamp": "2026-09-04T13:34:11Z",
       "sourceName": "Yahoo Finance",
-      "status": "Delayed"
+      "status": "Live"
     },
     {
       "key": "nasdaq",
       "label": "Nasdaq Composite",
-      "price": 26584.06,
-      "change": 366.232,
-      "changePct": 1.397,
-      "sourceTimestamp": "2026-09-03T21:15:59Z",
+      "price": 26603.2832,
+      "change": 19.2232,
+      "changePct": 0.072,
+      "sourceTimestamp": "2026-09-04T13:34:10Z",
       "sourceName": "Yahoo Finance",
-      "status": "Delayed"
+      "status": "Live"
     },
     {
       "key": "gold",
       "label": "Gold",
-      "price": 4431.5,
-      "change": -108.4,
-      "changePct": -2.388,
-      "sourceTimestamp": "2026-09-04T13:08:30Z",
+      "price": 4450.7002,
+      "change": -89.1998,
+      "changePct": -1.965,
+      "sourceTimestamp": "2026-09-04T13:24:11Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
     {
       "key": "crude",
       "label": "WTI Crude Oil",
-      "price": 90.24,
-      "change": -1.06,
-      "changePct": -1.161,
-      "sourceTimestamp": "2026-09-04T13:08:29Z",
+      "price": 90.22,
+      "change": -1.08,
+      "changePct": -1.183,
+      "sourceTimestamp": "2026-09-04T13:24:10Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
@@ -84,10 +84,10 @@
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 79317.9922,
-      "change": -1953.9278,
-      "changePct": -2.404,
-      "sourceTimestamp": "2026-09-04T13:18:30Z",
+      "price": 79320.9766,
+      "change": -1950.9434,
+      "changePct": -2.401,
+      "sourceTimestamp": "2026-09-04T13:34:07Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
