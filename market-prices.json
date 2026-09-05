@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-05T02:56:31Z",
+  "updatedAt": "2026-09-05T03:15:42Z",
   "instruments": [
     {
       "key": "nifty",
       "label": "NIFTY 50",
       "price": 23897.6992,
-      "change": -16.7008,
-      "changePct": -0.07,
+      "change": 24.2992,
+      "changePct": 0.102,
       "sourceTimestamp": "2026-09-04T09:55:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Delayed"
@@ -15,8 +15,8 @@
       "key": "banknifty",
       "label": "Bank NIFTY",
       "price": 57369.6484,
-      "change": 197.6484,
-      "changePct": 0.346,
+      "change": -10.9516,
+      "changePct": -0.019,
       "sourceTimestamp": "2026-09-04T09:55:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Delayed"
@@ -25,8 +25,8 @@
       "key": "sensex",
       "label": "Sensex",
       "price": 76515.4297,
-      "change": -54.9703,
-      "changePct": -0.072,
+      "change": 362.5297,
+      "changePct": 0.476,
       "sourceTimestamp": "2026-09-04T09:55:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Delayed"
@@ -45,7 +45,7 @@
       "key": "nasdaq",
       "label": "Nasdaq Composite",
       "price": 26506.99,
-      "change": -77.07,
+      "change": -77.11,
       "changePct": -0.29,
       "sourceTimestamp": "2026-09-04T21:15:00Z",
       "sourceName": "Yahoo Finance",
@@ -84,10 +84,10 @@
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 79591.3594,
-      "change": -84.9706,
-      "changePct": -0.107,
-      "sourceTimestamp": "2026-09-05T02:56:30Z",
+      "price": 79561.1719,
+      "change": -115.1581,
+      "changePct": -0.145,
+      "sourceTimestamp": "2026-09-05T03:14:39Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
