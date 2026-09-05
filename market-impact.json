@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T16:52:08Z",
+  "updatedAt": "2026-09-05T16:52:08Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
@@ -46,12 +46,12 @@
     "usdinr": {
       "label": "USD/INR",
       "priceSource": "Yahoo Finance chart",
-      "points": 2259
+      "points": 2260
     },
     "bitcoin": {
       "label": "Bitcoin",
       "priceSource": "Yahoo Finance chart",
-      "points": 3169
+      "points": 3170
     }
   },
   "eventTypes": {
@@ -547,8 +547,8 @@
       "label": "US Employment Situation (NFP)",
       "historySource": "U.S. BLS",
       "reactionRule": "default",
-      "historicalEvents": 112,
-      "impactScore": 2.39,
+      "historicalEvents": 113,
+      "impactScore": 2.37,
       "impactLevel": "very_high",
       "markets": {
         "nifty": {
@@ -632,14 +632,14 @@
         "sp500": {
           "label": "S&P 500",
           "oneDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 54.5,
-            "downPct": 45.5,
+            "upPct": 54.0,
+            "downPct": 46.0,
             "flatPct": 0.0,
             "avgReturnPct": 0.01,
-            "avgAbsMovePct": 0.97,
-            "medianAbsMovePct": 0.84,
+            "avgAbsMovePct": 0.96,
+            "medianAbsMovePct": 0.83,
             "maxAbsMovePct": 5.97
           },
           "threeDay": {
@@ -658,14 +658,14 @@
         "nasdaq": {
           "label": "Nasdaq Composite",
           "oneDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 51.8,
-            "downPct": 48.2,
+            "upPct": 51.3,
+            "downPct": 48.7,
             "flatPct": 0.0,
             "avgReturnPct": -0.05,
-            "avgAbsMovePct": 1.28,
-            "medianAbsMovePct": 1.25,
+            "avgAbsMovePct": 1.27,
+            "medianAbsMovePct": 1.24,
             "maxAbsMovePct": 5.82
           },
           "threeDay": {
@@ -684,12 +684,12 @@
         "gold": {
           "label": "Gold",
           "oneDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 57.1,
-            "downPct": 42.9,
+            "upPct": 56.6,
+            "downPct": 43.4,
             "flatPct": 0.0,
-            "avgReturnPct": -0.03,
+            "avgReturnPct": -0.04,
             "avgAbsMovePct": 0.86,
             "medianAbsMovePct": 0.61,
             "maxAbsMovePct": 4.09
@@ -710,14 +710,14 @@
         "crude": {
           "label": "WTI Crude Oil",
           "oneDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 59.8,
-            "downPct": 40.2,
+            "upPct": 60.2,
+            "downPct": 39.8,
             "flatPct": 0.0,
-            "avgReturnPct": 0.68,
-            "avgAbsMovePct": 2.39,
-            "medianAbsMovePct": 1.61,
+            "avgReturnPct": 0.67,
+            "avgAbsMovePct": 2.37,
+            "medianAbsMovePct": 1.6,
             "maxAbsMovePct": 23.81
           },
           "threeDay": {
@@ -736,10 +736,10 @@
         "usdinr": {
           "label": "USD/INR",
           "oneDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 46.4,
-            "downPct": 53.6,
+            "upPct": 46.0,
+            "downPct": 54.0,
             "flatPct": 0.0,
             "avgReturnPct": -0.05,
             "avgAbsMovePct": 0.28,
@@ -762,12 +762,12 @@
         "bitcoin": {
           "label": "Bitcoin",
           "oneDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 50.0,
-            "downPct": 50.0,
+            "upPct": 49.6,
+            "downPct": 50.4,
             "flatPct": 0.0,
-            "avgReturnPct": 0.28,
+            "avgReturnPct": 0.26,
             "avgAbsMovePct": 2.24,
             "medianAbsMovePct": 1.47,
             "maxAbsMovePct": 18.19
@@ -3166,12 +3166,12 @@
       "usdinr": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2259
+        "points": 2260
       },
       "bitcoin": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 3169
+        "points": 3170
       }
     }
   }
