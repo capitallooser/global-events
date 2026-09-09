@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T07:27:50.138Z",
+  "updatedAt": "2026-09-09T07:47:06.120Z",
   "sourceHealth": {
     "India Market News": {
       "status": "ok",
@@ -14,299 +14,11 @@
       "items": 100
     },
     "Federal Reserve": {
-      "status": "ok",
-      "items": 20
+      "status": "error",
+      "error": "Error: 404 Not Found"
     }
   },
   "items": [
-    {
-      "id": "news-1xchy9n",
-      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-09-04T15:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-1bd0jci",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260827a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-08-27T15:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-pxjjgt",
-      "title": "Federal Reserve Board announces approval of application by National Westminster Bank Plc",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260820a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-08-20T20:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-ekj1ho",
-      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-08-20T15:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-1qq7f7q",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-08-20T15:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-zq48yy",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Regions Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260813a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-08-13T15:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-9aikif",
-      "title": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-08-04T20:30:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-1v9gkoo",
-      "title": "Federal Reserve Board announces approval of the application by FS Bancorp, Inc.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804b.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-08-04T20:30:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-eu2lf8",
-      "title": "Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-08-04T20:30:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-qxzq16",
-      "title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-07-31T14:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-fqodd2",
-      "title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-07-31T14:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-teqb7p",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-07-30T15:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-n2w3al",
-      "title": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-07-30T15:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-zogght",
-      "title": "Federal Reserve issues FOMC statement",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-07-29T18:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-b2i27d",
-      "title": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-07-16T15:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-7l117h",
-      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-07-09T19:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
     {
       "id": "news-r4auyf",
       "title": "Bank of England to hold rates, show patience with war-driven inflation: Reuters poll - Reuters",
@@ -488,78 +200,6 @@
       ]
     },
     {
-      "id": "news-a5as5x",
-      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-08-25T18:00:00.000Z",
-      "region": "US",
-      "category": "other_market_moving",
-      "relevanceScore": 60,
-      "relevanceLevel": "medium",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-4o2pvl",
-      "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-08-19T18:00:00.000Z",
-      "region": "US",
-      "category": "other_market_moving",
-      "relevanceScore": 60,
-      "relevanceLevel": "medium",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-17jc9vm",
-      "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-07-16T18:00:00.000Z",
-      "region": "US",
-      "category": "banking_credit",
-      "relevanceScore": 60,
-      "relevanceLevel": "medium",
-      "reason": "Banking / credit development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-c94c5m",
-      "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-07-14T18:00:00.000Z",
-      "region": "US",
-      "category": "other_market_moving",
-      "relevanceScore": 60,
-      "relevanceLevel": "medium",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
       "id": "news-lh976v",
       "title": "Sensex Falls 600 Points, Nifty Slips below 23,500 as Crude Oil Nears $100; Rupee Hits 94.83 - India Infoline",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOakg4X3RQaDZMNU9Zb3NpWHBXc29WamxXd0ZpeENweGhnTjBNNzZFN29Od3ZVRGJvRGRUa0pkekZ0bGQ5eXpSTUthY0Z0RmZmaFgxZm8yNEVFWTQ4WEtEUFdPVWUybVZXQ3dvNndXTEphNm1UNXpJMFpHUHd5SXllQTFJbWROdHVZVGtIZWxPRWxqSERDLWluVG1pY3pRbFF0UHhRRUVlbUVDQWNqcnBwa25fbld0V1k1eFFxWTBZZk53SE1ZVjBlYmhn?oc=5",
@@ -578,28 +218,10 @@
       ]
     },
     {
-      "id": "news-11tsjqk",
-      "title": "Bank of England’s tricky balancing act in dealing with global bond shock | Letter - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORE1rbDNMd0R2THgxNGVLaWdQdi1Rb0hiZ3l6bUZ5b09WYl9kY3JXYlJuWWc0a0Z0RTBDMFNmWnJHNkZsMjJ4TVZCaXhIT2lIOGFuY3dEYTF0WEFGM3FBRW9NMUZ3VWJPZHpBM01iQi1LWERDdjYzYWlwU3R6VFNVSk5sV3FKSUpCcjk0TUctTGpjOWxodW43cWVjR2gyaGg1U0pkUTVuMU5ORUxRclJIT3ZGRkhzZWs0aXNZ?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-09T01:30:00.000Z",
-      "region": "GLOBAL",
-      "category": "central_bank",
-      "relevanceScore": 57,
-      "relevanceLevel": "medium",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "The Guardian"
-      ]
-    },
-    {
-      "id": "news-sfdxfs",
-      "title": "S&P 500 moves with Fed rate hike odds; key 7620 level could signal buying opportunity after September CPI. - Pluang",
+      "id": "news-1sdihnn",
+      "title": "S&P 500 moves with Fed rate hike odds; key 7620 level could signal buying opportunity after September CPI. - pluang.com",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0T0N4ZUFnWHJseUk1OFpWWVBRek01RllCTXNBdUoyYXNqamY3c0hScEYxbDg4ZHN2SnJ0QnBqZzZPZlQzY3UtLWJET2haRkozNzlHS0VONXJfS041NDZMRW1zOVo3VWlQZVl5N2IybmZ1Zw?oc=5",
-      "source": "Pluang",
+      "source": "pluang.com",
       "publishedAt": "2026-09-07T20:23:46.000Z",
       "region": "US",
       "category": "central_bank",
@@ -610,7 +232,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Pluang"
+        "pluang.com"
       ]
     },
     {
@@ -1426,6 +1048,24 @@
       ]
     },
     {
+      "id": "news-11tsjqk",
+      "title": "Bank of England’s tricky balancing act in dealing with global bond shock | Letter - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORE1rbDNMd0R2THgxNGVLaWdQdi1Rb0hiZ3l6bUZ5b09WYl9kY3JXYlJuWWc0a0Z0RTBDMFNmWnJHNkZsMjJ4TVZCaXhIT2lIOGFuY3dEYTF0WEFGM3FBRW9NMUZ3VWJPZHpBM01iQi1LWERDdjYzYWlwU3R6VFNVSk5sV3FKSUpCcjk0TUctTGpjOWxodW43cWVjR2gyaGg1U0pkUTVuMU5ORUxRclJIT3ZGRkhzZWs0aXNZ?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-09-09T01:30:00.000Z",
+      "region": "GLOBAL",
+      "category": "central_bank",
+      "relevanceScore": 51,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "The Guardian"
+      ]
+    },
+    {
       "id": "news-pqtdnu",
       "title": "Energy prices could soar even higher, Bank of England boss admits in cost of living warning - Yahoo News Canada",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB3RWdidjdUX2U2YjB6WXdfUmVBVWNYX2Q1ZWotOThmWFRJYXZFbnAydWI0VklOTWxrQnMtMFlOZXZtQ01RUWQtd0l0aVdkLU1kd1JDc2tIWi1OcDJVM29tWDJiOE04cXpDaVpRZjRidzdMbDJPaGNTNFpB?oc=5",
@@ -1624,10 +1264,10 @@
       ]
     },
     {
-      "id": "news-wo45od",
-      "title": "Dow tumbles 500 points as possible rate hike under new Fed chief rattles Wall Street - New York Post",
+      "id": "news-1b8h6ya",
+      "title": "Dow tumbles 500 points as possible rate hike under new Fed chief rattles Wall Street - nypost.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNU04cjNkcklUUnRJbjNwc05iM3cxVFFVZ0VRLTQ5Sm1zcTUxVnRKeVFTWnFPLWFMaWlHcFhJMWdxM3d1a1RISFdmRXlUSlAwaWFJOUJMdExYcVhhN01SZkNobnIycC04VjZJeWZBSThtY21idFV4UGkwUlFsam1YM0FQQnFCcTdiTnUtMkMwc3FqVVRNVFVWZjA5T2VXOHB3TXVjU01oZXRPcFRrUXc?oc=5",
-      "source": "New York Post",
+      "source": "nypost.com",
       "publishedAt": "2026-06-17T07:00:00.000Z",
       "region": "US",
       "category": "central_bank",
@@ -1638,7 +1278,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "New York Post"
+        "nypost.com"
       ]
     },
     {
@@ -1968,10 +1608,10 @@
       ]
     },
     {
-      "id": "news-107q0mf",
-      "title": "Artificial intelligence could cause global economic downturn, Bank of England governor warns - news.sky.com",
+      "id": "news-1wo1m5e",
+      "title": "Artificial intelligence could cause global economic downturn, Bank of England governor warns - Sky News",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQm4wTGlraHVrOVBRQ25ta19lQ3AyWWU1YXZQTXhvakhZYU0wWWRabGw3RmZWdmItMTZNcXltR2o4X1ZITWhjbks0WWNyN1JoNWFjLWNQM19iWDhVTDRaMmpjVmRnQmtLWHg0LXhpU3pxZ0x1TTVxNGd1bUQ5emc2dzRzdE1rWllRSVZ1eENQRzd3bngtNWVRTEVremZPcTRGOExoZ0thRnc1S3Vab1VYNjVGT25OVVcxNVQzMzM5S2lSM25qdGc?oc=5",
-      "source": "news.sky.com",
+      "source": "Sky News",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "region": "GLOBAL",
       "category": "central_bank",
@@ -1982,14 +1622,14 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "news.sky.com"
+        "Sky News"
       ]
     },
     {
-      "id": "news-1n2tg0c",
-      "title": "If the Federal Reserve Hikes Interest Rates in 2026, History Has Good and Bad News for Investors - fool.com",
+      "id": "news-sfe11w",
+      "title": "If the Federal Reserve Hikes Interest Rates in 2026, History Has Good and Bad News for Investors - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbzR4bUU3UUtsVG9kR1hPZkdPUzFOc2VnYVRNV2pUcGo4YnJxZXhUaTRRVjZWNDRWLXRrVmRDYzZwdVA4cFppRWI2Q0xIdXJzSGlWSE5BOG50VkV5Y3EwQkxXVFBfMDROSUlxcnBGcVFaaHoxMV9zUHk4NnpfbXh6cVgxY1NXakxBcXEtQXFfLWV0OWpUYWZwRg?oc=5",
-      "source": "fool.com",
+      "source": "The Motley Fool",
       "publishedAt": "2026-08-28T07:00:00.000Z",
       "region": "US",
       "category": "central_bank",
@@ -2000,7 +1640,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "fool.com"
+        "The Motley Fool"
       ]
     },
     {
@@ -2130,10 +1770,10 @@
       ]
     },
     {
-      "id": "news-lfftwg",
-      "title": "This S&P 500 Stock Pays a 2.67% Dividend Yield and Has Increased Its Payout in 17 Straight Years. Here's Why None of This Matters to Investors as Much as the Federal Reserve and Kevin Warsh. - fool.com",
+      "id": "news-1snnszs",
+      "title": "This S&P 500 Stock Pays a 2.67% Dividend Yield and Has Increased Its Payout in 17 Straight Years. Here's Why None of This Matters to Investors as Much as the Federal Reserve and Kevin Warsh. - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRUo1T2VJb0JyWURNWmRZR21SN3FmY2Nrak4ySnJ2a2ZpSXpHSy1CSnhGcVpKODF5d29weDhjUE5yNU40amZwSGtDdGhkeE5rdUt5MS13cTd2MUhOUFROUmhZZFpjdS1Yd2V0c21Zc0F6alo5d29xYzV4QlcwR090cnJwWG9jSzctWkttQ2s1clJtWVpqS0hscQ?oc=5",
-      "source": "fool.com",
+      "source": "The Motley Fool",
       "publishedAt": "2026-08-22T07:00:00.000Z",
       "region": "US",
       "category": "central_bank",
@@ -2144,7 +1784,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "fool.com"
+        "The Motley Fool"
       ]
     },
     {
@@ -2202,10 +1842,10 @@
       ]
     },
     {
-      "id": "news-1fl9dcy",
-      "title": "Stock Market Investors Just Got Bad News From the Federal Reserve - fool.com",
+      "id": "news-k3bnmy",
+      "title": "Stock Market Investors Just Got Bad News From the Federal Reserve - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU0x1Uml3U2JwWVNjbDZjSUNkWVBTUkE3Vk5FS09sWFp3VE5kRDBYckZkUDU2c05uaVBsRTI0RXZXQmw5ZndNSk5BdUVUY01jNGNoOXhCRUtyc1dkTll0ZFJvOFhDbGtiT3l1NmpOdk5Lc3JHdktBU29XMjR2YXNaZHVQYmotMlItZVNPVkVabGhSMDJ2?oc=5",
-      "source": "fool.com",
+      "source": "The Motley Fool",
       "publishedAt": "2026-08-09T07:00:00.000Z",
       "region": "US",
       "category": "central_bank",
@@ -2216,7 +1856,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "fool.com"
+        "The Motley Fool"
       ]
     },
     {
@@ -2346,10 +1986,10 @@
       ]
     },
     {
-      "id": "news-i74h1o",
-      "title": "Investors Just Got a Subtle Warning From the Federal Reserve. History Says the Stock Market Will Do This Next. - fool.com",
+      "id": "news-1ef54ey",
+      "title": "Investors Just Got a Subtle Warning From the Federal Reserve. History Says the Stock Market Will Do This Next. - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRTA5ZVFoVU0xb1h6cUpDUTZiQnRObGN1andUQmU0NkpZbVc5Zk8xNlB0Tmk5VUlGLWpIbGZvaGhra19vcFhwZWJGNmlrU3duc0hzNk9nOWxncllld09FcGJDdFAzc000MmI2emdPUnZGNzdZTjZwOGVZRzZxSXFWTkdVaUs1TGFKelJSUFpJYk1GdlFuaUpj?oc=5",
-      "source": "fool.com",
+      "source": "The Motley Fool",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "region": "US",
       "category": "central_bank",
@@ -2360,7 +2000,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "fool.com"
+        "The Motley Fool"
       ]
     },
     {
@@ -2562,10 +2202,10 @@
       ]
     },
     {
-      "id": "news-4n8t7j",
-      "title": "US Stocks Sink on Worries About a Possible Hike to Interest Rates This Year by the Federal Reserve - U.S. News & World Report",
+      "id": "news-hmwawg",
+      "title": "US Stocks Sink on Worries About a Possible Hike to Interest Rates This Year by the Federal Reserve - usnews.com",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVzFJcVhZTXViY2Z5em9Bd05qVkk0NXhRbWFSM2F1di1kYmRieTN1RnhTVElWakNYLS0xbGgySGxsYjdEUDl6c1k1LXZBT1ExLXB6bmRJOGQtRmpvUG83dzU2NWdXQ01pbkJ3eUxtbldPemhHeXliTGc4N3Mtc3h5SHNQdVpwT1cxNG1KRzVpZ1VkUWRNNmlJWXNxUzRVVDRiZEQtRV9CLU5heHZYRjVWdk5qcTRvX1lwWlJHcTA3VWVjUGdFSjlrdE5KdGFYMU1Zc3VYNDB3?oc=5",
-      "source": "U.S. News & World Report",
+      "source": "usnews.com",
       "publishedAt": "2026-06-17T07:00:00.000Z",
       "region": "US",
       "category": "central_bank",
@@ -2576,7 +2216,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "U.S. News & World Report"
+        "usnews.com"
       ]
     },
     {
@@ -2652,10 +2292,10 @@
       ]
     },
     {
-      "id": "news-6i47ob",
-      "title": "Will the Stock Market Crash if the Federal Reserve Raises Interest Rates? Soaring Bond Yields Portend Trouble. - fool.com",
+      "id": "news-n2an7r",
+      "title": "Will the Stock Market Crash if the Federal Reserve Raises Interest Rates? Soaring Bond Yields Portend Trouble. - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeWF2bFg3aW80eWxCZlV5bGZSbi03dmdjZE1uXzVFeEJGTVBDZDlrT0tPSGQtbk5Cd05GZnpsZXhiUlJwOFhHNG1QUEZJNlRBQ1diVjdVRzhuMWZCMFRVRmNiTFBrdjdMczhjRDB6eW5BM3JlYXpLRDJqdU1XdzBwc2NFZEFmcjFlZXhkWjVQNjhjTkU?oc=5",
-      "source": "fool.com",
+      "source": "The Motley Fool",
       "publishedAt": "2026-06-09T07:00:00.000Z",
       "region": "US",
       "category": "central_bank",
@@ -2666,7 +2306,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "fool.com"
+        "The Motley Fool"
       ]
     },
     {
@@ -2742,10 +2382,10 @@
       ]
     },
     {
-      "id": "news-c53bcb",
-      "title": "The Stock Market Sounds an Alarm as Investors Get a Warning From the Federal Reserve. History Says This Will Happen Next. - fool.com",
+      "id": "news-70lwth",
+      "title": "The Stock Market Sounds an Alarm as Investors Get a Warning From the Federal Reserve. History Says This Will Happen Next. - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd2R6Z0JISngydTZPOWtYUTlEUWVOb0w3VFJDZ21WRWV0NEs3QXB4ZGZHcG1zNzNOa3RZTmgwdWc2R0hIVnBMcXpKdl9hcjVSeVd5bkRtc3BRRnlpaWFPdzk0cTBWV1FycHFxdEZLcms5dVN5S1RoQThRQ2JaR1JRZmFTNzVTSlYzaVJDZHVpckk3QVRX?oc=5",
-      "source": "fool.com",
+      "source": "The Motley Fool",
       "publishedAt": "2026-05-13T07:00:00.000Z",
       "region": "US",
       "category": "central_bank",
@@ -2756,7 +2396,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "fool.com"
+        "The Motley Fool"
       ]
     },
     {
@@ -3033,6 +2673,24 @@
       ]
     },
     {
+      "id": "news-1d7s68p",
+      "title": "Why stock market is down today? Oil spike, IT rout among 6 key factors dragging Sensex and Nifty - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQTENPNGJWdFhWSVZpN055X3NDV25Pd2NQbkROcmxSdWdQZnp0TVQ1cVJWQ2ltSG51VnpaR0ZuN3B0Y0tuVzljdGRkUWFuX1ZNQ3Nhal82ekc4alhOVmNDX242bEJXMWE3ZWkyV3NhMVhTWE9wdTVYVThKYVF0X0Q3VHJkOVBoSExaTTJReDdzNV81c09JeWJPcVZtMTkybUJrSDRyR3Q0eEFjNXAtdndmSHRfLUpwZ05WMVRRdE1lbUNocjR6QU5KaE1iUFJKcFVZclFrbXd1YmpjdE54bWtTbm9reUlHTGRoX1dsM2pDM2VoXzJQcm9ISThPbTN3Yzg5LVJHUF9qT3l2aU8zNFJ5OFl2VE55Z9IBmwJBVV95cUxOdVVTZzZUNEJCdm8weUc2OFpvZEpValdyWXFFUXhXbmFycTZ1U3I5ZnpybnRhWjUyNl9TR3JiQVk3MkVleHJkN1UyYzVFRmtDcktlVlZaRlFVYzBpXzFoZThsVURGdVRJMU1hdWpBbVBXNEdsTjdyd3dvVkpnUW0xMXN6YzNTZEp4YkhZTjBtMHd6SGN6d2staDBqWWVEM0xMVW5FV084Vm90Nldyekpva2l0bGRiN0FDTFA0enZWOEVESFF5VHlrNFBweFlkUndmSTduQ05ZZ0NGanh2WUxFa2pZenNIWjRRbVZ2NlZvVnF4SC1uVzV6VlRFMWs3T2x6Q19ncmZTSktseGpWeXdfSmd1bHA5TWQzOTVj?oc=5",
+      "source": "The Economic Times",
+      "publishedAt": "2026-09-09T04:09:41.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 39,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "The Economic Times"
+      ]
+    },
+    {
       "id": "news-9jdi5d",
       "title": "India Stocks Open Lower as Oil Nears $100 and Rupee Weakens - Investing.com India",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbXN6UnpPY1QxOW9NREhlMmItZlUwbndHTkVhVms4NHh6bldkdkZtM3pnTXlDUnR0aTZ5MkxrbWZ5Q1RNbjI5ZnQtcDhWb3hIVzd1N2Zjb1lIbm5zczlqamNKclJxV3R5T2FNbzhtTVNRQ24tQ0h0anNDWldnS2xoeVNXenZzeEs1MXE2X2QzSndBRm1VdmY4bzctYkhpX19jOVhPM1IzSTlUSGpvSWoxLVc0WlI?oc=5",
@@ -3141,10 +2799,10 @@
       ]
     },
     {
-      "id": "news-ii83rj",
-      "title": "Oil Price Surge Hits Stock Market Sentiment - DailyForex",
+      "id": "news-uimtic",
+      "title": "Oil Price Surge Hits Stock Market Sentiment - dailyforex.com",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS2VtUVFUekIyTXhGRUFRckFocXNBeTZuRng0MkQzMmJhTHQyTWJGY0xndVpENmVjNFJ4eUMzd2lmV1RtVW1qYU50OC1pcTV2WXA1UHk3M1NETjNWNllBMnNoRDlXajJ6a09zYTA4TkQtdUgzWEJEYnpSZ0ZYUVpsbjFxLVNKd1hRa2JLVHZB?oc=5",
-      "source": "DailyForex",
+      "source": "dailyforex.com",
       "publishedAt": "2026-09-08T11:52:47.000Z",
       "region": "US",
       "category": "oil_commodities",
@@ -3155,25 +2813,64 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "DailyForex"
+        "dailyforex.com"
       ]
     },
     {
-      "id": "news-f19ny1",
-      "title": "IFCI Share Price Today: Stock Falls 8% as NSE IPO-Linked Rally Faces Profit Booking; What Investors Should Know - India Infoline",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTm40b2gxdVpySGt3LU1XVXg0ekk4MGpQLWlLUVU4Ym1qVy0wM0lLRmJqc3EyQTlyR3c3RnRsSlZ4MVBIWE5UYWY3Rm1KM0pKdm5JQVRaNmxaLUdUd2hZQVBtaWExbWR4M0dQVmpFQlJJZGUyUm5jRUpqQkUzZk1Mb0dMTjRQYXFXM1pBQ3JDeG9oMHJjNnFmdzhieXVIVS1vUkdYVC1iSFMxR3U0SHBVS0ZpOFdycTZBdHJtV3dlVTV6OGZXaXhPUnFCZTd6VEI0RjJRRWJMVlNtdXB3c01FS0c4aUYtQ0Nq?oc=5",
-      "source": "India Infoline",
-      "publishedAt": "2026-09-08T08:00:29.000Z",
+      "id": "news-1m379vy",
+      "title": "India’s First Tokenized Corporate Bond Tests New Market - Serrari Group",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV2x3dHdIMk8xSjFnclR1aUpEcjhuQWdEbUliU0dsQlNhMkk2WFN6QWtfcFVTUExrTUIyUTNQTnVUQ2NYczNOcVMzVERJLXkzdFh3cnR2YUFidFdEOEVhZGZ0UDFoSFRLUUl4SzZzVnVTUXZOSVFmRmpjalplQkQ4ajFkTWYtX0k?oc=5",
+      "source": "Serrari Group",
+      "publishedAt": "2026-09-09T07:39:33.000Z",
       "region": "IN",
-      "category": "earnings_guidance",
-      "relevanceScore": 38,
+      "category": "other_market_moving",
+      "relevanceScore": 37,
       "relevanceLevel": "low",
-      "reason": "Earnings / guidance update",
+      "reason": "Broader market-moving development",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "India Infoline"
+        "Serrari Group"
+      ]
+    },
+    {
+      "id": "news-3s4rix",
+      "title": "Novartis India Ltd leads gainers in 'B' group - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSjN5TUY2dFM2MnltbTdEQ3IxZ04zaG1YWXgxQVByYW9CLUl0Z3FWTDhUdy1HV2JxNzFVQkl4SGJZZnRCWEdZbkIxT2Nvd0pVT1VfR2hkV09NQUxmX01GT1laR0tSSkVlWENvWTlVTm9SVXdmWWt2ejVLUWJTRWUyMHBFZUJHNWdxLXA0eU56czhVa1VCM1FmNXE5VXNNSVRobnRzWjRIeVFpVFJvRnlvbjhZV1p0QnNTZGdDYWRjRjFhVFXSAcgBQVVfeXFMTXFpSTZ0cDRabDIyckZndXlvaG1rMkNfaHp4bWRfSTdGNkZwLXFHVUhEZWt3aTNHc01jdmZnRUlPTWx3a3dYSXNtUGNSUHR2UWwzclVGeFg0MXJOck9OTnR2anBQa29TNjNZZHF2N1hCRXAxc3Y4T1BrbWpLTHNQVXFLX0xWRmEtd1g0Wi1ZbDlvd2F6ZmI0bG5NWm1Sb0ZzMU8yTC1QRnA1ZUhUY0NWUmd1dndCVUlpWW5ReEZ2QW9PSUF4aU9weUw?oc=5",
+      "source": "Business Standard",
+      "publishedAt": "2026-09-09T07:26:03.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 37,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Business Standard"
+      ]
+    },
+    {
+      "id": "news-ftwiw8",
+      "title": "Indian IT stocks led by Infosys, TCS, lose over ₹1 lakh crore in market cap this week so far - CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRF9DY0M0eEVlbC02Ym9mTXUta0RQV0ZNUURRMFdzdlNRcVhhYzZmU1I3NXhoN2RvYWR1ckRRcFFaNkc2czNlT0VwS2RRTjFBTVpsSUY3a1FYcHVyRDZpa25nWHBaTDQ1a1VzVkpsTUxSeXpYbDBnR09Ca2cwS3VjUHlZVTRxQ0ZnaW9OdkVxeGVjYVE1LVJzUFctRndnNnVLeFNUd0ktY0xfU3ltOVhrZ2dLcFBaZ2N1MVg3WjJTNnFwZms4N2ExaHdBanBuM3Q1Wm0tcWtQNFh1Qk1NMG0ycUZEREtmQdIB6wFBVV95cUxOWjNPX3RqUUJ2VkFjVnI4Xy1rZzdaRGlhZnotcXlPc2J4bjlMZDAwa2lKLWdhQWo2bktVR0RYVGZKTUNoZTNtNVp5TUl2anE0d1c1el9UejdZeHRaNFVUd1cyTzM5eXVDdHhwRlRwQVdYTVBTVUE2Wkp2b3JXTW9KZWxGVmpIVVBhLVpSdVNsZXB1Ylo5cC1ZYnRXYldXM0ZtSU5pVGVibjNuYkJvSmc1ZVZJeTJNNXROSnNJb2dKeGtWRkNIdHh6R3Rpc3VJQ1ByNkhMNG5zYlR1VllKOUJVQkdGM0hXRnU4S2Jr?oc=5",
+      "source": "CNBC TV18",
+      "publishedAt": "2026-09-09T07:15:30.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 37,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [
+        "INFY",
+        "TCS"
+      ],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "CNBC TV18"
       ]
     },
     {
@@ -3192,96 +2889,6 @@
       "official": false,
       "corroboratingSources": [
         "India Infoline"
-      ]
-    },
-    {
-      "id": "news-6tfvu0",
-      "title": "Graphite India Ltd leads gainers in 'A' group - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLTBWUF96eXNRLWJUSlNvWnV2ZWVmYjdobXBfbHF5MVRZbVFMM090cU1DS1V3bjRIZk9zWUlJb1YzUUVOOExzVEJjMFlGOHVrZ2lXZFhuaEpXandyeENGU1ZHd3FySTNwTVlFMzdlYkFCQnhvZS1tMzRpRHlrTWNUeTNrUzJVUjRmMU5IbzhkS0RhU3plMEpDZ2pxa21NLUdfRXZYN0pmamhON3hIa2d4SzlaUUk3ZHpDX2VzSHEtdXY1ZU3SAcgBQVVfeXFMTmw2T0pSbzN5YmU1STFaaHhoTWRmZ1N0SHlpY1BxNmlyQ0xrNzFEUW5tbldKRXM3T0ZJYjFnVHNEczdfREJWdkVCTUdtbDUtQ19vVmh6ZXI2WXpvNEIwSHE0cGJhcTZOaEV3NXZ4NVFJZTRsWEZyRFRSZVJvT2N6N2dTb2JYWXh4OVhFNTZoNUlxVnRucEhYY1d2R0pqS1lEN1BUbGtSNTZXOUdpV0NheTllNC1hejViRVA2V201Y1ZIMFV5T21oVno?oc=5",
-      "source": "Business Standard",
-      "publishedAt": "2026-09-09T06:46:38.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 37,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Business Standard"
-      ]
-    },
-    {
-      "id": "news-177zhqe",
-      "title": "Astec Lifesciences share price skyrockets 17% despite weak sentiments on D-Street. Do you own? - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNcE9BT2ZibFJLb2w5OTBXR2c3OURoU25uVVFQUkhJOGkzUUkxNmE2YkV2ZmxfenFrcmhzVkVUVHVQb2JMSG5LS3NuMW9EV20zcGdneWsxMXRqc3lVS1NMcVFZWENvaVN2dkF4SE5YVTlPOThUcU45T1RzM2FicXpXX1pZQllBZy1URldiaWhJZXppVHNIcEE0RS1wb1FMR2oyUkFVUUJldkdwUGRSaXNBSG5lZTQ5UVZNcW9YMXNKTXF0UnVvMnRkVDRzSmVaZWU5bUhCMjI3dHJhbkgwemR5eXhUNUVjVUU4QWtCZklXdUEtdmPSAfgBQVVfeXFMUF90WWpfSU51UlZlaUFSSDNhemZjcEdBTzN0RzFqdjYwTGRrNmZKaGhYZGFDaU1DN040ZTdSd1huTmFFM1hVYlJrTVpwYV9hbHE2ajhYckdCdzVxVWhaOWlseC1ZcUNXWWQzblBjd0lpbEotZVpoMkFKQVA5V3F0SGlNUFRyWmgtZUQ5RHotd1VCOWU1RDlpWkdrd1l1akNsbVdrWW53WWJzWnRPbTBrUDJodVhoQi1Eb2ZjSktyaDMxNEdXbFMxd1dJSXlVLWRHR19DZnVHSU5XczVtUE4yWVY2VU95eE5fNVloVkdlanNKZ3RsUHVFTHU?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-09-09T06:40:42.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 37,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Livemint"
-      ]
-    },
-    {
-      "id": "news-p9diie",
-      "title": "NSE cuts IPO price range, giving up shot at India's top listing - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeEVzWC1KOExSUE9oaWFOeGZWWm5maXkyU3RyR1lwOXk3cmtsVlBEUTJybTdVTDZsUk9kSHBoMDhwUzJ5Wi1uOGs0N1hmNmNLbjJEdHNxSmVZc2txUlo1cExIQUhQOFFtalhJTkttbzFicFAxSGdzcmZ2SXpBVEpIWjRkYXpZenZqN3BYQXNaSlh3VUFEV2YyN2ExM0JHR1M3eHBmODBHRdIBrAFBVV95cUxPVWpRQmtvZUNPRUhUdWZ3bFZRczhPOUlvbzVzeHRkWEtTN1RvVlZlQm91MVdWcGlzdG1yMEdjTmppb0xHRDBfN3FmYkxsdDAxblB1VHNtSFVwLVQyMnJDc0JELWFnWmdFb1VER2ozYk1qS1NqcWF1LU1na1gtbGtheGhRVmJ3Zm5xLUQwR05QaGNMY0RNWnB2ckFZSG41T1pwam83WGJjZFZlVnVq?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-09-09T06:36:00.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 37,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Livemint"
-      ]
-    },
-    {
-      "id": "news-1y0zgc7",
-      "title": "Asahi India Glass Share Price update: market cap and ratios - univest.in",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeHJyaEpONkV2Y2F1dFMxejYwdkZIUUdGYWxNZ2dsV2Q1U01QcmoydTZTWVI3UzJXd0lGN3NjRXd5eHVVUnJmeWpObE5ySGZPSV82RFJsX0drT2ZPMHdyVmF4MHZhLThkUkF2d2lINi14SHlnemdBaTEtdlRweDZWWGI4SWI?oc=5",
-      "source": "univest.in",
-      "publishedAt": "2026-09-09T06:36:00.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 37,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "univest.in"
-      ]
-    },
-    {
-      "id": "news-oruqkp",
-      "title": "Wheels India share price hits a 52-week high, jumps over 55% in just 6 sessions- Should you buy? - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSnVyakRab0VtOVlweUczUnFjVWRPT1g5SVJfV2o1S0V1R1ZVZERTU3pQUHhteUJiVDVDRWZVTXBXZFJFTWc2cktxdkJPVDRjRVM3SXZvVTUwNTNEdFlzWGhsZUpmOHJMbGdPbXVERUJaeXR5cjdWSWJjQ2Mta1BiTkx0OUV2bURteGVxeFRqQ1p4SUhrNWpIOTlLUFhWTUx5QkxkS1NPUjNqb2t2MmxpcW1SNFE0SWFzUkE5RlVXWDZvUzlwd09TNE10Tnk5Tm9pZjVBYWZ0QUlNb0hmTjd5VTk2aWRfRjlsWVFVeWN1YVlTY0d50gH6AUFVX3lxTE1Qdk5qbHVrYXliZlJEa0wzaE9JVy14VC1BZTVycmVZR0x6OFVSVEVLMl9ISmkxQURHT0NqdGJpdlZkblVDUGZ2ZEYzUEx2Q0dlUEo1V0x0ejNpdWR0aG96ZUJ2ejJ6YWo3VjJkb3lqX3RRVmRlT0pVQUVueXZNQkl5bEpmUTVSUlUtVFJma2hTODRtcngyeGJ5Y0Jydi1uU1Y2OGc2MVhNMGI0NkRyODI2QkNZdmUxMFJMNmlRZ3RlVmRkQVBTQkJ3M0d2ZnpheVJZdUtpRFJ1a29BeWxfakNOaW9TT1RsLXdtMlV2R215ZG5BM2Nzb29qZVE?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-09-09T06:32:43.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 37,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Livemint"
       ]
     },
     {
@@ -3357,11 +2964,11 @@
       ]
     },
     {
-      "id": "news-sjhvcw",
+      "id": "news-g0nv0d",
       "title": "S&P 500 weekly outlook: CPI, US-Iran Situation and Yields in focus - FOREX.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeVdOT0p0bmlfay1WYlp4NlJXUkxxaVZMWUYxdWlBby1PNUVKTUhEaEF4NzVMX2FheTl3ZUJwQnhGOUFtYU1vSkNtbTZsZDNtU3dGNzNUSk1PYUdPbjN3RG8zVzg1RUI1SG5vR1hFMlR4SUFTbkxwRnFGSEtOQkFlR0pxdkREZC1zMGpKUE5uMi1PNWtkcnM3ZkZ0cWlETnNHUXRvankyQ0NVenA0Y2c3WElNdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaHg0Y1Q1d0hRR2ZqZVR4Y25ERERVOHZjV3I5ZmxoQnpaLXFlOWlZQnRPMnlad3o2eXNOQzJQOTc5NzJ4M041Ym1kamlvZEVwOUdOZVVIMm5oNEtIdjdoR2NWV0VxTkcyLXBOU29wUGtJTDh4emp1bU9pMWEteVE1QWJObFg2YUcxenAtdHR1Nk91MzZ2NTU3R1o1RzQ3bS11LTNLMXlFdEpmWXowY2pN?oc=5",
       "source": "FOREX.com",
-      "publishedAt": "2026-09-06T22:14:57.000Z",
+      "publishedAt": "2026-09-06T22:19:42.000Z",
       "region": "US",
       "category": "inflation_macro",
       "relevanceScore": 36,
@@ -3591,10 +3198,10 @@
       ]
     },
     {
-      "id": "news-9t9svd",
-      "title": "S&P 500: Index Closes at 7,673.52, Down 0.58%, as Oil Nears $100 a Barrel on Middle East Fears - BBN Times",
+      "id": "news-6uqtx4",
+      "title": "S&P 500: Index Closes at 7,673.52, Down 0.58%, as Oil Nears $100 a Barrel on Middle East Fears - bbntimes.com",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVERuaDlLTFhUUUFSMUVuektReFdEQjNKNW5Ic3c3TXRTUnpoNkl5dGV0Y3FIQlZYTEkyYm9MME9OTHBNU0N2d3Z4bmdsUE50T0tRa0FxUFM1N0xfdGJFVHEtOWFmRHlUVWhNZ1RtQmM5QzZ6QlNWMEtkYlhXTHpDekx0UW43Z18yeF9sS2RyMDNBQXhKeU92Y201WGYtMjYwcE5FWFJjNGVVNmtNNlRyS05BeGVnUFdBcG5lb1FDLXhwQQ?oc=5",
-      "source": "BBN Times",
+      "source": "bbntimes.com",
       "publishedAt": "2026-09-08T22:19:46.000Z",
       "region": "US",
       "category": "other_market_moving",
@@ -3605,7 +3212,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "BBN Times"
+        "bbntimes.com"
       ]
     },
     {
@@ -3951,6 +3558,96 @@
       ]
     },
     {
+      "id": "news-6tfvu0",
+      "title": "Graphite India Ltd leads gainers in 'A' group - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLTBWUF96eXNRLWJUSlNvWnV2ZWVmYjdobXBfbHF5MVRZbVFMM090cU1DS1V3bjRIZk9zWUlJb1YzUUVOOExzVEJjMFlGOHVrZ2lXZFhuaEpXandyeENGU1ZHd3FySTNwTVlFMzdlYkFCQnhvZS1tMzRpRHlrTWNUeTNrUzJVUjRmMU5IbzhkS0RhU3plMEpDZ2pxa21NLUdfRXZYN0pmamhON3hIa2d4SzlaUUk3ZHpDX2VzSHEtdXY1ZU3SAcgBQVVfeXFMTmw2T0pSbzN5YmU1STFaaHhoTWRmZ1N0SHlpY1BxNmlyQ0xrNzFEUW5tbldKRXM3T0ZJYjFnVHNEczdfREJWdkVCTUdtbDUtQ19vVmh6ZXI2WXpvNEIwSHE0cGJhcTZOaEV3NXZ4NVFJZTRsWEZyRFRSZVJvT2N6N2dTb2JYWXh4OVhFNTZoNUlxVnRucEhYY1d2R0pqS1lEN1BUbGtSNTZXOUdpV0NheTllNC1hejViRVA2V201Y1ZIMFV5T21oVno?oc=5",
+      "source": "Business Standard",
+      "publishedAt": "2026-09-09T06:46:38.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Business Standard"
+      ]
+    },
+    {
+      "id": "news-177zhqe",
+      "title": "Astec Lifesciences share price skyrockets 17% despite weak sentiments on D-Street. Do you own? - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNcE9BT2ZibFJLb2w5OTBXR2c3OURoU25uVVFQUkhJOGkzUUkxNmE2YkV2ZmxfenFrcmhzVkVUVHVQb2JMSG5LS3NuMW9EV20zcGdneWsxMXRqc3lVS1NMcVFZWENvaVN2dkF4SE5YVTlPOThUcU45T1RzM2FicXpXX1pZQllBZy1URldiaWhJZXppVHNIcEE0RS1wb1FMR2oyUkFVUUJldkdwUGRSaXNBSG5lZTQ5UVZNcW9YMXNKTXF0UnVvMnRkVDRzSmVaZWU5bUhCMjI3dHJhbkgwemR5eXhUNUVjVUU4QWtCZklXdUEtdmPSAfgBQVVfeXFMUF90WWpfSU51UlZlaUFSSDNhemZjcEdBTzN0RzFqdjYwTGRrNmZKaGhYZGFDaU1DN040ZTdSd1huTmFFM1hVYlJrTVpwYV9hbHE2ajhYckdCdzVxVWhaOWlseC1ZcUNXWWQzblBjd0lpbEotZVpoMkFKQVA5V3F0SGlNUFRyWmgtZUQ5RHotd1VCOWU1RDlpWkdrd1l1akNsbVdrWW53WWJzWnRPbTBrUDJodVhoQi1Eb2ZjSktyaDMxNEdXbFMxd1dJSXlVLWRHR19DZnVHSU5XczVtUE4yWVY2VU95eE5fNVloVkdlanNKZ3RsUHVFTHU?oc=5",
+      "source": "Livemint",
+      "publishedAt": "2026-09-09T06:40:42.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Livemint"
+      ]
+    },
+    {
+      "id": "news-p9diie",
+      "title": "NSE cuts IPO price range, giving up shot at India's top listing - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeEVzWC1KOExSUE9oaWFOeGZWWm5maXkyU3RyR1lwOXk3cmtsVlBEUTJybTdVTDZsUk9kSHBoMDhwUzJ5Wi1uOGs0N1hmNmNLbjJEdHNxSmVZc2txUlo1cExIQUhQOFFtalhJTkttbzFicFAxSGdzcmZ2SXpBVEpIWjRkYXpZenZqN3BYQXNaSlh3VUFEV2YyN2ExM0JHR1M3eHBmODBHRdIBrAFBVV95cUxPVWpRQmtvZUNPRUhUdWZ3bFZRczhPOUlvbzVzeHRkWEtTN1RvVlZlQm91MVdWcGlzdG1yMEdjTmppb0xHRDBfN3FmYkxsdDAxblB1VHNtSFVwLVQyMnJDc0JELWFnWmdFb1VER2ozYk1qS1NqcWF1LU1na1gtbGtheGhRVmJ3Zm5xLUQwR05QaGNMY0RNWnB2ckFZSG41T1pwam83WGJjZFZlVnVq?oc=5",
+      "source": "Livemint",
+      "publishedAt": "2026-09-09T06:36:00.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Livemint"
+      ]
+    },
+    {
+      "id": "news-21a5gq",
+      "title": "Asahi India Glass Share Price update: market cap and ratios - Univest",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeHJyaEpONkV2Y2F1dFMxejYwdkZIUUdGYWxNZ2dsV2Q1U01QcmoydTZTWVI3UzJXd0lGN3NjRXd5eHVVUnJmeWpObE5ySGZPSV82RFJsX0drT2ZPMHdyVmF4MHZhLThkUkF2d2lINi14SHlnemdBaTEtdlRweDZWWGI4SWI?oc=5",
+      "source": "Univest",
+      "publishedAt": "2026-09-09T06:36:00.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Univest"
+      ]
+    },
+    {
+      "id": "news-oruqkp",
+      "title": "Wheels India share price hits a 52-week high, jumps over 55% in just 6 sessions- Should you buy? - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSnVyakRab0VtOVlweUczUnFjVWRPT1g5SVJfV2o1S0V1R1ZVZERTU3pQUHhteUJiVDVDRWZVTXBXZFJFTWc2cktxdkJPVDRjRVM3SXZvVTUwNTNEdFlzWGhsZUpmOHJMbGdPbXVERUJaeXR5cjdWSWJjQ2Mta1BiTkx0OUV2bURteGVxeFRqQ1p4SUhrNWpIOTlLUFhWTUx5QkxkS1NPUjNqb2t2MmxpcW1SNFE0SWFzUkE5RlVXWDZvUzlwd09TNE10Tnk5Tm9pZjVBYWZ0QUlNb0hmTjd5VTk2aWRfRjlsWVFVeWN1YVlTY0d50gH6AUFVX3lxTE1Qdk5qbHVrYXliZlJEa0wzaE9JVy14VC1BZTVycmVZR0x6OFVSVEVLMl9ISmkxQURHT0NqdGJpdlZkblVDUGZ2ZEYzUEx2Q0dlUEo1V0x0ejNpdWR0aG96ZUJ2ejJ6YWo3VjJkb3lqX3RRVmRlT0pVQUVueXZNQkl5bEpmUTVSUlUtVFJma2hTODRtcngyeGJ5Y0Jydi1uU1Y2OGc2MVhNMGI0NkRyODI2QkNZdmUxMFJMNmlRZ3RlVmRkQVBTQkJ3M0d2ZnpheVJZdUtpRFJ1a29BeWxfakNOaW9TT1RsLXdtMlV2R215ZG5BM2Nzb29qZVE?oc=5",
+      "source": "Livemint",
+      "publishedAt": "2026-09-09T06:32:43.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Livemint"
+      ]
+    },
+    {
       "id": "news-1yet3ox",
       "title": "UBS says financials hold key to India stock market's next move - CNBC TV18",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeW5hNFJCa1FoN0pDU0NpWDNMUWZ4QzNFdm9FdkJmRklndlFPYVBrTkk1VHBjQ0VRWVNEUkRhblY3eTNOUXVhVmRuNWlUM2tsVThEdVVvb1QwYUxpSGtDUWYtOVlTUkhGUFB1ck9Ya0w0WDNGVmNOY2pMWkpoR0xQNk54cmN4WkpjS1B5cXFicC1SUmtRTnR5a0xZc3NiSEJjejRmNEFFRU5PZ9IBrwFBVV95cUxQd2ZvY3NBZHlVZEVMbUJ2SktKcWlfSW9yNVFhUzBkMUYwbjRkcktCMDh4WXFvby11VDM0ai10b05Rc3VmeTM3bXhNc3NEbHNYam9xbllpTHJMbHJyMUh1ckxibktwcFpFVHVQZ09YZ01ZNjhudU0yNFBrUmk0bUJoejFfcGVZcXZ4RUxZamY4WWlzMUxTcmplRzRQNWk0WjdMMUN5QzgxUWRJdy1jalJr?oc=5",
@@ -4028,24 +3725,6 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZXhzTHRqazNEbTdKTGhlZjdRWkhheHdVeGdoakpLS1E5ZENhTXE1b2diRnFGRFNXbDB6d2ZqRWdCNE1PSEwydmFWQ3ZiWWRKaEdfQWNkN3hXZXZDdWNYa0Z1LTRXLWgxa1BtTm13OWV2Y01mRzVQN0pjUExWT2thNVhuYWVmdTFNNHdrVFZfajZTeGZLR0R2MG9nQTdMWkNMOTk5bEI2cGRLUnJCZXlJd21lMVRuZlpxbldLTG5MSdIBxAFBVV95cUxQaC1JSWR0TXc5R0V5bEY2aHVwdGNTcXlWaTc3OU5mSnU0alg1M3p1VlhOZnRHRWI0aGIyWEpPZUxaNTNVNXVrWlAzTlM1bFM2dndqcGJxeWoxT2ozeUxhWm9TbjZ1VnBBZXA5aER3eGNyeUZUdUxqRUJlTkRUUlhRQnN4VXdaTUxFd0tBNHlaSjlLdS1ESWxhREdoaVRyNkNTNG53ZHYwQkg0SDZhdmxLbWtYUERSdktjRTNtVE5KVHk5QUdJ?oc=5",
       "source": "Business Standard",
       "publishedAt": "2026-09-09T04:46:53.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 31,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Business Standard"
-      ]
-    },
-    {
-      "id": "news-aj1mvn",
-      "title": "Indian smartphone brands eye sub-₹20,000 gap as Chinese firms go premium - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQlE1Q0FkbXhCQURDY2xmNUFNakFnTnBsanlnaHVyVXpXOFNKaGFfVi1mY1pOS0VCdTVCWGFTVm1tZ0dLcVgyajVCVVZNVC16RjBWa3FqSzZRVXdRNEx4UWdHcEN3cFBHUWs4dnNvU2NPbzdXQXIwdDVqOTYxcGFWV2tHVHI0bFlfMFhXMFVpYVg2NjNKMGVsNk92eHpIaHRYck5MT3NESHVrTWxsZnFjZFBVSVJGYkVnbVhLZ3VmUTMwZkJSMWhQTWs5ak90YVYyTFA40gHYAUFVX3lxTE1pM0VLX2dhbzRsQ2ItVWc1TjRtaklhb093YVJ6Y3ozV2JOU2lMNFV3UGhESlVrdDNfZWdSYXN5TDBVck9HelVhbmpJZnQ3ZTF5N181S1FfejJPU1JueGp0UEc4S1hOQnJlM1luRlBhbTd1bkVER0hqYk9VY3ZMQ3NtcEduMFl3SjNMY0lnbS14NVpnQVdtd0dnYTY5NHNmRTJ2OTFybUxjVnE2ZDg1dHBlTEJrUXNIRGM0U211dll6UUxyTUhFRWZhWWd0M0JHZVM4Mm0wS2w3YQ?oc=5",
-      "source": "Business Standard",
-      "publishedAt": "2026-09-09T04:37:50.000Z",
       "region": "IN",
       "category": "other_market_moving",
       "relevanceScore": 31,
@@ -4185,24 +3864,6 @@
       "official": false,
       "corroboratingSources": [
         "TechStock²"
-      ]
-    },
-    {
-      "id": "news-1swwxqz",
-      "title": "UK announces sanctions on West Bank settlements prompting furious Israeli response - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YcDVqNTFodXl2YjYzSGlKSDJmQjl5b1NvY3ItLUNWWnQwNmVsU1g4LXh3VnMwVHZuZjVUczBPRk1IZUJxNldFT0pMUlZmZ05kOVNzUUV2WXdZUQ?oc=5",
-      "source": "BBC",
-      "publishedAt": "2026-09-09T01:45:15.000Z",
-      "region": "GLOBAL",
-      "category": "banking_credit",
-      "relevanceScore": 31,
-      "relevanceLevel": "low",
-      "reason": "Banking / credit development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "BBC"
       ]
     },
     {
@@ -4425,10 +4086,10 @@
       ]
     },
     {
-      "id": "news-1xl5jjw",
-      "title": "S&P 500 Today: Wall Street Closed for Labor Day After Friday's Jobs-Driven Pullback - BBN Times",
+      "id": "news-swozrl",
+      "title": "S&P 500 Today: Wall Street Closed for Labor Day After Friday's Jobs-Driven Pullback - bbntimes.com",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNTU1RUg4N05pY0JleXRGSV9qdm5XdUpnWVF5cDhYYVFDdHd0NVU1ZU5zS2d3QkMycXdGQXBXLTFabjBVYkZ3TExRZV9uMnhvcG5HbHNGTURnTkhkcnI3OG8tLURSdk1OVWFIX3RsRThmUFN0VzRwR2tPVEVfRGRzRlE1N2dKTS1FaXpUVGtnTlFmNjI4TnEwQ2JkYUY3X01VSnZPMWJQc0J0QUlScGtPSldFWjVTODFYSHloV1dMbw?oc=5",
-      "source": "BBN Times",
+      "source": "bbntimes.com",
       "publishedAt": "2026-09-07T17:20:02.000Z",
       "region": "US",
       "category": "other_market_moving",
@@ -4439,7 +4100,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "BBN Times"
+        "bbntimes.com"
       ]
     },
     {
@@ -4535,6 +4196,24 @@
       ]
     },
     {
+      "id": "news-crcknv",
+      "title": "AksharChem India vs Nifty 50: Share Price Performance Compared - Univest",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT0dCUFF2U1VMSkhja2FjaFM5S0ttbVo1YmNvNGdiZEgtaWpfYlNuVlFsdTN0aGJLcWw0OE5nZzZPWGxhMEE3OElXdmVKUG5faGxIMkFGZEREQjVnaUVXUVphMk8tMzlTeEFKcFM3aXplZHJSUXN2WXZaNl92SlQ1czAtZw?oc=5",
+      "source": "Univest",
+      "publishedAt": "2026-09-07T09:34:00.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 27,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Univest"
+      ]
+    },
+    {
       "id": "news-1koegfz",
       "title": "US Stock Market Today: S&P 500 Futures Slip On Strong Jobs Data Rate Jitters - simplywall.st",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaVpjenlhN0M3R0hkaUZHcTBuWG54dk9OU2pLcU8wUU1fWkdjMUVsNXBPVWNYUEhHWl8zVm1SenBoTU5ZQURmNWpCbmJralFoRTkxWVJnMUFXQXFXYlBJU3FyZjJvZGNkZm1Icy1IWHV6YlpMR0drSENSUFlTRlBnU1psNkFrc203N2hacm5SMUNzT2oxeW50eFhRRXZha1hfS3dOQWFrX3hTTzdwbjROYk45aTItMWFPSWxXVTZqa1gwQdIBxwFBVV95cUxQUVFldEFQbm1pMFg5REhldF9SN2ZNR0dibUFTSW5RY1VHbVBKYm1mZzJPR2k3Z0h3MGdmUWVmank2QlN3MFYyaGRtU2F5Njh1ZWdaR191TXFPZ0xCTHgzVHRhNGM4dm9lOTNwOHpDdV9wYkpjZ0xKUU1TQnRWTldDQUVqMWNHaTZXbDRCemZSbmZxYmRsOFRDQ2FNSWFINE9FakpfTUd0Wi1WVGJpRHY3MTl2ZjFXSFZPcWlZYkloUl9sYUZEQkxj?oc=5",
@@ -4568,6 +4247,24 @@
       "official": false,
       "corroboratingSources": [
         "India Today"
+      ]
+    },
+    {
+      "id": "news-1swwxqz",
+      "title": "UK announces sanctions on West Bank settlements prompting furious Israeli response - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YcDVqNTFodXl2YjYzSGlKSDJmQjl5b1NvY3ItLUNWWnQwNmVsU1g4LXh3VnMwVHZuZjVUczBPRk1IZUJxNldFT0pMUlZmZ05kOVNzUUV2WXdZUQ?oc=5",
+      "source": "BBC",
+      "publishedAt": "2026-09-09T01:45:15.000Z",
+      "region": "GLOBAL",
+      "category": "banking_credit",
+      "relevanceScore": 25,
+      "relevanceLevel": "low",
+      "reason": "Banking / credit development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "BBC"
       ]
     },
     {
@@ -4661,24 +4358,6 @@
       ]
     },
     {
-      "id": "news-1gdwmq1",
-      "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZXNFemFpdC1RampwOWtYNDF5N0pnRjBSeXJIOEdSZWNvMWp1UGpjR2lSbEotN2dZRlZudm1yUEh1cjNBQjJKanJwbjBsYWVCazRWQzc3TGQxMjFNR0tkZHBTZndzNnZ0cDZITzhzREdzLW81d2dMc0dQSGlXSEZoQzZ5Zjh6S3hRb09TRVlSTzVQWEthUGdkVExOYXBhTGRWdzJpZXczNDBhUkhHWm8yZkVabEJidEpJX09Id1JGa3RQZ3F1OWM3VGtlSThJNHlEQnI4em5HVTFIaUdXUmpCZlNMQdIB6AFBVV95cUxORGVuVHFKa2MxbmxHS3E4OFppOXIyQUpXT2xPVVllcUdTd2RQWk1aeUVubFh4WW13NHRMMXRxNkVuWGtUSmZnYzVrNW14dXJPMzZJTTBveG4zc3BnTjd4aGJnQm9MME1XcVpmVXRyRkVGcDJ6NVlqSGNrclBxUEdCdUluazJWZm5WSTg0d1ZSZXBqaHFmaWNScFhrMFV6RnNvVWR3RFN5V1RWVkRJcFZmV0RpWnhVSWRhTlhYWUlVeks3eEF6aXBjMVFmY1M5dXFPdVNJYXVLX2s2Y3lHZlhPS3dpZHBQdFVB?oc=5",
-      "source": "The Economic Times",
-      "publishedAt": "2026-09-08T16:01:44.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "The Economic Times"
-      ]
-    },
-    {
       "id": "news-1nseg92",
       "title": "Norway’s oil and gas production to plummet in threat to UK supplies - The Telegraph",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdmphSlVxSElzQTZMbnBfMDRacE1nSENBdTBJLThJcW5ORjV0b29xUkdmU3E3d1gwTzhMNi00eXo2dmI1TUoyT0JfMWRKUi1raGYtbVNiLUhaaENOZW5OMFBIU0RXZFVMSW02MzVJQ3pzRlBOWlQ0Y3o2OVVZUWpjNTdUdUtnLU1NbE1rbjFvY2pTRGh3SWVBd1BYQUJGRDVoM0J4VQ?oc=5",
@@ -4712,24 +4391,6 @@
       "official": false,
       "corroboratingSources": [
         "BBC"
-      ]
-    },
-    {
-      "id": "news-1t3h6qh",
-      "title": "NSE IPO: Bank of Baroda to divest up to 35% of holding in National Stock Exchange through OFS in exchange’s public offer - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQVVVaVFlxTksxWGg3OWp0cDFGT3J1YkF3ZHowNmpiVHlNVjEwUGZPUWdvLXZBUGdPdGZpeG1ySjY3NDJsUTh5TV9fay0xM21DX2RBemhHUXN6dmc1SGRrQm5SU2N4eVFXamdPRUIzSmpHdUNRM0F5QjFLS3djeDQ5dklIU2V2V0xjZlJ1QmQzRFozRVBJWEtsSENZejFxbXFzN0ZtRmd1Wl9wSzdhMGN1bDU5ZnE0SEltNmx0OEwxVGg2alJBcXV5NTZoN1BnTWFMQlJhWEJybWQ1dFFnTmFoNVZBdVJGaGNOeUV3VlU0WUNHNkZDNDlSR2hwRUctQ1M1WkJwTzFRdDliMWFYN3BGdTFmQnBhWGfSAZwCQVVfeXFMTkNmc2hKTE5BM25qYnR3LTlrdFBoN19NSXZ3bUlHRm5kVF81YllPX2l0Q0s5Z1VkOEtIajBBQ1pPU0FYSUVtYkdfdFYxN2lpTXFTRUpCRWRlMTE2ZTZHZTlabXFJTm1SSVMzOTdodnhlVVZ3NzRNQnlCZGdla3BTdnlOd001ZzhyckV5d0lvdDc2cUlKdlZZVE9zdF9YNWl1Sy14QUp4T0hhUEMtdl9BRjJkRHVEcl8xMTFBbnJlV2oxVElSV19XX2xzSGZFVUpQVzlRcjBCcTBkTHBUc2dBQXNZcHFCaTYyMUo0UlNIckt1MmhPR1NfT2UtQmlteXJycEc1TVVOaWtUcC1LYkRzRkhQSlhSMEl3cmdLazY?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-09-08T14:34:40.000Z",
-      "region": "IN",
-      "category": "banking_credit",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Banking / credit development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Livemint"
       ]
     },
     {
@@ -5168,10 +4829,10 @@
       ]
     },
     {
-      "id": "news-115c2lz",
-      "title": "India’s listing feast: IPO window opens, OFS door widens | Explained - thehindu.com",
+      "id": "news-1ni7m8w",
+      "title": "India’s listing feast: IPO window opens, OFS door widens | Explained - The Hindu",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY0RQMjJra19vX2h6NS1kS0lDVEdVVWdoMkxqVWQybTRzU2o5dEtselpvV0N5VVQ1amw4My1ueDl3ekd4OXpZcUdQN2VnRUk3YkNPNEdFLTMxS2hCQmhlSmdoU3VKdlhEM1R5UzZ3eHlUQTl6S2VEOVRxWkV5a0JwRjBWc2p2c1RZbGg2cVAyajkwRXNtQjkxeE5LWlRQcXNmMS1QM0JuMDc4WWvSAbIBQVVfeXFMUHRKbWl4RHVZWGVtZktoVHFwYnVsWXlEUGYwWElhaXdvV1NGUnVjTTFWNnp3M0Z1U1dEajFHVHg3bC1Fdi03cmNFRk9rOExYeTFqbmFCbDBITlFuNkJTS3pMTjV3M21pUjZ2anRmaUJiVURRd0lZSW9Gd1FVSTRfQV9ncElNd28wV19aYy1TUTExdTVZMy16Y3MyR1YwLU9obHVFall5V3BjWTAydTUtaVhIdw?oc=5",
-      "source": "thehindu.com",
+      "source": "The Hindu",
       "publishedAt": "2026-09-08T06:09:33.000Z",
       "region": "IN",
       "category": "other_market_moving",
@@ -5182,7 +4843,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "thehindu.com"
+        "The Hindu"
       ]
     },
     {
@@ -5366,10 +5027,10 @@
       ]
     },
     {
-      "id": "news-1xap1p9",
-      "title": "Kevin Warsh's Jackson Hole speech could shake b... - Pluang",
+      "id": "news-17pwayo",
+      "title": "Kevin Warsh's Jackson Hole speech could shake b... - pluang.com",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTnczQU5nU3czZ19zQzZ2NHRZdlNRc0ZiWDRuUmhtQi05OE1JNEFhNUh1dEVmY2RkZ2ttWmR1R1FtVXBXWFdfZFF6RDhPWV82aVVHMmF0dlVtM3NCT0tSNldUbXFZSHNYM1hGZXFsd3FNLTJPQXhZWllHV1VSUGE3dUh3blo?oc=5",
-      "source": "Pluang",
+      "source": "pluang.com",
       "publishedAt": "2026-08-27T15:50:03.000Z",
       "region": "US",
       "category": "other_market_moving",
@@ -5380,7 +5041,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Pluang"
+        "pluang.com"
       ]
     },
     {
@@ -5402,10 +5063,10 @@
       ]
     },
     {
-      "id": "news-hsfqqs",
-      "title": "Indian stock market least-preferred in Asia, shows survey - scroll.in",
+      "id": "news-iuhh6s",
+      "title": "Indian stock market least-preferred in Asia, shows survey - Scroll.in",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZFMydUxrdWhXaWZZbkNlU2ROVXRJdGI2Yy1IV1M2azd6TlVwOFdGanZFb0hVMkp2MWl5QmZhS3RLMF9ON1RlRHZ0VkV2QkM2ZnpsVHBYWDNlWm9vSDFWS0FLSkNSN1BvbU9DX1FISGF2X0x0OXpzQmZYdE5vclV5NXdudEtUQzVnalZRSk56cVpVZVhIbUdiZUpTbnBTeW00MHRJelRTUjLSAa4BQVVfeXFMTlVLb0pKazNXUzRPbEF2TUpYQmtnS21PRmhaQXVIbVBvR1BZWEExSXRnbFhES08zTmM0RVJwcEhTd0hjcXBwS1V1UFp6b2N3cENyZFlsSmtubnJVc1JUYVJvem5BdFBZNkM4TUd3SDdGa1V5OHVzYUxwZkZ3SHdaMjlRa05ZWGQ2dmw1N1NycE9tcjEzZTk1aGFYSFZFMnZESVAtdzI4UVdrd1dINUVR?oc=5",
-      "source": "scroll.in",
+      "source": "Scroll.in",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "region": "IN",
       "category": "other_market_moving",
@@ -5416,7 +5077,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "scroll.in"
+        "Scroll.in"
       ]
     },
     {
@@ -5687,24 +5348,6 @@
       "official": false,
       "corroboratingSources": [
         "Investor's Business Daily"
-      ]
-    },
-    {
-      "id": "news-3v08ui",
-      "title": "India Equity Strategy 2026: A consumption-led outlook - BNP Paribas CIB",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE12dFhfalhBbWJPWldWU3JzblNnVkJBSDVYRXlyOVlidlFYMUZYXzdiQVRoZTJSbVFXcnVNOE5pbDlYLVF0Nm4yTkpYcmZDNUYtS0FWRC0weXU1dUhGOG9aWU45S2k0cjJ2MlA2eVBYcmp6dw?oc=5",
-      "source": "BNP Paribas CIB",
-      "publishedAt": "2026-05-08T07:00:00.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 15,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "BNP Paribas CIB"
       ]
     },
     {
