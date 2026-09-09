@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T21:32:15Z",
+  "updatedAt": "2026-09-09T21:46:03Z",
   "instruments": [
     {
       "key": "nifty",
@@ -59,7 +59,7 @@
       "changePct": 0.185,
       "sourceTimestamp": "2026-09-09T20:59:59Z",
       "sourceName": "Yahoo Finance",
-      "status": "Live"
+      "status": "Delayed"
     },
     {
       "key": "crude",
@@ -69,7 +69,7 @@
       "changePct": 3.913,
       "sourceTimestamp": "2026-09-09T20:59:58Z",
       "sourceName": "Yahoo Finance",
-      "status": "Live"
+      "status": "Delayed"
     },
     {
       "key": "usdinr",
@@ -84,10 +84,10 @@
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 78229.6797,
-      "change": -216.5003,
-      "changePct": -0.276,
-      "sourceTimestamp": "2026-09-09T21:32:13Z",
+      "price": 78153.2969,
+      "change": -292.8831,
+      "changePct": -0.373,
+      "sourceTimestamp": "2026-09-09T21:46:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
