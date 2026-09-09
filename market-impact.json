@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T16:54:28Z",
+  "updatedAt": "2026-09-09T16:54:57Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
@@ -11,47 +11,47 @@
     "nifty": {
       "label": "NIFTY 50",
       "priceSource": "Yahoo Finance chart",
-      "points": 2141
+      "points": 2142
     },
     "banknifty": {
       "label": "Bank NIFTY",
       "priceSource": "Yahoo Finance chart",
-      "points": 2142
+      "points": 2143
     },
     "sensex": {
       "label": "Sensex",
       "priceSource": "Yahoo Finance chart",
-      "points": 2138
+      "points": 2139
     },
     "sp500": {
       "label": "S&P 500",
       "priceSource": "Yahoo Finance chart",
-      "points": 2182
+      "points": 2183
     },
     "nasdaq": {
       "label": "Nasdaq Composite",
       "priceSource": "Yahoo Finance chart",
-      "points": 2182
+      "points": 2183
     },
     "gold": {
       "label": "Gold",
       "priceSource": "Yahoo Finance chart",
-      "points": 2183
+      "points": 2184
     },
     "crude": {
       "label": "WTI Crude Oil",
       "priceSource": "Yahoo Finance chart",
-      "points": 2184
+      "points": 2185
     },
     "usdinr": {
       "label": "USD/INR",
       "priceSource": "Yahoo Finance chart",
-      "points": 2261
+      "points": 2262
     },
     "bitcoin": {
       "label": "Bitcoin",
       "priceSource": "Yahoo Finance chart",
-      "points": 3173
+      "points": 3174
     }
   },
   "eventTypes": {
@@ -565,13 +565,13 @@
             "maxAbsMovePct": 8.76
           },
           "threeDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 60.7,
-            "downPct": 39.3,
+            "upPct": 60.2,
+            "downPct": 39.8,
             "flatPct": 0.0,
-            "avgReturnPct": 0.17,
-            "avgAbsMovePct": 1.33,
+            "avgReturnPct": 0.15,
+            "avgAbsMovePct": 1.34,
             "medianAbsMovePct": 0.85,
             "maxAbsMovePct": 12.73
           },
@@ -591,14 +591,14 @@
             "maxAbsMovePct": 10.51
           },
           "threeDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 57.1,
-            "downPct": 42.9,
+            "upPct": 56.6,
+            "downPct": 43.4,
             "flatPct": 0.0,
-            "avgReturnPct": 0.13,
+            "avgReturnPct": 0.11,
             "avgAbsMovePct": 1.76,
-            "medianAbsMovePct": 1.06,
+            "medianAbsMovePct": 1.11,
             "maxAbsMovePct": 15.45
           },
           "bias": "Mixed / neutral"
@@ -617,14 +617,14 @@
             "maxAbsMovePct": 8.97
           },
           "threeDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 57.1,
-            "downPct": 42.9,
+            "upPct": 56.6,
+            "downPct": 43.4,
             "flatPct": 0.0,
-            "avgReturnPct": 0.16,
-            "avgAbsMovePct": 1.34,
-            "medianAbsMovePct": 0.87,
+            "avgReturnPct": 0.13,
+            "avgAbsMovePct": 1.35,
+            "medianAbsMovePct": 0.88,
             "maxAbsMovePct": 12.93
           },
           "bias": "Mild bullish tendency"
@@ -643,14 +643,14 @@
             "maxAbsMovePct": 5.97
           },
           "threeDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 56.2,
-            "downPct": 43.8,
+            "upPct": 55.8,
+            "downPct": 44.2,
             "flatPct": 0.0,
-            "avgReturnPct": -0.01,
+            "avgReturnPct": -0.02,
             "avgAbsMovePct": 1.42,
-            "medianAbsMovePct": 0.97,
+            "medianAbsMovePct": 0.98,
             "maxAbsMovePct": 7.67
           },
           "bias": "Mixed / neutral"
@@ -669,14 +669,14 @@
             "maxAbsMovePct": 5.82
           },
           "threeDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 54.5,
-            "downPct": 45.5,
+            "upPct": 54.0,
+            "downPct": 46.0,
             "flatPct": 0.0,
-            "avgReturnPct": 0.02,
+            "avgReturnPct": 0.01,
             "avgAbsMovePct": 1.82,
-            "medianAbsMovePct": 1.53,
+            "medianAbsMovePct": 1.52,
             "maxAbsMovePct": 7.75
           },
           "bias": "Mixed / neutral"
@@ -695,13 +695,13 @@
             "maxAbsMovePct": 4.09
           },
           "threeDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 50.9,
-            "downPct": 49.1,
+            "upPct": 50.4,
+            "downPct": 49.6,
             "flatPct": 0.0,
-            "avgReturnPct": 0.2,
-            "avgAbsMovePct": 1.55,
+            "avgReturnPct": 0.19,
+            "avgAbsMovePct": 1.54,
             "medianAbsMovePct": 1.09,
             "maxAbsMovePct": 6.27
           },
@@ -721,14 +721,14 @@
             "maxAbsMovePct": 23.81
           },
           "threeDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 58.0,
-            "downPct": 42.0,
+            "upPct": 58.4,
+            "downPct": 41.6,
             "flatPct": 0.0,
-            "avgReturnPct": 0.38,
-            "avgAbsMovePct": 3.6,
-            "medianAbsMovePct": 2.33,
+            "avgReturnPct": 0.42,
+            "avgAbsMovePct": 3.61,
+            "medianAbsMovePct": 2.34,
             "maxAbsMovePct": 25.14
           },
           "bias": "Mild bullish tendency"
@@ -747,13 +747,13 @@
             "maxAbsMovePct": 2.29
           },
           "threeDay": {
-            "sample": 112,
+            "sample": 113,
             "directionReady": true,
-            "upPct": 63.4,
-            "downPct": 36.6,
+            "upPct": 63.7,
+            "downPct": 36.3,
             "flatPct": 0.0,
             "avgReturnPct": 0.16,
-            "avgAbsMovePct": 0.51,
+            "avgAbsMovePct": 0.52,
             "medianAbsMovePct": 0.33,
             "maxAbsMovePct": 2.79
           },
@@ -3131,47 +3131,47 @@
       "nifty": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2141
+        "points": 2142
       },
       "banknifty": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2142
+        "points": 2143
       },
       "sensex": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2138
+        "points": 2139
       },
       "sp500": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2182
+        "points": 2183
       },
       "nasdaq": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2182
+        "points": 2183
       },
       "gold": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2183
+        "points": 2184
       },
       "crude": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2184
+        "points": 2185
       },
       "usdinr": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2261
+        "points": 2262
       },
       "bitcoin": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 3173
+        "points": 3174
       }
     }
   }
