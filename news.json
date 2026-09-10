@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T17:03:48.771Z",
+  "updatedAt": "2026-09-10T17:22:38.608Z",
   "sourceHealth": {
     "India Market News": {
       "status": "ok",
@@ -452,24 +452,6 @@
       ]
     },
     {
-      "id": "news-dcbzd4",
-      "title": "Wall St slips after hotter-than-expected producer inflation data - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUNZS2ZwczJmM0x1aEM5ZFJMbUhWckRSOE54a1NyTFZjb1NaNFNCZDFwOFJiMk40b1RJelZsVnhKOVNObGNGenNkZzVhUWtZRlktVzhTWk9Qc1EybkRweDk4RFRRUjh2bk1TU0lJazBncUFnUlcwcTlPVWY3NjBzdWVUd3JGTDlLeF9EMU1aTnEzSDctTVcxZVdzT1RZclZjanRhbkl3?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-09-10T16:17:34.000Z",
-      "region": "US",
-      "category": "inflation_macro",
-      "relevanceScore": 66,
-      "relevanceLevel": "high",
-      "reason": "Inflation / macro data",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Reuters"
-      ]
-    },
-    {
       "id": "news-1n953hj",
       "title": "PRA fines HDI Global SE £4,165,000 for inaccurate reporting of FSCS Liabilities and FSCS Fee Tariff data - Bank of England",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZzdQSmZIRk5CcVd5bVdDaVdPNWVncEFCX0l5M0Y2YjBEeHo5TkRrblFoZ0VycDloNklwZ1o4Nm9OOE5CRl9GTzZRMWU5SXVDVHhueGJrQkQ2UDA5LWV2SzJBczl4a0YwTk1xaG5rWmVheTRJM3NGUlR4ekVSU3JBX0JBYlZoSE0xSlhya1hvY2hWdTBOdFR4WXh2RkFtOTY2ZnRMZkF3?oc=5",
@@ -514,6 +496,24 @@
       "region": "US",
       "category": "inflation_macro",
       "relevanceScore": 64,
+      "relevanceLevel": "medium",
+      "reason": "Inflation / macro data",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Reuters"
+      ]
+    },
+    {
+      "id": "news-dcbzd4",
+      "title": "Wall St slips after hotter-than-expected producer inflation data - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUNZS2ZwczJmM0x1aEM5ZFJMbUhWckRSOE54a1NyTFZjb1NaNFNCZDFwOFJiMk40b1RJelZsVnhKOVNObGNGenNkZzVhUWtZRlktVzhTWk9Qc1EybkRweDk4RFRRUjh2bk1TU0lJazBncUFnUlcwcTlPVWY3NjBzdWVUd3JGTDlLeF9EMU1aTnEzSDctTVcxZVdzT1RZclZjanRhbkl3?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-09-10T16:17:34.000Z",
+      "region": "US",
+      "category": "inflation_macro",
+      "relevanceScore": 60,
       "relevanceLevel": "medium",
       "reason": "Inflation / macro data",
       "matchedStocks": [],
@@ -632,42 +632,6 @@
       ]
     },
     {
-      "id": "news-19kd6wq",
-      "title": "UK mortgage approvals fall to lowest since January 2024, Bank of England data shows - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUkhDc3BwXy1kWUdSdFhKMTdDSlRXYmRfdHZPTlBpNmE5TVItZ3RMbm1zOU5xakZXZGhpWkVFRVBnRUw4aWo4VVctZUtnTVZvNVlQVUtvbndZU21NUlhEMDlzVXFvN0RhbVNBa3pJdFF0a3d4di1lUXU2UE1fYUpGSUFNNlFPdXhCX3daT045cE5qRUpCRmFaazliYi1iM2NGSmI2WHJiV3RsU1NyYTEzUFcxM21qbm9GQW5vY1N3?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-09-01T07:00:00.000Z",
-      "region": "GLOBAL",
-      "category": "central_bank",
-      "relevanceScore": 57,
-      "relevanceLevel": "medium",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Reuters"
-      ]
-    },
-    {
-      "id": "news-wicuxo",
-      "title": "Bank of England's Bailey sees 'subdued' second-round inflation effects for now - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb2QydWdoanp1clRlWTVBQW9mRFZhcVBPWEJkcHB5M0RjSWRLTXJjcjNHbUU3cFJ4dHpNbFhXcjN0elBrWnVFSHYtZFJ2cEUxQ2FMWm1YRVFQZlJONE9LQ1pHTnRJNXVfcHNqc1ZhakxiVkdvdFhSNWo2ZEFJMXdPZWVhcy0teHNkRVJiNVk2LTdpX2piWFpIZzdhU0xnYk0yWVZqdkh5VV9weUpfS1VxZE9pYw?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-08-28T07:00:00.000Z",
-      "region": "GLOBAL",
-      "category": "central_bank",
-      "relevanceScore": 57,
-      "relevanceLevel": "medium",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Reuters"
-      ]
-    },
-    {
       "id": "news-1ockrvt",
       "title": "Nasdaq, S&P 500 lifted by Nvidia's forecast; investors eye speech by Fed's Warsh - Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQjFsZE5oMDdHNmpjOTd5V0dmUHItLXFIbzQyblhZQ3Bfa0tGcmFDM3ZHS2ZJRlJEZzhDMXk2b2syeVRZNndVNzZvSnNVSnRFalZXUXJhUm5aZGVUVHVSZVQ0VzllN09IcWtOZENfRmV5eW9fOGU3Mi1JN1VNWGJ4RE1aY0gycWJfRjRrLXpzTmdoSXlSMW9vVHVtdTNJVmdhS0tXT2FwS2dGbGM2?oc=5",
@@ -727,24 +691,6 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTjJZc2dvX296U05LTWlJSG9HcnlHRE9NbGhUT3FoMU84NXR4VmI0QmQ3QzEzVGlnLV94X2hVQl9nSjY2QzJ2aW1OU0JudzZzeExwRmFGOV9ueUl3cVpnbjVRbnY3R3Rmay1OQkM4T2c3M3pOQjhTTTh5TlFvQ2xxcFdoSkpldk5wMUZuaGlVRW9PeFVmYm1xbml4MnQwZlhTd2VF?oc=5",
       "source": "Reuters",
       "publishedAt": "2026-07-30T07:00:00.000Z",
-      "region": "GLOBAL",
-      "category": "central_bank",
-      "relevanceScore": 57,
-      "relevanceLevel": "medium",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Reuters"
-      ]
-    },
-    {
-      "id": "news-kqdd9j",
-      "title": "Bank of England reviews banks' Asian equity exposure, FT reports - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbEJ1eEhEWkNfdDdSUmtRc2NhQ2JwQUt5VVVxM3NabmIwelRUXzB2OFlKX1Z2Ml81aWxtNFZjbmRSeXNwaXBhaEFUSUhqTEozbzROeXB6U0JUbUpRa3F6R1Y5dXk3NEJGSDRfWWJfOUpObGNDNFcyVVJqc3g3aUV4SDVZdjE2NDVBTHI1YURtS1JwdHVuZlI5SDVFSEpfR3ZnLXg0TGlHNA?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-07-29T07:00:00.000Z",
       "region": "GLOBAL",
       "category": "central_bank",
       "relevanceScore": 57,
@@ -1118,6 +1064,24 @@
       ]
     },
     {
+      "id": "news-rr9xho",
+      "title": "-Bank of England policymakers set out views on rates outlook in minutes of April meeting - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVkFzeUR5U09kbWxncG9JbEE4WDFOLTlPVWlseTh6NG9NazdfTXZsWUpTUzhUdlpRdzNiR3lodnJmYlNtZU0tWXhzQjU3TVhtSXNrdjZUMnY4WVgybV9OS3hfcnctWWUxaHoxVkkzODhqNjVxbURERUZCUUJYWUJ0QkpFQ0lERTFXcTgwQTV5ZU4zSV92dUFGWFNiSXdYM21vVzRXdnUtWEJiS21ySEdJbzhzdXVSdmMyMlVZRg?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-04-30T07:00:00.000Z",
+      "region": "GLOBAL",
+      "category": "central_bank",
+      "relevanceScore": 57,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Reuters"
+      ]
+    },
+    {
       "id": "news-4bgoa4",
       "title": "Bank of England's Bailey says 'not going to rush' judgements on rate rises, BBC reports - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZHF6dlV6TWJ6TWZLMWF5OE45d0lQR2pkdE9TSS1oYzVraGd3cEVWRV82Tm5sbzNWbVlsaVQ3VEVwM2Q2alM4cHNHSllRT2RSX3phT1hIdUw0bHp4eXJjcXNFcGtNWHlId3pudlU3U0s1OXlwRHA0WER4a0ZyeUlzOXdsdXY3eFpvLW11RnRNMVZWWXRmbTE4QkRrUjZOU0R2N0VIcjYzR0xsdHZURGxNSWg2TWRQa3ZhcTNF?oc=5",
@@ -1280,6 +1244,24 @@
       ]
     },
     {
+      "id": "news-1d4rd3y",
+      "title": "Bank of England says rates could rise as Iran war fuels inflation - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHTmVSUXNQRWVWSWdHd3ZKR05XUGtwcVR4NEtKdUZkVUZsd21lWWxDTWxDLTRYeGJLVkp0YmFhaExSbVJQSzJTMl9SdW9SbXJ0X2xOd21FY1djQQ?oc=5",
+      "source": "BBC",
+      "publishedAt": "2026-04-30T07:00:00.000Z",
+      "region": "GLOBAL",
+      "category": "central_bank",
+      "relevanceScore": 53,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "BBC"
+      ]
+    },
+    {
       "id": "news-1pxkddj",
       "title": "Global stock markets are too inflated and will fall, top Bank of England official warns - CNBC",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTHRBYTR5WjZha1RMVkRPdUJWUmE2bVJOMnVVa202UDMyNVcybkFieXV2Rlk4Z0xWRDNQLUNWSE1FcHV0SHc5cnFsdE5PSkdpYlFkSENMRnN5bzc5R2RTMGpXcjVmcXhCd3NrY0tUemtJSUxMYUlaOG1nMUJKZmgzNk5LSGpURHU3Zm9oRi1XNFFZdE5jSjhfMTFycGVHVmJ6RkItaFhqVULSAa4BQVVfeXFMTkVkMno5MFZTNEVKcXdIZElTRDRIelAxa3B4bERuOUhBMmhXbFdNaEdmengzRjRUSUl1U2xwVVRiRFFGUVoycHhVUzFNRm5vanA4dFVMSFdiTmhQSVlEVlVrTXREOGVrYjZxX201bjVXM3pRZ29Ecl94aDduYWZCV2JZVE1pdzRNTDNLNkFtSTJUSFplYUpVNmZueHk4ME10NXRaa2RZMkFQRDItY0l3?oc=5",
@@ -1316,10 +1298,10 @@
       ]
     },
     {
-      "id": "news-16rfyh2",
-      "title": "Nifty Sensex Today: Nifty Climbs 46 Points to 23,477.80 as Banking Stocks Snap Three-Day Losing Streak Amid Crude Oil Volatility - indiainfoline.com",
+      "id": "news-a31tnd",
+      "title": "Nifty Sensex Today: Nifty Climbs 46 Points to 23,477.80 as Banking Stocks Snap Three-Day Losing Streak Amid Crude Oil Volatility - India Infoline",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSlBDbXpyVV9hZzJxQXlhcXpJc0c4eGJDS3R1N0FlbEg2VGdWYncxQjRvTU9yV2k2aDVBWTdFYUZFX1M4MGFwN3VYdG01ZWxEV3RuMEhZMm5sVmtpNkZuY3A5bHZFZHc4UGhXNDNkOEVJbV9QZG1zZmxweW9OLThWdV9fNmtidndhbEdCSENFZXJ4aHZUcUlRU2tWUTE3bjFRR0s2Sl8yRElwYUh2ZHB6S1FWSU1LRnBhaUlLYzQwdUxqc3VDQTRib2NUV0Z0QWJRc2EyeGhMM0dKcnNRSlUyQXlKR1Y1NEswQW0xaEZtUWdOQm03d1JrT21HYV9SZw?oc=5",
-      "source": "indiainfoline.com",
+      "source": "India Infoline",
       "publishedAt": "2026-09-10T13:27:47.000Z",
       "region": "IN",
       "category": "oil_commodities",
@@ -1330,7 +1312,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "indiainfoline.com"
+        "India Infoline"
       ]
     },
     {
@@ -1352,6 +1334,24 @@
       ]
     },
     {
+      "id": "news-r68xpc",
+      "title": "Venezuela looks to UK-held gold reserves for reconstruction as inflation surges - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNXhicjVuSDk2dXZSRGNjMlNscC1IbHBxZTlKTnFwdDJyNTVkREhsV295VmtVWXFrdTJkalJSeFlNa09zelg4VF9zVk5GbWplajU2YUFvdEZtRENnUXgwR0pqT3J6eUFZTlB1c29RUXdnU21HcXV6ZVVsTGhScUJhV2ZSTExYSG45d1hJNzNJOUJnbXFfeTVLenBYdzdKd3ZlLTNuS3d3?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-08-13T07:00:00.000Z",
+      "region": "GLOBAL",
+      "category": "inflation_macro",
+      "relevanceScore": 52,
+      "relevanceLevel": "medium",
+      "reason": "Inflation / macro data",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Reuters"
+      ]
+    },
+    {
       "id": "news-1ngd2st",
       "title": "Bank of England to receive new objective to support payments innovation - Linklaters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPN0dBY3RnbWZsRHRzNWp0eDFWakJTNmNWa0EtV1dKN0ljd2pYUHBZQkpFcGl4cTVKcHl6azdUT3E5SFZaRHFjVS1saHFPM09WSVljSEV1VGpuUnB2QVBWakdKY0lYdUNYYnN0YzlCZlVQUzlaaTFIUE1ITEYwNl82eUFKeW9LTl9EZ2hNTTltUWNwLTFpTzJPdDI4Umk4TW0wZFBDQ1N1YTZvcmROY214X2xpMHB6STZRWk8wenlTRlo0REZnUFE?oc=5",
@@ -1367,6 +1367,24 @@
       "official": false,
       "corroboratingSources": [
         "Linklaters"
+      ]
+    },
+    {
+      "id": "news-1otn2yw",
+      "title": "UK borrowing costs hit 19-year high oil prices fuel inflation fears - This is Money",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQb0pBLWhPRGVoZVhPdDZXdV90dVZEOVpGOHJabWg4dTdnZ2Zzelp1dWNxUl9EMFNnLXBSaV9icVFxOUZHbENHRXA3M3NOMzdKcGkwMGJZME4yY2RHT1k3RVdVRGxXYk5ZaHhub0hhUkVMWVZDMlZZOHdaMzF3RWF3cGpwdlJZbXN0dDIwWGw3V2hvcVQyRUhBdHh5cHExN04tUmJrUm02OXJDU1pVX0NVUjFVajJ1WFY2bnB4YnpwWHBIX0FXT2d0QmZhV1N3RnJyS2FZZW44OVQxOVB1X052d2JmWlhrSkVjOGlHZ2p5VzI2VGpXMXZxbzdwTzlUa05lQjFmM0JvWUhsenBWdUVnNDJ5dw?oc=5",
+      "source": "This is Money",
+      "publishedAt": "2026-09-10T16:52:37.000Z",
+      "region": "GLOBAL",
+      "category": "inflation_macro",
+      "relevanceScore": 50,
+      "relevanceLevel": "medium",
+      "reason": "Inflation / macro data",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "This is Money"
       ]
     },
     {
@@ -1460,11 +1478,11 @@
       ]
     },
     {
-      "id": "news-wqmu14",
-      "title": "S&P 500, Dow futures attempt recovery ahead of inflation report - KELO-AM",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeHNpUHE2dXZqdUptZDAtNC1yOW1xN3huMVJJUnlHOEdWa3pselVUNXpiUmdtaWkxekhKeS1YVUJlZDl0WHE4ZE5QX3VnOTFGZEdKUVpZRGdnR2NYckpnM1pjWk1LUlJTS0dXdnIyVjV5T1ZVS1AtVXFkalMwZlNSclkwZWlmSWJ0TGFNZFlySUdHWlVK?oc=5",
-      "source": "KELO-AM",
-      "publishedAt": "2026-09-10T10:07:58.000Z",
+      "id": "news-10oafhn",
+      "title": "S&P 500, Dow futures attempt recovery ahead of inflation report - The Mighty 790 KFGO",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcXFOdU1lclc3MmhScXh4SlRmaWFkT2Y2TVYtWVE3dVNlcVJnbWkwMGVlTjRpdzlhaTJPczVHVGtPSVUwMC0yN1NIMHdKREI1VjF3UHFob3dEZjgzLWVfbkgxUTRrLTFSRi1Da01BckFaRkx6SGtKcElhc2FsS29tLVR6dWVEM2RWb09OQUpmT3QxYlFG?oc=5",
+      "source": "The Mighty 790 KFGO",
+      "publishedAt": "2026-09-10T10:24:19.000Z",
       "region": "US",
       "category": "inflation_macro",
       "relevanceScore": 46,
@@ -1474,7 +1492,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "KELO-AM"
+        "The Mighty 790 KFGO"
       ]
     },
     {
@@ -1604,6 +1622,24 @@
       ]
     },
     {
+      "id": "news-1ao96a9",
+      "title": "S&P 500 slides fourth straight day as oil prices, yields surge - The Edge Singapore",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMEJHOV9URGVwSGw1R3lwSTk3WFMyZlpJVGs4OXByS2pxQ0RmX0VMV3h2Nk9McjdCbno2N2VQb1ZmMXpObDdyNE43QXl4djR4QTVsYmdzTmpLSGtVV0RxbFdnMTZCNXNxSTh5NjlwM25hNmpjZmtWRjQyaVAxN3pob0hUNlFCQ0hmYlo1bWtmZEl1OU1yWl9HeTh3RU1KTU1zaXlqWkg4YTLSAa4BQVVfeXFMTkY2RzZaXy1LZXRPdlBPcGw4b056VEVfMU5aa2djemszY05fTWo4SEZNemFkSkRKaEh0bXg1cERlSE5vZHpqaFBlWjFJTHMwUldTMnFhTzdidXM4UXhqTXZreGZ6aFRaMlhPcmkxcXpUYWRTWlA4QlptVDFoUXB3M0l1QVRueEtSa1puQjBBeTNEaXE0ckxwQm9GVW1sWTVpTnpmaEV2UGN3WWNrYkxn?oc=5",
+      "source": "The Edge Singapore",
+      "publishedAt": "2026-09-10T17:12:31.000Z",
+      "region": "US",
+      "category": "other_market_moving",
+      "relevanceScore": 45,
+      "relevanceLevel": "medium",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "The Edge Singapore"
+      ]
+    },
+    {
       "id": "news-11tsjqk",
       "title": "Bank of England’s tricky balancing act in dealing with global bond shock | Letter - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORE1rbDNMd0R2THgxNGVLaWdQdi1Rb0hiZ3l6bUZ5b09WYl9kY3JXYlJuWWc0a0Z0RTBDMFNmWnJHNkZsMjJ4TVZCaXhIT2lIOGFuY3dEYTF0WEFGM3FBRW9NMUZ3VWJPZHpBM01iQi1LWERDdjYzYWlwU3R6VFNVSk5sV3FKSUpCcjk0TUctTGpjOWxodW43cWVjR2gyaGg1U0pkUTVuMU5ORUxRclJIT3ZGRkhzZWs0aXNZ?oc=5",
@@ -1673,24 +1709,6 @@
       "official": false,
       "corroboratingSources": [
         "NBC News"
-      ]
-    },
-    {
-      "id": "news-147vovz",
-      "title": "UK borrowing costs hit 19-year high oil prices fuel inflation fears - This is Money",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQb0pBLWhPRGVoZVhPdDZXdV90dVZEOVpGOHJabWg4dTdnZ2Zzelp1dWNxUl9EMFNnLXBSaV9icVFxOUZHbENHRXA3M3NOMzdKcGkwMGJZME4yY2RHT1k3RVdVRGxXYk5ZaHhub0hhUkVMWVZDMlZZOHdaMzF3RWF3cGpwdlJZbXN0dDIwWGw3V2hvcVQyRUhBdHh5cHExN04tUmJrUm02OXJDU1pVX0NVUjFVajJ1WFY2bnB4YnpwWHBIX0FXT2d0QmZhV1N3RnJyS2FZZW44OVQxOVB1X052d2JmWlhrSkVjOGlHZ2p5VzI2VGpXMXZxbzdwTzlUa05lQjFmM0JvWUhsenBWdUVnNDJ5dw?oc=5",
-      "source": "This is Money",
-      "publishedAt": "2026-09-10T12:55:31.000Z",
-      "region": "GLOBAL",
-      "category": "inflation_macro",
-      "relevanceScore": 44,
-      "relevanceLevel": "medium",
-      "reason": "Inflation / macro data",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "This is Money"
       ]
     },
     {
@@ -1838,6 +1856,42 @@
       ]
     },
     {
+      "id": "news-m8hh5e",
+      "title": "Bank of England governor says AI could cause global economic downturn - Free Malaysia Today",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT3JuNzBvYUl6a01tbDJ2WW90ejlfbzFfYTItWEd2YkpnSEdXLTZSVnlWdEY5cS1hRVZGU3FXZ3NpeTRrUVRvazdDLTRka0pOQ09KWm1ENHYteWFQNnhJNUxEUFREUnZUWGhOZV9QVjZGN0pRcFZaRTdRR3lZYl9ld2J5YktoNlJ3djUyRDgzWnVqUGMyZUZhdktnVHBuSXkwTFA3MHUxQWIzeHlzV1dqc2oxQU5VR25wbFoxYmhtMHlOQ1BTUURFWUpGMC0?oc=5",
+      "source": "Free Malaysia Today",
+      "publishedAt": "2026-08-31T09:10:27.000Z",
+      "region": "GLOBAL",
+      "category": "central_bank",
+      "relevanceScore": 41,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Free Malaysia Today"
+      ]
+    },
+    {
+      "id": "news-m3ubc2",
+      "title": "Bank of England governor warns advanced AI could pose risks to global financial system - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0dwZmtYUkJXMl9hNHNZNUJVRW1IbzNxU1o0Q1VVMlJtS0RnOEpPUGhCblBjYzI0S2tRY1g3RFp3UFVQME9NU1FHdFdfY3BKV2E5Z24zb0VDNlhmVmlHQnA0TFFYY3BTcmFqQll5MGlUd0RqQzBvSjN1ei1OcDdELUt5NmRfS1pMbFFNZ0xUYjBHR3hKSm1saEdsWnY5UEJFeGNRZU9KbTN0NnJQbTlJcmdibmhoaGNrc0JGWU5USUNiMWhU?oc=5",
+      "source": "Anadolu Ajansı",
+      "publishedAt": "2026-08-31T07:00:00.000Z",
+      "region": "GLOBAL",
+      "category": "central_bank",
+      "relevanceScore": 41,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Anadolu Ajansı"
+      ]
+    },
+    {
       "id": "news-19txwpk",
       "title": "AI could cause global economic downturn, Bank of England governor tells G20 - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa2hKaTJDZm5XdTdydXNLTnh3VVNOZEszVWNST2hOcXVOcXlqQ0hnLXZkSllVZWlhMnpfbFZGVm1IUGstbDQ3VWJLMGV4bnV6M3Z2UDhCc1N4Uy0ya0JGSVhFQzh1TnU5MURDVl8zd1VWZHJkY3N6QzBYd0lkYTJvd1hZclF2ZmFPUW9BSlhQWXZsUm16S0VvS055NVFJNEo1Y1I3cFliUUoySzQ?oc=5",
@@ -1853,24 +1907,6 @@
       "official": false,
       "corroboratingSources": [
         "The Guardian"
-      ]
-    },
-    {
-      "id": "news-16uv3bv",
-      "title": "Bank of England governor warns advanced AI could pose risks to global financial system - aa.com.tr",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0dwZmtYUkJXMl9hNHNZNUJVRW1IbzNxU1o0Q1VVMlJtS0RnOEpPUGhCblBjYzI0S2tRY1g3RFp3UFVQME9NU1FHdFdfY3BKV2E5Z24zb0VDNlhmVmlHQnA0TFFYY3BTcmFqQll5MGlUd0RqQzBvSjN1ei1OcDdELUt5NmRfS1pMbFFNZ0xUYjBHR3hKSm1saEdsWnY5UEJFeGNRZU9KbTN0NnJQbTlJcmdibmhoaGNrc0JGWU5USUNiMWhU?oc=5",
-      "source": "aa.com.tr",
-      "publishedAt": "2026-08-31T07:00:00.000Z",
-      "region": "GLOBAL",
-      "category": "central_bank",
-      "relevanceScore": 41,
-      "relevanceLevel": "medium",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "aa.com.tr"
       ]
     },
     {
@@ -2054,6 +2090,24 @@
       ]
     },
     {
+      "id": "news-1blreqb",
+      "title": "Bank of England insiders warn AI boom could push up interest rates in Britain - This is Money",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTXg4dEhiazZNUVNqNmJ6M2gtV1dWN2syd2toRVVFeTV4Q3IxZDhHVHpEZ3VNajY1YnNoLTlqTnRDQkVYYmZUZ1dIM0VtSl92cXMxUFEzQWZxSHV4elJ4a2dOVVU5S3FsTnh1UTBlY3JjUkQ2SkZ0QUVUVlh2ZWEzWkJMSFB5X1ROMGR1MmExbTdOZjRzT011R2Z6QTBfS184NExpYTVTTW9NX3B5eTRkNVJ4M3Zzcmx5RV9J0gHAAUFVX3lxTFBtQzFnTktoUENhZ1ZndGttV2YzSG1PSW1idnpONmJ2Wi1DVXI1c1hJRmI4Wm1zdlQwQWRJX08xQzYzc0ZadUprVG95M0NPYTd2SXN3SlZNV3djNENheWo4LVcxZ0RsNENKRGx4SU5aTUZBNFdmWmdGMWFGWDJLdnU3QThqdWMtV3l2MzRfWUlhMG9rSE9uWWIwbXlrSnZmMHF2ZUcwZ0tTSHhkYWFpcEJBM19KY3NmRHdiMkJZamZlSw?oc=5",
+      "source": "This is Money",
+      "publishedAt": "2026-08-23T07:00:00.000Z",
+      "region": "GLOBAL",
+      "category": "central_bank",
+      "relevanceScore": 41,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "This is Money"
+      ]
+    },
+    {
       "id": "news-1snnszs",
       "title": "This S&P 500 Stock Pays a 2.67% Dividend Yield and Has Increased Its Payout in 17 Straight Years. Here's Why None of This Matters to Investors as Much as the Federal Reserve and Kevin Warsh. - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRUo1T2VJb0JyWURNWmRZR21SN3FmY2Nrak4ySnJ2a2ZpSXpHSy1CSnhGcVpKODF5d29weDhjUE5yNU40amZwSGtDdGhkeE5rdUt5MS13cTd2MUhOUFROUmhZZFpjdS1Yd2V0c21Zc0F6alo5d29xYzV4QlcwR090cnJwWG9jSzctWkttQ2s1clJtWVpqS0hscQ?oc=5",
@@ -2105,6 +2159,24 @@
       "official": false,
       "corroboratingSources": [
         "Altcoin Buzz"
+      ]
+    },
+    {
+      "id": "news-68wnhw",
+      "title": "Bank of England’s ‘digital lab’ trials stablecoins for SME trade finance - gtreview.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT1ZJNDNNYTdqUHlncnJyN09iY2xsTFhWTnZZWldaekRWdDd1aktQYkt5Z0I3Y2R4NF90RDJCZ2J4REtDVzA5Vzk4LUQ2TUk4T05NY0JCaUk5eVVjZEVpODlzWUFHT1NTcnhhTmItTVYzQ2p1STVvYXdNTzMxbHNBZGp2bmM3R1Z0VVRROU4zS0lUMHhuWU5PRWpDNUlVcmdORnNkWkdxRmJkdS02dHlPTTFVQjl1cmgyZkwyWXFIeG5MdjMxZ1E?oc=5",
+      "source": "gtreview.com",
+      "publishedAt": "2026-08-12T07:00:00.000Z",
+      "region": "GLOBAL",
+      "category": "central_bank",
+      "relevanceScore": 41,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "gtreview.com"
       ]
     },
     {
@@ -2540,10 +2612,10 @@
       ]
     },
     {
-      "id": "news-pl46t2",
-      "title": "Tokenisation of UK Wholesale Capital Markets: Key Takeaways from the FCA‘s and Bank of England’s Call for Input - mayerbrown.com",
+      "id": "news-1w58xo5",
+      "title": "Tokenisation of UK Wholesale Capital Markets: Key Takeaways from the FCA‘s and Bank of England’s Call for Input - Mayer Brown",
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPMVVmVndzX2c2dGthRDJTX1RVS3RPM3FJdnBGcnB0OUtoU05zWjYyZkNMVEFVMkZvb05aa29maEZqMWgzZk0tZUg3VHI2OHFBZllabnNhVVdwOW5LUjFGY0RvMFh1eFM4VUtQNkI4dmxFbVhIZ0VINlVTSl9Rc2FnRHJYQmZPV0RXMzNRV1VubEhzSlhNaGx5VVRLRm1qcEJmSmhQTUJDNld3bUplbGdNMnByakFzSVNsTmItbGFhYW80Y21pV3dsTkJWRC1QeHdRUGM4ZFNxZElTNVRzakVQNExPWDFBWGcxcGFQOVVEYWpCcTZ4bnB1MjE5NjA?oc=5",
-      "source": "mayerbrown.com",
+      "source": "Mayer Brown",
       "publishedAt": "2026-06-03T07:00:00.000Z",
       "region": "GLOBAL",
       "category": "central_bank",
@@ -2554,7 +2626,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "mayerbrown.com"
+        "Mayer Brown"
       ]
     },
     {
@@ -2702,10 +2774,10 @@
       ]
     },
     {
-      "id": "news-1cac40q",
-      "title": "Sensex Falls 600 Points, Nifty Slips below 23,500 as Crude Oil Nears $100; Rupee Hits 94.83 - indiainfoline.com",
+      "id": "news-lh976v",
+      "title": "Sensex Falls 600 Points, Nifty Slips below 23,500 as Crude Oil Nears $100; Rupee Hits 94.83 - India Infoline",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOakg4X3RQaDZMNU9Zb3NpWHBXc29WamxXd0ZpeENweGhnTjBNNzZFN29Od3ZVRGJvRGRUa0pkekZ0bGQ5eXpSTUthY0Z0RmZmaFgxZm8yNEVFWTQ4WEtEUFdPVWUybVZXQ3dvNndXTEphNm1UNXpJMFpHUHd5SXllQTFJbWROdHVZVGtIZWxPRWxqSERDLWluVG1pY3pRbFF0UHhRRUVlbUVDQWNqcnBwa25fbld0V1k1eFFxWTBZZk53SE1ZVjBlYmhn?oc=5",
-      "source": "indiainfoline.com",
+      "source": "India Infoline",
       "publishedAt": "2026-09-09T06:55:44.000Z",
       "region": "IN",
       "category": "oil_commodities",
@@ -2716,7 +2788,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "indiainfoline.com"
+        "India Infoline"
       ]
     },
     {
@@ -2738,6 +2810,24 @@
       ]
     },
     {
+      "id": "news-nvjlxj",
+      "title": "Stock Market Today: Gift Nifty, IPOs To Oil Prices — Five Key Factors That May Drive Sensex, Nifty 50 On September 9 - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOZzN1T1Fla1RYVjlYNGtjU0hZVVVmN1RRQmg4dE1GSnJmN3NmZWpadlZIRHhubnVaeTEwVGpKS00tN1pBRjM4V3hsUFduZDF6YjN0NE5KenRwLVBJb09MMDRScEluRWljQXp5TXhSXy1zRjNySGlkWHpCcUJ2REszNUgzU3ZaU1U2aUZkS3ZHRkk5QVFuS3o5dDRKX2oyWW0wT0tPbWZfY0tGOXpoZUpjejhjeVlreGpaUTN6clVabkdzMG9ERERQZU9kdldfQ010TzAtTjMwaGlwM25TVWE2NjNlajczRWxadHl2VFlMV0JVVm_SAfsBQVVfeXFMTTFqUnpER0E3MkRoOXAyRlgzVXdYSEh1UVhqbWVURWN6VkF0NGZNVzQtVWQyZW5nS0ZkeER6UlhHb3czdlFfcWFpVXd5UDJSZXBfOEtkOXN4M0JzT3V0U0dESG5kcnBlVTZPcUhfZ0pHakR6Rnh6UEhuSXBEWW0wWmtxbkhxYkxDeGhGNzEwdFZ2bnRZNjRLSmE1czVUYzZFY0ZsZnIyY09lekVxWjFSZ0ZyQ0sxdmR4Y05aZmcyNW40NEhNUmlQNE9adTNvRVFGZkl5bGtZQXE5SUxxRHdXMU9lN2x4Q1Q3TWlnT2FDOHp3Sy1tTWhYb2dDQmM?oc=5",
+      "source": "NDTV Profit",
+      "publishedAt": "2026-09-09T01:19:47.000Z",
+      "region": "IN",
+      "category": "earnings_guidance",
+      "relevanceScore": 40,
+      "relevanceLevel": "medium",
+      "reason": "Earnings / guidance update",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "NDTV Profit"
+      ]
+    },
+    {
       "id": "news-82nevf",
       "title": "S&P 500, Dow End Lower As Middle East Tensions Spur Oil Rally Ahead Of Key Inflation Data — META, QCOM, BE, AMZN, AVGO In Focus - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbXh4WF91UXlEb2c0R1QyMHM2aDY4ZnN2dW1xb1VicUtrQzhLUXlxbEF0aUhIdFZ3VnEtLU0zWlo1clRiR2hHRDdmRnpHZTh1a3FFZENBRmQzYTNqUC1qWGNVQVRnTHpOOEVrNllUYzhnSUlYdzZuUTEyT2xuVlNxcTRvd09Uc0o4ci1HaA?oc=5",
@@ -2753,24 +2843,6 @@
       "official": false,
       "corroboratingSources": [
         "Yahoo Finance"
-      ]
-    },
-    {
-      "id": "news-18qvn71",
-      "title": "UK Inflation Rises to 3.3% Following Iran War Oil Price Surge - Morningstar",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVkpESWNtY0pmcmJ6eWJySHNnbEplTWNPVmlNTHBzNm5RN1d2LVlON3FWS051d3U1Z2lQVW0tdURtbDZJWU1INFlRVGI3eV9zeG9PTF9FT3V4bHI1UHFaZU4tUG1BdnhUTmhBT19OTm11YTBBV1R3eWVCTzlFekc5b05JSklXalZNUi1MLThIQUhhZmpUNjh3dEZuYXBfYTVscUNN?oc=5",
-      "source": "Morningstar",
-      "publishedAt": "2026-04-22T07:00:00.000Z",
-      "region": "GLOBAL",
-      "category": "inflation_macro",
-      "relevanceScore": 40,
-      "relevanceLevel": "medium",
-      "reason": "Inflation / macro data",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Morningstar"
       ]
     },
     {
@@ -2882,24 +2954,6 @@
       ]
     },
     {
-      "id": "news-1x0jgav",
-      "title": "Stock Futures Stabilize as Traders Brace for Inflation Data and Oil Above $100 - finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9yNWlPa3NHbUpvSnZ1dmZ6bkhVRVhBT0hKcjYyeHRnWnBya01HUUY4dVAtdWZhSWpPSEZXQVg4VzFycmo0UTB6QnJlNlBIdHZmYlc5NDRlYVh3aEY4dG1ZVThDNjFKdGU0VnhiWTV6RzFtQi03OUE?oc=5",
-      "source": "finance.biggo.com",
-      "publishedAt": "2026-09-10T10:35:00.000Z",
-      "region": "US",
-      "category": "inflation_macro",
-      "relevanceScore": 38,
-      "relevanceLevel": "low",
-      "reason": "Inflation / macro data",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "finance.biggo.com"
-      ]
-    },
-    {
       "id": "news-whtc3n",
       "title": "Dividend stocks alert! Last day to qualify for dividend of these stocks - Check full list, amount, record date - Livemint",
       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOdDFjQW8ydTVESHNGalRMLWpZZ3lsMFlTUzBwdVZZbnktSmtRc2VicjIxY29SSTBlcUhRYWxZTTZIUHVGek9GeHc1SG5qLXVwX1lQel9GZ05mRHVnMjl4c3hyR1VSN3ozZFVjQXNZMnpUeHBJdTFWVjFjV2lzWkhJTVFsUUlsSnlDZk03d3FrZHQ5TzhVU0FZck1IaGVRVGc5Szcxd0Nud3RWSElPbEM0Y01xQXY4T3NHUU4xbkFVZFR5NWJBQ3JxbTNLT2VBeGp5NHlfRDNtOVVvajhqdkl1VHdRWVlXQnNuc1NaNHJLeEJIclUyV2FnSHJQYzBzTXRnaVpsY3Zn0gGLAkFVX3lxTE43S0RBUjhUOTVlcTI0dHo1c0MteW5sdWtrZE9SZUZMRmN1Q0FhWHNGNm9zczFfUHE5MUpMYXNQWFRpeUdKUXRuLWNiT3JjdFR4Q0dGYjJ5czVFWDhRU1pkQ2hKekszVmNVZDNzaHFsYTdkOFU2WVZNR1dXclZsYnFYd1U0Y2o4XzlJWVY4UFlJTGktcXJ0U0RabHZqZGxGVUt5NmZRd0FXZHFQOEQ2T3NQdUtfSHFRUHlfdFByVXE2bC14RWlaMEY4ZDZWMHhSZk5LeldRRi1ubGNEUUlLeDJqYklsZTludVNJbFY0TzNjWnZidGtyVWRFQzlQZW1NbkNLLTIwV3doNUFYTQ?oc=5",
@@ -2915,24 +2969,6 @@
       "official": false,
       "corroboratingSources": [
         "Livemint"
-      ]
-    },
-    {
-      "id": "news-19mw2wz",
-      "title": "Dabur India Share Price Today (DABUR) | Live Chart, News & Stock Market - TechGraph",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ucHpEc1BjZjVtb0tscTJkVy1RQjZaRTBaV1dYS2pWT2FXVkNlaVFQaHhsWUlQMzFrOUhrQzMtNFpMdVdpc0RqaWZXMnIyeXFaVlIwS1Ewcy1qSWNLMWc?oc=5",
-      "source": "TechGraph",
-      "publishedAt": "2026-09-10T16:21:00.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 37,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "TechGraph"
       ]
     },
     {
@@ -2954,10 +2990,10 @@
       ]
     },
     {
-      "id": "news-1c33dpg",
-      "title": "Canada, U.K., France to ban trade of goods from Israeli settlements in occupied West Bank - CBC",
+      "id": "news-1r6ucck",
+      "title": "Canada, U.K., France to ban trade of goods from Israeli settlements in occupied West Bank - cbc.ca",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORFQ5MV9IdDhXTzFtemhKWnBkTy1waTdaZ28zVmZHUW1uNGNmc0tiNnBjZnpDMlNfcUlWTE9BcVE2aWh6UmVQemtkRXhPaWl0WnVLYzY4WGlnQXBOVGlOZGlsRDVDSHk4Q203cTZVVVpXYWxHNWpJZV8wVUtjczZ1cmZuSm10Qm1McTJDOEVnOA?oc=5",
-      "source": "CBC",
+      "source": "cbc.ca",
       "publishedAt": "2026-09-08T21:11:25.000Z",
       "region": "GLOBAL",
       "category": "government_regulation",
@@ -2968,7 +3004,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "CBC"
+        "cbc.ca"
       ]
     },
     {
@@ -3008,10 +3044,10 @@
       ]
     },
     {
-      "id": "news-yt5r9q",
-      "title": "Stock Market Today: Sensex, Nifty 50 Fall Amid Rising Crude Oil Prices, Middle East Tensions - indiainfoline.com",
+      "id": "news-9p1cwl",
+      "title": "Stock Market Today: Sensex, Nifty 50 Fall Amid Rising Crude Oil Prices, Middle East Tensions - India Infoline",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQjFhVFJNXzQ5QVVuTkFNOThKMmVKZ19GcWVXUmFGTFlXTFZEVFFOS0ZEZEM3OVR1VVh5VFhCNXE0c0lkM0FHalVCUlRIckVxS1VkZDhPa3lfR3B3RkU0TUxBMThJemNCZEo4ZFBzaVBHRl9xYk9RQzFQbFJNVFZNbkNjeFl4czdKSVdXMy01aUVFMFRwUWJOaVZJSVRWZ2dIby01WUV2OVVKOG0xd2JCbVNLQ1VvRmJ5Ti1KMGNVd2xSOGRZSkRCcGxiTVk?oc=5",
-      "source": "indiainfoline.com",
+      "source": "India Infoline",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "region": "IN",
       "category": "oil_commodities",
@@ -3022,14 +3058,14 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "indiainfoline.com"
+        "India Infoline"
       ]
     },
     {
-      "id": "news-c2fhm7",
-      "title": "Stock Market Today: Sensex, Nifty Fall as Crude Oil Surges Amid West Asia Tensions - indiainfoline.com",
+      "id": "news-12q53du",
+      "title": "Stock Market Today: Sensex, Nifty Fall as Crude Oil Surges Amid West Asia Tensions - India Infoline",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVnlzV3g3aFB0dERzTGstWDh5NGV4MXBUcnU5MmR4eXhPbU5xeGJjei1vc1k1azU4eHd2MUxLb3BuR2cxRUY0WHZjNEo5T3hFNlE3VXpVR2U5WnVRdlZXVnF4MXU5cFRieTI4aXNKSm12ZGs5QVR0RVE1OHprVzMtY3NyTEQwc3Z6LUVadjc0Z1FLdVp5d2c3TENpVVVFS3lBbGFoNmU1WGZlSHBkdE5tY3NISDdEMHR3YkdTVXVqMFg?oc=5",
-      "source": "indiainfoline.com",
+      "source": "India Infoline",
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "region": "IN",
       "category": "oil_commodities",
@@ -3040,7 +3076,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "indiainfoline.com"
+        "India Infoline"
       ]
     },
     {
@@ -3404,6 +3440,24 @@
       ]
     },
     {
+      "id": "news-19mw2wz",
+      "title": "Dabur India Share Price Today (DABUR) | Live Chart, News & Stock Market - TechGraph",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ucHpEc1BjZjVtb0tscTJkVy1RQjZaRTBaV1dYS2pWT2FXVkNlaVFQaHhsWUlQMzFrOUhrQzMtNFpMdVdpc0RqaWZXMnIyeXFaVlIwS1Ewcy1qSWNLMWc?oc=5",
+      "source": "TechGraph",
+      "publishedAt": "2026-09-10T16:21:00.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "TechGraph"
+      ]
+    },
+    {
       "id": "news-12tnmf",
       "title": "Oil, gas and borrowing costs surge as fears over Middle East escalate - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qbDJ3UmRJSUp3QzFjUk9JSWM3OFNpUzFXVWdqTUdGZ2kxUzh2cVRVdF9JQW0yajQ0RnA1ampZUHJJYk0tQTRGSzRQblhDTVpYeklnMHlRcHBkZw?oc=5",
@@ -3656,24 +3710,6 @@
       ]
     },
     {
-      "id": "news-yfa4xe",
-      "title": "Global borrowing costs hit fresh highs over oil, AI and inflation concerns - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYdjhGZENDa2kxWFV5bk1KX21zUnREWXJWLS1sRFEtMFowSXY1WFl3LVNfZDdrWXlNVENjNkFuNnVXTUhaZ29lQnk2WUhSZlJQUW5qeTRqS0RDZw?oc=5",
-      "source": "BBC",
-      "publishedAt": "2026-08-18T07:00:00.000Z",
-      "region": "GLOBAL",
-      "category": "inflation_macro",
-      "relevanceScore": 28,
-      "relevanceLevel": "low",
-      "reason": "Inflation / macro data",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "BBC"
-      ]
-    },
-    {
       "id": "news-1d7e0fd",
       "title": "U.S. stocks rise to a record as oil prices drop and inflation gets less bad - spectrumlocalnews.com",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLWFwNmhMd25qNzRDTVJqT1ptTHhXWVRfUjZmYWRIclJmOWdXdGJUVjBES3pjZG9ELWR0ODZJOTh5VWVZcnVYeW5ZVlY4TjE4bEdmNG1ERG1YTVNYamlLaFVaeHJhcWxCdFRzTjVyN1NUMDB5Yl96RkRXYVlzU2ZpNjlvVnJHa2p6aVZRODB5b2g?oc=5",
@@ -3779,24 +3815,6 @@
       "official": false,
       "corroboratingSources": [
         "Investor's Business Daily"
-      ]
-    },
-    {
-      "id": "news-1hxt8im",
-      "title": "UK CPIH Eases Amid Global Oil Price Shock - Haver Analytics",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFT3l6MzdXbTJ5ZHd1a1J0dFdWMmVpdGxka0wxRTdUcm13dWRBcmQ1MWpKYWg5MGkwMnNDWm9WOHNmN0ZfY1I4MUhVTWVDQnNzemJ5WE1UQVhkcXBuX3N6NGRVYVZvSXdIRllKVXZfRFdiVE1sNl9nLUR5THE?oc=5",
-      "source": "Haver Analytics",
-      "publishedAt": "2026-05-20T22:43:23.000Z",
-      "region": "GLOBAL",
-      "category": "oil_commodities",
-      "relevanceScore": 28,
-      "relevanceLevel": "low",
-      "reason": "Oil / commodities development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Haver Analytics"
       ]
     },
     {
@@ -3982,28 +4000,10 @@
       ]
     },
     {
-      "id": "news-ltjsga",
-      "title": "Stock Market Today: Gift Nifty, IPOs To Oil Prices — Five Key Factors That May Drive Sensex, Nifty 50 On September 9 - ndtvprofit.com",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOZzN1T1Fla1RYVjlYNGtjU0hZVVVmN1RRQmg4dE1GSnJmN3NmZWpadlZIRHhubnVaeTEwVGpKS00tN1pBRjM4V3hsUFduZDF6YjN0NE5KenRwLVBJb09MMDRScEluRWljQXp5TXhSXy1zRjNySGlkWHpCcUJ2REszNUgzU3ZaU1U2aUZkS3ZHRkk5QVFuS3o5dDRKX2oyWW0wT0tPbWZfY0tGOXpoZUpjejhjeVlreGpaUTN6clVabkdzMG9ERERQZU9kdldfQ010TzAtTjMwaGlwM25TVWE2NjNlajczRWxadHl2VFlMV0JVVm_SAfsBQVVfeXFMTTFqUnpER0E3MkRoOXAyRlgzVXdYSEh1UVhqbWVURWN6VkF0NGZNVzQtVWQyZW5nS0ZkeER6UlhHb3czdlFfcWFpVXd5UDJSZXBfOEtkOXN4M0JzT3V0U0dESG5kcnBlVTZPcUhfZ0pHakR6Rnh6UEhuSXBEWW0wWmtxbkhxYkxDeGhGNzEwdFZ2bnRZNjRLSmE1czVUYzZFY0ZsZnIyY09lekVxWjFSZ0ZyQ0sxdmR4Y05aZmcyNW40NEhNUmlQNE9adTNvRVFGZkl5bGtZQXE5SUxxRHdXMU9lN2x4Q1Q3TWlnT2FDOHp3Sy1tTWhYb2dDQmM?oc=5",
-      "source": "ndtvprofit.com",
-      "publishedAt": "2026-09-09T01:19:47.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 27,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "ndtvprofit.com"
-      ]
-    },
-    {
-      "id": "news-4iviwv",
-      "title": "S&P 500 falls as AI worries hit software makers - detroitnews.com",
+      "id": "news-14dt3i7",
+      "title": "S&P 500 falls as AI worries hit software makers - The Detroit News",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM2E1azFJT3FvaUFXZFVmbjF4Ni1YM0RwWGowbDg3RTJUWFNNTFdzZzJ6Q2M5N09SMTkwUjltdWpDcjI4VXZZenpkX1hXS2dDd3U4SURVOEk5aVU2U2lTdW1IYTEwRnZZek9GVWpfOGJrTWFMZXV1V1lhU3RuWGZEalBLVHBnRFFuVDJoOE5vTklKa2FxTm81aWV2NDhYelc3NnpvV2tzWXByVk5iNTdVY3dYaUM2eGYtbWRmNVFIRlc1LU9yR3N4NXNBNjI?oc=5",
-      "source": "detroitnews.com",
+      "source": "The Detroit News",
       "publishedAt": "2026-09-08T20:43:00.000Z",
       "region": "US",
       "category": "technology",
@@ -4014,7 +4014,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "detroitnews.com"
+        "The Detroit News"
       ]
     },
     {
@@ -4033,24 +4033,6 @@
       "official": false,
       "corroboratingSources": [
         "TV News Check"
-      ]
-    },
-    {
-      "id": "news-1lxgf3s",
-      "title": "Wall Street Today: DJIA, S&P 500, Nasdaq Comp Ease as Oil and Bond Rates Rise, SPCX, GOOGL, AVGO Fall - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ21HOUxPajZkTFA2aGwtQWlDN1U1SFlIUjBGRW85R1dkZmUxaUlicWJ0RnFWREt1NWExZVVWOWlUY3V5aVBrT0JfaEFtWlMydWNVb19UUjBfVzBJMmdFUDFvbDZfWUtxN2RpdndnMG13Wm5RX1RCZU5GcXEtYi1WVnNTOGF1SWN3S0FiN0RIOURWdDdtblNhYThOUlZIWFhqbFlZ?oc=5",
-      "source": "Moomoo",
-      "publishedAt": "2026-09-08T17:18:00.000Z",
-      "region": "US",
-      "category": "other_market_moving",
-      "relevanceScore": 27,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Moomoo"
       ]
     },
     {
@@ -4386,6 +4368,24 @@
       ]
     },
     {
+      "id": "news-1lxgf3s",
+      "title": "Wall Street Today: DJIA, S&P 500, Nasdaq Comp Ease as Oil and Bond Rates Rise, SPCX, GOOGL, AVGO Fall - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ21HOUxPajZkTFA2aGwtQWlDN1U1SFlIUjBGRW85R1dkZmUxaUlicWJ0RnFWREt1NWExZVVWOWlUY3V5aVBrT0JfaEFtWlMydWNVb19UUjBfVzBJMmdFUDFvbDZfWUtxN2RpdndnMG13Wm5RX1RCZU5GcXEtYi1WVnNTOGF1SWN3S0FiN0RIOURWdDdtblNhYThOUlZIWFhqbFlZ?oc=5",
+      "source": "Moomoo",
+      "publishedAt": "2026-09-08T17:18:00.000Z",
+      "region": "US",
+      "category": "other_market_moving",
+      "relevanceScore": 23,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Moomoo"
+      ]
+    },
+    {
       "id": "news-1yuzssg",
       "title": "Wall Street Today: DJIA, S&P 500, Nasdaq Comp Fall as Oil Rises and NVDA, AAPL, MSFT, NOW, MU Sink - Moomoo",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd2J2WmdVNC1XRVp5Umt4c2M1NHAxcmJSWm5XcUMzM2s1cHdjQ1p4UGhPMGxpd3F3N3pKUEhEblBoUjhac0xfeVV5ZUdUUnhTUFpkS25RNE1Rd0llTWhaZ3pYNXY3bDVXQ2ZyT3Jfb2tPUWk4THV4SlYyNWFvX2ZEbU9MaTI3bW95dHVrUzN4T0UtYVFYZzFjUFpNNmdLT3VDT1E?oc=5",
@@ -4605,10 +4605,10 @@
       ]
     },
     {
-      "id": "news-ooy19w",
-      "title": "S&P 500 ends lower as investors weigh data, Middle East tensions - detroitnews.com",
+      "id": "news-psy7me",
+      "title": "S&P 500 ends lower as investors weigh data, Middle East tensions - The Detroit News",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTWhVVUdGQm11Sy1PRHBaczhUVWFFVHdRV0VnTk1HWVkyWkI5ZnhNc3lQWVpUUUZKRGIzeFE5UVp6VnhaUVhyYzA1WUxPaW9VMGRCdUEtcHZxTkRCY2ExSG1NTjVzWlA1eHpBLUNScDBIYzFpTjhrT2sybU5TakVreWdNcGZLTzNMdUw5U2UxTUU2SnNNMVBHWGFYWE5waFBwdk1OVUNUeU9qeVB1OG0weGxMdUtfbm5tQzFIZk5VRkFGdw?oc=5",
-      "source": "detroitnews.com",
+      "source": "The Detroit News",
       "publishedAt": "2026-08-14T07:00:00.000Z",
       "region": "US",
       "category": "other_market_moving",
@@ -4619,14 +4619,14 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "detroitnews.com"
+        "The Detroit News"
       ]
     },
     {
-      "id": "news-1k1hk2l",
-      "title": "S&P 500 notches record-high close as rate-hike worries ease - Jefferson City News Tribune",
+      "id": "news-1mzf4wb",
+      "title": "S&P 500 notches record-high close as rate-hike worries ease - newstribune.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOFhyUFJ1NldNWFpUcm9JdllGdWgtR2pJU0R1MFZLWUxVSl94TjlDNkRGRjl5Z0I5MHhtZEp4UGpvZUFmUXo3YXdrMjBLNkxGS3IyUW8ycko5UTRSRkdMRUJ2TWlPVVYyWnZzZlVfa1dLbjRiM1YzMy1paUdSYUJVRTg5MVExM0tlcGN3NXdpQUZRUXJjOWc?oc=5",
-      "source": "Jefferson City News Tribune",
+      "source": "newstribune.com",
       "publishedAt": "2026-08-14T07:00:00.000Z",
       "region": "US",
       "category": "other_market_moving",
@@ -4637,14 +4637,14 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Jefferson City News Tribune"
+        "newstribune.com"
       ]
     },
     {
-      "id": "news-11m6lsq",
-      "title": "S&P 500 notches record-high close as rate-hike worries ease - detroitnews.com",
+      "id": "news-knsk18",
+      "title": "S&P 500 notches record-high close as rate-hike worries ease - The Detroit News",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNEh3aUVTUFBST0Vvay0zcWs5a21sWV9hdTlTMjI5ZHlYUmRqSkpmZTkyN24xSjNNR2ZkcHJ0STROVTZyWWFTU3dGVEJPWjhOUU1yWlJDemVseGJQMWY0bm5xYWMxLTRfSmVoSXhlcUhxdnJ1OXBkY05pMWhxV0txeGVTSTFDVi02YUdlWVRkNHBrT1JxVXludmNXb1hTWklTWl84Y1RHN2dKR2t0RUFKUVFDUlRyei1ZSkpOaEg4Rks?oc=5",
-      "source": "detroitnews.com",
+      "source": "The Detroit News",
       "publishedAt": "2026-08-13T07:00:00.000Z",
       "region": "US",
       "category": "other_market_moving",
@@ -4655,7 +4655,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "detroitnews.com"
+        "The Detroit News"
       ]
     },
     {
@@ -4677,10 +4677,10 @@
       ]
     },
     {
-      "id": "news-qw9fmr",
-      "title": "S&P 500 ends higher as CoreWeave results fuel AI optimism - detroitnews.com",
+      "id": "news-b1jg9f",
+      "title": "S&P 500 ends higher as CoreWeave results fuel AI optimism - The Detroit News",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOEVyTkpCNENsWklVOFBxSlBUZFM3SkZGQVBHTVpGTVFsMTBwYzZ2UU5XSWJLY1lwYzhuRjNreEVOenhtOGJEbEpwN3FxS1Ezc2xNLWxBQWlNeUt4LXJtUjRiMmdkUUZHeWh4WkUzeDAzM3FnNGZfMFRrTDRoQmw1Sk13SDVvejZxVGsxOEg5MFlOQXpXN2dVanR2RUJKcnI0TmpfdHNwc01kajBkNzVBSlM4QXprMzQ?oc=5",
-      "source": "detroitnews.com",
+      "source": "The Detroit News",
       "publishedAt": "2026-08-12T07:00:00.000Z",
       "region": "US",
       "category": "technology",
@@ -4691,7 +4691,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "detroitnews.com"
+        "The Detroit News"
       ]
     },
     {
@@ -4986,24 +4986,6 @@
       ]
     },
     {
-      "id": "news-vo5eoj",
-      "title": "Why are petrol and diesel prices rising again? - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vN0tpNVdZWWNRUC1TdVFmZE1FNWpURGFiUlVQYU9ENW92U1k0U0tCMnVXcjdSd2xHRUV2bTFZMnVfM3pQWEFqNDdDalBIakJMOF80dXlVVTlRdw?oc=5",
-      "source": "BBC",
-      "publishedAt": "2026-09-09T12:03:59.000Z",
-      "region": "GLOBAL",
-      "category": "other_market_moving",
-      "relevanceScore": 19,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "BBC"
-      ]
-    },
-    {
       "id": "news-1ts2m6",
       "title": "Why the Indian Stock Market is Falling - Equitymaster",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTmVBakU5RVpjTWstTko5UWVWOHZjUHp3TGpKclgtTlhGVVVBNU1yODVYWFcySHpnbVI5MkpKbkE4aTYzbnNkVzRjaWZRM3gxdEY3b1RPVXd1QkVpOU1IcUF2MWlNdVFVTmR6NWJZRTU3SEd1anI3ZUhaQlVYcTZDa2h3TXBsX2R4a1hFQ2RIemp3SVc1NWM3d0tYaFlSV3B2QlR2SjhObTN3M1Bk?oc=5",
@@ -5259,11 +5241,11 @@
       ]
     },
     {
-      "id": "news-nfnnny",
+      "id": "news-zufa5w",
       "title": "AI could cause global economic downturn, Andrew Bailey warns G20 - BBC",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9icFlpb3hZNm0xZ0hoUktoUElja2kycWVjR0NPOXY3aGk2bmQ5TXlqN0VCMlFNNXBkV0dfV0ltNnlZdk43M1M4VmFPRGxwbWhzOUk0SjZSZnVoQkho?oc=5",
       "source": "BBC",
-      "publishedAt": "2026-08-31T07:00:00.000Z",
+      "publishedAt": "2026-09-01T07:00:00.000Z",
       "region": "GLOBAL",
       "category": "technology",
       "relevanceScore": 15,
@@ -5670,6 +5652,24 @@
       "official": false,
       "corroboratingSources": [
         "Bloomberg.com"
+      ]
+    },
+    {
+      "id": "news-ze2zbv",
+      "title": "HM Treasury Publishes Findings of the UK Bank Ring-Fencing Review - globalfinregblog.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYzlYQXRsVWJVVTBIYkxJR3F6aWIyUXV6d3pWQVM1UE83YTZ1UHJVUFNyR1pCZkxzUXNYZ3VHZnRveVBRQVZJd2FrcWEycktnWUZBQ21MeXdVbDZueVdwM1hJODViQkVLcENPYnRRa1lFak1IVkFGbzRZYkV2TktUT1JXY1ZBbkVRRVQ2WEhtVDNVV1RmVlN4MFotYnVwaVJwUnI1Wmc2OWZkSmc?oc=5",
+      "source": "globalfinregblog.com",
+      "publishedAt": "2026-05-27T07:00:00.000Z",
+      "region": "GLOBAL",
+      "category": "banking_credit",
+      "relevanceScore": 15,
+      "relevanceLevel": "low",
+      "reason": "Banking / credit development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "globalfinregblog.com"
       ]
     },
     {
