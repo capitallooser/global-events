@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T10:00:09Z",
+  "updatedAt": "2026-09-11T10:20:45Z",
   "instruments": [
     {
       "key": "nifty",
@@ -24,10 +24,10 @@
     {
       "key": "sensex",
       "label": "Sensex",
-      "price": 74914.0625,
-      "change": 149.8625,
-      "changePct": 0.2,
-      "sourceTimestamp": "2026-09-11T09:40:00Z",
+      "price": 74781.7578,
+      "change": 17.5578,
+      "changePct": 0.023,
+      "sourceTimestamp": "2026-09-11T09:55:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
@@ -54,40 +54,40 @@
     {
       "key": "gold",
       "label": "Gold",
-      "price": 4384.8999,
-      "change": -22.4001,
-      "changePct": -0.508,
-      "sourceTimestamp": "2026-09-11T09:50:06Z",
+      "price": 4386.0,
+      "change": -21.3,
+      "changePct": -0.483,
+      "sourceTimestamp": "2026-09-11T10:10:40Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
     {
       "key": "crude",
       "label": "WTI Crude Oil",
-      "price": 99.8,
-      "change": -2.68,
-      "changePct": -2.615,
-      "sourceTimestamp": "2026-09-11T09:50:08Z",
+      "price": 99.15,
+      "change": -3.33,
+      "changePct": -3.249,
+      "sourceTimestamp": "2026-09-11T10:10:43Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
     {
       "key": "usdinr",
       "label": "USD/INR",
-      "price": 95.5525,
-      "change": 0.1125,
-      "changePct": 0.118,
-      "sourceTimestamp": "2026-09-11T10:00:03Z",
+      "price": 95.54,
+      "change": 0.1,
+      "changePct": 0.105,
+      "sourceTimestamp": "2026-09-11T10:02:13Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 77004.4219,
-      "change": 468.4719,
-      "changePct": 0.612,
-      "sourceTimestamp": "2026-09-11T10:00:08Z",
+      "price": 77081.4219,
+      "change": 545.4719,
+      "changePct": 0.713,
+      "sourceTimestamp": "2026-09-11T10:20:41Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
