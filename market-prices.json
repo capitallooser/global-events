@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T09:53:13Z",
+  "updatedAt": "2026-09-12T10:08:58Z",
   "instruments": [
     {
       "key": "nifty",
@@ -9,7 +9,7 @@
       "changePct": -0.339,
       "sourceTimestamp": "2026-09-11T09:55:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Delayed"
+      "status": "Last available"
     },
     {
       "key": "banknifty",
@@ -19,7 +19,7 @@
       "changePct": 0.238,
       "sourceTimestamp": "2026-09-11T09:55:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Delayed"
+      "status": "Last available"
     },
     {
       "key": "sensex",
@@ -29,7 +29,7 @@
       "changePct": -0.161,
       "sourceTimestamp": "2026-09-11T09:55:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Delayed"
+      "status": "Last available"
     },
     {
       "key": "sp500",
@@ -84,10 +84,10 @@
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 77301.0,
-      "change": 99.12,
-      "changePct": 0.128,
-      "sourceTimestamp": "2026-09-12T09:53:09Z",
+      "price": 77368.6562,
+      "change": 166.7762,
+      "changePct": 0.216,
+      "sourceTimestamp": "2026-09-12T10:08:45Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
