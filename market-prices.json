@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T20:40:27Z",
+  "updatedAt": "2026-09-12T20:54:26Z",
   "instruments": [
     {
       "key": "nifty",
@@ -39,7 +39,7 @@
       "changePct": 0.86,
       "sourceTimestamp": "2026-09-11T20:45:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Delayed"
+      "status": "Last available"
     },
     {
       "key": "nasdaq",
@@ -84,10 +84,10 @@
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 77142.5781,
-      "change": -59.3019,
-      "changePct": -0.077,
-      "sourceTimestamp": "2026-09-12T20:40:25Z",
+      "price": 77141.6562,
+      "change": -60.2238,
+      "changePct": -0.078,
+      "sourceTimestamp": "2026-09-12T20:54:22Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
