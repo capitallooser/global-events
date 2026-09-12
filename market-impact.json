@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T16:53:22Z",
+  "updatedAt": "2026-09-12T16:52:03Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
@@ -46,12 +46,12 @@
     "usdinr": {
       "label": "USD/INR",
       "priceSource": "Yahoo Finance chart",
-      "points": 2264
+      "points": 2265
     },
     "bitcoin": {
       "label": "Bitcoin",
       "priceSource": "Yahoo Finance chart",
-      "points": 3176
+      "points": 3177
     }
   },
   "eventTypes": {
@@ -303,8 +303,8 @@
       "label": "US Consumer Price Index",
       "historySource": "U.S. BLS",
       "reactionRule": "default",
-      "historicalEvents": 103,
-      "impactScore": 2.76,
+      "historicalEvents": 104,
+      "impactScore": 2.74,
       "impactLevel": "very_high",
       "markets": {
         "nifty": {
@@ -388,14 +388,14 @@
         "sp500": {
           "label": "S&P 500",
           "oneDay": {
-            "sample": 103,
+            "sample": 104,
             "directionReady": true,
-            "upPct": 56.3,
-            "downPct": 43.7,
+            "upPct": 56.7,
+            "downPct": 43.3,
             "flatPct": 0.0,
-            "avgReturnPct": 0.03,
+            "avgReturnPct": 0.04,
             "avgAbsMovePct": 0.85,
-            "medianAbsMovePct": 0.55,
+            "medianAbsMovePct": 0.56,
             "maxAbsMovePct": 5.54
           },
           "threeDay": {
@@ -414,12 +414,12 @@
         "nasdaq": {
           "label": "Nasdaq Composite",
           "oneDay": {
-            "sample": 103,
+            "sample": 104,
             "directionReady": true,
-            "upPct": 58.3,
-            "downPct": 41.7,
+            "upPct": 58.7,
+            "downPct": 41.3,
             "flatPct": 0.0,
-            "avgReturnPct": 0.15,
+            "avgReturnPct": 0.16,
             "avgAbsMovePct": 1.09,
             "medianAbsMovePct": 0.72,
             "maxAbsMovePct": 7.35
@@ -440,14 +440,14 @@
         "gold": {
           "label": "Gold",
           "oneDay": {
-            "sample": 103,
+            "sample": 104,
             "directionReady": true,
-            "upPct": 60.2,
-            "downPct": 39.8,
+            "upPct": 60.6,
+            "downPct": 39.4,
             "flatPct": 0.0,
-            "avgReturnPct": 0.29,
-            "avgAbsMovePct": 0.73,
-            "medianAbsMovePct": 0.58,
+            "avgReturnPct": 0.28,
+            "avgAbsMovePct": 0.72,
+            "medianAbsMovePct": 0.57,
             "maxAbsMovePct": 3.56
           },
           "threeDay": {
@@ -466,14 +466,14 @@
         "crude": {
           "label": "WTI Crude Oil",
           "oneDay": {
-            "sample": 103,
+            "sample": 104,
             "directionReady": true,
-            "upPct": 64.1,
-            "downPct": 35.0,
+            "upPct": 63.5,
+            "downPct": 35.6,
             "flatPct": 1.0,
-            "avgReturnPct": 0.55,
-            "avgAbsMovePct": 1.69,
-            "medianAbsMovePct": 1.24,
+            "avgReturnPct": 0.52,
+            "avgAbsMovePct": 1.7,
+            "medianAbsMovePct": 1.25,
             "maxAbsMovePct": 6.79
           },
           "threeDay": {
@@ -492,14 +492,14 @@
         "usdinr": {
           "label": "USD/INR",
           "oneDay": {
-            "sample": 103,
+            "sample": 104,
             "directionReady": true,
-            "upPct": 47.6,
-            "downPct": 52.4,
+            "upPct": 47.1,
+            "downPct": 52.9,
             "flatPct": 0.0,
             "avgReturnPct": -0.02,
             "avgAbsMovePct": 0.29,
-            "medianAbsMovePct": 0.21,
+            "medianAbsMovePct": 0.2,
             "maxAbsMovePct": 2.21
           },
           "threeDay": {
@@ -518,14 +518,14 @@
         "bitcoin": {
           "label": "Bitcoin",
           "oneDay": {
-            "sample": 103,
+            "sample": 104,
             "directionReady": true,
-            "upPct": 52.4,
-            "downPct": 47.6,
+            "upPct": 52.9,
+            "downPct": 47.1,
             "flatPct": 0.0,
-            "avgReturnPct": 0.33,
-            "avgAbsMovePct": 2.76,
-            "medianAbsMovePct": 1.89,
+            "avgReturnPct": 0.34,
+            "avgAbsMovePct": 2.74,
+            "medianAbsMovePct": 1.86,
             "maxAbsMovePct": 13.32
           },
           "threeDay": {
@@ -1017,14 +1017,14 @@
             "maxAbsMovePct": 37.17
           },
           "threeDay": {
-            "sample": 103,
+            "sample": 104,
             "directionReady": true,
-            "upPct": 46.6,
-            "downPct": 53.4,
+            "upPct": 46.2,
+            "downPct": 53.8,
             "flatPct": 0.0,
-            "avgReturnPct": -0.29,
-            "avgAbsMovePct": 4.17,
-            "medianAbsMovePct": 3.02,
+            "avgReturnPct": -0.3,
+            "avgAbsMovePct": 4.14,
+            "medianAbsMovePct": 3.01,
             "maxAbsMovePct": 34.27
           },
           "bias": "Mild bearish tendency"
@@ -3166,12 +3166,12 @@
       "usdinr": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2264
+        "points": 2265
       },
       "bitcoin": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 3176
+        "points": 3177
       }
     }
   }
