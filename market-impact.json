@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T16:53:14Z",
+  "updatedAt": "2026-09-14T16:56:32Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
@@ -26,22 +26,22 @@
     "sp500": {
       "label": "S&P 500",
       "priceSource": "Yahoo Finance chart",
-      "points": 2185
+      "points": 2186
     },
     "nasdaq": {
       "label": "Nasdaq Composite",
       "priceSource": "Yahoo Finance chart",
-      "points": 2185
+      "points": 2186
     },
     "gold": {
       "label": "Gold",
       "priceSource": "Yahoo Finance chart",
-      "points": 2186
+      "points": 2187
     },
     "crude": {
       "label": "WTI Crude Oil",
       "priceSource": "Yahoo Finance chart",
-      "points": 2187
+      "points": 2188
     },
     "usdinr": {
       "label": "USD/INR",
@@ -51,7 +51,7 @@
     "bitcoin": {
       "label": "Bitcoin",
       "priceSource": "Yahoo Finance chart",
-      "points": 3178
+      "points": 3179
     }
   },
   "eventTypes": {
@@ -445,9 +445,9 @@
             "upPct": 60.6,
             "downPct": 39.4,
             "flatPct": 0.0,
-            "avgReturnPct": 0.29,
-            "avgAbsMovePct": 0.73,
-            "medianAbsMovePct": 0.58,
+            "avgReturnPct": 0.28,
+            "avgAbsMovePct": 0.72,
+            "medianAbsMovePct": 0.57,
             "maxAbsMovePct": 3.56
           },
           "threeDay": {
@@ -534,7 +534,7 @@
             "upPct": 51.9,
             "downPct": 48.1,
             "flatPct": 0.0,
-            "avgReturnPct": 0.5,
+            "avgReturnPct": 0.49,
             "avgAbsMovePct": 4.73,
             "medianAbsMovePct": 3.54,
             "maxAbsMovePct": 29.66
@@ -887,13 +887,13 @@
             "maxAbsMovePct": 9.51
           },
           "threeDay": {
-            "sample": 103,
+            "sample": 104,
             "directionReady": true,
-            "upPct": 54.4,
-            "downPct": 45.6,
+            "upPct": 54.8,
+            "downPct": 45.2,
             "flatPct": 0.0,
             "avgReturnPct": 0.17,
-            "avgAbsMovePct": 1.38,
+            "avgAbsMovePct": 1.37,
             "medianAbsMovePct": 0.97,
             "maxAbsMovePct": 12.96
           },
@@ -913,14 +913,14 @@
             "maxAbsMovePct": 9.43
           },
           "threeDay": {
-            "sample": 103,
+            "sample": 104,
             "directionReady": true,
-            "upPct": 60.2,
-            "downPct": 39.8,
+            "upPct": 60.6,
+            "downPct": 39.4,
             "flatPct": 0.0,
             "avgReturnPct": 0.22,
-            "avgAbsMovePct": 1.71,
-            "medianAbsMovePct": 1.27,
+            "avgAbsMovePct": 1.69,
+            "medianAbsMovePct": 1.25,
             "maxAbsMovePct": 13.17
           },
           "bias": "Mixed / neutral"
@@ -939,14 +939,14 @@
             "maxAbsMovePct": 11.37
           },
           "threeDay": {
-            "sample": 103,
+            "sample": 104,
             "directionReady": true,
-            "upPct": 60.2,
-            "downPct": 39.8,
+            "upPct": 59.6,
+            "downPct": 40.4,
             "flatPct": 0.0,
-            "avgReturnPct": 0.14,
+            "avgReturnPct": 0.12,
             "avgAbsMovePct": 1.57,
-            "medianAbsMovePct": 1.09,
+            "medianAbsMovePct": 1.1,
             "maxAbsMovePct": 9.47
           },
           "bias": "Mixed / neutral"
@@ -965,14 +965,14 @@
             "maxAbsMovePct": 9.29
           },
           "threeDay": {
-            "sample": 103,
+            "sample": 104,
             "directionReady": true,
-            "upPct": 53.4,
-            "downPct": 46.6,
+            "upPct": 53.8,
+            "downPct": 46.2,
             "flatPct": 0.0,
-            "avgReturnPct": 0.01,
-            "avgAbsMovePct": 3.21,
-            "medianAbsMovePct": 2.37,
+            "avgReturnPct": 0.08,
+            "avgAbsMovePct": 3.24,
+            "medianAbsMovePct": 2.42,
             "maxAbsMovePct": 19.85
           },
           "bias": "Mild bearish tendency"
@@ -3146,22 +3146,22 @@
       "sp500": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2185
+        "points": 2186
       },
       "nasdaq": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2185
+        "points": 2186
       },
       "gold": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2186
+        "points": 2187
       },
       "crude": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2187
+        "points": 2188
       },
       "usdinr": {
         "status": "ok",
@@ -3171,7 +3171,7 @@
       "bitcoin": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 3178
+        "points": 3179
       }
     }
   }
