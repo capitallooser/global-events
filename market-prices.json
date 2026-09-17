@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T22:05:34Z",
+  "updatedAt": "2026-09-17T00:27:19Z",
   "instruments": [
     {
       "key": "nifty",
@@ -54,40 +54,40 @@
     {
       "key": "gold",
       "label": "Gold",
-      "price": 4302.5,
-      "change": -85.0,
-      "changePct": -1.937,
-      "sourceTimestamp": "2026-09-16T20:55:00Z",
+      "price": 4322.5,
+      "change": -65.0,
+      "changePct": -1.481,
+      "sourceTimestamp": "2026-09-17T00:17:16Z",
       "sourceName": "Yahoo Finance",
-      "status": "Delayed"
+      "status": "Live"
     },
     {
       "key": "crude",
       "label": "WTI Crude Oil",
-      "price": 102.02,
-      "change": -0.41,
-      "changePct": -0.4,
-      "sourceTimestamp": "2026-09-16T20:55:00Z",
+      "price": 101.63,
+      "change": -0.8,
+      "changePct": -0.781,
+      "sourceTimestamp": "2026-09-17T00:17:10Z",
       "sourceName": "Yahoo Finance",
-      "status": "Delayed"
+      "status": "Live"
     },
     {
       "key": "usdinr",
       "label": "USD/INR",
       "price": 95.94,
-      "change": 0.091,
-      "changePct": 0.095,
+      "change": 0.0,
+      "changePct": 0.0,
       "sourceTimestamp": "2026-09-16T21:47:40Z",
       "sourceName": "Yahoo Finance",
-      "status": "Live"
+      "status": "Delayed"
     },
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 75675.8203,
-      "change": 89.3103,
-      "changePct": 0.118,
-      "sourceTimestamp": "2026-09-16T22:05:30Z",
+      "price": 76334.3828,
+      "change": 190.5728,
+      "changePct": 0.25,
+      "sourceTimestamp": "2026-09-17T00:27:13Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
