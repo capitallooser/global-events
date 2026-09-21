@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T19:04:08Z",
+  "updatedAt": "2026-09-21T20:38:10Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
@@ -26,32 +26,32 @@
     "sp500": {
       "label": "S&P 500",
       "priceSource": "Yahoo Finance chart",
-      "points": 2190
+      "points": 2191
     },
     "nasdaq": {
       "label": "Nasdaq Composite",
       "priceSource": "Yahoo Finance chart",
-      "points": 2190
+      "points": 2191
     },
     "gold": {
       "label": "Gold",
       "priceSource": "Yahoo Finance chart",
-      "points": 2192
+      "points": 2193
     },
     "crude": {
       "label": "WTI Crude Oil",
       "priceSource": "Yahoo Finance chart",
-      "points": 2192
+      "points": 2193
     },
     "usdinr": {
       "label": "USD/INR",
       "priceSource": "Yahoo Finance chart",
-      "points": 2270
+      "points": 2271
     },
     "bitcoin": {
       "label": "Bitcoin",
       "priceSource": "Yahoo Finance chart",
-      "points": 3185
+      "points": 3186
     }
   },
   "eventTypes": {
@@ -238,10 +238,10 @@
             "upPct": 45.7,
             "downPct": 54.3,
             "flatPct": 0.0,
-            "avgReturnPct": -0.4,
-            "avgAbsMovePct": 3.34,
+            "avgReturnPct": -0.31,
+            "avgAbsMovePct": 3.26,
             "medianAbsMovePct": 2.78,
-            "maxAbsMovePct": 9.21
+            "maxAbsMovePct": 8.56
           },
           "bias": "Mild bullish tendency"
         },
@@ -261,8 +261,8 @@
           "threeDay": {
             "sample": 46,
             "directionReady": true,
-            "upPct": 50.0,
-            "downPct": 50.0,
+            "upPct": 52.2,
+            "downPct": 47.8,
             "flatPct": 0.0,
             "avgReturnPct": 0.1,
             "avgAbsMovePct": 0.38,
@@ -3146,32 +3146,32 @@
       "sp500": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2190
+        "points": 2191
       },
       "nasdaq": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2190
+        "points": 2191
       },
       "gold": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2192
+        "points": 2193
       },
       "crude": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2192
+        "points": 2193
       },
       "usdinr": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2270
+        "points": 2271
       },
       "bitcoin": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 3185
+        "points": 3186
       }
     }
   }
