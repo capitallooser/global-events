@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-03T01:54:00Z",
+  "updatedAt": "2026-10-03T07:40:56Z",
   "instruments": [
     {
       "key": "nifty",
       "label": "NIFTY 50",
       "price": 22421.95,
-      "change": -198.45,
-      "changePct": -0.877,
+      "change": -198.5,
+      "changePct": -0.878,
       "sourceTimestamp": "2026-10-01T10:01:12Z",
       "sourceName": "Yahoo Finance",
       "status": "Last available"
@@ -15,7 +15,7 @@
       "key": "banknifty",
       "label": "Bank NIFTY",
       "price": 54450.75,
-      "change": -182.35,
+      "change": -182.3,
       "changePct": -0.334,
       "sourceTimestamp": "2026-10-01T10:01:12Z",
       "sourceName": "Yahoo Finance",
@@ -25,7 +25,7 @@
       "key": "sensex",
       "label": "Sensex",
       "price": 71909.7,
-      "change": -570.6,
+      "change": -570.59,
       "changePct": -0.787,
       "sourceTimestamp": "2026-10-01T10:02:35Z",
       "sourceName": "Yahoo Finance",
@@ -54,20 +54,20 @@
     {
       "key": "gold",
       "label": "Gold",
-      "price": 4172.1001,
-      "change": -30.1999,
-      "changePct": -0.719,
-      "sourceTimestamp": "2026-10-02T20:59:58Z",
+      "price": 4162.2998,
+      "change": -40.0002,
+      "changePct": -0.952,
+      "sourceTimestamp": "2026-10-02T20:55:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Delayed"
     },
     {
       "key": "crude",
       "label": "WTI Crude Oil",
-      "price": 91.26,
-      "change": -1.61,
-      "changePct": -1.734,
-      "sourceTimestamp": "2026-10-02T20:59:59Z",
+      "price": 91.11,
+      "change": -1.76,
+      "changePct": -1.895,
+      "sourceTimestamp": "2026-10-02T20:55:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Delayed"
     },
@@ -84,10 +84,10 @@
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 84602.0469,
-      "change": 95.7109,
-      "changePct": 0.113,
-      "sourceTimestamp": "2026-10-03T01:53:58Z",
+      "price": 84614.9531,
+      "change": 108.6171,
+      "changePct": 0.129,
+      "sourceTimestamp": "2026-10-03T07:40:15Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
