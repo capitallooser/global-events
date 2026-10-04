@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T19:28:57Z",
+  "updatedAt": "2026-10-04T19:48:47Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
@@ -51,7 +51,7 @@
     "bitcoin": {
       "label": "Bitcoin",
       "priceSource": "Yahoo Finance chart",
-      "points": 3198
+      "points": 3199
     }
   },
   "eventTypes": {
@@ -773,14 +773,14 @@
             "maxAbsMovePct": 18.19
           },
           "threeDay": {
-            "sample": 113,
+            "sample": 114,
             "directionReady": true,
-            "upPct": 51.3,
-            "downPct": 48.7,
+            "upPct": 51.8,
+            "downPct": 48.2,
             "flatPct": 0.0,
             "avgReturnPct": 0.1,
-            "avgAbsMovePct": 3.34,
-            "medianAbsMovePct": 2.17,
+            "avgAbsMovePct": 3.31,
+            "medianAbsMovePct": 2.13,
             "maxAbsMovePct": 18.07
           },
           "bias": "Mixed / neutral"
@@ -3171,7 +3171,7 @@
       "bitcoin": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 3198
+        "points": 3199
       }
     }
   }
