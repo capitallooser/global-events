@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T21:19:29Z",
+  "updatedAt": "2026-10-10T20:20:07Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
@@ -11,17 +11,17 @@
     "nifty": {
       "label": "NIFTY 50",
       "priceSource": "Yahoo Finance chart",
-      "points": 2161
+      "points": 2162
     },
     "banknifty": {
       "label": "Bank NIFTY",
       "priceSource": "Yahoo Finance chart",
-      "points": 2162
+      "points": 2163
     },
     "sensex": {
       "label": "Sensex",
       "priceSource": "Yahoo Finance chart",
-      "points": 2158
+      "points": 2159
     },
     "sp500": {
       "label": "S&P 500",
@@ -51,7 +51,7 @@
     "bitcoin": {
       "label": "Bitcoin",
       "priceSource": "Yahoo Finance chart",
-      "points": 3204
+      "points": 3205
     }
   },
   "eventTypes": {
@@ -3131,17 +3131,17 @@
       "nifty": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2161
+        "points": 2162
       },
       "banknifty": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2162
+        "points": 2163
       },
       "sensex": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2158
+        "points": 2159
       },
       "sp500": {
         "status": "ok",
@@ -3171,7 +3171,7 @@
       "bitcoin": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 3204
+        "points": 3205
       }
     }
   }
