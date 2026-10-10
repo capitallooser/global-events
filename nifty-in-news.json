@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T00:58:57.370Z",
+  "updatedAt": "2026-10-10T06:58:20.382Z",
   "source": "https://archives.nseindia.com/content/indices/ind_nifty50list.csv",
   "status": "ok",
   "error": null,
@@ -17,6 +17,7 @@
       "sources": [
         "The New Indian Express",
         "Dalal Street Investment Journal",
+        "Zee Business",
         "Rediff",
         "Equitymaster",
         "India Today"
@@ -24,18 +25,34 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcGZ3aTh0aGkwbnlER1NWVGpYVlp0T09DSmRpTFhkcFVZLVNPTVdobDR5MTlVbHN6clRTakJXVGM3d2Z0TjY1TkE5cHJfTFVjdkgzYVQ2X0RTMHNzbUJ3ZGFMUDVqeTVrbEphallUM2Z0TTBySFE5amV5SHc1SF9PekxyeDVCbkdXOWlpZ1gtU0djR1c2cEtFZEh3ZHc0SS1YYUhMRldlNUhLSnIyV2pUUkEwMS1hTkN1cU9NV2Z0ejJGZFg4cVpN0gHUAUFVX3lxTE9WZ2x6SXk1bGZ6OWVpQXdjeUlKbnJOYm5XMU9DeVVQYmRFWnUwcEk5NVVkR3R5c090am9hb3NlaWdBZWN6cjd2SjhIWHM2R3pqM3NKMG9peV9PY0ZFQktFWlBKckRpQlNhV2xHNU0tUWdvNkxZUmNnU29hVVhWZzBNVnlVNkEzYnVVTmJKODFaOHJQdTYtNlRiZmNVZkowWk1FYXktU0NkTWl0SDN5czBIVWlNSEFtaFhadEV2cWlZVXlmc05pQUhQRGQyeHBGVk51ZDhh?oc=5"
     },
     {
+      "symbol": "ITC",
+      "company": "ITC Ltd.",
+      "industry": "Fast Moving Consumer Goods",
+      "relevanceLevel": "low",
+      "relevanceScore": 33,
+      "reason": "Company-specific development",
+      "latestHeadline": "Closing Bell: Bulls Strike Back on D-Street! Sensex jumps 879 points, Nifty ends above 22,500; ITC, TCS lead gains - Zee Business",
+      "relatedStoryCount": 3,
+      "publishedAt": "2026-10-09T10:05:35.000Z",
+      "sources": [
+        "Zee Business",
+        "The Economic Times",
+        "Equitymaster"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNME5CbUhnTlUySjhISkJURW5GQWFlSXBSVkhYMDJWSHRGM3EwVmtkZmcwMWlUU2g5TlVPaW0zLTRGYW96djhZUkJKQlNYUml6VWJIQ1U1TjFEN3RTMXk3TDk2UmVWcERnX2dudVM3MmE4dloyLXF4YVNsVUtPVTVMU3d0Zk0wU1ptdEwzM1V1Y3BYYU9GdWZzYUozN2gwUzZrMkloUnNFbkpwNEFvcHFhMXhOSGhIU0hmM2FTVjc1MU9uZGNIZTZOVDhrUTBfWXprQ3hKWnpIZ0dQYS1yMkh1SkNPU3d3cjIzdGww?oc=5"
+    },
+    {
       "symbol": "INFY",
       "company": "Infosys Ltd.",
       "industry": "Information Technology",
       "relevanceLevel": "low",
-      "relevanceScore": 33,
+      "relevanceScore": 27,
       "reason": "Company-specific development",
       "latestHeadline": "Sensex Today Trades Higher | Nifty Above 22,400 | TCS & Infosys Top Gainers - Equitymaster",
-      "relatedStoryCount": 2,
+      "relatedStoryCount": 1,
       "publishedAt": "2026-10-09T04:50:39.000Z",
       "sources": [
-        "Equitymaster",
-        "India Today"
+        "Equitymaster"
       ],
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUkVXdzQtX2oxd1RYZFhfQkctX0trVGhjempZY3BkTmx3dGo3eENBa0Q1a1daMU1HT2RaR1NkS2xpcmVqU1FTSmRKN2JlaHFyVlpOZXA4VVJ4R1lsaFJ2SHBrYm1TUnRHQnBTaVEyak1MbmswaGlwS3JXM3FUTW04V05LbElibFloMXduZ1JVczIwdnRHd2FaU3VkcnBGdGtybjZFX2pDXzI0NjE2T0hwZVZtRzRycmdqd3Z1WVBkcW5HcWx1VGg0dGZ0dw?oc=5"
     },
@@ -44,7 +61,7 @@
       "company": "BSE Ltd.",
       "industry": "Financial Services",
       "relevanceLevel": "low",
-      "relevanceScore": 27,
+      "relevanceScore": 23,
       "reason": "Company-specific development",
       "latestHeadline": "Acme India Industries shares list at 13% premium on BSE SME; here's how much investors made per lot - Upstox",
       "relatedStoryCount": 2,
@@ -54,37 +71,6 @@
         "The Times of India"
       ],
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcGNMQUVyZ2RFMl8zNzJaUGF4bzNVRjZUSlpyNVByaXlZZmZtQWdScFQzSGFGMWs5cThrN3RqX09wdTdIWWtaRTRyQjZmajhMRldhUWZRRkdlNzdBZUloTlpGSHowYzJSVGNjZXA4a3QzVjA2WVE5TXA5SURtSnNJYVBQYlg5ZlJTNkFBWTgzQktyZV9pblk3TWNCWVNIRnNBUS1HbVYzZ05qa2NUQTFtNVdXM0hjVkhNYUdsZWlvMUpzUU9kV3VKcHN6cnJnY2VOOVVvZkhtTldaRmZaZUtOanN2MmZVc2FI?oc=5"
-    },
-    {
-      "symbol": "ITC",
-      "company": "ITC Ltd.",
-      "industry": "Fast Moving Consumer Goods",
-      "relevanceLevel": "low",
-      "relevanceScore": 27,
-      "reason": "Company-specific development",
-      "latestHeadline": "GQG Partners sells Rs 24,400 cr worth of Indian stocks in 2026; ITC, Adani shares among key exits - The Economic Times",
-      "relatedStoryCount": 2,
-      "publishedAt": "2026-10-09T00:10:26.000Z",
-      "sources": [
-        "The Economic Times",
-        "Equitymaster"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaDVPRnA1NnkydnY1blRET25KcUNORlUta3NjRXpmWmlneVZhc1VLTE1GbmM4bzJWbjJrRXdkcUxCUjcxS2NHdGJzZGFOeUttaENXWlRIR1VYeFRQQkxFbFhWMUdlNG1JOEJZazdOSmdIbWE3N2JwNE5lakJCNm1vaXZXdzZIeXY1Nk1YNlBEb2NxcVdrc0pPdi1lUExlb2Fzb21WZmFNaC1lTnpBSlZldEl3d3FOYWpVOHI1bU5FWHlicmotZWFScnZPLUd6UFRXNnl3RzltZE1lRjNPdEIxUkRaVmY4eEtaalFQYUxHNFZxdE3SAfgBQVVfeXFMTTI0dWpacVB0dEtjamFKVWpiTHpVbllUSGNhR01TTl9sMnYwdGxDNkhMYzJpS2Y4djN1WFlxVEdBdjJraVRZV2F2ZF94UGlicWJnY0RRX1UyZEZmUHA4d0x3X3U0YnltenJIX293eU5WMzBfbldaSVJuYnl1UDJudXo3SjBMN0wzRVVaMHpsNHBqUjUwZnI5b1B2MldRaGM4TmgtM0UyLWIxWmlYUkRBMGdhN0lFc1Jhc0RqcXB0c2ZFSV9Qb01NSEtEMkxEZTgyTjlKOVFHUkdtWWkyNkdiQmlEYXQzRDRyNE9Xcmo4enRkcl9sT3ZmQTA?oc=5"
-    },
-    {
-      "symbol": "TITAN",
-      "company": "Titan Company Ltd.",
-      "industry": "Consumer Durables",
-      "relevanceLevel": "low",
-      "relevanceScore": 23,
-      "reason": "Company-specific development",
-      "latestHeadline": "Sensex closes 429 points lower, Nifty tops 22,600; Titan down 4% - India Today",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-10-07T10:04:52.000Z",
-      "sources": [
-        "India Today"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPS2ZsNTUtbEY0YUNPdTZlQ3g3UC1fZXFiTmcteG82SnB1OW83RzZPcjNQT2s0clVmT3pRcURCT2JGZ0dBbHZmc2RPN0tkY0JWWkEydXFYdzhsMXRxRDF4c2pyMlptdU40aVhudnRlWDU2Q3pCS25rTWZzYWt1ejNLS1VaaElJV1g2RTBMVjBkWnRmejBYaFJnYkE1eHYxb24ySXBVRDFXamd4TU5KQWhFbjhTVW1tUjkyQ1Z6RjBZMUFvT2x3UmF5WVdSTmlyaExTZVNRMVcxOFVEeXdVTVBueEln0gHnAUFVX3lxTE9KcVk1T3Zxb191VWFSVWtVdm5sT2JRZ0QwaVNSY0p5bGxMcnJXMm5fSHNXRW5qYlJhaHY1NnlKVU5pX1lzQzE1dWppbHBqMzhQZU9wQ1l5NXVfT0lEMmtQZzB0MVF3Q0ZYNjhIeVFaY1d6ZXdCeFVHUXpvVzVEeG5QN0lIYlF6Rkt0VnFhWkRDYTUxeHpDVll4ZXU4cnM5MkQtZGFtY3dPUEhaNEhDZ3ZIVXRtR1FnV0tmNk04dVltZDRSNzY1TjFleVdkQjlCeFhJa1JqYVI4WjVRYUxNNFJQUmFNeTZKcw?oc=5"
     }
   ]
 }
