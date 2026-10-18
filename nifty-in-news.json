@@ -1,60 +1,75 @@
 {
-  "updatedAt": "2026-10-18T06:30:21.145Z",
+  "updatedAt": "2026-10-18T11:39:09.441Z",
   "source": "https://archives.nseindia.com/content/indices/ind_nifty50list.csv",
   "status": "ok",
   "error": null,
   "items": [
     {
+      "symbol": "TCS",
+      "company": "Tata Consultancy Services Ltd.",
+      "industry": "Information Technology",
+      "relevanceLevel": "low",
+      "relevanceScore": 31,
+      "reason": "Company-specific development",
+      "latestHeadline": "Market recap: Top-10 firms add Rs 3.65 lakh crore in mcap; TCS leads the gains - The Times of India",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-10-18T07:25:00.000Z",
+      "sources": [
+        "The Times of India"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSG1tcHBDNEsycVBqbjJGSVJMVEVxZlBCUHpNWmFZZXhyNDk2dnpvb2ZNcTEtTjZmUTBpUmtCLWxNMHEtczA1UGlkSG02aXNscUE5QlJrSXZvUTFUX2JjamVLR0dFVm5qckMxX1NnXzlBTFVwbkxHYmNQX3hpVHJDMzl4T0doS2gyNWI4Y1pvLU9WVElnVVI0WEMxNFNiTUdkU21zcDM5Q2IySWxIaTQ5RDExbTZQcGZPbWFibnhldW1ETVdOZ1ZSalFLQThpc2EwNm1VLVJtWUwzMzAyQ2ltZ3BYTUFaUHRndmZacC1zTnN2bHNE0gH6AUFVX3lxTE1saW04ZHFWbVVQY3BVWFpDTWszeXg5SDZfazBmcmVlQUM3Vl9FX0pHVEg4cmNKRm1xTE9NMTBDdWNyUEVKR2p1VXVkUnJ3UkpCQmtQcUNxZXdEUnRnc0NHVmxVT1pVVnZoZHdnN1dtUWdUZkc3THI2dWFWMGlpeU9Jc3RNNk52UTloV0NxMElDRnM4ZExYZ01zTHN4RHM1WVM0ZDlMTExrLUNndEEtekhHRXM2OEFTalRFN2NSMWZGLUpWRDFfOFNrbEN4SWJQZlVvRl83cEhKem84NDhQVndwUGlPYkd1YTVUaWNmcFFpbkw3QXlUNGw0VEE?oc=5"
+    },
+    {
       "symbol": "AXISBANK",
       "company": "Axis Bank Ltd.",
       "industry": "Financial Services",
       "relevanceLevel": "low",
-      "relevanceScore": 32,
+      "relevanceScore": 25,
       "reason": "Earnings / guidance",
-      "latestHeadline": "Q2 results, Oct 17: HDFC Bank, ICICI Bank, India Cements, Axis Bank, ixigo, Yes Bank, others to post earnings, check list - Upstox",
+      "latestHeadline": "ICICI Bank vs HDFC Bank vs Axis Bank: Which stock to buy, sell or hold after Q2 results? - Livemint",
       "relatedStoryCount": 1,
-      "publishedAt": "2026-10-16T09:12:16.000Z",
+      "publishedAt": "2026-10-18T03:17:55.000Z",
       "sources": [
-        "Upstox"
+        "Livemint"
       ],
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYmNMS1libGZoc0ZmdVBqSXVQb3lheDc4Q2xtRGQzOVhYdjZaOTl4SC03eFFpR19EcTlLS0pidW1FX3JxNnFUY05KUU54VFBKNktIY0dmQTk3dzBmdHNyMnNNbTF0QlMxSTJTT1lPTTNpeE9MNUwxX2tweWxqcEtJUGtlbWZYdGN0VVJLVGRDUDNUYjB2eWhWMFJ2MTV2TkVZb2JRQ0tWeDZ5RlByNkd5SjFFLTZYeXo1ckpUeTdiVnhIRDEwMVNPSlVvVHJPMGlVdTF5VUY2Ql9KRlg3UFFvNGozTE9PT2EwRG5sTmlOSEl0WURrUF85X2Nna2w2R2x5Z3o4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNVDk4WGx3Zkh6UktTMkM3Sl9RYVRKSVktTzBEZ0ZJaHlVVFdYejVMVEtMV2JTOXJwNWJoYjhGQUhfdjZoa1RCRG9rblhyNWl1Y2VpS3E4bFc2dWZmVTVFSlpYWHJGT1p5Q3h6OUhtVGxPazJHNjk4VWZuSTFJZG9Odld5aWZBMUlSc0pncDdKVlg3bm9heVYwdFRnbk9GT0Z3NGZOV1U3blJvOVNsaGVvdldaTzN0LWJmbGN4T1U4d3Z3c0UzSy1XVU0wd1BwdXFOZzM5eVVnZDR0UzRkMk9aVEVCR2lCVDg3Q2dN0gHwAUFVX3lxTE1QX203ZXE2bjJBUE9iX0pfNE43c3VUcmVHZ3JlSEEwbDlIZ3MzUU0yMUpBZEZwbTFBS1BCSHcwdmcyTnNvQ1JMOHFXZXZaY0RqTW9rYVIzT1c5YUU1LWwwdTI1cTJhNUVpelJKZEdhalEybnRxZ19ZQkdzZS1zbTczenpySlVBVkpMOUJhNHlVX1JKNXlNel9XY2FQT2QxMnUwSzE0UTlKMVdCQzBEUE5FaDdIcUhLVkg2dTI4cmtoaHRNR2hTMkpwU3lpNm5ldEVPSGZQXzFaYWtzNlJyTkdtQjM0eUVKbW1MdTZ0bHhjaw?oc=5"
     },
     {
       "symbol": "HDFCBANK",
       "company": "HDFC Bank Ltd.",
       "industry": "Financial Services",
       "relevanceLevel": "low",
-      "relevanceScore": 32,
+      "relevanceScore": 25,
       "reason": "Earnings / guidance",
-      "latestHeadline": "Q2 results, Oct 17: HDFC Bank, ICICI Bank, India Cements, Axis Bank, ixigo, Yes Bank, others to post earnings, check list - Upstox",
+      "latestHeadline": "ICICI Bank vs HDFC Bank vs Axis Bank: Which stock to buy, sell or hold after Q2 results? - Livemint",
       "relatedStoryCount": 1,
-      "publishedAt": "2026-10-16T09:12:16.000Z",
+      "publishedAt": "2026-10-18T03:17:55.000Z",
       "sources": [
-        "Upstox"
+        "Livemint"
       ],
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYmNMS1libGZoc0ZmdVBqSXVQb3lheDc4Q2xtRGQzOVhYdjZaOTl4SC03eFFpR19EcTlLS0pidW1FX3JxNnFUY05KUU54VFBKNktIY0dmQTk3dzBmdHNyMnNNbTF0QlMxSTJTT1lPTTNpeE9MNUwxX2tweWxqcEtJUGtlbWZYdGN0VVJLVGRDUDNUYjB2eWhWMFJ2MTV2TkVZb2JRQ0tWeDZ5RlByNkd5SjFFLTZYeXo1ckpUeTdiVnhIRDEwMVNPSlVvVHJPMGlVdTF5VUY2Ql9KRlg3UFFvNGozTE9PT2EwRG5sTmlOSEl0WURrUF85X2Nna2w2R2x5Z3o4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNVDk4WGx3Zkh6UktTMkM3Sl9RYVRKSVktTzBEZ0ZJaHlVVFdYejVMVEtMV2JTOXJwNWJoYjhGQUhfdjZoa1RCRG9rblhyNWl1Y2VpS3E4bFc2dWZmVTVFSlpYWHJGT1p5Q3h6OUhtVGxPazJHNjk4VWZuSTFJZG9Odld5aWZBMUlSc0pncDdKVlg3bm9heVYwdFRnbk9GT0Z3NGZOV1U3blJvOVNsaGVvdldaTzN0LWJmbGN4T1U4d3Z3c0UzSy1XVU0wd1BwdXFOZzM5eVVnZDR0UzRkMk9aVEVCR2lCVDg3Q2dN0gHwAUFVX3lxTE1QX203ZXE2bjJBUE9iX0pfNE43c3VUcmVHZ3JlSEEwbDlIZ3MzUU0yMUpBZEZwbTFBS1BCSHcwdmcyTnNvQ1JMOHFXZXZaY0RqTW9rYVIzT1c5YUU1LWwwdTI1cTJhNUVpelJKZEdhalEybnRxZ19ZQkdzZS1zbTczenpySlVBVkpMOUJhNHlVX1JKNXlNel9XY2FQT2QxMnUwSzE0UTlKMVdCQzBEUE5FaDdIcUhLVkg2dTI4cmtoaHRNR2hTMkpwU3lpNm5ldEVPSGZQXzFaYWtzNlJyTkdtQjM0eUVKbW1MdTZ0bHhjaw?oc=5"
     },
     {
       "symbol": "ICICIBANK",
       "company": "ICICI Bank Ltd.",
       "industry": "Financial Services",
       "relevanceLevel": "low",
-      "relevanceScore": 32,
+      "relevanceScore": 25,
       "reason": "Earnings / guidance",
-      "latestHeadline": "Q2 results, Oct 17: HDFC Bank, ICICI Bank, India Cements, Axis Bank, ixigo, Yes Bank, others to post earnings, check list - Upstox",
+      "latestHeadline": "ICICI Bank vs HDFC Bank vs Axis Bank: Which stock to buy, sell or hold after Q2 results? - Livemint",
       "relatedStoryCount": 1,
-      "publishedAt": "2026-10-16T09:12:16.000Z",
+      "publishedAt": "2026-10-18T03:17:55.000Z",
       "sources": [
-        "Upstox"
+        "Livemint"
       ],
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYmNMS1libGZoc0ZmdVBqSXVQb3lheDc4Q2xtRGQzOVhYdjZaOTl4SC03eFFpR19EcTlLS0pidW1FX3JxNnFUY05KUU54VFBKNktIY0dmQTk3dzBmdHNyMnNNbTF0QlMxSTJTT1lPTTNpeE9MNUwxX2tweWxqcEtJUGtlbWZYdGN0VVJLVGRDUDNUYjB2eWhWMFJ2MTV2TkVZb2JRQ0tWeDZ5RlByNkd5SjFFLTZYeXo1ckpUeTdiVnhIRDEwMVNPSlVvVHJPMGlVdTF5VUY2Ql9KRlg3UFFvNGozTE9PT2EwRG5sTmlOSEl0WURrUF85X2Nna2w2R2x5Z3o4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNVDk4WGx3Zkh6UktTMkM3Sl9RYVRKSVktTzBEZ0ZJaHlVVFdYejVMVEtMV2JTOXJwNWJoYjhGQUhfdjZoa1RCRG9rblhyNWl1Y2VpS3E4bFc2dWZmVTVFSlpYWHJGT1p5Q3h6OUhtVGxPazJHNjk4VWZuSTFJZG9Odld5aWZBMUlSc0pncDdKVlg3bm9heVYwdFRnbk9GT0Z3NGZOV1U3blJvOVNsaGVvdldaTzN0LWJmbGN4T1U4d3Z3c0UzSy1XVU0wd1BwdXFOZzM5eVVnZDR0UzRkMk9aVEVCR2lCVDg3Q2dN0gHwAUFVX3lxTE1QX203ZXE2bjJBUE9iX0pfNE43c3VUcmVHZ3JlSEEwbDlIZ3MzUU0yMUpBZEZwbTFBS1BCSHcwdmcyTnNvQ1JMOHFXZXZaY0RqTW9rYVIzT1c5YUU1LWwwdTI1cTJhNUVpelJKZEdhalEybnRxZ19ZQkdzZS1zbTczenpySlVBVkpMOUJhNHlVX1JKNXlNel9XY2FQT2QxMnUwSzE0UTlKMVdCQzBEUE5FaDdIcUhLVkg2dTI4cmtoaHRNR2hTMkpwU3lpNm5ldEVPSGZQXzFaYWtzNlJyTkdtQjM0eUVKbW1MdTZ0bHhjaw?oc=5"
     },
     {
       "symbol": "TECHM",
       "company": "Tech Mahindra Ltd.",
       "industry": "Information Technology",
       "relevanceLevel": "low",
-      "relevanceScore": 27,
+      "relevanceScore": 23,
       "reason": "Company-specific development",
       "latestHeadline": "Sensex ends 413 points higher, Nifty above 23,100; TechM up 8% - India Today",
       "relatedStoryCount": 2,
@@ -66,50 +81,38 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcjhLX0hoeWQxNlRqWi1jRkJmUDNCNk9CdUpLOEszM2pMcUliaTRPS3hHWWtYNk5vaERsT3ZBRGVYX0JGOVA4VVc2NVZPRWgtdXkybVNub0RITzdNeUlSaVlBTnU3VnRmUVF2amh5MURVbS1VZnlnZi1HSEhNcFZRV2Rib2F2R3kwaElRaEZTM1d0enl2QV83MFNTcWNtcXJ1c19acmRpdXRnLTZaVnFaSlN1d2tJWGFjdmpMOXp4cmE3NmZvcDFjVjhieVpmUmtzcGRhTC1MQXZPdHRHU3BmSXU4ZDNUSmxHZ1pCMtIB8gFBVV95cUxPcV83NjJXaVNRTkwzSnAtbXppdTNYLWFKb1h3ZVNIZE5OV3NObU92OWlhd1V2dXE1VnE0MUw3bU94WVppaFl2eFhCc2pjZmVxN05Jc1NBSWhiMHR3ekh4dmlfZG9UNHFLSVZWRWw0NmhhX3REMkFUMTZSenQ0aFpyRkZGNVlPZWh6R1BFamNtLWxnem5vaGpjYUdPY3R1ZldoRTExSWlHdVZiS1dmR1hZR3NpOTRBY3d2Ry16ZnRjdGxJZl9jNVV6Ti0wSWRZQ3pvSUVCUlJPSFlJT2NsS29Ob0tCdUtpSGd1c25FV0M2bDRPQQ?oc=5"
     },
     {
-      "symbol": "SHRIRAMFIN",
-      "company": "Shriram Finance Ltd.",
-      "industry": "Financial Services",
-      "relevanceLevel": "low",
-      "relevanceScore": 23,
-      "reason": "Company-specific development",
-      "latestHeadline": "Sensex Today Trades Lower | Nifty Below 22,700 | Shriram Finance & Polycab India Top Losers - Equitymaster",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-10-14T04:38:27.000Z",
-      "sources": [
-        "Equitymaster"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcm9ieWY3T2dnbHVqMGdidEpiNkFjRWp6cFhlemNKQkFnSVRaSDBRSVJGTTlYZEFCMS1xa0Y1RTM1MkZSU0VhVnRtWVFHNjFuRlU1ZmJPTXIwSlNoaG02V1pxc2xVRGlGa3FNaU1lU0lrVURQODVteTRYZkVWajRKTEphZ2hOZEFNVHVmV0hTQ1dsMTZDNTU4Nnk2MkU3UUdJekc0em9MSTlqbVcyM1F4SGt6aVozYnptVXZBRDBNWkd1RWVVVTZvVkpUenJ6WVNXMlJBbDViaG1rVTZtODJ5Z1NR?oc=5"
-    },
-    {
       "symbol": "RELIANCE",
       "company": "Reliance Industries Ltd.",
       "industry": "Oil Gas & Consumable Fuels",
       "relevanceLevel": "low",
       "relevanceScore": 19,
       "reason": "Company-specific development",
-      "latestHeadline": "India's stock market is preparing for one of its biggest IPOs, but there's an added opportunity for investors already connected to the Reliance empire. As Jio Platforms approaches its public market debut, shares worth up to Rs 2,500 crore have been reserved sp - Instagram",
-      "relatedStoryCount": 2,
-      "publishedAt": "2026-10-16T13:08:04.000Z",
+      "latestHeadline": "Reliance Jio IPO: From Dhirubhai Ambani's 1977 listing to Akash Ambani's mega issue - what's changed? Gen Z connect! - Livemint",
+      "relatedStoryCount": 4,
+      "publishedAt": "2026-10-17T08:23:57.000Z",
       "sources": [
+        "Livemint",
         "Instagram",
-        "TradingView"
+        "TradingView",
+        "Bhaskar English"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hVHZWUGw4Y3F0ekFDRDNCSzZwbHJVRFQzZHk4Y01zeFZVTEJEcWxTT0d4WldCSGVWYzRtdGZkbjRPTVdkajJGM25RWnMteWlEZHc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNMWdaYk9QZ2JZZFZoamVCV2dhLW96aGZBd3R2bXNuVDM4dkhWYWh3cFNheDBfYXczWlNSYXhCcFVUMDBYbWFmaGJiaURZY2g4M2RMV08xRThYU0NJXzFSQkluZU00dkxlUnFJZmRKeEhLUnZGSkdEZTh5Z0ZxQTFCWF81R1NtaTE0NkZPZTFMVktvN1BHWG82ZVRONHNsY193Z0JxM2hUdW82Mmdqdm5pWEt3OEprVzVYNjhocGN3V1NXaGw4aGNjQlZMN21xejVsSy1Ccldib2EzRlF5RVlIRXg4ZWgzcUJpMm1Denh6TGRaQ1F2Q0Z0ZXVlSUN3MENjQnhqekZxQllKZ9IBjwJBVV95cUxNSTJFWE9oZUtIWnNmSlZmY1g2U1c5VUQtcjNkWGQyWThpUXRpQWZrMjlyQkZDT29zSmFraDN6Q1Y5R0FjMUdkNGtWNWFkckRuaElqdDh5WUtLd3hPY2ttZklfWFNvUTNMQmpDYkczSEZxZkY3RGR5NFNQN3pOd2RQTWQzVjIxUTk3WjhwdjhsMmFqU0h2MlNFTFpYQW01dTZkejNUc0tYVnJxeUctSEhVbVdCSlZFdDlDdS15NjFaNGFwMm9VSzV3YkxINENwMFNDNWdBQVI2ZDZ1QXBCUkRtVFhrY3c0eHBwRVphaXlyWDN2VFNfdXJzTEp6U2VhZHktczJzM0xDWl9LZ3F2TUlz?oc=5"
     },
     {
       "symbol": "BSE",
       "company": "BSE Ltd.",
       "industry": "Financial Services",
       "relevanceLevel": "low",
-      "relevanceScore": 15,
+      "relevanceScore": 19,
       "reason": "Company-specific development",
-      "latestHeadline": "Top Losers Today - NSE Top Losers Stocks Live, BSE Top Losers Shares Today - The Economic Times",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-10-14T22:00:00.000Z",
+      "latestHeadline": "Stock market holiday on Dussehra 2026? Are NSE, BSE open or closed for trading on October 20 Tuesday? Calendar - Livemint",
+      "relatedStoryCount": 2,
+      "publishedAt": "2026-10-17T07:33:18.000Z",
       "sources": [
+        "Livemint",
         "The Economic Times"
       ],
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pdllieG9walJtZS01eEV5TXozT2d4aHZtby1TSEJ2WHM2ZDVCVG5kOEk2V3VDemRWd0tqajBYOGlILTJncTV4eU1XSUVUU3ljOXNzOFBXUkx6TTN3cTRrTHh3aS1BRE5SUWM5RGxqZTBQQlk0?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQSzE4OERLdUVCa3NPZWNRTW4yeV8wcjQ5YWZoN3g4SllJYXNfRXdHY21EMWUyYjhkWmVieGpfZ0ROWE5JajlQT2hkT0ZRRlU3T2dieENQREdSTG91by02R3lhZFJMY2VFQlJYb1MtaDV2VW1sTHExUzhVdmhTN2E5Q2hHN09iWWRpUkxZNWtZU3JheXRpRmFvYTFzQlN6NFdERGFVU0p6d1pqM1pRTmtlMzVlM3NFaHJiUnc0NmtTS3Z6R0lIamlmSGZueEVYUEd5WnZqWkhXSzRpSGpfVVROZlhCQ0lfMHptcEdWTUZjbjhTSTFUb193blRPaGR5X1NKYy15Z096ZlfSAY4CQVVfeXFMTk1JV1h1YzV3OHZkQm1PTmUybW9na1F2ZktVdW9YUFJVWDFLZnF0NDNyNWdmMUItWWNCb1ZodkdBQlp1MTRzclI5X0FaWUI2ZFowRng1bEFROC1wMW5OTGlNWFJDUlU4ZER6QU80X1haN05mcFcwZDhudUwzNy15bDFWd2d0LUdhaVN2OWgtYUhLVGdyRWpJVzR1R3lrWDdqajNjdFBOY21YVkJaMzdaQ2gxWS1HRGRUZE45dGFVRXk5THVnWW01SVp2XzBkQTAwMGZHdnhLclA5RFJ6VWhwcnB0Z0tWVnRUeXNJU19hd1FNaXk5YXpBc0w0QXI5bXJFZmhvQ01oaDlTUDFqMjl3?oc=5"
     }
   ]
 }
