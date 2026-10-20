@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T21:20:19Z",
+  "updatedAt": "2026-10-20T23:59:10Z",
   "instruments": [
     {
       "key": "nifty",
@@ -39,7 +39,7 @@
       "changePct": 0.284,
       "sourceTimestamp": "2026-10-20T20:45:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Live"
+      "status": "Delayed"
     },
     {
       "key": "nasdaq",
@@ -49,25 +49,25 @@
       "changePct": -0.023,
       "sourceTimestamp": "2026-10-20T21:15:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Live"
+      "status": "Delayed"
     },
     {
       "key": "gold",
       "label": "Gold",
-      "price": 4142.5,
-      "change": -17.6,
-      "changePct": -0.423,
-      "sourceTimestamp": "2026-10-20T20:59:59Z",
+      "price": 4134.6001,
+      "change": -7.9999,
+      "changePct": -0.193,
+      "sourceTimestamp": "2026-10-20T23:49:04Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
     {
       "key": "crude",
       "label": "WTI Crude Oil",
-      "price": 98.18,
-      "change": -0.36,
-      "changePct": -0.365,
-      "sourceTimestamp": "2026-10-20T20:59:55Z",
+      "price": 98.36,
+      "change": 0.54,
+      "changePct": 0.552,
+      "sourceTimestamp": "2026-10-20T23:48:46Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
@@ -75,19 +75,19 @@
       "key": "usdinr",
       "label": "USD/INR",
       "price": 94.77,
-      "change": -0.145,
-      "changePct": -0.153,
-      "sourceTimestamp": "2026-10-20T20:14:52Z",
+      "change": 0.0,
+      "changePct": 0.0,
+      "sourceTimestamp": "2026-10-20T21:39:15Z",
       "sourceName": "Yahoo Finance",
       "status": "Delayed"
     },
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 82845.2812,
-      "change": 1000.8513,
-      "changePct": 1.223,
-      "sourceTimestamp": "2026-10-20T21:20:18Z",
+      "price": 82942.4531,
+      "change": 1098.0231,
+      "changePct": 1.342,
+      "sourceTimestamp": "2026-10-20T23:59:06Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
