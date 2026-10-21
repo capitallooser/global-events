@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T20:09:00Z",
+  "updatedAt": "2026-10-21T20:22:20Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
@@ -26,32 +26,32 @@
     "sp500": {
       "label": "S&P 500",
       "priceSource": "Yahoo Finance chart",
-      "points": 2212
+      "points": 2213
     },
     "nasdaq": {
       "label": "Nasdaq Composite",
       "priceSource": "Yahoo Finance chart",
-      "points": 2212
+      "points": 2213
     },
     "gold": {
       "label": "Gold",
       "priceSource": "Yahoo Finance chart",
-      "points": 2214
+      "points": 2215
     },
     "crude": {
       "label": "WTI Crude Oil",
       "priceSource": "Yahoo Finance chart",
-      "points": 2214
+      "points": 2215
     },
     "usdinr": {
       "label": "USD/INR",
       "priceSource": "Yahoo Finance chart",
-      "points": 2292
+      "points": 2293
     },
     "bitcoin": {
       "label": "Bitcoin",
       "priceSource": "Yahoo Finance chart",
-      "points": 3215
+      "points": 3216
     }
   },
   "eventTypes": {
@@ -3146,32 +3146,32 @@
       "sp500": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2212
+        "points": 2213
       },
       "nasdaq": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2212
+        "points": 2213
       },
       "gold": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2214
+        "points": 2215
       },
       "crude": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2214
+        "points": 2215
       },
       "usdinr": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2292
+        "points": 2293
       },
       "bitcoin": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 3215
+        "points": 3216
       }
     }
   }
