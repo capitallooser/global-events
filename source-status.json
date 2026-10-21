@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-21T13:59:00Z",
-  "eventCount": 642,
+  "updatedAt": "2026-10-21T14:34:34Z",
+  "eventCount": 623,
   "sources": {
     "manual_fallback": {
       "status": "ok",
@@ -29,26 +29,6 @@
     "rbi": {
       "status": "ok",
       "events": 6
-    },
-    "india_elections": {
-      "status": "error",
-      "events": 0,
-      "error": "HTTP Error 406: Not Acceptable"
-    },
-    "us_elections": {
-      "status": "ok",
-      "events": 1,
-      "source": "Federal Election Commission"
-    },
-    "india_macro_calendar": {
-      "status": "ok",
-      "events": 15,
-      "source": "MoSPI/OEA official schedules"
-    },
-    "india_exchange_calendar": {
-      "status": "ok",
-      "events": 4,
-      "source": "NSE official 2026 trading-holiday circular and holidays page"
     }
   }
 }
