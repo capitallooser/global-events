@@ -1,15 +1,30 @@
 {
-  "updatedAt": "2026-10-23T06:35:09.380Z",
+  "updatedAt": "2026-10-23T12:07:14.258Z",
   "source": "https://archives.nseindia.com/content/indices/ind_nifty50list.csv",
   "status": "ok",
   "error": null,
   "items": [
     {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "industry": "Metals & Mining",
+      "relevanceLevel": "low",
+      "relevanceScore": 39,
+      "reason": "Company-specific development",
+      "latestHeadline": "Sensex Today Ends 126 Points lower | Nifty Below 22,650 | Tata Steel Drown 3% - Equitymaster",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-10-23T10:46:30.000Z",
+      "sources": [
+        "Equitymaster"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPbWlwSjh6U0oxZ2hNUG5ZblRyNGlDZzQ4RWpPcTQzWUdTVGVyc0FxNW9Vdm9CV09WSUdMejBwdGpPbUlvMjZBcVc5SndQVEV2TVFjcnU3NmdCdUpzUjl2Rk1lRVZvMUdlS1B0RUFMbEptbE8wQjZQZmpNeHdEVzRrR2prMDlmc1F6UXJka1JQRDZZZHRrMDJ0V2dwM2JxT0FwQmVnNDFIT0FxaGJOZG1ZOEJKV0hhX0paQVNad2oyX0VCLW5EV0JqX21XNmVlMl9fUnBMLWZBSGxMWlV2Mll2QmxPY1RJUlJjc09NSEdOQ2pYc2tNWFVKaTN4d1NxZHF3dWxiY2d4U18zbkYtZ3VjQkt0aFR4aWlnSms1VTlxZjJicXFlNHhYWFRMc2Zab0g5SHpjTHo5bXQ5YUVwbTFuaEthVkhvT3N5N1kwUg?oc=5"
+    },
+    {
       "symbol": "TCS",
       "company": "Tata Consultancy Services Ltd.",
       "industry": "Information Technology",
       "relevanceLevel": "low",
-      "relevanceScore": 39,
+      "relevanceScore": 33,
       "reason": "Company-specific development",
       "latestHeadline": "Sensex Today Trades Higher | Nifty Above 22,750 | L&T, TCS Top Gainer - Equitymaster",
       "relatedStoryCount": 2,
@@ -17,83 +32,37 @@
       "sources": [
         "Equitymaster"
       ],
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQRk1ySUd1d0drUE9aVjhDcU1SNHZFcWpaN0F1T0tQUFRzN2J5R2NYSG0wM2dMOFNrVDl2Z3hQNkxxTTlmbTFINEJkd2VwME9hTGhGRm0yTWUyM1JWS0E2NHRaSjREMTBDQWhmXzZXc0xxd2xURXF0dENBd2JxZmpNYjZTR1hDeWtDWDJVdGt2U19NamM5UlZGaE40MjRaUjdoWjZxUkY1TEdOUXV6czg1a3RxQjFIT0hTaUFnUVBpbDJhRGowTlVhZmZQWk1GNmM2UmFOWDFvUUdUNXZsQ1NhQ3VTcVhUb2wzaE5SbWg2UmRWbDFaMnhfS3JBU2tVaWtQaUdTa05zUUR1SGJfRUxUVm5QSDVyX2lNZHo5SW1MU1FDYmxuU1dF?oc=5"
-    },
-    {
-      "symbol": "BAJFINANCE",
-      "company": "Bajaj Finance Ltd.",
-      "industry": "Financial Services",
-      "relevanceLevel": "low",
-      "relevanceScore": 33,
-      "reason": "Multiple related developments",
-      "latestHeadline": "Market wrap: Bajaj Finance, Cipla, Nestle India, Eternal top gainers and losers on Nifty and Sensex on Thu - The Economic Times",
-      "relatedStoryCount": 2,
-      "publishedAt": "2026-10-22T11:52:31.000Z",
-      "sources": [
-        "The Economic Times",
-        "Equitymaster"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOeUJUVUcwYkdTZEdlR0w0dTlsaWVwRzFsWV9BckVnYTEySU11TE5zMUR3d0tnVlFUYjFmS1VVT2hiQkh4bXZqNWQ5VDBITy1kZFpFNUU1M2FzejJ3UFlEa3JrbVJuOWxXVnA2ek54SnVsRHpYM0hiQU1Eci1ELVpoY3RpMUJKYkc0UmRMaTBUc0ZXVDNYblZ0UlhSUUtUT3ppLTRxbEZaNUlkTlRLbEJDS0VKVmxJSnZUTEkxSHJ5cGo5VGNHdy16cG9wX2FaZFYyVEFONTF4VmZ5eFlvalh6NEw2Y3hldWdLNVpwN3VrSmVLcnFhNGZ6a19JeF95eURKRzd0VHZ1QzFmZGt4OGfSAZMCQVVfeXFMTjA4RnR0TTdFazljcC04RUVpcHc0c3ROOW1KZjVheDU2eG56OXg5TjNlS3o2dUhWekVoMnV6dGd6bWxvWGxpMTAwYVAtRGdKRE5IMThvVlpFaW5Cc0hXcVRfaUNuUFZWby1VMWdMbTdvaTdkakRkTlU1blE4amFwaGl3V21UbUg3SVlHWVI3b1JYa1JJODdyMVJCMFpaTmQ4c1JyX2JGWXVOSVBmbVdhcF9oZXdUemsta04tMjUwV3pRMDlIakxJTDZuUm9sUWpETHN4MzhteUZ5dkszZWdRRE9WcV9pR3FudTBkTEw1Zm5JOEI4cnhoN1JOMDRVX0RmakJlN21XdS1wclMwUm1zMXc3bHc?oc=5"
-    },
-    {
-      "symbol": "CIPLA",
-      "company": "Cipla Ltd.",
-      "industry": "Healthcare",
-      "relevanceLevel": "low",
-      "relevanceScore": 33,
-      "reason": "Company-specific development",
-      "latestHeadline": "Market wrap: Bajaj Finance, Cipla, Nestle India, Eternal top gainers and losers on Nifty and Sensex on Thu - The Economic Times",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-10-22T11:52:31.000Z",
-      "sources": [
-        "The Economic Times"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOeUJUVUcwYkdTZEdlR0w0dTlsaWVwRzFsWV9BckVnYTEySU11TE5zMUR3d0tnVlFUYjFmS1VVT2hiQkh4bXZqNWQ5VDBITy1kZFpFNUU1M2FzejJ3UFlEa3JrbVJuOWxXVnA2ek54SnVsRHpYM0hiQU1Eci1ELVpoY3RpMUJKYkc0UmRMaTBUc0ZXVDNYblZ0UlhSUUtUT3ppLTRxbEZaNUlkTlRLbEJDS0VKVmxJSnZUTEkxSHJ5cGo5VGNHdy16cG9wX2FaZFYyVEFONTF4VmZ5eFlvalh6NEw2Y3hldWdLNVpwN3VrSmVLcnFhNGZ6a19JeF95eURKRzd0VHZ1QzFmZGt4OGfSAZMCQVVfeXFMTjA4RnR0TTdFazljcC04RUVpcHc0c3ROOW1KZjVheDU2eG56OXg5TjNlS3o2dUhWekVoMnV6dGd6bWxvWGxpMTAwYVAtRGdKRE5IMThvVlpFaW5Cc0hXcVRfaUNuUFZWby1VMWdMbTdvaTdkakRkTlU1blE4amFwaGl3V21UbUg3SVlHWVI3b1JYa1JJODdyMVJCMFpaTmQ4c1JyX2JGWXVOSVBmbVdhcF9oZXdUemsta04tMjUwV3pRMDlIakxJTDZuUm9sUWpETHN4MzhteUZ5dkszZWdRRE9WcV9pR3FudTBkTEw1Zm5JOEI4cnhoN1JOMDRVX0RmakJlN21XdS1wclMwUm1zMXc3bHc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObjJZRHBmTlFZUVJ0VmgyZzhzdDJ0SEhCdTRvaXpjZnpIWnZTZ3JSS1ZhM2p2Q3FyR0dkeGhNbGZFaFJfZTRzb1JnTDR0ODhONzBxUjY3M1VoRzJBWVp2Rmg1aURiZnRCalhiYmsxT1dZeWRPbTJDLVBaVTNOd1ZXb2RJdURERXdLNVk5Rl9MellOSGU2SEVjdDhBaFNldWZXbDc5TnRSN1FuOGlxNGdHQ2dNMnQyNHR1dHJBejV1NzhaMzQ?oc=5"
     },
     {
       "symbol": "ETERNAL",
       "company": "Eternal Ltd.",
       "industry": "Consumer Services",
       "relevanceLevel": "low",
-      "relevanceScore": 33,
-      "reason": "Company-specific development",
-      "latestHeadline": "Market wrap: Bajaj Finance, Cipla, Nestle India, Eternal top gainers and losers on Nifty and Sensex on Thu - The Economic Times",
+      "relevanceScore": 31,
+      "reason": "Earnings / guidance",
+      "latestHeadline": "Swiggy vs Eternal shares compared: Which is better stock to buy post Q2 results? Jefferies India explains | Target price - Livemint",
       "relatedStoryCount": 1,
-      "publishedAt": "2026-10-22T11:52:31.000Z",
+      "publishedAt": "2026-10-23T10:14:51.000Z",
       "sources": [
-        "The Economic Times"
+        "Livemint"
       ],
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOeUJUVUcwYkdTZEdlR0w0dTlsaWVwRzFsWV9BckVnYTEySU11TE5zMUR3d0tnVlFUYjFmS1VVT2hiQkh4bXZqNWQ5VDBITy1kZFpFNUU1M2FzejJ3UFlEa3JrbVJuOWxXVnA2ek54SnVsRHpYM0hiQU1Eci1ELVpoY3RpMUJKYkc0UmRMaTBUc0ZXVDNYblZ0UlhSUUtUT3ppLTRxbEZaNUlkTlRLbEJDS0VKVmxJSnZUTEkxSHJ5cGo5VGNHdy16cG9wX2FaZFYyVEFONTF4VmZ5eFlvalh6NEw2Y3hldWdLNVpwN3VrSmVLcnFhNGZ6a19JeF95eURKRzd0VHZ1QzFmZGt4OGfSAZMCQVVfeXFMTjA4RnR0TTdFazljcC04RUVpcHc0c3ROOW1KZjVheDU2eG56OXg5TjNlS3o2dUhWekVoMnV6dGd6bWxvWGxpMTAwYVAtRGdKRE5IMThvVlpFaW5Cc0hXcVRfaUNuUFZWby1VMWdMbTdvaTdkakRkTlU1blE4amFwaGl3V21UbUg3SVlHWVI3b1JYa1JJODdyMVJCMFpaTmQ4c1JyX2JGWXVOSVBmbVdhcF9oZXdUemsta04tMjUwV3pRMDlIakxJTDZuUm9sUWpETHN4MzhteUZ5dkszZWdRRE9WcV9pR3FudTBkTEw1Zm5JOEI4cnhoN1JOMDRVX0RmakJlN21XdS1wclMwUm1zMXc3bHc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNNHRoNWJQUnh3QnpISW9WdU5UcFJSMGZmT1Y3UUxuZG1sbXhKcDNONVk2M3M3dVNJQ1NJcTB0eGE0dHZtRU5Kd0Q1ZHNHWEVLQ0U5RzFNVi1MN0ZvSHNEbmlDdHV5X3RKOVhlZHZxVkFfX3loZlRyMFBaOFl0TmtmYVNJR1lTRWFkUjFUTjR0MFlKeGVJblR6WTZ1bDVId0dMREpqNVFsVXhaaGExNzZudEpiVHdlRjNWZ3J2ZUpHczl1ejdmYmxrX1JKWjVNRUZKcFkzeXltVUM4ZnJOOUhIQ0h3NFpMSm50dlRpbkxKdFRvYjI1V2xiREJPQUdvRXAtOXZCVVlsSXJpaXkzakZXV2QtSWbSAZoCQVVfeXFMTXVrLXpGZkpzbmoyMFZfbVZ0d0pXdGY3T3hUSFVTMmZITVh6R3VUVklGOE1JVmlFcTkzaGNUQzhFN1ZkWm9RLXcwN3pEdWR6MUowY0FoVTJJYkxvUS13eXpDR0NMNEpuekxKZk83YVR6QlZwY25QRmVXbjhLWnYxMzlXNlk2NFlaU0VVc2hzVS1DTGxuemNrUnJfbW9DWlVVRVVTSlllZWwwNXlrRG9HNjlRTDNNWm5yR01YUVZjOTZxcldmbVNseF9tbWpfbmx5X1NqR09WQl9rdVFsZDVscWlhQnY1YzA3eXFGYnpEempFQkFRMkJleUZpajVFSUN2dmNKVnc0RlM0a1R6aUMyOUVKSDZlcjAwTlR3?oc=5"
     },
     {
-      "symbol": "NESTLEIND",
-      "company": "Nestle India Ltd.",
-      "industry": "Fast Moving Consumer Goods",
+      "symbol": "BSE",
+      "company": "BSE Ltd.",
+      "industry": "Financial Services",
       "relevanceLevel": "low",
-      "relevanceScore": 33,
+      "relevanceScore": 31,
       "reason": "Company-specific development",
-      "latestHeadline": "Market wrap: Bajaj Finance, Cipla, Nestle India, Eternal top gainers and losers on Nifty and Sensex on Thu - The Economic Times",
+      "latestHeadline": "IPO listings, share price today: Tonbo Imaging vs Zetwerk vs Bonfiglioli vs Sahajanand - Who won debut race on NSE, BSE? - Livemint",
       "relatedStoryCount": 1,
-      "publishedAt": "2026-10-22T11:52:31.000Z",
+      "publishedAt": "2026-10-23T07:35:55.000Z",
       "sources": [
-        "The Economic Times"
+        "Livemint"
       ],
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOeUJUVUcwYkdTZEdlR0w0dTlsaWVwRzFsWV9BckVnYTEySU11TE5zMUR3d0tnVlFUYjFmS1VVT2hiQkh4bXZqNWQ5VDBITy1kZFpFNUU1M2FzejJ3UFlEa3JrbVJuOWxXVnA2ek54SnVsRHpYM0hiQU1Eci1ELVpoY3RpMUJKYkc0UmRMaTBUc0ZXVDNYblZ0UlhSUUtUT3ppLTRxbEZaNUlkTlRLbEJDS0VKVmxJSnZUTEkxSHJ5cGo5VGNHdy16cG9wX2FaZFYyVEFONTF4VmZ5eFlvalh6NEw2Y3hldWdLNVpwN3VrSmVLcnFhNGZ6a19JeF95eURKRzd0VHZ1QzFmZGt4OGfSAZMCQVVfeXFMTjA4RnR0TTdFazljcC04RUVpcHc0c3ROOW1KZjVheDU2eG56OXg5TjNlS3o2dUhWekVoMnV6dGd6bWxvWGxpMTAwYVAtRGdKRE5IMThvVlpFaW5Cc0hXcVRfaUNuUFZWby1VMWdMbTdvaTdkakRkTlU1blE4amFwaGl3V21UbUg3SVlHWVI3b1JYa1JJODdyMVJCMFpaTmQ4c1JyX2JGWXVOSVBmbVdhcF9oZXdUemsta04tMjUwV3pRMDlIakxJTDZuUm9sUWpETHN4MzhteUZ5dkszZWdRRE9WcV9pR3FudTBkTEw1Zm5JOEI4cnhoN1JOMDRVX0RmakJlN21XdS1wclMwUm1zMXc3bHc?oc=5"
-    },
-    {
-      "symbol": "RELIANCE",
-      "company": "Reliance Industries Ltd.",
-      "industry": "Oil Gas & Consumable Fuels",
-      "relevanceLevel": "low",
-      "relevanceScore": 25,
-      "reason": "Company-specific development",
-      "latestHeadline": "Barclays cutting 5,000 jobs as it increases reliance on AI - BBC",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-10-22T14:28:59.000Z",
-      "sources": [
-        "BBC"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxVWkxaS10M1lTMkNibTlEeVNYcVZhQVFNTFNhbmNjSEc5VjV2T0wwOU05TmZmbEN6eFRjb1U0b0N3RWhvTk9IVnBCRnpYM3BIejZYWndkc0VIMTQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOcWV2T21hdWplWUZvcVVhekhCV0F1VnJmcS1hOGZwRkFPbGtxNXpobm9qZ0lwcjhRQVRjVmE3UElwRG9kb2kzbTVlS3lETUxiaEdlRVM4bUw4QzM4ZUk2YnFFYkZlWnpDelRlZUZNTTkybURmaWFUUTlNZnNVdkJ5WlFaS2JZejl6b1p6ZktMRWVscUd4eWR6bXZabjMwbllHbXZYNWR6OHh4UHlaRl9qUVBOZk14ZlBzRVo5ZlhJbjFHVHJwc2FEYzhPV3JUa3hlcmthbFdYWm42eUI1QzZNai1odGp4TFppM0lrVS1lanljRG5OZlNRSWpUMVhuQWJ2LUYzc0ZtbmxUMV91WkhXUUdB0gGXAkFVX3lxTE9waHZzUTlNTEFQd2dmdUlISGw5MXRNVVVwRE9pM2t4RkZZbUtlX1RzWVJJWTZDTXlmM3VQV0FRU2tBX2sxMUh5dDJGZDNJc1N1endWTG1MNUxjRGphR3NnNndVaWJ0TGFEYzdrUGRPSGNaLUlFem00WWpMb2J6V1VHWkU2NzBCTHcxT2VXOHdRek55eVpPSmdxZ3QzLXBTWUxjQXllY2QxSXNvTDMxX2VVSlRFeTYtSl9tQ3FjYUh2cXFhUnFGcno1cGFnZHJEN1N1bkFKN3lUenE1bjhvdEFUY2w4amtBRnNKamxCYnI1QVY3NXExTnpVQmJwVG1UZG90TXotcnRDc0h4cjBnQ3lGdnh2eGNmZw?oc=5"
     },
     {
       "symbol": "INFY",
@@ -111,6 +80,36 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdUE5bVhWSWoxbzJzSTE0ZzAzYUVNMTBpbjM3M09nUk5iZVNTMHFvaWZNams1LW5PSnhvck8yM0VRNmlMR2o3eXg3TEFpZHJJVmNYVHlQaXZQUk9ST18tcV9UNVdRZnFhdTByNmJ3QkU5YXNST1hnSzFNTm5WWGxjY3BvRElWNWdhS05wZmNHODlyVkVsWFRXU1BxUGhsSmhFZUh3RkZ4Uzd2WjYwZUJBei16Y3gyZ3dlUmtLXzBrcXlHaEFBX2Z5MlZ6MjF6SHNCUkFB?oc=5"
     },
     {
+      "symbol": "RELIANCE",
+      "company": "Reliance Industries Ltd.",
+      "industry": "Oil Gas & Consumable Fuels",
+      "relevanceLevel": "low",
+      "relevanceScore": 19,
+      "reason": "Company-specific development",
+      "latestHeadline": "Barclays cutting 5,000 jobs as it increases reliance on AI - BBC",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-10-22T08:00:55.000Z",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QMlZ1OWJ1Rk84a2xEVGFVTEotNk9tUjJfLVUwNGNlRXp3OE13VGV6SzFHZ1hvaFdQcVRxejNvOURLanVmTFhaa3ZsUnhlVnpYM2ViVmFQZ3dUV0JvUlE?oc=5"
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "company": "Bajaj Finance Ltd.",
+      "industry": "Financial Services",
+      "relevanceLevel": "low",
+      "relevanceScore": 19,
+      "reason": "Earnings / guidance",
+      "latestHeadline": "Bajaj Finance Q2 FY27 Results | UltraTech Cement Q2 FY27 Results | Top Buzzing Stocks Today - Equitymaster",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-10-22T00:30:00.000Z",
+      "sources": [
+        "Equitymaster"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOelNSNThlMVNTZ09aVGVCejJJTEk2SHd0TV9id0tUUGtqQlhjbzlpNHR6NDlRbXlMalVMdkpQekR6QXdPOFdIZGpWWkdoQ1BHOU9rb3NfbGpURmc0djlyNGtRMURBTF9vc0dPWVlfZ0JFcGhLSXZObG9GTnJkT3VlY29SWWgtd3JjbjVGaGhsMXVCaEl0bmRpSEVkVXJUMmthLTlPVXJNV1EyYW1MYnRUVU5nREgweTlCajRCTjRsVlRWMzRHcjVNeWNXLUJPcXlobjNJZUNVM216S2pGTDhGaU1fY3A?oc=5"
+    },
+    {
       "symbol": "ULTRACEMCO",
       "company": "UltraTech Cement Ltd.",
       "industry": "Construction Materials",
@@ -124,21 +123,6 @@
         "Equitymaster"
       ],
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOelNSNThlMVNTZ09aVGVCejJJTEk2SHd0TV9id0tUUGtqQlhjbzlpNHR6NDlRbXlMalVMdkpQekR6QXdPOFdIZGpWWkdoQ1BHOU9rb3NfbGpURmc0djlyNGtRMURBTF9vc0dPWVlfZ0JFcGhLSXZObG9GTnJkT3VlY29SWWgtd3JjbjVGaGhsMXVCaEl0bmRpSEVkVXJUMmthLTlPVXJNV1EyYW1MYnRUVU5nREgweTlCajRCTjRsVlRWMzRHcjVNeWNXLUJPcXlobjNJZUNVM216S2pGTDhGaU1fY3A?oc=5"
-    },
-    {
-      "symbol": "BSE",
-      "company": "BSE Ltd.",
-      "industry": "Financial Services",
-      "relevanceLevel": "low",
-      "relevanceScore": 15,
-      "reason": "Company-specific development",
-      "latestHeadline": "Top Losers Today - NSE Top Losers Stocks Live, BSE Top Losers Shares Today - The Economic Times",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-10-20T17:54:00.000Z",
-      "sources": [
-        "The Economic Times"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pdllieG9walJtZS01eEV5TXozT2d4aHZtby1TSEJ2WHM2ZDVCVG5kOEk2V3VDemRWd0tqajBYOGlILTJncTV4eU1XSUVUU3ljOXNzOFBXUkx6TTN3cTRrTHh3aS1BRE5SUWM5RGxqZTBQQlk0?oc=5"
     }
   ]
 }
