@@ -1,61 +1,15 @@
 {
-  "updatedAt": "2026-10-28T08:54:47.782Z",
+  "updatedAt": "2026-10-28T15:53:01.952Z",
   "source": "https://archives.nseindia.com/content/indices/ind_nifty50list.csv",
   "status": "ok",
   "error": null,
   "items": [
     {
-      "symbol": "ASIANPAINT",
-      "company": "Asian Paints Ltd.",
-      "industry": "Consumer Durables",
-      "relevanceLevel": "medium",
-      "relevanceScore": 46,
-      "reason": "Multiple related developments",
-      "latestHeadline": "Stock Market Highlights: Sensex, Nifty 50 End Flat On F&O Expiry Day; Asian Paints, Coal India, Grasim Top Drags - NDTV Profit",
-      "relatedStoryCount": 2,
-      "publishedAt": "2026-10-27T11:36:05.000Z",
-      "sources": [
-        "NDTV Profit",
-        "Equitymaster"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTkxWdW4yQXdPNm12MEU0dmYwN29LYl9tMjV3Zml3WmhvNXdpU3doc2h2bWEwcEE3cElFRkVIZUJjeTdTdXl3OWxZZ1luUG84LU9vbGRsVWNldnhPNWFWT2RTRUJMNUxaV3ZmWmxXQ2tHelJHMm5UdjFCSFpRNzlVYjcyR19ZZ3ZicVhrZVFITzAtQUZXaFRpZlBaOUpHOXhhelhURW1qUmhhbEJfREFOQ0hnSUJ4V3RHVHlTMHZwV1c0d2dHSm5UV0pseFJCMkJjaVHSAdoBQVVfeXFMTmx6S1hjeHJac2pGQjRHc0ZwMWw3c0R1Z3o0Sm5paS1VMG1ILW5ieWNnN3dXVUhwZFFVSm1YUmdTYURLdDdVUEpTSm1vaFJVSGQ3MEdqb3VOVUdVVHJGNGhSb3JRM2pwWm02aUEtd3oyN1ZUVG1XVC1iam1zTjlLY3VJa1BHeUNYc3V5NXFTOW5aVmRSOGI4WUNQdmxpT1hzcUFjMk5lQWlrd2lyZmZxLVNDMUtHbFVqNjEzR2Z0V3VRREJFcm9uRzl1WHB2cklZeXN1VU5FY29tUXc?oc=5"
-    },
-    {
-      "symbol": "COALINDIA",
-      "company": "Coal India Ltd.",
-      "industry": "Oil Gas & Consumable Fuels",
-      "relevanceLevel": "medium",
-      "relevanceScore": 46,
-      "reason": "Earnings / guidance",
-      "latestHeadline": "Stock Market Highlights: Sensex, Nifty 50 End Flat On F&O Expiry Day; Asian Paints, Coal India, Grasim Top Drags - NDTV Profit",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-10-27T11:36:05.000Z",
-      "sources": [
-        "NDTV Profit"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTkxWdW4yQXdPNm12MEU0dmYwN29LYl9tMjV3Zml3WmhvNXdpU3doc2h2bWEwcEE3cElFRkVIZUJjeTdTdXl3OWxZZ1luUG84LU9vbGRsVWNldnhPNWFWT2RTRUJMNUxaV3ZmWmxXQ2tHelJHMm5UdjFCSFpRNzlVYjcyR19ZZ3ZicVhrZVFITzAtQUZXaFRpZlBaOUpHOXhhelhURW1qUmhhbEJfREFOQ0hnSUJ4V3RHVHlTMHZwV1c0d2dHSm5UV0pseFJCMkJjaVHSAdoBQVVfeXFMTmx6S1hjeHJac2pGQjRHc0ZwMWw3c0R1Z3o0Sm5paS1VMG1ILW5ieWNnN3dXVUhwZFFVSm1YUmdTYURLdDdVUEpTSm1vaFJVSGQ3MEdqb3VOVUdVVHJGNGhSb3JRM2pwWm02aUEtd3oyN1ZUVG1XVC1iam1zTjlLY3VJa1BHeUNYc3V5NXFTOW5aVmRSOGI4WUNQdmxpT1hzcUFjMk5lQWlrd2lyZmZxLVNDMUtHbFVqNjEzR2Z0V3VRREJFcm9uRzl1WHB2cklZeXN1VU5FY29tUXc?oc=5"
-    },
-    {
-      "symbol": "GRASIM",
-      "company": "Grasim Industries Ltd.",
-      "industry": "Construction Materials",
-      "relevanceLevel": "medium",
-      "relevanceScore": 46,
-      "reason": "Earnings / guidance",
-      "latestHeadline": "Stock Market Highlights: Sensex, Nifty 50 End Flat On F&O Expiry Day; Asian Paints, Coal India, Grasim Top Drags - NDTV Profit",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-10-27T11:36:05.000Z",
-      "sources": [
-        "NDTV Profit"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTkxWdW4yQXdPNm12MEU0dmYwN29LYl9tMjV3Zml3WmhvNXdpU3doc2h2bWEwcEE3cElFRkVIZUJjeTdTdXl3OWxZZ1luUG84LU9vbGRsVWNldnhPNWFWT2RTRUJMNUxaV3ZmWmxXQ2tHelJHMm5UdjFCSFpRNzlVYjcyR19ZZ3ZicVhrZVFITzAtQUZXaFRpZlBaOUpHOXhhelhURW1qUmhhbEJfREFOQ0hnSUJ4V3RHVHlTMHZwV1c0d2dHSm5UV0pseFJCMkJjaVHSAdoBQVVfeXFMTmx6S1hjeHJac2pGQjRHc0ZwMWw3c0R1Z3o0Sm5paS1VMG1ILW5ieWNnN3dXVUhwZFFVSm1YUmdTYURLdDdVUEpTSm1vaFJVSGQ3MEdqb3VOVUdVVHJGNGhSb3JRM2pwWm02aUEtd3oyN1ZUVG1XVC1iam1zTjlLY3VJa1BHeUNYc3V5NXFTOW5aVmRSOGI4WUNQdmxpT1hzcUFjMk5lQWlrd2lyZmZxLVNDMUtHbFVqNjEzR2Z0V3VRREJFcm9uRzl1WHB2cklZeXN1VU5FY29tUXc?oc=5"
-    },
-    {
       "symbol": "TCS",
       "company": "Tata Consultancy Services Ltd.",
       "industry": "Information Technology",
-      "relevanceLevel": "medium",
-      "relevanceScore": 44,
+      "relevanceLevel": "low",
+      "relevanceScore": 38,
       "reason": "Multiple related developments",
       "latestHeadline": "TCS Out, Jio In! Reliance Jio's listing shakes up India’s rich list: IT major crashes out of top 5 as shares tumble 3.5% - Livemint",
       "relatedStoryCount": 2,
@@ -71,25 +25,25 @@
       "company": "Reliance Industries Ltd.",
       "industry": "Oil Gas & Consumable Fuels",
       "relevanceLevel": "low",
-      "relevanceScore": 37,
+      "relevanceScore": 31,
       "reason": "Company-specific development",
-      "latestHeadline": "Jio’s Market Debut Pushes Reliance Ahead of Tata as India’s Most Valuable Business Group - My City Links",
-      "relatedStoryCount": 6,
-      "publishedAt": "2026-10-28T08:17:55.000Z",
+      "latestHeadline": "Reliance’s Jio soars on market debut after Indian record $3.1bn IPO - The National",
+      "relatedStoryCount": 5,
+      "publishedAt": "2026-10-28T11:20:19.000Z",
       "sources": [
-        "My City Links",
+        "The National",
+        "Moneycontrol.com",
         "Livemint",
-        "ET Now",
-        "CNBC TV18"
+        "TradingView"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ1FsQTAzbC1mdDZzcXdNb1BZWTBwYWd5dmd4VG4tY3g0cE5IVjVLcGhBYmFoWDYyRU1ELV9hX3J6Q2pCV01ONzdvSlctcDl3R2lIZ09uYTlZU3pqc19JX1g4TE9OVUljS3A2STQ1R1pkS1RFMFpZR1ZkVEstTkZfMmJ6ZG5yZTlKNWZvM19uYWdnTHJrLUdVT2VWekpXTWxXM1M5UW52TVBPSXljSTlyTmlxZw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcDRHR0tFQVU5eDV3WHhQSXAzUlFSQ01IZFR0LWxkakJiR0NUS1FIYXQ2TFc5aGxMbV9oZDJ6UmtUd2liQWFrZG5GbFhUWE53WFpjZHlmUl9KdDNCZlIyaTNSU1ZKXzR0M3pyeHRxcDNzMTVhX0JTeWh6VnBGeFlqbUZvQzBGcGZSZzlJMS1LWnJSUHI5V0VKWDUtakFZeWdVbmg2dEowNVUtWDMxNHlhMGVCSlZqZXZtd3QwNmJ1TVN0RFk?oc=5"
     },
     {
-      "symbol": "AXISBANK",
-      "company": "Axis Bank Ltd.",
-      "industry": "Financial Services",
+      "symbol": "ASIANPAINT",
+      "company": "Asian Paints Ltd.",
+      "industry": "Consumer Durables",
       "relevanceLevel": "low",
-      "relevanceScore": 33,
+      "relevanceScore": 27,
       "reason": "Company-specific development",
       "latestHeadline": "Sensex Today Ends Flat | Nifty Below 22,750 | Axis Bank & Asian Paints Top Losers - Equitymaster",
       "relatedStoryCount": 1,
@@ -100,34 +54,34 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZnZSRWJxOEQyWXg1YVB1VXlXeUFVbTVicHBxMkxUbnJxbnhhTlZKU3p4V0c0dk1vbjY3NVBpOFNmRVUwNWVCSC00ZkNkTDNHRHUyOVFpWVZzMXVRQzNzbWtLMGEwQ3ZRaEZCVnl4MVN1WXQtTmNVa1Z3ZVFDTTJxeHZYQzJwQlpmQU9FTjRtRldzUXhGSkJFQ2tpRURXVnJ0UTNXUmE4SE5lLUdXSmNlYkVpRGpnVzI4akcxcENlcG83QWJTNE1RZEdDOGVNVncxTnM2Nw?oc=5"
     },
     {
-      "symbol": "JIOFIN",
-      "company": "Jio Financial Services Ltd.",
+      "symbol": "AXISBANK",
+      "company": "Axis Bank Ltd.",
       "industry": "Financial Services",
       "relevanceLevel": "low",
-      "relevanceScore": 31,
+      "relevanceScore": 27,
       "reason": "Company-specific development",
-      "latestHeadline": "Jio Financial Services shares fall 1% amid Jio Platforms listing | What should investors do? Check target, stop loss - Livemint",
+      "latestHeadline": "Sensex Today Ends Flat | Nifty Below 22,750 | Axis Bank & Asian Paints Top Losers - Equitymaster",
       "relatedStoryCount": 1,
-      "publishedAt": "2026-10-28T05:02:35.000Z",
-      "sources": [
-        "Livemint"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPUkZ6NFFXQmx3bUU4NW82UjNtdVZGdHBQVTNuNUJJQ2NVS3pHUmRYQV9GbThtaWI4TXRWd3Y5c3dyYkpscFRveHM5MlNBV2IxaFB4YW03R3VmWlJOd1NNdmp3c2xEbXJFZUE4VnR3VzVtZDVmYmVEU0Z4Qnd1cm9vU0YyQ1FxRTd3Wnpud0M3REFLMGJxckZ1am93S1VLVFUzQ2VOQWJoeDBaX2xqWUhIeVQ1OTJ4YzhWYUxGVjFDUElLTFI1aWh3R0xfbTZKeVQxNjllaHlBQzlRVF9fWXppYmw5RV9SODBZc25qODkyeG56ZlZRYjg3S2FLMWIxemJ2aVZBY2Q4OVhpMWF0amfSAZMCQVVfeXFMTUt2SVVad3NXRVNTbjBLakNPOFRjcW1DbzdRUkRhb3cwZTNDOXRTUGNWVE5wM25jSkYzRjJ6V21lRWJLczVhYU8taXhwNl9FQzM1eWl4TzRQdDdnT05KcllzVk1BLTU4RGlDTVdPaW51WUlkUlNxZktmdGp0VFhibkRKZndra25KYjVhdmhRSWtVY3otbFZXYi1lWmRvMHNsYjhzcjc0VDNqQUhQaHlnLTJVNXJzQnd1OUlHSDg1bjRWUFI3RXpWYkI1OHJJVExOXzBwLVdIVVpYeUNxRjNMSHppN3Qwakh1bEV6RjVZNGVmdkVtNVltYVExZmNIN3d4dV9KRWRyamMzUUhtendFOWo4XzA?oc=5"
-    },
-    {
-      "symbol": "ITC",
-      "company": "ITC Ltd.",
-      "industry": "Fast Moving Consumer Goods",
-      "relevanceLevel": "low",
-      "relevanceScore": 19,
-      "reason": "Earnings / guidance",
-      "latestHeadline": "ITC Hotels Q2 FY27 Results | Netweb Technologies Q2 FY27 Results | Top Buzzing Stocks Today - Equitymaster",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-10-27T00:30:01.000Z",
+      "publishedAt": "2026-10-27T10:44:17.000Z",
       "sources": [
         "Equitymaster"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNjRsNXlYSEdFbFpFSThwai05eG9jNndmWURwazllQXIwWktxcUdRZEU2eFNDbU0ydERJXzFhLUxuWTVncm0zbFQ0VWJYd083N2d2UzJyZy1OcXR3QVhLUV9VMF9kUjNVbklaUS1JNG9mYXhBeGh1QkFJZWxMbkxON3dzaVhVNHdpUUlqSjZtTlhQeDlWTkJDYlJyTHV4X2dlZmJjUGxHU2hIU3FCYnF6eFVFNHNscTdrb2l2bE9YQkw1RmdVV2kyOExLd2V2TFJpbHBXRFA0Z3dXSDhPRHkzQWdXeE4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZnZSRWJxOEQyWXg1YVB1VXlXeUFVbTVicHBxMkxUbnJxbnhhTlZKU3p4V0c0dk1vbjY3NVBpOFNmRVUwNWVCSC00ZkNkTDNHRHUyOVFpWVZzMXVRQzNzbWtLMGEwQ3ZRaEZCVnl4MVN1WXQtTmNVa1Z3ZVFDTTJxeHZYQzJwQlpmQU9FTjRtRldzUXhGSkJFQ2tpRURXVnJ0UTNXUmE4SE5lLUdXSmNlYkVpRGpnVzI4akcxcENlcG83QWJTNE1RZEdDOGVNVncxTnM2Nw?oc=5"
+    },
+    {
+      "symbol": "BSE",
+      "company": "BSE Ltd.",
+      "industry": "Financial Services",
+      "relevanceLevel": "low",
+      "relevanceScore": 15,
+      "reason": "Company-specific development",
+      "latestHeadline": "Top Losers Today - NSE Top Losers Stocks Live, BSE Top Losers Shares Today - The Economic Times",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-10-25T15:22:00.000Z",
+      "sources": [
+        "The Economic Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pdllieG9walJtZS01eEV5TXozT2d4aHZtby1TSEJ2WHM2ZDVCVG5kOEk2V3VDemRWd0tqajBYOGlILTJncTV4eU1XSUVUU3ljOXNzOFBXUkx6TTN3cTRrTHh3aS1BRE5SUWM5RGxqZTBQQlk0?oc=5"
     }
   ]
 }
