@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T21:26:46Z",
+  "updatedAt": "2026-10-30T21:04:06Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
@@ -11,47 +11,47 @@
     "nifty": {
       "label": "NIFTY 50",
       "priceSource": "Yahoo Finance chart",
-      "points": 2174
+      "points": 2175
     },
     "banknifty": {
       "label": "Bank NIFTY",
       "priceSource": "Yahoo Finance chart",
-      "points": 2175
+      "points": 2176
     },
     "sensex": {
       "label": "Sensex",
       "priceSource": "Yahoo Finance chart",
-      "points": 2171
+      "points": 2172
     },
     "sp500": {
       "label": "S&P 500",
       "priceSource": "Yahoo Finance chart",
-      "points": 2219
+      "points": 2220
     },
     "nasdaq": {
       "label": "Nasdaq Composite",
       "priceSource": "Yahoo Finance chart",
-      "points": 2219
+      "points": 2220
     },
     "gold": {
       "label": "Gold",
       "priceSource": "Yahoo Finance chart",
-      "points": 2221
+      "points": 2222
     },
     "crude": {
       "label": "WTI Crude Oil",
       "priceSource": "Yahoo Finance chart",
-      "points": 2221
+      "points": 2222
     },
     "usdinr": {
       "label": "USD/INR",
       "priceSource": "Yahoo Finance chart",
-      "points": 2298
+      "points": 2299
     },
     "bitcoin": {
       "label": "Bitcoin",
       "priceSource": "Yahoo Finance chart",
-      "points": 3224
+      "points": 3225
     }
   },
   "eventTypes": {
@@ -66,13 +66,13 @@
         "nifty": {
           "label": "NIFTY 50",
           "oneDay": {
-            "sample": 46,
+            "sample": 47,
             "directionReady": true,
-            "upPct": 52.2,
-            "downPct": 47.8,
+            "upPct": 53.2,
+            "downPct": 46.8,
             "flatPct": 0.0,
-            "avgReturnPct": -0.05,
-            "avgAbsMovePct": 0.69,
+            "avgReturnPct": -0.03,
+            "avgAbsMovePct": 0.7,
             "medianAbsMovePct": 0.49,
             "maxAbsMovePct": 3.26
           },
@@ -92,13 +92,13 @@
         "banknifty": {
           "label": "Bank NIFTY",
           "oneDay": {
-            "sample": 46,
+            "sample": 47,
             "directionReady": true,
-            "upPct": 47.8,
-            "downPct": 52.2,
+            "upPct": 48.9,
+            "downPct": 51.1,
             "flatPct": 0.0,
-            "avgReturnPct": -0.11,
-            "avgAbsMovePct": 0.82,
+            "avgReturnPct": -0.08,
+            "avgAbsMovePct": 0.83,
             "medianAbsMovePct": 0.66,
             "maxAbsMovePct": 3.39
           },
@@ -118,13 +118,13 @@
         "sensex": {
           "label": "Sensex",
           "oneDay": {
-            "sample": 46,
+            "sample": 47,
             "directionReady": true,
-            "upPct": 52.2,
-            "downPct": 47.8,
+            "upPct": 53.2,
+            "downPct": 46.8,
             "flatPct": 0.0,
-            "avgReturnPct": -0.05,
-            "avgAbsMovePct": 0.7,
+            "avgReturnPct": -0.03,
+            "avgAbsMovePct": 0.71,
             "medianAbsMovePct": 0.5,
             "maxAbsMovePct": 3.26
           },
@@ -155,14 +155,14 @@
             "maxAbsMovePct": 2.99
           },
           "threeDay": {
-            "sample": 46,
+            "sample": 47,
             "directionReady": true,
-            "upPct": 52.2,
-            "downPct": 47.8,
+            "upPct": 51.1,
+            "downPct": 48.9,
             "flatPct": 0.0,
-            "avgReturnPct": 0.05,
-            "avgAbsMovePct": 1.59,
-            "medianAbsMovePct": 1.23,
+            "avgReturnPct": 0.01,
+            "avgAbsMovePct": 1.6,
+            "medianAbsMovePct": 1.25,
             "maxAbsMovePct": 5.34
           },
           "bias": "Mild bearish tendency"
@@ -181,14 +181,14 @@
             "maxAbsMovePct": 4.06
           },
           "threeDay": {
-            "sample": 46,
+            "sample": 47,
             "directionReady": true,
-            "upPct": 54.3,
-            "downPct": 45.7,
+            "upPct": 53.2,
+            "downPct": 46.8,
             "flatPct": 0.0,
-            "avgReturnPct": 0.26,
-            "avgAbsMovePct": 2.17,
-            "medianAbsMovePct": 1.82,
+            "avgReturnPct": 0.17,
+            "avgAbsMovePct": 2.21,
+            "medianAbsMovePct": 1.83,
             "maxAbsMovePct": 7.3
           },
           "bias": "Mild bullish tendency"
@@ -207,14 +207,14 @@
             "maxAbsMovePct": 4.35
           },
           "threeDay": {
-            "sample": 46,
+            "sample": 47,
             "directionReady": true,
-            "upPct": 56.5,
-            "downPct": 43.5,
+            "upPct": 55.3,
+            "downPct": 44.7,
             "flatPct": 0.0,
-            "avgReturnPct": -0.16,
-            "avgAbsMovePct": 1.66,
-            "medianAbsMovePct": 1.44,
+            "avgReturnPct": -0.25,
+            "avgAbsMovePct": 1.72,
+            "medianAbsMovePct": 1.49,
             "maxAbsMovePct": 8.65
           },
           "bias": "Mild bullish tendency"
@@ -233,14 +233,14 @@
             "maxAbsMovePct": 6.95
           },
           "threeDay": {
-            "sample": 46,
+            "sample": 47,
             "directionReady": true,
-            "upPct": 45.7,
-            "downPct": 54.3,
+            "upPct": 46.8,
+            "downPct": 53.2,
             "flatPct": 0.0,
-            "avgReturnPct": -0.31,
-            "avgAbsMovePct": 3.26,
-            "medianAbsMovePct": 2.78,
+            "avgReturnPct": -0.24,
+            "avgAbsMovePct": 3.25,
+            "medianAbsMovePct": 2.85,
             "maxAbsMovePct": 8.56
           },
           "bias": "Mild bullish tendency"
@@ -259,13 +259,13 @@
             "maxAbsMovePct": 0.75
           },
           "threeDay": {
-            "sample": 46,
+            "sample": 47,
             "directionReady": true,
-            "upPct": 52.2,
-            "downPct": 47.8,
+            "upPct": 51.1,
+            "downPct": 48.9,
             "flatPct": 0.0,
-            "avgReturnPct": 0.1,
-            "avgAbsMovePct": 0.38,
+            "avgReturnPct": 0.09,
+            "avgAbsMovePct": 0.37,
             "medianAbsMovePct": 0.27,
             "maxAbsMovePct": 1.87
           },
@@ -285,13 +285,13 @@
             "maxAbsMovePct": 9.69
           },
           "threeDay": {
-            "sample": 46,
+            "sample": 47,
             "directionReady": true,
-            "upPct": 56.5,
-            "downPct": 43.5,
+            "upPct": 55.3,
+            "downPct": 44.7,
             "flatPct": 0.0,
-            "avgReturnPct": 0.18,
-            "avgAbsMovePct": 3.78,
+            "avgReturnPct": 0.07,
+            "avgAbsMovePct": 3.81,
             "medianAbsMovePct": 3.01,
             "maxAbsMovePct": 12.08
           },
@@ -3131,47 +3131,47 @@
       "nifty": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2174
+        "points": 2175
       },
       "banknifty": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2175
+        "points": 2176
       },
       "sensex": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2171
+        "points": 2172
       },
       "sp500": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2219
+        "points": 2220
       },
       "nasdaq": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2219
+        "points": 2220
       },
       "gold": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2221
+        "points": 2222
       },
       "crude": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2221
+        "points": 2222
       },
       "usdinr": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2298
+        "points": 2299
       },
       "bitcoin": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 3224
+        "points": 3225
       }
     }
   }
