@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T20:59:04Z",
+  "updatedAt": "2026-11-01T00:01:25Z",
   "instruments": [
     {
       "key": "nifty",
@@ -74,20 +74,20 @@
     {
       "key": "usdinr",
       "label": "USD/INR",
-      "price": 94.94,
-      "change": -0.27,
-      "changePct": -0.284,
-      "sourceTimestamp": "2026-10-30T22:05:00Z",
+      "price": 94.95,
+      "change": -0.26,
+      "changePct": -0.273,
+      "sourceTimestamp": "2026-10-30T23:59:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Delayed"
+      "status": "Last available"
     },
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 77406.8984,
-      "change": 204.4984,
-      "changePct": 0.265,
-      "sourceTimestamp": "2026-10-31T20:59:00Z",
+      "price": 77382.7109,
+      "change": 180.3109,
+      "changePct": 0.234,
+      "sourceTimestamp": "2026-11-01T00:01:19Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
