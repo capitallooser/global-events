@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-01T00:01:25Z",
+  "updatedAt": "2026-11-01T05:52:08Z",
   "instruments": [
     {
       "key": "nifty",
       "label": "NIFTY 50",
       "price": 23053.0996,
-      "change": 116.2996,
+      "change": 116.3496,
       "changePct": 0.507,
       "sourceTimestamp": "2026-10-30T10:00:00Z",
       "sourceName": "Yahoo Finance",
@@ -15,8 +15,8 @@
       "key": "banknifty",
       "label": "Bank NIFTY",
       "price": 54686.9492,
-      "change": -222.6508,
-      "changePct": -0.405,
+      "change": -222.7008,
+      "changePct": -0.406,
       "sourceTimestamp": "2026-10-30T10:00:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Last available"
@@ -25,7 +25,7 @@
       "key": "sensex",
       "label": "Sensex",
       "price": 74459.5312,
-      "change": 308.5312,
+      "change": 308.4913,
       "changePct": 0.416,
       "sourceTimestamp": "2026-10-30T10:00:00Z",
       "sourceName": "Yahoo Finance",
@@ -54,10 +54,10 @@
     {
       "key": "gold",
       "label": "Gold",
-      "price": 3898.8999,
-      "change": -132.5001,
+      "price": 3898.9,
+      "change": -132.5,
       "changePct": -3.287,
-      "sourceTimestamp": "2026-10-30T20:55:00Z",
+      "sourceTimestamp": "2026-10-30T20:59:59Z",
       "sourceName": "Yahoo Finance",
       "status": "Last available"
     },
@@ -67,27 +67,27 @@
       "price": 104.12,
       "change": 2.12,
       "changePct": 2.078,
-      "sourceTimestamp": "2026-10-30T20:55:00Z",
+      "sourceTimestamp": "2026-10-30T20:59:59Z",
       "sourceName": "Yahoo Finance",
       "status": "Last available"
     },
     {
       "key": "usdinr",
       "label": "USD/INR",
-      "price": 94.95,
-      "change": -0.26,
-      "changePct": -0.273,
-      "sourceTimestamp": "2026-10-30T23:59:00Z",
+      "price": 94.94,
+      "change": -0.27,
+      "changePct": -0.284,
+      "sourceTimestamp": "2026-10-30T22:05:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Last available"
     },
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 77382.7109,
-      "change": 180.3109,
-      "changePct": 0.234,
-      "sourceTimestamp": "2026-11-01T00:01:19Z",
+      "price": 77738.8672,
+      "change": 297.9372,
+      "changePct": 0.385,
+      "sourceTimestamp": "2026-11-01T05:52:04Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
