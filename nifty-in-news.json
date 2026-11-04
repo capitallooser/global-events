@@ -1,78 +1,124 @@
 {
-  "updatedAt": "2026-11-04T03:21:36.504Z",
+  "updatedAt": "2026-11-04T11:23:04.667Z",
   "source": "https://archives.nseindia.com/content/indices/ind_nifty50list.csv",
   "status": "ok",
   "error": null,
   "items": [
     {
-      "symbol": "SBIN",
-      "company": "State Bank of India",
-      "industry": "Financial Services",
-      "relevanceLevel": "low",
-      "relevanceScore": 38,
-      "reason": "Earnings / guidance",
-      "latestHeadline": "Earnings call transcript: State Bank of India Q2 2027 profit rises, stock falls 5% By Investing.com - Investing.com India",
-      "relatedStoryCount": 2,
-      "publishedAt": "2026-11-03T13:27:47.000Z",
+      "symbol": "BEL",
+      "company": "Bharat Electronics Ltd.",
+      "industry": "Capital Goods",
+      "relevanceLevel": "medium",
+      "relevanceScore": 49,
+      "reason": "RBI / regulatory action",
+      "latestHeadline": "Muhurat Trading Picks: Tata Steel, Coal India to BEL - HDFC Sec recommends these 10 stocks to buy on Diwali | Full list - Livemint",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-11-04T08:07:26.000Z",
       "sources": [
-        "Investing.com India",
-        "Multibagg AI"
+        "Livemint"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPY2hkY3MxbkRqWG5uWlpXdXZicGk3VUlPdWtkOVIxOXhKQll3aW1ZTDJXRnZxcXVRSkZBQzJhbG5SWnNjNlhZbjJWazBZV2V0Ykg1RWdrZG1MbWtJdVFIUTFNcHVBSVJrWEFCN3cyVDV0OUdFZllaVmV4NTJvbHBva3luU1RQMFRtUy04akk4VjBNUVoxMUxhSXdxNWFuRGNkTGRDVXhYMlh3NTI1VFZRa1gteU1YUV9TVjFWTGVydmNDQ0ZZQmNlcTdPY2w2MG4xTnNwT0ZkSQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOSW9VU1NyS3kwRnlMM0NuejFHbUJKSmxJeFJEbWloQXc1R3h0eDZsMDZWSzI5d1l2X0RiWHpFQnFtUmFPcUpTN0FMZVo0MEpkNFNKeUQxd3Fwcy1BeEQyWXRJTWtyNkE2WVNOX3V6MVNPVHZEMkYyYzI4X2hmNGRPSHVqd09HQ0FONFNaUkVOTlQ5czg5ZklRRDF5aGgzT0VtdVJyd2dyMEI3T2NjX3FWZHF1YmpsaS14QlpfUmpGVXByalVEMWRyQ1F6cWdVMnVCVEZaaU1CVVE0ekxjell0VUNxOUN2a0RSa0ZISnNtQU5NS3NhUWloVGlud01MMHBWb1F0VjJxT0U0bFBkODZDaNIBlgJBVV95cUxQQklJWWdYX3VsVHQ1VHJzOWI1RXNqalhhbE43V3FUT1RPNE5iMnlJdTV6V09GYjdmWGF0WHhTcDFmWVNWdWg2Z1lfZHVkbnhWbFYtZGZLNnRhQ3VEbEFuNU1jMUpCZUNwaU81M2FTQV9memF6bkMtMjdtS21naHN3b3lzaTFaSjZPR0tvTi12NGo3X25wXy0wNkp5VHY5djNQaHQ5Ti1FYnBEOWsxXzZUR2FFLVlUbF9RbVZtMW1scDlVc3JxcmVYdTNXR0dLQVB5aklWX1VEaHNtM25DYkU4NmVGQ2g2aHFCdXhZcE4tYzVaWDZKdFI3cEhkYXI5R1ROSGc4ZVY2dVdJeTFqWkxfS2hGQWY5dw?oc=5"
+    },
+    {
+      "symbol": "COALINDIA",
+      "company": "Coal India Ltd.",
+      "industry": "Oil Gas & Consumable Fuels",
+      "relevanceLevel": "medium",
+      "relevanceScore": 49,
+      "reason": "Multiple related developments",
+      "latestHeadline": "Muhurat Trading Picks: Tata Steel, Coal India to BEL - HDFC Sec recommends these 10 stocks to buy on Diwali | Full list - Livemint",
+      "relatedStoryCount": 2,
+      "publishedAt": "2026-11-04T08:07:26.000Z",
+      "sources": [
+        "Livemint",
+        "Upstox"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOSW9VU1NyS3kwRnlMM0NuejFHbUJKSmxJeFJEbWloQXc1R3h0eDZsMDZWSzI5d1l2X0RiWHpFQnFtUmFPcUpTN0FMZVo0MEpkNFNKeUQxd3Fwcy1BeEQyWXRJTWtyNkE2WVNOX3V6MVNPVHZEMkYyYzI4X2hmNGRPSHVqd09HQ0FONFNaUkVOTlQ5czg5ZklRRDF5aGgzT0VtdVJyd2dyMEI3T2NjX3FWZHF1YmpsaS14QlpfUmpGVXByalVEMWRyQ1F6cWdVMnVCVEZaaU1CVVE0ekxjell0VUNxOUN2a0RSa0ZISnNtQU5NS3NhUWloVGlud01MMHBWb1F0VjJxT0U0bFBkODZDaNIBlgJBVV95cUxQQklJWWdYX3VsVHQ1VHJzOWI1RXNqalhhbE43V3FUT1RPNE5iMnlJdTV6V09GYjdmWGF0WHhTcDFmWVNWdWg2Z1lfZHVkbnhWbFYtZGZLNnRhQ3VEbEFuNU1jMUpCZUNwaU81M2FTQV9memF6bkMtMjdtS21naHN3b3lzaTFaSjZPR0tvTi12NGo3X25wXy0wNkp5VHY5djNQaHQ5Ti1FYnBEOWsxXzZUR2FFLVlUbF9RbVZtMW1scDlVc3JxcmVYdTNXR0dLQVB5aklWX1VEaHNtM25DYkU4NmVGQ2g2aHFCdXhZcE4tYzVaWDZKdFI3cEhkYXI5R1ROSGc4ZVY2dVdJeTFqWkxfS2hGQWY5dw?oc=5"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "company": "Tata Steel Ltd.",
+      "industry": "Metals & Mining",
+      "relevanceLevel": "medium",
+      "relevanceScore": 49,
+      "reason": "RBI / regulatory action",
+      "latestHeadline": "Muhurat Trading Picks: Tata Steel, Coal India to BEL - HDFC Sec recommends these 10 stocks to buy on Diwali | Full list - Livemint",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-11-04T08:07:26.000Z",
+      "sources": [
+        "Livemint"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOSW9VU1NyS3kwRnlMM0NuejFHbUJKSmxJeFJEbWloQXc1R3h0eDZsMDZWSzI5d1l2X0RiWHpFQnFtUmFPcUpTN0FMZVo0MEpkNFNKeUQxd3Fwcy1BeEQyWXRJTWtyNkE2WVNOX3V6MVNPVHZEMkYyYzI4X2hmNGRPSHVqd09HQ0FONFNaUkVOTlQ5czg5ZklRRDF5aGgzT0VtdVJyd2dyMEI3T2NjX3FWZHF1YmpsaS14QlpfUmpGVXByalVEMWRyQ1F6cWdVMnVCVEZaaU1CVVE0ekxjell0VUNxOUN2a0RSa0ZISnNtQU5NS3NhUWloVGlud01MMHBWb1F0VjJxT0U0bFBkODZDaNIBlgJBVV95cUxQQklJWWdYX3VsVHQ1VHJzOWI1RXNqalhhbE43V3FUT1RPNE5iMnlJdTV6V09GYjdmWGF0WHhTcDFmWVNWdWg2Z1lfZHVkbnhWbFYtZGZLNnRhQ3VEbEFuNU1jMUpCZUNwaU81M2FTQV9memF6bkMtMjdtS21naHN3b3lzaTFaSjZPR0tvTi12NGo3X25wXy0wNkp5VHY5djNQaHQ5Ti1FYnBEOWsxXzZUR2FFLVlUbF9RbVZtMW1scDlVc3JxcmVYdTNXR0dLQVB5aklWX1VEaHNtM25DYkU4NmVGQ2g2aHFCdXhZcE4tYzVaWDZKdFI3cEhkYXI5R1ROSGc4ZVY2dVdJeTFqWkxfS2hGQWY5dw?oc=5"
+    },
+    {
+      "symbol": "TITAN",
+      "company": "Titan Company Ltd.",
+      "industry": "Consumer Durables",
+      "relevanceLevel": "low",
+      "relevanceScore": 39,
+      "reason": "Company-specific development",
+      "latestHeadline": "Sensex ends 383 points higher, Nifty nears 24,000; Titan up 4% - India Today",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-11-04T10:03:34.000Z",
+      "sources": [
+        "India Today"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYU1BVHRndFh4TWxMUTBvYTVSLUY1ZnpSOVhMamJJNlozZ21LU2dPSVBJMDdNQ1dSb21rVzBBX0xpeWtBUVRzbHIwN2wyOFRNV0ljNTc3Rm5lZUN5ZjN2VFBfUllxTEVQT0FlS0NfVUdDTWxjUHllWXVYRktJN0gzc3k3S0VvRi1NUUNNeEZOOFpwRFdxeDZqOHBodEt0T0NGR3hRTFhURU05Tzc2V2oyZkxIWGlldW41OEVvVHF0ZXd0c1EtWm9LV3JEQlNRUFNMUUY4SmRiak5JVXVEUUNSam42MWhmUdIB6wFBVV95cUxQV241MWk3Q3FlVGNlUVJoQ0lfUnExOUVpQUcyX3oxQkV1N1JNalpqZHRLZ1JLdDBEV2theFh3NmUwOHlfQWdHUENfQUItQVMtTHVlVXJuVGh0SUEzSllYOEVxQXFGNnp2S3RnRDJqUno0em8xTFNTWC00N1BscXBTMkpnenNiWHUzS1ZmN0VSSHVQTHJiS3lCeWZ3OWE1c1JXcjYtM1VsVlp3aFVFOHZmWjF0QVNxUTZfTjZXTHB0cFFLbEtyeUxLU045MFhreEM4WEh5Y2FDNXkzdHZfMGc2akJQSk1RcW9BTWtZ?oc=5"
+    },
+    {
+      "symbol": "ITC",
+      "company": "ITC Ltd.",
+      "industry": "Fast Moving Consumer Goods",
+      "relevanceLevel": "low",
+      "relevanceScore": 39,
+      "reason": "Company-specific development",
+      "latestHeadline": "ITC Share Price adds 2%. Lists on Top Nifty Performers Today - India Infoline",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-11-04T05:43:53.000Z",
+      "sources": [
+        "India Infoline"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWnZvXzN1dmo3SVJmMjJnMTZRclpzREZ6SXNPbjdNODBEZWpUYnRiNTZGeUxwN2pDT1MxMzRBQkFGemFQbWZJcnI0UE1mZTJNUVRQcF9SQnV4UWJnZEwwSnRLSzZYSjEzdzFNcko2bklscXVSX0tyVXRqazM3OHhlQ2FNbkh2cW8xbVJWMW5sdnBjanh1LXFMNWViRUxPMTROanVlVTN3?oc=5"
     },
     {
       "symbol": "BSE",
       "company": "BSE Ltd.",
       "industry": "Financial Services",
       "relevanceLevel": "low",
-      "relevanceScore": 33,
+      "relevanceScore": 38,
       "reason": "Company-specific development",
-      "latestHeadline": "Market wrap: BSE, Nestle India, Power Grid, SBI top gainers and losers on Nifty and Sensex on Tuesday - The Economic Times",
+      "latestHeadline": "Q2 results, Nov 4: Lenskart, Nykaa, BSE, Apollo Tyres, Dabur India, GRSE, Redington, Torrent Power, Physicswallah, others to post earnings - Upstox",
       "relatedStoryCount": 3,
-      "publishedAt": "2026-11-03T12:09:42.000Z",
+      "publishedAt": "2026-11-04T03:23:01.000Z",
       "sources": [
+        "Upstox",
         "The Economic Times",
-        "The Times of India",
         "Equitymaster"
       ],
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNaUQtVjFod2U3NmxxRHByTXp6VWFQNW5YYkNGNGV3X0xjSzFUZDFpbTM0OFBCQzg2blI4ZjBVTmNVbE03S3NXeV92ZzNZMGtvRktQUmtCeHVyT1ZDRFkwOGZ6c2QwdDJGRlA5Ulh3T3MwY0lHTEhUN1d5b0MtYUhCS05rdnM0SHREMkM2THhhZUtmLXR1Z2hzV21IRldhR3hFRm9ESTktXzhJLUE2YkhFWUlhRHpNQkhseXhFWEpjMjZQSy14SkVaOTJKY2FWYjBSLWZyNTRXS0pMdFlwYVlmdHVXemJnUW9sYmdheUEwekZnbGk3dVh0dDVCanNZdk1a0gGGAkFVX3lxTFAxSzlmMy1WeWFwU1AtdUNmYnBCYkRCeHZvVy1KR3B0aXFxZHpvZzc1VWNvbFRMVmhqTy1xOUkzV3NITmlHUFhWY3hUYjd3WlJuanNUbjFjdzJjNWJBOEpnMnJqSFJjcnFWUXJtMFZRb2NOVDRhc3RmT3I3akk3YzV5aGp0ck5faHllOHN0SG1IbVlsNHNxZnp4UW5qa3BJLWgtN1VBb2R5VlZLTjBGTWx4RTZUc2ZZY0xOdm1sSktCUVNIX2VQWkU2eVd2cTROWUV4QUdKQmQ1UU9PX1hWVTVqYkFVNWg3OHF3NXRibTNkVHVFVVZtTlp1bjc5SE5BOWxlbHA4b1E?oc=5"
-    },
-    {
-      "symbol": "NESTLEIND",
-      "company": "Nestle India Ltd.",
-      "industry": "Fast Moving Consumer Goods",
-      "relevanceLevel": "low",
-      "relevanceScore": 33,
-      "reason": "Company-specific development",
-      "latestHeadline": "Market wrap: BSE, Nestle India, Power Grid, SBI top gainers and losers on Nifty and Sensex on Tuesday - The Economic Times",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-11-03T12:09:42.000Z",
-      "sources": [
-        "The Economic Times"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNaUQtVjFod2U3NmxxRHByTXp6VWFQNW5YYkNGNGV3X0xjSzFUZDFpbTM0OFBCQzg2blI4ZjBVTmNVbE03S3NXeV92ZzNZMGtvRktQUmtCeHVyT1ZDRFkwOGZ6c2QwdDJGRlA5Ulh3T3MwY0lHTEhUN1d5b0MtYUhCS05rdnM0SHREMkM2THhhZUtmLXR1Z2hzV21IRldhR3hFRm9ESTktXzhJLUE2YkhFWUlhRHpNQkhseXhFWEpjMjZQSy14SkVaOTJKY2FWYjBSLWZyNTRXS0pMdFlwYVlmdHVXemJnUW9sYmdheUEwekZnbGk3dVh0dDVCanNZdk1a0gGGAkFVX3lxTFAxSzlmMy1WeWFwU1AtdUNmYnBCYkRCeHZvVy1KR3B0aXFxZHpvZzc1VWNvbFRMVmhqTy1xOUkzV3NITmlHUFhWY3hUYjd3WlJuanNUbjFjdzJjNWJBOEpnMnJqSFJjcnFWUXJtMFZRb2NOVDRhc3RmT3I3akk3YzV5aGp0ck5faHllOHN0SG1IbVlsNHNxZnp4UW5qa3BJLWgtN1VBb2R5VlZLTjBGTWx4RTZUc2ZZY0xOdm1sSktCUVNIX2VQWkU2eVd2cTROWUV4QUdKQmQ1UU9PX1hWVTVqYkFVNWg3OHF3NXRibTNkVHVFVVZtTlp1bjc5SE5BOWxlbHA4b1E?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxObVc5bXNsejhmOWJxb29tNHBrRllhWThGSlA2ckRzUlpFUDd2Q2lTcl9pTVdqemxfbzkxb2hocWRReXZpQldlSUd5d0IyVU5FZFFSeUxxdzBMcnVtdGdodkJ3aURUc1BLVjdJb1FDZUZBRXNUQ3F5Ym5mLXNxbHNOeHZEekVBYTZLRUJPcFkyckU0cUtuNG9idHBOSjU0RklTR05rWGR1aUtJNlRVQkh5bEcxb0FrZ2k4UG1fSHdCalFsUFpyS3hINEoxUEZ5d2VhaXl5ZFNCYXpUU0FWT1BhNTJZWGdidTdyUnVtSnRHc0JrZ1NUQ0g3aFRNRnhKYUNPdU04MjUyYmI5ZlJEdm5UeTFxdUl6TXc?oc=5"
     },
     {
       "symbol": "HDFCBANK",
       "company": "HDFC Bank Ltd.",
       "industry": "Financial Services",
       "relevanceLevel": "low",
-      "relevanceScore": 33,
+      "relevanceScore": 37,
       "reason": "Company-specific development",
-      "latestHeadline": "Sensex Today Rallies 700 Points | Nifty Above 23,600 | HUL & HDFC Bank Top Gainers - Equitymaster",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-11-03T04:36:09.000Z",
+      "latestHeadline": "Top Traded by Value Today 04-Nov-2026: HDFC Bank Leads - Multibagg AI",
+      "relatedStoryCount": 2,
+      "publishedAt": "2026-11-04T11:10:15.000Z",
       "sources": [
+        "Multibagg AI",
         "Equitymaster"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbEFjcTFyMjFZTFNLNEVhbFpFY1FKcGZwWUpMWVQyS3NXUHM0UDVBRFRkdWt0VGZiZWo2ZkJyVVNLZ3YtVjk5TTRmNXg5ZThuTEcyMW5rZGkyMWw5MDc1VjQ3cEd0S2xlcVI2cjBGOU5zbGVvWVBDbmpfM1VfLVNEeGZ6bF85WTVYWEI1cTFwMHo5Ump3XzllY0ZvR1dPY2dXdzdyNlF1Z201LVNkRzVRbU9CdVh2OEFZLUQ2TXA5bWtNaTNvLUxYWjhhcmlDdVUxaVFrTTdR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSWVjQy1XcTVGLWk5eVVtVFlCblMtUDBZUE5HajBRMFJhZ1BpV3VLOGdDOENFSEhISkxYQkZYN2hBYVI3WENaWVltamJpSzFuckllMjFpcThHZ1JSSXNuRUxiT3hNOGNMdFZNSFRCaHUwQldXX252ZjdBbHhRSE55SVFBWF9KQVA4R3JaQjl0ckp1WTBGQnJ6VVNtQ0NiWlVlNlNN?oc=5"
     },
     {
       "symbol": "INDIGO",
       "company": "InterGlobe Aviation Ltd.",
       "industry": "Services",
       "relevanceLevel": "low",
-      "relevanceScore": 33,
+      "relevanceScore": 27,
       "reason": "Company-specific development",
       "latestHeadline": "Sensex opens 500 points higher, Nifty above 23,500; IndiGo up 3% - India Today",
       "relatedStoryCount": 1,
@@ -87,46 +133,15 @@
       "company": "Reliance Industries Ltd.",
       "industry": "Oil Gas & Consumable Fuels",
       "relevanceLevel": "low",
-      "relevanceScore": 27,
+      "relevanceScore": 25,
       "reason": "Company-specific development",
       "latestHeadline": "Reliance’s $19 Billion Rally Keeps India Stock Bulls in the Game - Bloomberg.com",
-      "relatedStoryCount": 2,
+      "relatedStoryCount": 1,
       "publishedAt": "2026-11-03T14:32:59.000Z",
       "sources": [
-        "Bloomberg.com",
-        "Rediff"
+        "Bloomberg.com"
       ],
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZGN2TDJQOXRVLXRrTGpGX25HVFJaelFxYVRKejdnMGZrRnlyX2hJdHF2WVhPLWpmYXc0aWhkdWNQMUQ2b1l4bURFYVhXYi1HU0oyMFZxRnlzSmdVOWF1cG5sU2lSOEk5NlFrX3pmTzlKdjIwS21zWkRKRGpzLWlvZUtkeHB0RlRCdXdqU0g4S0RDTVR3Z0hyaWFFcjlTN2d0WnV0dEphRE5STVFCNWh1SnhNLVktUkdwNEN4N2p1aWdnTTR6NV9pVGRR?oc=5"
-    },
-    {
-      "symbol": "COALINDIA",
-      "company": "Coal India Ltd.",
-      "industry": "Oil Gas & Consumable Fuels",
-      "relevanceLevel": "low",
-      "relevanceScore": 27,
-      "reason": "Company-specific development",
-      "latestHeadline": "RIL, Dixon Tech, Coal India among buzzing stocks: NIFTY trades over 23,200, SENSEX off day’s high - Upstox",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-11-02T08:12:49.000Z",
-      "sources": [
-        "Upstox"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMF94SmJzeFdURDJxN1dmZjU0eGF3Q1JoVnBYYXdJRnNPTUZNdndFQl9pS1MyMVNWenpKbldXN2hnQURSV2p0QzdlWHl4a3BWTHN0ZGFxU0MwdE1xODEyZGI1VkZIZ3VTX00zeFMwRzFMTVcyOS0yVkM0U0txdmJhLXk0c1ZVOWEzTlM5MWtCT091NnFqOGxzNTh6MjRETkxuNDl3OVhiVElmUTVZTW9hN184MFpIRVJNZGMwZUt4LUNtekJSdDhMdU1JVGt4ZlZEMGYybVZRRU1uYVNiTzlsaXE2ZkxFR3M?oc=5"
-    },
-    {
-      "symbol": "ITC",
-      "company": "ITC Ltd.",
-      "industry": "Fast Moving Consumer Goods",
-      "relevanceLevel": "low",
-      "relevanceScore": 19,
-      "reason": "Company-specific development",
-      "latestHeadline": "Top stocks to watch today: SBI, NSE, ITC, Sun Pharma, IDBI Bank shares in focus on Tuesday, 3 Nov | Full list - Livemint",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-11-03T01:47:56.000Z",
-      "sources": [
-        "Livemint"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPbm5sUENKT2N5bGFXb3o5NXhqdUpweTBTOWlRc2RzWU80Tnp0UDlYYXh4NG9McDlTb1dkcmliRGptVG9DbWxjQUNlM3BuOS1tTU1mVHJXdExCaXUxbDJHTjBhZ3FMVlRmVTFBUmxoWnRZRW1aNGs5VmxMaEc1YVBaS0V4VTQxWTV2WVpDd1VOQ1ZNbEdBZU85Q2tQeWlaUEx5QnBvQTA0a1V5eDBjQ01nM1hUR3kzQXpRQndSTlFqNU5TX3o2UFc3VGlER3lzMkpNOUpsZTlveG1uWGdaeVllaFE4bHE2T0RaeS1Lck91OV9LTEFfYVdzRWdyYjlMRmpl0gGGAkFVX3lxTE9zM0FLU0hKWUpseUNyOFR4TE1ETWYwTmpFZ01nQnMzOExaWjZOaFpuMFZIQTRiWUpfbkhoOGZxbmR5T1dINjh2cGZITGdNSWxBV2o0MEtYaGE0UWdOdFFmekFQb3NINFdDSGZ0RDdYeGROX1JTd0tBNjdld2lKRm8wdnpCR3VWaUpaalpoTDVZWWgwLVNqS25xNzJSVUpjNUZ6MUFMRktIY2FpeDRiQlFNTTh0b0R3bWNxeU9kMzZoa3V6RHc0ZHB5bjA4d1M3T3JjVXo4aWpUM1hJRWQtdUFnbnIzMTN6cW5Zc1FmVFhjM0hLNXo2eU54LVJyLTZFeXNYOUVrekE?oc=5"
     }
   ]
 }
