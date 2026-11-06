@@ -1,31 +1,15 @@
 {
-  "updatedAt": "2026-11-05T21:25:29.837Z",
+  "updatedAt": "2026-11-06T01:45:08.372Z",
   "source": "https://archives.nseindia.com/content/indices/ind_nifty50list.csv",
   "status": "ok",
   "error": null,
   "items": [
     {
-      "symbol": "BSE",
-      "company": "BSE Ltd.",
-      "industry": "Financial Services",
-      "relevanceLevel": "medium",
-      "relevanceScore": 48,
-      "reason": "Multiple related developments",
-      "latestHeadline": "Sensex Today Rallies 1,484 Points | Nifty Above 24,400 | BSE Auto Index Up 3.5% - Equitymaster",
-      "relatedStoryCount": 2,
-      "publishedAt": "2026-11-05T05:20:00.000Z",
-      "sources": [
-        "Equitymaster",
-        "Reuters"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNN1YzY1ZsWHM2c0NMUlpSMmJXdmxlbFVEUy1WWGZRV1hLQjdUSmhPcnE1bTlManFuV1NuZ1ZrTlBmeUY2Ukl4Q0JKLUE0aVl5Q0VGdnRuOGtRTmx6TjFNUk5BQ3JrQ3VnVm5Dd2xZV1BQdVg0anEtS1FMSjMxR2FLNS1ZRjFKOWREYkdFTEdydU1ZY0htci1pc050UUJqenp5TmFMaWNQTUVGNndJblgtUGUydExlYmhUc2ZoVVN2OC15c1lxRk1wcXExRmtSTTg?oc=5"
-    },
-    {
       "symbol": "COALINDIA",
       "company": "Coal India Ltd.",
       "industry": "Oil Gas & Consumable Fuels",
-      "relevanceLevel": "medium",
-      "relevanceScore": 44,
+      "relevanceLevel": "low",
+      "relevanceScore": 38,
       "reason": "Company-specific development",
       "latestHeadline": "Dividend stocks: Coal India, TCS, HUDCO, HCL Tech, GAIL among top 10 dividend paying stocks - Check yield, annual return - Livemint",
       "relatedStoryCount": 1,
@@ -39,8 +23,8 @@
       "symbol": "TCS",
       "company": "Tata Consultancy Services Ltd.",
       "industry": "Information Technology",
-      "relevanceLevel": "medium",
-      "relevanceScore": 44,
+      "relevanceLevel": "low",
+      "relevanceScore": 38,
       "reason": "Multiple related developments",
       "latestHeadline": "Dividend stocks: Coal India, TCS, HUDCO, HCL Tech, GAIL among top 10 dividend paying stocks - Check yield, annual return - Livemint",
       "relatedStoryCount": 2,
@@ -49,6 +33,21 @@
         "Livemint"
       ],
       "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPekRRZ3k4UGdGM0V1TFJYVlRZbHpjTzBCVVQ1dld6SEtkMk5NaU55a3RIazFON1NvaGtEMG5FU1JMUDVLRnlQZ2ZIaUxQTWlaai13ZF9uNnliYWlmVVpCWGxNbzUxc0o2ZktUVXNQT2RWVi1SMmstMzU0cHppZUdGcnEwMFhzUFZPaERjUG1mSThuQ0Rrb0ZSLWJJVE94TTZ4STRXX2gyVS1UQjgxS2ZHelg4Y0Rfemt5V0xXMl9SV24yanRKVlJMZGhYWjAyVWM5YTNMaGVnMVpEZlZVUXk1SmxvNFhUS3JtQ2tWUko4UnI1THVLQ01Zd3c1dDlia2VqWWxKMWRuU0JGY0VEVHpj0gGUAkFVX3lxTE1Bclp6emltOEt1UGxsYXNEUG4zYVdpTGhLekh2MjZaa1ZHUDgtZlN5M0tPM1I5NU9NcWpmOGRuRUhtRlUwRmdVdmdvRXpOWVdIaDM2SDJsWVlnVG5TbGJvZ3RCS2k3SEdGb2tPY05vSFpyYXM5WVVRV2FiWE1fcldQX3dmaENCWG51T1JWeEVXMHQyZ1dEZzFVNGtFNmNIblNsemZZT0RWeHI1cXlaSGZWRGVjTmJDQXNMblAwSGNiNEpmOFpPMXlGZU10dTBvWHRKMWhXVEI3bU1vNEQ0aDFSXzNpZExySWVpRWtGV2FDZ0Q0YUtlbWpZdVBFY2hqQnBtenA5NVVFWlk5RkE0UmRSdkJacw?oc=5"
+    },
+    {
+      "symbol": "BSE",
+      "company": "BSE Ltd.",
+      "industry": "Financial Services",
+      "relevanceLevel": "low",
+      "relevanceScore": 33,
+      "reason": "Company-specific development",
+      "latestHeadline": "Sensex Today Rallies 1,484 Points | Nifty Above 24,400 | BSE Auto Index Up 3.5% - Equitymaster",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-11-05T05:20:00.000Z",
+      "sources": [
+        "Equitymaster"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNN1YzY1ZsWHM2c0NMUlpSMmJXdmxlbFVEUy1WWGZRV1hLQjdUSmhPcnE1bTlManFuV1NuZ1ZrTlBmeUY2Ukl4Q0JKLUE0aVl5Q0VGdnRuOGtRTmx6TjFNUk5BQ3JrQ3VnVm5Dd2xZV1BQdVg0anEtS1FMSjMxR2FLNS1ZRjFKOWREYkdFTEdydU1ZY0htci1pc050UUJqenp5TmFMaWNQTUVGNndJblgtUGUydExlYmhUc2ZoVVN2OC15c1lxRk1wcXExRmtSTTg?oc=5"
     },
     {
       "symbol": "ITC",
@@ -109,6 +108,21 @@
         "Livemint"
       ],
       "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPN3BGQ2xtamlMengzekt1U2FXWFRLNkE5VnFBNkxtS05kTzlMWjJnRVZiWk9ldHBfNU45YVpyeXB3c1p3b25ibHFscVllbndUUDRHMEFiRmRjVzBmQWpSWDVVTnd0YkhULWVOUUY3LUFHdjhsT1FOckUxVGJxRmh6bkpoeHU0WXp2bG1rZkUxbmZYSjJMbTNRcDJsc09qUERTZWl4d2NXMTYxSkJ3OWVHS2RfdU9VRnNhdm92bmw1MlFkaUZEVENaUnIxVXB1cWx3c2dhb2cwRTNhblUzRmk0RXpXQkNKTGtDNW9pSUhEejZRMVBnQng4WERTNzVydm9ULTJtcmNidknSAY4CQVVfeXFMTmFFSWNlYnVZTW1WSnRXcnE3Tk1KRTBfUk9ZazJ0S0lTYjFMb0h5a3J4VDJPQnRlMThfTlI4cXFxNTczQlVEUkJBUHZYUzZ4c0trYk5yOFdwNmVkVW9WQkZ3NC00cU1NSGhCSmI4Q3JwVnFWX3pKSk5xUmVyeGhNc0YxRF9zS2E1TDJXQjRfamViVThlYjNkUDBjdjF1RkladDd3OU4wbEkyTXh0RWFPTEF5SmFrSHdVSFJ4VWJzYW1fUEhVdkVtUkY5Mmp1VmktYmszOVVuZEMtNloyV0ZWVzc3ay1WX0hFSnBFRVJZZi10WG9RbkQ0Rk9tWjZjazFJdlpvM2VoUEduQkxjUG5B?oc=5"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "company": "HDFC Bank Ltd.",
+      "industry": "Financial Services",
+      "relevanceLevel": "low",
+      "relevanceScore": 23,
+      "reason": "Company-specific development",
+      "latestHeadline": "Sensex Today Rallies 700 Points | Nifty Above 23,600 | HUL & HDFC Bank Top Gainers - Equitymaster",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-11-03T04:36:09.000Z",
+      "sources": [
+        "Equitymaster"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbEFjcTFyMjFZTFNLNEVhbFpFY1FKcGZwWUpMWVQyS3NXUHM0UDVBRFRkdWt0VGZiZWo2ZkJyVVNLZ3YtVjk5TTRmNXg5ZThuTEcyMW5rZGkyMWw5MDc1VjQ3cEd0S2xlcVI2cjBGOU5zbGVvWVBDbmpfM1VfLVNEeGZ6bF85WTVYWEI1cTFwMHo5Ump3XzllY0ZvR1dPY2dXdzdyNlF1Z201LVNkRzVRbU9CdVh2OEFZLUQ2TXA5bWtNaTNvLUxYWjhhcmlDdVUxaVFrTTdR?oc=5"
     }
   ]
 }
