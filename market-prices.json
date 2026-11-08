@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-11-08T09:11:18Z",
+  "updatedAt": "2026-11-08T15:59:58Z",
   "instruments": [
     {
       "key": "nifty",
       "label": "NIFTY 50",
-      "price": 25030.3496,
-      "change": 493.7496,
-      "changePct": 2.012,
-      "sourceTimestamp": "2026-11-06T09:55:00Z",
+      "price": 24986.4004,
+      "change": 449.8004,
+      "changePct": 1.833,
+      "sourceTimestamp": "2026-11-08T10:00:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Last available"
+      "status": "Delayed"
     },
     {
       "key": "banknifty",
       "label": "Bank NIFTY",
-      "price": 59086.0,
-      "change": 1312.35,
-      "changePct": 2.272,
-      "sourceTimestamp": "2026-11-06T09:55:00Z",
+      "price": 58850.6484,
+      "change": 1076.9984,
+      "changePct": 1.864,
+      "sourceTimestamp": "2026-11-08T10:00:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Last available"
+      "status": "Delayed"
     },
     {
       "key": "sensex",
       "label": "Sensex",
-      "price": 81028.0234,
-      "change": 1718.0134,
-      "changePct": 2.166,
-      "sourceTimestamp": "2026-11-06T09:55:00Z",
+      "price": 80999.3984,
+      "change": 1689.3884,
+      "changePct": 2.13,
+      "sourceTimestamp": "2026-11-08T10:00:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Last available"
+      "status": "Delayed"
     },
     {
       "key": "sp500",
@@ -84,10 +84,10 @@
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 75786.6406,
-      "change": 32.9306,
-      "changePct": 0.043,
-      "sourceTimestamp": "2026-11-08T09:11:17Z",
+      "price": 75965.8281,
+      "change": 212.1181,
+      "changePct": 0.28,
+      "sourceTimestamp": "2026-11-08T15:59:52Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
