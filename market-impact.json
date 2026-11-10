@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T20:46:43Z",
+  "updatedAt": "2026-11-10T00:26:33Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
@@ -16,32 +16,32 @@
     "banknifty": {
       "label": "Bank NIFTY",
       "priceSource": "Yahoo Finance chart",
-      "points": 2183
+      "points": 2182
     },
     "sensex": {
       "label": "Sensex",
       "priceSource": "Yahoo Finance chart",
-      "points": 2179
+      "points": 2178
     },
     "sp500": {
       "label": "S&P 500",
       "priceSource": "Yahoo Finance chart",
-      "points": 2225
+      "points": 2226
     },
     "nasdaq": {
       "label": "Nasdaq Composite",
       "priceSource": "Yahoo Finance chart",
-      "points": 2225
+      "points": 2226
     },
     "gold": {
       "label": "Gold",
       "priceSource": "Yahoo Finance chart",
-      "points": 2227
+      "points": 2228
     },
     "crude": {
       "label": "WTI Crude Oil",
       "priceSource": "Yahoo Finance chart",
-      "points": 2227
+      "points": 2228
     },
     "usdinr": {
       "label": "USD/INR",
@@ -51,7 +51,7 @@
     "bitcoin": {
       "label": "Bitcoin",
       "priceSource": "Yahoo Finance chart",
-      "points": 3234
+      "points": 3235
     }
   },
   "eventTypes": {
@@ -556,8 +556,8 @@
           "oneDay": {
             "sample": 115,
             "directionReady": true,
-            "upPct": 57.4,
-            "downPct": 42.6,
+            "upPct": 58.3,
+            "downPct": 41.7,
             "flatPct": 0.0,
             "avgReturnPct": 0.04,
             "avgAbsMovePct": 0.9,
@@ -580,10 +580,10 @@
         "banknifty": {
           "label": "Bank NIFTY",
           "oneDay": {
-            "sample": 115,
+            "sample": 114,
             "directionReady": true,
-            "upPct": 49.6,
-            "downPct": 50.4,
+            "upPct": 50.0,
+            "downPct": 50.0,
             "flatPct": 0.0,
             "avgReturnPct": -0.11,
             "avgAbsMovePct": 1.04,
@@ -606,14 +606,14 @@
         "sensex": {
           "label": "Sensex",
           "oneDay": {
-            "sample": 115,
+            "sample": 114,
             "directionReady": true,
-            "upPct": 57.4,
-            "downPct": 42.6,
+            "upPct": 57.9,
+            "downPct": 42.1,
             "flatPct": 0.0,
             "avgReturnPct": 0.03,
-            "avgAbsMovePct": 0.89,
-            "medianAbsMovePct": 0.61,
+            "avgAbsMovePct": 0.9,
+            "medianAbsMovePct": 0.62,
             "maxAbsMovePct": 8.97
           },
           "threeDay": {
@@ -778,8 +778,8 @@
             "upPct": 51.3,
             "downPct": 48.7,
             "flatPct": 0.0,
-            "avgReturnPct": 0.11,
-            "avgAbsMovePct": 3.3,
+            "avgReturnPct": 0.1,
+            "avgAbsMovePct": 3.31,
             "medianAbsMovePct": 2.1,
             "maxAbsMovePct": 18.07
           },
@@ -3136,32 +3136,32 @@
       "banknifty": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2183
+        "points": 2182
       },
       "sensex": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2179
+        "points": 2178
       },
       "sp500": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2225
+        "points": 2226
       },
       "nasdaq": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2225
+        "points": 2226
       },
       "gold": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2227
+        "points": 2228
       },
       "crude": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2227
+        "points": 2228
       },
       "usdinr": {
         "status": "ok",
@@ -3171,7 +3171,7 @@
       "bitcoin": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 3234
+        "points": 3235
       }
     }
   }
