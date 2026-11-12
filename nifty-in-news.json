@@ -1,59 +1,29 @@
 {
-  "updatedAt": "2026-11-12T09:58:23.426Z",
+  "updatedAt": "2026-11-12T18:10:15.015Z",
   "source": "https://archives.nseindia.com/content/indices/ind_nifty50list.csv",
   "status": "ok",
   "error": null,
   "items": [
     {
-      "symbol": "INDIGO",
-      "company": "InterGlobe Aviation Ltd.",
-      "industry": "Services",
-      "relevanceLevel": "low",
-      "relevanceScore": 38,
-      "reason": "Multiple related developments",
-      "latestHeadline": "Oil price cool-off lifts OMC, paint, tyre and aviation stocks; IndiGo gains 4% - The New Indian Express",
-      "relatedStoryCount": 2,
-      "publishedAt": "2026-11-11T12:38:00.000Z",
-      "sources": [
-        "The New Indian Express",
-        "Fortune India"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNemZGbXFYamdxcXhHUkJrNVlleWI5TXc2c0lYeEw4OXU5Q2RianN3NXlKT2lHa0NKZHNaaXJvYU8tTUVUQ1FabVFxd2s3MXNad05UTnVtMG9DeUxXaEtzYXdHeWN0VEZPYXEtSTFmbVl6MU5EQktOQUlwLXl0VUpjMklGZThvM3gxOUVqNVBvMUpNSk1icmxjck13SlVYbk9icnRuUk9MY3NNaHhUWFNJZmhCSlR1cUZpUUVReFNuenF2NGtKN0FF0gHUAUFVX3lxTE1qRkxsVHdVdDlFZUZpRjRaOFNwbXUta05iRl9JVUFyeUNTMVdUeTFzOFhyTmE2OWY5akZ4RGoxSXJtY1pqSzZOb3o4V05sN1dyem1seWJKeC1xVXp0RlFJM3J6amx2VUhIcnBvQjVVNnVUQTVsVXROdzA1akxPSXBYOFRPX19tWXNzaTRENmZXOGNtX0Y3Y1VJZ0lCcDNVdjh6Vlc4c3VIV19qbVo1aFB1c0FheFJnRlhnWmdtUUY1N09oQnRxRlg1dnlYUkhhTVdiYks3?oc=5"
-    },
-    {
-      "symbol": "COALINDIA",
-      "company": "Coal India Ltd.",
-      "industry": "Oil Gas & Consumable Fuels",
-      "relevanceLevel": "low",
-      "relevanceScore": 37,
-      "reason": "Company-specific development",
-      "latestHeadline": "India's Next Billion-Dollar IPO? Coal India subsidiary Mahanadi Coalfields in line after Jio, NSE - key things to know - Livemint",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-11-12T09:46:13.000Z",
-      "sources": [
-        "Livemint"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQcFZ6cE9HVDFBZ3lTYUVRWVhvZVdsdHRmclJWS21NbHdxZnpJQ0M1WFhOMnVRM1hyblhiYWhPYlNTdV80eUxFVGtLckpfdjdjM3FIY3ZSSHBodVZ3bzU3eG92WndNZjRObWRRc3I5MXducjkySTNHSlFBaGVmN25BT1BkdGZjZlRCQ1V5V0EtTkZpZjFuWkp0VllIa0kxcVVLcFFqLUNPVUVBSmZGVFViUTdUOWxQdThKdVExWEtjNVR3RmlERW1uY2pxcEdkVVBVYUM4WVNkb1Y2azBKSS1EdFhBaHp4MWN6QkVGcUVoXzRMMGZ5YVBudnliRDFTZ9IBgwJBVV95cUxNX3JjMEhab3NNeUJOTDhiLUZHVlc4eUNXRDhmYkE1aFRObG1xZWJVNElnZnQ0bHR5Tm1tVmtucEF6SzZBalhsWjNrVVMxU3ZCOTcwMy0yWW1SUVk1S0E2UE8tUXZ1U1JqTHE1cmx5R1RnRGpoUEIzUVkzRk9aS3R4ZkFNbmlXa2szSm9lZUJuMXc0cVcxRHhueVVVOUk4U3Z5MEdfYzVqVnpzQ1VhaUxZMWZ4eTF0ajVsaklYblZiUm5UMXUyOVZ3UUttWjVKYl9KQUxfVGN1VEx0MUdiRnNfaC1CTUdKMWRnZk1qd29KNUtvelhiWVdyZFpWcDVscnlpRURJ?oc=5"
-    },
-    {
-      "symbol": "SBIN",
-      "company": "State Bank of India",
-      "industry": "Financial Services",
-      "relevanceLevel": "low",
-      "relevanceScore": 31,
-      "reason": "Company-specific development",
-      "latestHeadline": "State Bank of India Valuation Shifts Signal Changing Market Sentiment - MarketsMojo",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-11-12T07:15:54.000Z",
-      "sources": [
-        "MarketsMojo"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYnl1LVBnNkRlU2lmT2F6MlN2MHVfak1pSDFLSEpvOHlDUGV2alZJamNiY1IzeDRpakhyd3JHS1FLVS1oQ1NGaDR3SndYSk5ieWVJQ0VIaERqT1RKenVfemc5VDRnLTdIRTN1bFZYOFVPZzdOMV9rQUZGUkxMLVFENlM1Ymtzd05EbkIyR3kzdjkyZHhDSUFaMWkzdWl6dWE2WXc5MGMzSkJmTFpTZlhUNV93LVl4eklTcU9BSUxOaWJJck4xM2c?oc=5"
-    },
-    {
       "symbol": "M&M",
       "company": "Mahindra & Mahindra Ltd.",
       "industry": "Automobile and Auto Components",
+      "relevanceLevel": "low",
+      "relevanceScore": 31,
+      "reason": "Company-specific development",
+      "latestHeadline": "Stocks to Watch for November 13: IRCTC, Oil India, M&M, Ola Electric, Hitachi Energy and more - CNBC TV18",
+      "relatedStoryCount": 2,
+      "publishedAt": "2026-11-12T12:17:21.000Z",
+      "sources": [
+        "CNBC TV18",
+        "Fortune India"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWEh5cElTLVFfZ1RfZDk2bnFCMGJYR3VST1MxUmYzRkR4NUJXQm9ha3pqbFBoa0VIaWlNVDczb0F2dUNLNTU0QjdXTE1kZnBMTjBMd2tpdms2a3loc2RJc0N3ZXptalIycGNPUks4WmZQdERKV3pTNHQzejRmZ3dRanFhNGNTeExiTTZNQTM2Y2ZnT2d4T09xVHl5b3JkYkU1SFZQbGRQWFI0N0tsdWxNYkFON3N4YkVTSDVaeGNZdnd6RlZwbTdSLTZQbXhfZHYxeVFCVDVR0gHbAUFVX3lxTE9HYWtaWllnbmJxcnZ6MExQUGlOSjE3VzNGcE83Y3lsUWFtM0llcnhBajdEbERpamdpS2dMeExXRVNUX2hLVElOYUhveGxRN2xHLVhMZGY2ek9XNTRudzQwejRQNmI3cXBUQXY5ZThhOG01Z00yZ2NNb0dvNjlfUTZLeHNUaEppNDFsMVZKeDNmYmRiRGFrSWhlc0pJdVl0Z0dNWXJYSHN5RWQwQ0lYS3hLTHc2Q2l4ZWNpTXBPbFktUHZadEVPLVhYVW14RlUwaXRRTU1JeElQdnJJZw?oc=5"
+    },
+    {
+      "symbol": "INDIGO",
+      "company": "InterGlobe Aviation Ltd.",
+      "industry": "Services",
       "relevanceLevel": "low",
       "relevanceScore": 27,
       "reason": "Company-specific development",
@@ -96,6 +66,36 @@
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNa2pzSm1LNGRjeVNmMFRaNGNua0NzNGROai1zdl9paTliZUNJRDFhZkhjMzRCQlBjb2p3bUpfOV9PSkotRkh6cWJJT1NHaklUblAxa2x1blBzbWFYZ2YxZ2pfMmN5X0Fla3drMHJkR2diemVhSG82ZXB6Y2E1dkhZX3pqNEhMb1Nnb1NLU2xvclU5ZXhCSDRrLXF4c3l0ZlRIZFA4dlVXS25zMGZ3d2lOdUJZdy0yMHoyWUVjaVJXQnVrT2xKVlJENnlnYm4tLWtMRS13WkFiQWdIanVVbXRUUFp3SkYxdVpHclpVTHExaw?oc=5"
     },
     {
+      "symbol": "COALINDIA",
+      "company": "Coal India Ltd.",
+      "industry": "Oil Gas & Consumable Fuels",
+      "relevanceLevel": "low",
+      "relevanceScore": 25,
+      "reason": "Company-specific development",
+      "latestHeadline": "India's Next Billion-Dollar IPO? Coal India subsidiary Mahanadi Coalfields in line after Jio, NSE - key things to know - Livemint",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-11-12T09:46:13.000Z",
+      "sources": [
+        "Livemint"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQcFZ6cE9HVDFBZ3lTYUVRWVhvZVdsdHRmclJWS21NbHdxZnpJQ0M1WFhOMnVRM1hyblhiYWhPYlNTdV80eUxFVGtLckpfdjdjM3FIY3ZSSHBodVZ3bzU3eG92WndNZjRObWRRc3I5MXducjkySTNHSlFBaGVmN25BT1BkdGZjZlRCQ1V5V0EtTkZpZjFuWkp0VllIa0kxcVVLcFFqLUNPVUVBSmZGVFViUTdUOWxQdThKdVExWEtjNVR3RmlERW1uY2pxcEdkVVBVYUM4WVNkb1Y2azBKSS1EdFhBaHp4MWN6QkVGcUVoXzRMMGZ5YVBudnliRDFTZ9IBgwJBVV95cUxNX3JjMEhab3NNeUJOTDhiLUZHVlc4eUNXRDhmYkE1aFRObG1xZWJVNElnZnQ0bHR5Tm1tVmtucEF6SzZBalhsWjNrVVMxU3ZCOTcwMy0yWW1SUVk1S0E2UE8tUXZ1U1JqTHE1cmx5R1RnRGpoUEIzUVkzRk9aS3R4ZkFNbmlXa2szSm9lZUJuMXc0cVcxRHhueVVVOUk4U3Z5MEdfYzVqVnpzQ1VhaUxZMWZ4eTF0ajVsaklYblZiUm5UMXUyOVZ3UUttWjVKYl9KQUxfVGN1VEx0MUdiRnNfaC1CTUdKMWRnZk1qd29KNUtvelhiWVdyZFpWcDVscnlpRURJ?oc=5"
+    },
+    {
+      "symbol": "SBIN",
+      "company": "State Bank of India",
+      "industry": "Financial Services",
+      "relevanceLevel": "low",
+      "relevanceScore": 25,
+      "reason": "Company-specific development",
+      "latestHeadline": "State Bank of India Valuation Shifts Signal Changing Market Sentiment - MarketsMojo",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-11-12T07:15:54.000Z",
+      "sources": [
+        "MarketsMojo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYnl1LVBnNkRlU2lmT2F6MlN2MHVfak1pSDFLSEpvOHlDUGV2alZJamNiY1IzeDRpakhyd3JHS1FLVS1oQ1NGaDR3SndYSk5ieWVJQ0VIaERqT1RKenVfemc5VDRnLTdIRTN1bFZYOFVPZzdOMV9rQUZGUkxMLVFENlM1Ymtzd05EbkIyR3kzdjkyZHhDSUFaMWkzdWl6dWE2WXc5MGMzSkJmTFpTZlhUNV93LVl4eklTcU9BSUxOaWJJck4xM2c?oc=5"
+    },
+    {
       "symbol": "BHARTIARTL",
       "company": "Bharti Airtel Ltd.",
       "industry": "Telecommunication",
@@ -109,66 +109,6 @@
         "Equitymaster"
       ],
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUXBJVlF3TzVldFBKYlpVYVpJV3ZxVzg1eUFHNmhrUjJnV3dlRk9SRmNwTVR0ZGdldm8teEE3WkR6OWs3dVRtNDBmS2NNVk1vODZCY1Y2VHpMbHRyVnlTZTRDSXJLcGVZa2NxSVpTOGJtUmxxU1kwb0ZiUldsWjNVZms0Y2ZIWDFtVHlMMTE1Skt3U3B1V2stRTkybW1rSzMtYnc0cm5ycXV1STdJbXFTQ25BVlF4QWdMSDNBS3REWE5xMng4T3pHLXZZNGQ0Mi1XOVZ4aFlqaEs?oc=5"
-    },
-    {
-      "symbol": "HDFCBANK",
-      "company": "HDFC Bank Ltd.",
-      "industry": "Financial Services",
-      "relevanceLevel": "low",
-      "relevanceScore": 23,
-      "reason": "Company-specific development",
-      "latestHeadline": "NIFTY, SENSEX continue to trade lower in noon deals; HDFC Bank, SBI, L&T, PVR Inox, Divi's Labs among top buzzing stocks - Upstox",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-11-09T06:36:23.000Z",
-      "sources": [
-        "Upstox"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmpvWTEtVzZQaFRJT0YtMm5SVnh0VDV4QTJBTXczT2FtcnJPS0tlUm9YRUd2RlZzaHI4dWJ6QVRlLWVPYlpvTUFTYzBPWDZwemtBQ0lPVnd1bVphSWszdW1ublpubThqYTdvbUQwY2JlZm5fTFIweUJINHFYT3dIdTJ3OHVITUdXejg0LTduQXUzRF9mY2ljNnAzZWRpMEVRTXFpeUlGZjdKUS1TTGZwNXVSODZ3bVJ1d09rSC1Cb0VEbUVmOWN6dVJaaHlFeDl0T250QVdRQ2NGUmxTZ19z?oc=5"
-    },
-    {
-      "symbol": "RELIANCE",
-      "company": "Reliance Industries Ltd.",
-      "industry": "Oil Gas & Consumable Fuels",
-      "relevanceLevel": "low",
-      "relevanceScore": 19,
-      "reason": "Company-specific development",
-      "latestHeadline": "Upcoming IPOs with shareholder quota: Reliance Retail, JSW One, IGX, Mahanadi Coalfields & more - Upstox",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-11-11T08:49:42.000Z",
-      "sources": [
-        "Upstox"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNTFFVXJ6ekh4d2FURThiTmdDTWp2SDVDcHdSYVpNQkIwU0NDd3F5YzZTRlhVNXk3T21EMFh1MnRRWWFSUDd0TVdtY0Y3ZklicnZuVUxqV2tvZ2F0YVBLVHRpVmxpc0kyWDlJemZxTEdwU2F3V0l0bEVCWW5vQy1lUTJ6a2w4dnJtYmJPX0gxbzktQmJtOHpjWHVSZEtudF96RWU4UjFDOGZfVW9hVER3RzZlLWx2SjVILWhHeVpMTXVwY2R6ZDE0R3hhTWRZTXBiNUd3cjZsRlExczE1OXJLSnRTb1U?oc=5"
-    },
-    {
-      "symbol": "ETERNAL",
-      "company": "Eternal Ltd.",
-      "industry": "Consumer Services",
-      "relevanceLevel": "low",
-      "relevanceScore": 19,
-      "reason": "Company-specific development",
-      "latestHeadline": "At new highs! Eternal, Groww, Adani Ports, Ather, 16 more NSE 500 stocks - Business Standard",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-11-11T05:42:47.000Z",
-      "sources": [
-        "Business Standard"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORTR6T3NuWXFaZDhwbl9HcmhfREhRT29BZ3VqWWR5aTJpZkRlT1lxRlM1YThkM05iM0I5TF8xamlaT0RkcTNXNTFQUVZVUGxQak5UX1pSRkdQLXhJWnU5MlFtR0NhaVl2VXRJYnV5Z1Znai1GUzl1dXl1NUhiSDBMOGhRekI0XzRoRkRobFphb1lWVnFQZkVhakp2dlVjNV9WdFdxbXFfLVRYWVZJY3JQVUYyNlNTZWlBREdoa1E0VlZ1Z25YdTBxdGgxMzN3elnSAdQBQVVfeXFMUHlVbHZtdFRJOU1EWWc5S0hSNGdPVWFCcDdocVJuUnVmbzFIUmVlTlFlS0U5S2xTTXZtck9oQmNMYkVnQ1VYZXhZaVdKZHpOUDJUTTNwVzhaS09wNmdRdlVRVTluejVLQ251VEFRVXBkUVdua2hsRE43bzdZUW5tVWhVZlNiUjhXaGpzelFSQkNFTTZOQmFCLWY2bGlaNTV0U3JuQ3Nmbzg4MzhFQVVwRUsyRnZHR3dzRFZVbW9sWjVBWnRUZzdmRGRKSVJpZ29tZVFwNW8?oc=5"
-    },
-    {
-      "symbol": "BSE",
-      "company": "BSE Ltd.",
-      "industry": "Financial Services",
-      "relevanceLevel": "low",
-      "relevanceScore": 15,
-      "reason": "Company-specific development",
-      "latestHeadline": "Is stock market closed tomorrow in India? Holiday in NSE, BSE or trading of shares allowed? Check exchange calendar - TradingView",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-11-09T12:18:41.000Z",
-      "sources": [
-        "TradingView"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUjJZbk02bW5TVzJzeVV4NXdjWk16VXQ0ZTBWTjNUdEtMOVRTUFh6NElpS3gybWViZWdsSklpYW8tOEJJUGRqV2ZMdWFlRDBGY1BHRGUxOHZVRWFROGpEMExwOGIzam5UVXpBR3BWTjVGclJUZ2I0TEdkSVN6ZFp6d0Q4NlVMaVBoWlVkS0xFRjQ0YkZSZExwVjU2dS1ZSWFWZnF0NEFUQVJjeVMydklEbGRoU2UzNTVMb3dlRjRWVVhKTWwwQXQ5SXV4M2VrT3dxNnM0d3V1dldRNWZQcWd3ZzluV3hPamtwMWx5SFBhOVpIbmd5Z2wxbEh3UloyUQ?oc=5"
     }
   ]
 }
