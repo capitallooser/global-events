@@ -1,31 +1,46 @@
 {
-  "updatedAt": "2026-11-15T09:39:20.797Z",
+  "updatedAt": "2026-11-15T16:37:24.152Z",
   "source": "https://archives.nseindia.com/content/indices/ind_nifty50list.csv",
   "status": "ok",
   "error": null,
   "items": [
     {
+      "symbol": "BSE",
+      "company": "BSE Ltd.",
+      "industry": "Financial Services",
+      "relevanceLevel": "medium",
+      "relevanceScore": 49,
+      "reason": "RBI / regulatory action",
+      "latestHeadline": "SEBI, BSE and Market Institutions Promote Investor Awareness at IITF 2026 Through ‘Bharat Ka Share Bazaar’ Pavilion - The Newsman of India",
+      "relatedStoryCount": 1,
+      "publishedAt": "2026-11-15T15:18:55.000Z",
+      "sources": [
+        "The Newsman of India"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdVllM1NzVGdScW5zcm1vc1dKWW54UWVkZ3NQdkNqLXV1T0h4elBoNGFIeXFmbVRkYlpFdE5EZTU2b1ZNRXkxQmVBY3JXN3hwT2ktZ2VCVVNPM2FmS0NFWWF2TFpNV0kxRi1FN3FCSnZLVEdpYTBXNlM0S2lpNU5JQlRBMlJTaVY3aTdndUs0NkpNWmRSNWhma1FrMmtKYjdVT09uUHQ0UjJSbTlQbFRfNVBPbzNOUnlzZlB1SzE3bTJLVHBrRm96MkRfTGNmSHNoYXNkVDhGUDdtYnc?oc=5"
+    },
+    {
       "symbol": "COALINDIA",
       "company": "Coal India Ltd.",
       "industry": "Oil Gas & Consumable Fuels",
       "relevanceLevel": "low",
-      "relevanceScore": 38,
+      "relevanceScore": 32,
       "reason": "Company-specific development",
-      "latestHeadline": "Beyond Coal India, ONGC: 10 lesser-known dividend stocks with up to 19.6% yield - Premco, GOCL, Accelya to D-Link | List - Livemint",
-      "relatedStoryCount": 3,
-      "publishedAt": "2026-11-14T16:01:01.000Z",
+      "latestHeadline": "Coal India's Mahanadi Coalfields IPO: Stage set for launch, price band tomorrow; GMP, allotment, listing, other details - Livemint",
+      "relatedStoryCount": 4,
+      "publishedAt": "2026-11-15T09:35:41.000Z",
       "sources": [
         "Livemint",
         "scanx.trade"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPblYza2pYdjlmeEQ5X2laTXRqRnVabnVWUWRSLWY2WlJsR0NrWVZPWk94Z1cyQU9oLVpGLUZTUDhGa1prN2RtMF9panpUdzNuRU0tUzkzLWxlUjdNSWxhcUQtRlE2dFJwdVdzVnNKWGE0dVdMR2ZkeUhEdzlkRlpvSEVGc3FkRzlZX09meS1BYlRvdTB2Y1FfZ2cyNHViZmVBZWxVcXd5NGJPM0RPLXRWamtpZXB4VE5OQWZwaU9IUDFESW1RSi1KNlp1VGtEZEktMllKS3ZvcmxJWV9rUG5ucXhoeUZXTDAybGZ1amJQMmpyTksxQmdrQmFZMVV2NW5CbTBDWThIRGR2YXPSAZACQVVfeXFMT0ctY1BCWDl5ZWRzdEFDS0g4aEk3amdwZmNIZ1UyQjF2YUplekl4bzFXbkhXNjVwTnMzZk43OElzX2ZnZ1BHNk4wNkFuN3dYdERZLUlXVVdNbC1GdEJzSEpqY2d6MmstV1BDeV9rV2tTQkxDc2ZzSHMxN08wME9kLTBZNWptQ2Q2NWJmSWdMREV0cEFNeTZVTWtsamp4Uzl4SHp6MThVVnZxVEk4OG9yZ3dpSnJJejlrVUE0THJvNjc4WXJlQzc4Y3A1QWdidGVKd0RxdkdPcnhDR1U1NzFYb0hmYVhMV2JPSlhrM3hVd19XSTJpb1JlS21LMkRNbzNPSC1uVXFnTmVTSGt0YzNHcUk?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMDBVM1A2YldlckZ4VFozdzZua1FrTzV6WmpySWgwZkU2VnVLZGFMQkhhT3Vkb080RkxDMXhSakFCYXNKN0JoakJULW9qZjNBbmNCQkhzendFSENnODhPNkRpTkNDQTFIWXNaT3dFcFBvSTlRamhpQVFnVzZDMGRNYXFfUHlqMWJ2UC00SFcxRzN4djdGV2hrZ3JHQ0FuOERDbVJJQ2lBU1BHNW9qQ2t0VXE1bjRobmlJTnp3U2ZzaXdVMFd3QTVINlcxazVTMU9IMUxnczkwLWNIc082b0tWaDdwT1lNMVRRbGJNMTBUQjdxRTA1eXJEZklSWVHSAYICQVVfeXFMTUtnX0I3RmstYzZxdmVFUXhxNllyTHlpUVhvVlk0LU9sT2xjaDNjT3g1eEI2SGYwTThqZENwZEVjYzFFNE5KSERyQTJaS3B3Sk02Z2JZU24wSElTemtNVkZUNk9JVXhyUXBIQ2dRRjFXTUpobFZVQkktWEhjLUFabHhGc2tUY3VteTc4MzZienNBc1Iwcm5SRVltRDZ3aE13eGlrY2JqMTNHaUVKMHA1bmFWMklaNnVYVkNUOE85WGtobmNBNVhfbzZmYjVpRkQxend2ZThRYzBWZ013VlJUQVVxZFhUWmUtdWZUM0l6aFFMNEQyM2NtTVdsMXdxV25jbEpn?oc=5"
     },
     {
       "symbol": "ONGC",
       "company": "Oil & Natural Gas Corporation Ltd.",
       "industry": "Oil Gas & Consumable Fuels",
       "relevanceLevel": "low",
-      "relevanceScore": 38,
+      "relevanceScore": 32,
       "reason": "Company-specific development",
       "latestHeadline": "Beyond Coal India, ONGC: 10 lesser-known dividend stocks with up to 19.6% yield - Premco, GOCL, Accelya to D-Link | List - Livemint",
       "relatedStoryCount": 1,
@@ -36,34 +51,19 @@
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPblYza2pYdjlmeEQ5X2laTXRqRnVabnVWUWRSLWY2WlJsR0NrWVZPWk94Z1cyQU9oLVpGLUZTUDhGa1prN2RtMF9panpUdzNuRU0tUzkzLWxlUjdNSWxhcUQtRlE2dFJwdVdzVnNKWGE0dVdMR2ZkeUhEdzlkRlpvSEVGc3FkRzlZX09meS1BYlRvdTB2Y1FfZ2cyNHViZmVBZWxVcXd5NGJPM0RPLXRWamtpZXB4VE5OQWZwaU9IUDFESW1RSi1KNlp1VGtEZEktMllKS3ZvcmxJWV9rUG5ucXhoeUZXTDAybGZ1amJQMmpyTksxQmdrQmFZMVV2NW5CbTBDWThIRGR2YXPSAZACQVVfeXFMT0ctY1BCWDl5ZWRzdEFDS0g4aEk3amdwZmNIZ1UyQjF2YUplekl4bzFXbkhXNjVwTnMzZk43OElzX2ZnZ1BHNk4wNkFuN3dYdERZLUlXVVdNbC1GdEJzSEpqY2d6MmstV1BDeV9rV2tTQkxDc2ZzSHMxN08wME9kLTBZNWptQ2Q2NWJmSWdMREV0cEFNeTZVTWtsamp4Uzl4SHp6MThVVnZxVEk4OG9yZ3dpSnJJejlrVUE0THJvNjc4WXJlQzc4Y3A1QWdidGVKd0RxdkdPcnhDR1U1NzFYb0hmYVhMV2JPSlhrM3hVd19XSTJpb1JlS21LMkRNbzNPSC1uVXFnTmVTSGt0YzNHcUk?oc=5"
     },
     {
-      "symbol": "EICHERMOT",
-      "company": "Eicher Motors Ltd.",
-      "industry": "Automobile and Auto Components",
+      "symbol": "RELIANCE",
+      "company": "Reliance Industries Ltd.",
+      "industry": "Oil Gas & Consumable Fuels",
       "relevanceLevel": "low",
-      "relevanceScore": 28,
-      "reason": "Earnings / guidance",
-      "latestHeadline": "Q2 Results, Nov 13: Grasim, Eicher Motors, ABB India, Tata Motors PV, Manipal Health, Indo-MIM, RVNL, Godrej Industries, others to post earnings - Upstox",
+      "relevanceScore": 31,
+      "reason": "Company-specific development",
+      "latestHeadline": "Reliance Takes on India's ₹90,000 Crore Biscuit Market: Can It Replicate the Campa Success? - Trade Brains",
       "relatedStoryCount": 1,
-      "publishedAt": "2026-11-13T02:52:50.000Z",
+      "publishedAt": "2026-11-15T12:30:37.000Z",
       "sources": [
-        "Upstox"
+        "Trade Brains"
       ],
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQR21QbTdmTnZZTmpKN3FBRXNMU3QtWEtHclhDMUxpZm9ERC0zcWhRc3BuYlh4WW5ESHpJRDZTNk5xeXR5RE0zQUtHSVlaaXYzZlNhUTNSYkdtNHZ4WXRJR25OdTU0c2tCQUZmcllRcTd2Nmx5TFkzcXpmUGpOTGNfTzZBdFNWZE95VFhOdU1Ba0pSRkdHd1JIX191MkxqRm4zUkEweTZCcmpyZEh3b0VpYndyMmZwMHFrY3lxZ2NuM0ZJSlk4X2xFWHQ0Q2FfSDZsU0ZSeXp5RVRtcm1kQ2paRWlReXQ4RjF2ZmM3THRiTjVGbDBscGJtdnVrY0dELTBQdzZUbDVJdThmRmMwbkpoalpwbXV0NFdzdG5kTkl2WHk?oc=5"
-    },
-    {
-      "symbol": "GRASIM",
-      "company": "Grasim Industries Ltd.",
-      "industry": "Construction Materials",
-      "relevanceLevel": "low",
-      "relevanceScore": 28,
-      "reason": "Earnings / guidance",
-      "latestHeadline": "Q2 Results, Nov 13: Grasim, Eicher Motors, ABB India, Tata Motors PV, Manipal Health, Indo-MIM, RVNL, Godrej Industries, others to post earnings - Upstox",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-11-13T02:52:50.000Z",
-      "sources": [
-        "Upstox"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQR21QbTdmTnZZTmpKN3FBRXNMU3QtWEtHclhDMUxpZm9ERC0zcWhRc3BuYlh4WW5ESHpJRDZTNk5xeXR5RE0zQUtHSVlaaXYzZlNhUTNSYkdtNHZ4WXRJR25OdTU0c2tCQUZmcllRcTd2Nmx5TFkzcXpmUGpOTGNfTzZBdFNWZE95VFhOdU1Ba0pSRkdHd1JIX191MkxqRm4zUkEweTZCcmpyZEh3b0VpYndyMmZwMHFrY3lxZ2NuM0ZJSlk4X2xFWHQ0Q2FfSDZsU0ZSeXp5RVRtcm1kQ2paRWlReXQ4RjF2ZmM3THRiTjVGbDBscGJtdnVrY0dELTBQdzZUbDVJdThmRmMwbkpoalpwbXV0NFdzdG5kTkl2WHk?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcFJaTmRLTWpMX25TaGl4Tnh4SlRDSE95Q296ZFNwNzU4QVZGSTFXeGlQMnJFMFd1a0N1QV92bWVJRWRGMExYbDFQejZndnhTdklnMlFxUElYV3BBVVNvY01mVFZhdlJESzRGbmN1NHlxR0RPMmZGbWd2NU5qVExUTThPdVVxdmFRTXQyaTFlRFF6TUtTcGJ6Rl9DaWRuLTl4UG5mT1hmYzJXUVk4eHRuTTlTakNmVEdYb25QbHFDOU1mbW9RWDJ0c3hRT3VmZw?oc=5"
     },
     {
       "symbol": "HDFCBANK",
@@ -94,21 +94,6 @@
         "Equitymaster"
       ],
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOXgyYUNZcWVlQjN0YkdmT1FJOHk0QkNXTERyaGVhc2dZMmNJaEpUOHd3cnNIMVF0Z2drOHJ4MnZhemZKOURldWVXZDVsaGdwUThzQVBoR3c1OWxjb2x6YVA5clVQUlpWNm56S2NHaTB3NXQxay1TeGpNeGlpUmRELS1zdzR6RTNyYk95UWJya3ZGWmg2LS13Q21qOGl0SWVpS3hseXFlNDdhN3dNRTQ3Vml4encycjAyZmFheXBaRG52R0ZBMnVSemhOQ1BSaGN3ZHdRNkFGUlNBdw?oc=5"
-    },
-    {
-      "symbol": "BSE",
-      "company": "BSE Ltd.",
-      "industry": "Financial Services",
-      "relevanceLevel": "low",
-      "relevanceScore": 23,
-      "reason": "Company-specific development",
-      "latestHeadline": "Sensex Today Trades Higher | Nifty Above 25,300 | BSE Insurance Index Up 2.27% - Equitymaster",
-      "relatedStoryCount": 1,
-      "publishedAt": "2026-11-12T04:39:57.000Z",
-      "sources": [
-        "Equitymaster"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOGFVbmF1NzY0MW1VWHZrSU5GYjVtSnc3LTN2bzdhamxOZjlaeE1WMS0zYTdBUmpzWVBTUFMxdVRfam85andLUnU0M0dTR2ZuWmI5b1U3aG14a3FiMDRCNHBsRUVybUluZXA3LXIzN3RQbXotYWhRNGZYWDRRZjhSMHhEd2ptUk9vS2ZTOTBoYnFIS0N0bHNZTVVQQ1BZY0hRd09ZQXdwX3BQanI1TTMweFJBaVBGVkFSdlEweXA3ak4zdDNIbzRaWWJJYUg3aDg?oc=5"
     }
   ]
 }
