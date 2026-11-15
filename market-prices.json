@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-15T02:49:34Z",
+  "updatedAt": "2026-11-15T10:03:02Z",
   "instruments": [
     {
       "key": "nifty",
       "label": "NIFTY 50",
       "price": 25144.3008,
-      "change": -154.9992,
-      "changePct": -0.613,
+      "change": -110.7992,
+      "changePct": -0.439,
       "sourceTimestamp": "2026-11-13T10:00:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Last available"
@@ -15,8 +15,8 @@
       "key": "banknifty",
       "label": "Bank NIFTY",
       "price": 61034.1016,
-      "change": -484.3984,
-      "changePct": -0.787,
+      "change": 241.7016,
+      "changePct": 0.398,
       "sourceTimestamp": "2026-11-13T10:00:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Last available"
@@ -25,8 +25,8 @@
       "key": "sensex",
       "label": "Sensex",
       "price": 81592.4531,
-      "change": -318.5469,
-      "changePct": -0.389,
+      "change": -286.9469,
+      "changePct": -0.35,
       "sourceTimestamp": "2026-11-13T10:00:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Last available"
@@ -57,7 +57,7 @@
       "price": 3886.3,
       "change": 1.0,
       "changePct": 0.026,
-      "sourceTimestamp": "2026-11-13T21:55:00Z",
+      "sourceTimestamp": "2026-11-13T21:59:59Z",
       "sourceName": "Yahoo Finance",
       "status": "Last available"
     },
@@ -74,20 +74,20 @@
     {
       "key": "usdinr",
       "label": "USD/INR",
-      "price": 94.24,
-      "change": 0.2,
-      "changePct": 0.213,
-      "sourceTimestamp": "2026-11-13T23:59:00Z",
+      "price": 94.23,
+      "change": 0.19,
+      "changePct": 0.202,
+      "sourceTimestamp": "2026-11-13T22:30:00Z",
       "sourceName": "Yahoo Finance",
       "status": "Last available"
     },
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 64714.5,
-      "change": 594.72,
-      "changePct": 0.928,
-      "sourceTimestamp": "2026-11-15T02:49:32Z",
+      "price": 65428.9883,
+      "change": 1309.2083,
+      "changePct": 2.042,
+      "sourceTimestamp": "2026-11-15T10:02:57Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
