@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T00:38:31.557Z",
+  "updatedAt": "2026-11-19T07:57:49.053Z",
   "sourceHealth": {
     "India Market News": {
       "status": "ok",
@@ -7,306 +7,18 @@
     },
     "US Market News": {
       "status": "ok",
-      "items": 42
+      "items": 45
     },
     "Global Market News": {
       "status": "ok",
-      "items": 50
+      "items": 54
     },
     "Federal Reserve": {
-      "status": "ok",
-      "items": 20
+      "status": "error",
+      "error": "Error: 404 Not Found"
     }
   },
   "items": [
-    {
-      "id": "news-jnybqc",
-      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-11-12T18:30:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-gwbjb",
-      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-11-12T17:45:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-4fy86c",
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-11-12T16:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-9sacjo",
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-11-09T21:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-191su1w",
-      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-11-05T16:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-1ge9zax",
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-10-29T20:30:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-rciv79",
-      "title": "Federal Reserve issues FOMC statement",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-10-28T18:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-1btkti0",
-      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-10-16T15:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-1n1qjeh",
-      "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-10-09T14:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-z8lk18",
-      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-10-08T20:30:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-3yh7qj",
-      "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-10-05T20:30:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-6qc83q",
-      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-10-02T20:45:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-g3t0ug",
-      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-10-02T20:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-xjrxd2",
-      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-10-02T15:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-su62jn",
-      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-09-30T13:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 86,
-      "relevanceLevel": "very_high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-mu3twk",
-      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-11-18T19:00:00.000Z",
-      "region": "US",
-      "category": "other_market_moving",
-      "relevanceScore": 76,
-      "relevanceLevel": "high",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
     {
       "id": "news-xeuufw",
       "title": "Britain's long wait for 2% inflation tests public faith in Bank of England - Reuters",
@@ -315,7 +27,7 @@
       "publishedAt": "2026-11-18T22:23:52.000Z",
       "region": "GLOBAL",
       "category": "central_bank",
-      "relevanceScore": 73,
+      "relevanceScore": 67,
       "relevanceLevel": "high",
       "reason": "Central-bank / rates development",
       "matchedStocks": [],
@@ -323,24 +35,6 @@
       "official": false,
       "corroboratingSources": [
         "Reuters"
-      ]
-    },
-    {
-      "id": "news-zv5ciu",
-      "title": "Agencies extend comment period for proposed third-party risk management guidance",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-11-13T21:15:00.000Z",
-      "region": "US",
-      "category": "earnings_guidance",
-      "relevanceScore": 73,
-      "relevanceLevel": "high",
-      "reason": "Earnings / guidance update",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
       ]
     },
     {
@@ -354,24 +48,6 @@
       "relevanceScore": 67,
       "relevanceLevel": "high",
       "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Reuters"
-      ]
-    },
-    {
-      "id": "news-7rb3tn",
-      "title": "UK inflation rises to one-year high but markets trim rate hike bets - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QVW9FYWgxOUQyeFFFdHRIdkVLWDZLem1MWFItOVZmQU1SODEtcEZ1Y3NsOGZXeUtNQVN5cElvSmVoNXFoZDFVZ0NlaHFmcmNuQ2w1SWJENDNNLWVVWHNNQUVXdnV0X1Z5M3E2bnJSSzRQd3FBR1FQMzh0dGRPdw?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-18T07:08:00.000Z",
-      "region": "GLOBAL",
-      "category": "inflation_macro",
-      "relevanceScore": 66,
-      "relevanceLevel": "high",
-      "reason": "Inflation / macro data",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
@@ -395,6 +71,24 @@
       "official": false,
       "corroboratingSources": [
         "Bank of England"
+      ]
+    },
+    {
+      "id": "news-4705sk",
+      "title": "RBI Bulletin - Reserve Bank of India",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SRmJxUjVnNS05VGo4SlNwVHdFR0FpWUExM1NsWTNJMEJzZV9ZeWZmYm9MOHBXTzZ6Y1hHU1hJY0VYNDVUWTZNTVE2d0FNa3gzU3VhVWFvQ0F3dW9lZlRNU01NRXdZUjRDdm1Leg?oc=5",
+      "source": "Reserve Bank of India",
+      "publishedAt": "2026-10-23T07:00:00.000Z",
+      "region": "IN",
+      "category": "central_bank",
+      "relevanceScore": 66,
+      "relevanceLevel": "high",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Reserve Bank of India"
       ]
     },
     {
@@ -434,6 +128,24 @@
       ]
     },
     {
+      "id": "news-3zw7vh",
+      "title": "RBI Bulletin - Reserve Bank of India",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeVRxOF9YZ19OZXF5bVJLN0xrbzMxTnlLUEZ4dUcyVVdoZUZrX2dWYnVxdnh0ZFZsZ21KUHRLT3dCXzVndUY1VFF0alR6RGllRjRmZmJQM21uXy1SZnlDSnZNd0VkcGNIYms1UWlEZldUVTlaSUV2RE50a0kwd3ZzemJfRUFtWUNG?oc=5",
+      "source": "Reserve Bank of India",
+      "publishedAt": "2026-08-25T07:00:00.000Z",
+      "region": "IN",
+      "category": "central_bank",
+      "relevanceScore": 66,
+      "relevanceLevel": "high",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Reserve Bank of India"
+      ]
+    },
+    {
       "id": "news-10n3cdp",
       "title": "The Bank of England’s approach to enforcement - Bank of England",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNHdtOGlsYTExa0tBNDRaOFRzTlc4a2lyQ2VlS0NqcXZvS0N4QWRhbldyOTBoVUZDWDZQS0dfVkVacHNLeWRrRk9FbVo0NlRZS055WHhYYWJ1NEhKLU5nbXMzenBYVlloTlJBZDhhQ3NDdjhaWWpDYnFibFRGR0YyWmZjQTdNdXgyc21xelpR?oc=5",
@@ -449,6 +161,24 @@
       "official": false,
       "corroboratingSources": [
         "Bank of England"
+      ]
+    },
+    {
+      "id": "news-1k8nsh5",
+      "title": "RBI Bulletin - Reserve Bank of India",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LU1F2WTFLcUFJY3B1bzlEbDN0bGxsdXh6VE9Fb1A3ZEhKRXBVbGxKd2gtREw4aWRwelZkazlrWDhBY01tVXpnelAxM05JM0l4NEIycXdNT0RwaUdLd3gwb1dmaHZKMXY4eEE?oc=5",
+      "source": "Reserve Bank of India",
+      "publishedAt": "2026-07-22T07:00:00.000Z",
+      "region": "IN",
+      "category": "central_bank",
+      "relevanceScore": 66,
+      "relevanceLevel": "high",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Reserve Bank of India"
       ]
     },
     {
@@ -578,11 +308,11 @@
       ]
     },
     {
-      "id": "news-zeazhl",
-      "title": "Fundamental Rules for Financial Market Infrastructures: policy statement - Bank of England",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQ095b2VlRVBoRWJSUDdLUHFYNE9SUTZUTVhvSXZxX1pxWkpTYWdKaEEwSjh5YmRVTzg2SUlMMTU3Sl9KZFl0MzgyaWtNazBBZ0pfTWxvT0NMWUoxcUYzT2hFNGxIU0xGZjF4Mk91bC1SMkI1dFFuMHQwVzVNT3dnTWRQN0xoQXZ5cVFPVDFiXzB0MGNDS0JOVGU5anVvLV9qWkE?oc=5",
+      "id": "news-sditrt",
+      "title": "The Bank of England’s approach to innovation in artificial intelligence, distributed ledger technology, and quantum computing - Bank of England",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORkN6ZGpmRDBqSFdRQ3BzTjQ5MnkyLVNsNTlkbk1rSmVFc0QwWVkyLUxqcTA0OTNNTGY2UnZCbWlQTnZuV0JKYmI0NVNLN2FLRjU0X296Q0tvazRwVkk5UTFoVm5mUDN4RTN2aW83ZTdWUHlNNy1SME8tNFFvNmhGNmxILUdYeFdoZTFpYWcwdlhRdTRnWjFpcHMyV0s4V3gzczVpWlhn?oc=5",
       "source": "Bank of England",
-      "publishedAt": "2025-07-18T07:00:00.000Z",
+      "publishedAt": "2025-10-15T07:00:00.000Z",
       "region": "GLOBAL",
       "category": "central_bank",
       "relevanceScore": 66,
@@ -596,12 +326,12 @@
       ]
     },
     {
-      "id": "news-63gj9j",
-      "title": "Ensuring the resilience of CCPs - Bank of England",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPc1owQjFUTjJYMU1CaC1PQm9DTUhqQm4tbTBjY3FGTGR6SThuUzhhaFNyRGRncnRxc0QzTVhVeUxIUjB5aGpHR2ZzWmhMa19wblcwbEE2cDJXbzN0MEVObjJPOUQzMjl0NExvM28zZlJGNnlpQ096dFpRdUdYUGY2OFVmcw?oc=5",
-      "source": "Bank of England",
-      "publishedAt": "2025-07-18T07:00:00.000Z",
-      "region": "GLOBAL",
+      "id": "news-ywf6s0",
+      "title": "RBI Bulletin - Reserve Bank of India",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56R01VUEVPaGZjMlRJUTNHZ0pmMGhIcGVUdFpma3BmVVBNZndmaTBLV1hIWlVIMERnRGd6XzIycWtRd0xqeHdZNkpYeTRXRWN2blhfaE9LNk8zNWVoR3JWVS1HU0JZcDJDcVVHeQ?oc=5",
+      "source": "Reserve Bank of India",
+      "publishedAt": "2025-07-23T07:00:00.000Z",
+      "region": "IN",
       "category": "central_bank",
       "relevanceScore": 66,
       "relevanceLevel": "high",
@@ -610,7 +340,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Bank of England"
+        "Reserve Bank of India"
       ]
     },
     {
@@ -758,6 +488,24 @@
       ]
     },
     {
+      "id": "news-1y1sch6",
+      "title": "RBI Bulletin - Reserve Bank of India",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fRzVuQ2ZycUh6RG1QaVBkM2dCN1pHbVFvdFgwN28yQ3JvRS01dVFwamt6Q244WGY1Nktxc0M4ckFOeDQ0b1JhVUtXMVAwNTgyaXh3TWk1YlIwV3lncmRIajgtNzQxZHM?oc=5",
+      "source": "Reserve Bank of India",
+      "publishedAt": "2024-04-23T07:00:00.000Z",
+      "region": "IN",
+      "category": "central_bank",
+      "relevanceScore": 66,
+      "relevanceLevel": "high",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Reserve Bank of India"
+      ]
+    },
+    {
       "id": "news-1hon322",
       "title": "Financial Policy Summary and Record - March 2023 - Bank of England",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORHdEMFpoakltZ3JyYVc5SmI1ZU9MNnpuUkxIa2NYRkF4RGU4QmxzakxiOWxhUEt6aE54RE1VbVEwR3M5RVBTV2FndF9RelRUdTRjVlUtdDBrV2pyZ3NIalJpWkRDZXcydENtc01ib0xNRU1JSW5nQ0toa2dnMkpOYU1KX3FjYTl1M3Vn?oc=5",
@@ -812,6 +560,24 @@
       ]
     },
     {
+      "id": "news-bqme2",
+      "title": "Catherine L Mann - Bank of England",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmdmUyR25LNWZCRGlQLWdWdEN0Z2EzWFJjZHhCWlZxM0N1N2xRelZReDJJQUJiMFNrbXZLa09KNUdkdFRTNDhKS1dLUGhfZkxDcE1JR3libDdUQllheEpVOWN3S3B5MjdxOG9OSU1uRlVWSTVCZjFDYQ?oc=5",
+      "source": "Bank of England",
+      "publishedAt": "2021-08-31T23:38:03.000Z",
+      "region": "GLOBAL",
+      "category": "central_bank",
+      "relevanceScore": 66,
+      "relevanceLevel": "high",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Bank of England"
+      ]
+    },
+    {
       "id": "news-1iny8qo",
       "title": "Assessing the resilience of market-based finance - Bank of England",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ2Q2eEFqSTI4S0hlUUlvTUgxWlZVRE00c1JHMnljYTFJVUZkZFQ0NEo4bk4wRThldlZicmZsNWg4NWdIV3dOekFmOTFuaVZqdDZRX294RVloWGRFeHdlOVFwN0Rwb0I5MmdEd1Zsa3hQNGM0bVFUMUExS2VVb3RxX2M0SUVXeFdvbDhVT1hpeTdUSzJncm9n?oc=5",
@@ -848,106 +614,34 @@
       ]
     },
     {
-      "id": "news-1u7ifzs",
-      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUw0WGdCZWFQMDBna01NRTEzWEQxbHlSU2RHS2FFX0dIdDc5Si1kQjdzRVFpSTRLeThVQ1V5NG01UG1HSGtJNFZOYjI0OHpIbHRvWjdNOFNjZWhhYzFTWVJJVklORUV4YmJoOWhjd1Nhc1hULXVVYncyUmZUQjJwMFh4RGJsSFhhcjlwc2NpVUhNUEdfQXdsekQ1c3AzZVlZcUdSN3ZlTDJUQ3g4WjRlNHhydEJ2OVJTeHpj?oc=5",
+      "id": "news-7rb3tn",
+      "title": "UK inflation rises to one-year high but markets trim rate hike bets - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QVW9FYWgxOUQyeFFFdHRIdkVLWDZLem1MWFItOVZmQU1SODEtcEZ1Y3NsOGZXeUtNQVN5cElvSmVoNXFoZDFVZ0NlaHFmcmNuQ2w1SWJENDNNLWVVWHNNQUVXdnV0X1Z5M3E2bnJSSzRQd3FBR1FQMzh0dGRPdw?oc=5",
       "source": "Reuters",
-      "publishedAt": "2026-11-18T21:46:43.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 65,
-      "relevanceLevel": "high",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Reuters"
-      ]
-    },
-    {
-      "id": "news-2m9x29",
-      "title": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQXJzSFVRT3F5bTNfazJQNnFQZFVoeDJrYml1TjgzSnRmNVF0UFpMa2JMNkppaHI0SWM1US1qOHVYS1NrQkZqOGE1b3U4Uk1xMmwzOThXYmlkdG84V0dlN0NabEUxdUV1VVA4QkRacGdKTXJ0d05HdmdJd01maDV5aGVRQdIBiAFBVV95cUxQMlpRaFh0Nk54cDduSERwc3FJX1hDSXpPUmNlQVBxZWJKOTBtTEZUUUd5YlF2bzJ4c3locHNCSWJVRUdFSHJ4amRNa0FXTFkweklkdjFBUkJuOVhHODJYMXBhSUdkQ1YwVENNX2Zxc1U3a3EwOWs2bVYtM3hCd2ptWjJaUEthVURS?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-11-19T00:01:00.000Z",
-      "region": "IN",
+      "publishedAt": "2026-11-18T07:08:00.000Z",
+      "region": "GLOBAL",
       "category": "inflation_macro",
-      "relevanceScore": 62,
+      "relevanceScore": 60,
       "relevanceLevel": "medium",
       "reason": "Inflation / macro data",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "CNBC"
+        "Reuters"
       ]
     },
     {
-      "id": "news-orsrwp",
-      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-10-13T18:00:00.000Z",
-      "region": "US",
-      "category": "other_market_moving",
-      "relevanceScore": 60,
-      "relevanceLevel": "medium",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-1nn7gv8",
-      "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-10-07T18:00:00.000Z",
-      "region": "US",
-      "category": "other_market_moving",
-      "relevanceScore": 60,
-      "relevanceLevel": "medium",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-ad5ikh",
-      "title": "Agencies publish resolution plan feedback letters for 15 banking organizations",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
-      "source": "Federal Reserve",
-      "publishedAt": "2026-09-29T20:00:00.000Z",
-      "region": "US",
-      "category": "other_market_moving",
-      "relevanceScore": 60,
-      "relevanceLevel": "medium",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": true,
-      "corroboratingSources": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "id": "news-1kmzp7n",
-      "title": "India regulator weighs stronger margin trading rules, no decision yet, says chair - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcHllQ1pNb1E1ZE9ieXJoZlF3Z1NhOXBZRGpKeGxvVFpfWEwwSkFlWTFCVDZKME90YjQzNThaQnE5ekI5bEdfRldOcm5qclM5bXRBSk1aSFNaYl81QnNTTnR2SXhQMkZGVjY0Z1dxdnNJd0lRbWlPMFIyV3R3RnBOSy1WSGhpRzJyZ2dadk9fdUlfN2xmQktkcUprN0RPcmtIVG1lWTJZaHIxeHE1d01vZzhCNTI0MmFOLUJXcA?oc=5",
+      "id": "news-1ef6i4v",
+      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUw0WGdCZWFQMDBna01NRTEzWEQxbHlSU2RHS2FFX0dIdDc5Si1kQjdzRVFpSTRLeThVQ1V5NG01UG1HSGtJNFZOYjI0OHpIbHRvWjdNOFNjZWhhYzFTWVJJVklORUV4YmJoOWhjd1Nhc1hULXVVYncyUmZUQjJwMFh4RGJsSFhhcjlwc2NpVUhNUEdfQXdsekQ1c3AzZVlZcUdSN3ZlTDJUQ3g4WjRlNHhydEJ2OVJTeHpj?oc=5",
       "source": "Reuters",
-      "publishedAt": "2026-11-18T06:48:00.000Z",
-      "region": "IN",
-      "category": "government_regulation",
+      "publishedAt": "2026-11-18T10:28:00.000Z",
+      "region": "US",
+      "category": "central_bank",
       "relevanceScore": 59,
       "relevanceLevel": "medium",
-      "reason": "Government / regulatory development",
+      "reason": "Central-bank / rates development",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
@@ -956,30 +650,30 @@
       ]
     },
     {
-      "id": "news-w9b4x9",
-      "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ0NhQ0JLODM0S1FxM2RYX3RiY3JrelIwRDE5NEhnLVJPVWxUUUp5TWI5aF8wdGo0bjJqS3lUdTZNYVRKNTJJbFJQSVJsNzVqVzhHd2paTlFCOXlHeXc5Ui1aU1FiaWR4YWt2Q2RpWElveGFqTGVBMDA3bEJzeXlJb1U2ajdtWFNTYWdpWkFzZktfNzY5?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-11-18T23:00:02.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 57,
+      "id": "news-1qwkl8j",
+      "title": "Stock Market Today: Sensex Rises 500 Points, Nifty Near 25,400; Auto Stocks In Fast Lane, Surge Up to 8% - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQTlU3eDlmX2JPd3NVbl9aOEJQb2V1UkJsdm51MzBNeS1GelQyWHR1NkltN0tsTVFOQ0NKamhpSndMMWVldXlYUWxRTmVqcG40V2Z3Y3BjY2JZOWdXYTFVdU5DcU5CWWQwTGhmdXJGZHRXNFRKczl0aDZpc0dMVms2VE5OcVdROXljcGpUdkN5SkVyck91S002Q1BHT0RBRktPMmd5QThfclo1ODlKRGh5QUxSandJbVpybUtaTlJDVkJaUFo2eUVNbnN0ajNYaTZnWE1QQl8tai01N2FyU3RiTVNPWFl3Y0lqYUdxckdCcXVSM2ZDclJXZ2JqcVY1R2xSbm1yOHN3bUpuTlnSAZMCQVVfeXFMTnpyWVVjcUdsTGxQUnM4NE5jbi1Kckd5ckNJRkg0bGxHM1pobFhHWnlsNHBweHAxZTFfQnFES1JVNDMxRHNQTjNyQWY1SmxoUENTdmVBellRd0FhUEtJQzd1UnVoS0paNzRFYmZmQUlLMEpJMXZMN1BHUk9PTUF3dHR4SU1kWFdXY3hyQW1rMkZySW9QMGcyeVFQYkRINnZYQ0QyV19Ka2ljcVFNZm03a2tMTDBzLXZMQjJyVndkTlRuZ0tULTJJQ2taUERGTjZJWWczYWdOZTBmekxoZzFWeHNwUHY0bENCdHhBaG83OFRPdlZZbW42UVhpTkg0eVVQV0tTa0sxLS14SXE0T0ktZE9mbWM?oc=5",
+      "source": "NDTV Profit",
+      "publishedAt": "2026-11-19T07:14:48.000Z",
+      "region": "IN",
+      "category": "earnings_guidance",
+      "relevanceScore": 58,
       "relevanceLevel": "medium",
-      "reason": "Central-bank / rates development",
+      "reason": "Earnings / guidance update",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Yahoo Finance"
+        "NDTV Profit"
       ]
     },
     {
-      "id": "news-117fj4n",
-      "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOG1iSHJLMkVaUFBRdnpDYmFaMk8tNnFlTTdjNjd1VUdpVW9tOE9paklOR1dIQzlNZFpCVGJwMWpXWGE0YndfV3lXY19UOHlmT2YxUXlHNlAyOWVOcVp0d0NiLURTMmtZTXc5MkpPei01cmNVdy0ycTdEQ0hNaTRVTEJiTDVWVk11Nl9pbld3Sk1lTktUaEEtN05HLWNGOHFJNmROT3NranFtbXdsMEVmdUhrWnhaLTRrQXNSaXhQWkVKVUNGWllRV2hzVVhVRHp1UGo1RXd5SWhuRzZjN3hKREpfM1hHX1k0MWpKM0g2REQ4cG8?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-11-18T22:40:02.000Z",
-      "region": "US",
+      "id": "news-4r6wvx",
+      "title": "Bank of England CHAPS ISO 20022 and RT2 Treasury Guide - JournalArta",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPREVjdFFEcGFuVjRnclpFQWdUa21mSlFnWmZBWWNsWTNaQkpZMjRtVC1kdTcxSGxZaG96Zzc1WnRLb19zYjZNQUZyQy1qa0d1Q3pZYjV3SFpWSGlzcnlZWUxPQVFSZFhPLUtheVlwdDB3bmo4MmRqNnpSbjk4VXBrcjZac2pNVFZ1RmM1YllDb01KZw?oc=5",
+      "source": "JournalArta",
+      "publishedAt": "2026-11-19T06:40:51.000Z",
+      "region": "GLOBAL",
       "category": "central_bank",
       "relevanceScore": 57,
       "relevanceLevel": "medium",
@@ -988,16 +682,16 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "The Motley Fool"
+        "JournalArta"
       ]
     },
     {
-      "id": "news-1lr32tf",
-      "title": "Morning Wrap: ASX 200 to fall, S&P 500 slips with Nvidia, Fed minutes flag more hikes - Market Index",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSG5kOUpUSUdFTFg2dWdBbnNvUkZnUmFWdERLbkFvUzBJNFFVbG4waFo0UkZmS2ozN0gxbXFBTUh1Sjg0alltUUlxaWFUODYweUpNTGlfUmZadVlqWnp4QVVuZlJMaGx4bF84S3d3TWlYU1dtUElXV0x0MUpIY3FtMk5KUGExZWhFZU5LU3FRR1lCR3FWbnZ4QWk3VzE2dTh6NVJvUDB3ZHhlUQ?oc=5",
-      "source": "Market Index",
-      "publishedAt": "2026-11-18T21:28:16.000Z",
-      "region": "US",
+      "id": "news-ux4peb",
+      "title": "Grade I interiors, gold bars, cost fears: Bank of England faces headache over £160m revamp - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1LQzJQS3hkWWkwSXAtYnF2QVZGNVF3eGtPQzRMYWxXd3o4Y0hDM2g1bWhSQml5bHdQMnZ2OVA3a3JzTjl1Unk5aHpNRDZJWVVKR1pFS24tN3VtbXA5THhFdHZtcHh3RFRwdmlETEJ1NnFLWV9VWW9RWnZyQQ?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-11-19T06:00:00.000Z",
+      "region": "GLOBAL",
       "category": "central_bank",
       "relevanceScore": 57,
       "relevanceLevel": "medium",
@@ -1006,7 +700,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Market Index"
+        "The Guardian"
       ]
     },
     {
@@ -1046,16 +740,16 @@
       ]
     },
     {
-      "id": "news-ho29i5",
-      "title": "Indian shares decline from nine-month high levels on profit-taking - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdEEyOUpKbWZ1NExUZWdZN0pEMTMzZjlLOVBhYUdIM0lsWmhYb3ZzTl9CRjJCVjJTcjlTQ29wTjBXdkVjSHRscm9QNlpUU1RTc3JzQllhUGVGVzkwZmtOc015VFJYV1hlSnJySzBrdW81THJHckNqOEh5bTFUd3ZUM0NHYUQ1QkJqa2wxQlJjUDNYc0hNVlE0VEkxQWdxWWZSN21TRk5KdDJSSTAwdEYyTk9iNWJXNEJwWUE?oc=5",
+      "id": "news-l7b45x",
+      "title": "FTSE 100 slips as commodity-linked stocks weigh; UK inflation at one-year high - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeEVjc0dlYzVLb2hOZkVUWGlMRnAybzlIM1ZjRXlwNG8zYW05bXZ4VXNNTlZjaVZWeThsdzVqR2x3aXpQaGpwX1k4SDJhcHNZYVZQUWdlRnpjQ3lYWm9YSXd0QXhJNUJ5SWpQVjd0NWZSV3lLbENOTFpWOXJoT1Vvc2dyclMtUUtnOFo4MFpoUTk?oc=5",
       "source": "Reuters",
-      "publishedAt": "2026-11-18T02:37:00.000Z",
-      "region": "IN",
-      "category": "earnings_guidance",
+      "publishedAt": "2026-11-18T17:20:47.000Z",
+      "region": "GLOBAL",
+      "category": "inflation_macro",
       "relevanceScore": 54,
       "relevanceLevel": "medium",
-      "reason": "Earnings / guidance update",
+      "reason": "Inflation / macro data",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
@@ -1064,21 +758,39 @@
       ]
     },
     {
-      "id": "news-1lccqj7",
-      "title": "Closing Bell: Nifty Gains to 25,387 as Bank Nifty Hits Record High; Crude Eases Near $92 - India Infoline",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaFBZcFhabjZvbkc4QkJadkRpRGFySkh1UDF6QVIwX1FCV2dMUjd4ZWVtNjF6VTF2YlpNazdxdERwRjRVLUlCUGNrTy1hOGZjNzZzNnFvanBjLXhvMXVuX3ZuV1BubFR0VDZ5VE1idktDUGRHdlNOUjFBSEwzUG5aWW45VTBlR2dzbWJnTlpkRlRTUlY5UE0wM0k4Yi15Q1h4bGFGUlAzeEhRaUx6T05rOF9wUkw1a0ltUlRWTVlvOVFlTHMyNUE?oc=5",
-      "source": "India Infoline",
-      "publishedAt": "2026-11-17T12:37:54.000Z",
-      "region": "IN",
-      "category": "oil_commodities",
-      "relevanceScore": 52,
+      "id": "news-1fb8gip",
+      "title": "BoE, in new statement on CPI data, says inflation to rise further - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYWkzVFZIZGpWS2lKODVQQ0RmTkFYS1luRGFCVDVxSXZVQS1BR2pQdWdqdjNqRHJqd3NsdXFJZ0w1elNwUU02NEc4ZXJxNnZSQThyVzlkN2tyLWhYUGtqTzVmS0xNNjYtNUR0djJEaXpoMm1HNzVJVVRzMGxXaGViRV9iREg0Q2hJeWVIVEhoM0M4d3drT2FjWHMtZUlOUFhw?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-18T08:45:12.000Z",
+      "region": "GLOBAL",
+      "category": "inflation_macro",
+      "relevanceScore": 54,
       "relevanceLevel": "medium",
-      "reason": "Oil / commodities development",
+      "reason": "Inflation / macro data",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "India Infoline"
+        "Reuters"
+      ]
+    },
+    {
+      "id": "news-1kmzp7n",
+      "title": "India regulator weighs stronger margin trading rules, no decision yet, says chair - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcHllQ1pNb1E1ZE9ieXJoZlF3Z1NhOXBZRGpKeGxvVFpfWEwwSkFlWTFCVDZKME90YjQzNThaQnE5ekI5bEdfRldOcm5qclM5bXRBSk1aSFNaYl81QnNTTnR2SXhQMkZGVjY0Z1dxdnNJd0lRbWlPMFIyV3R3RnBOSy1WSGhpRzJyZ2dadk9fdUlfN2xmQktkcUprN0RPcmtIVG1lWTJZaHIxeHE1d01vZzhCNTI0MmFOLUJXcA?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-18T06:48:00.000Z",
+      "region": "IN",
+      "category": "government_regulation",
+      "relevanceScore": 53,
+      "relevanceLevel": "medium",
+      "reason": "Government / regulatory development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Reuters"
       ]
     },
     {
@@ -1118,6 +830,60 @@
       ]
     },
     {
+      "id": "news-w9b4x9",
+      "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ0NhQ0JLODM0S1FxM2RYX3RiY3JrelIwRDE5NEhnLVJPVWxUUUp5TWI5aF8wdGo0bjJqS3lUdTZNYVRKNTJJbFJQSVJsNzVqVzhHd2paTlFCOXlHeXc5Ui1aU1FiaWR4YWt2Q2RpWElveGFqTGVBMDA3bEJzeXlJb1U2ajdtWFNTYWdpWkFzZktfNzY5?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-18T23:00:02.000Z",
+      "region": "US",
+      "category": "central_bank",
+      "relevanceScore": 51,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Yahoo Finance"
+      ]
+    },
+    {
+      "id": "news-117fj4n",
+      "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOG1iSHJLMkVaUFBRdnpDYmFaMk8tNnFlTTdjNjd1VUdpVW9tOE9paklOR1dIQzlNZFpCVGJwMWpXWGE0YndfV3lXY19UOHlmT2YxUXlHNlAyOWVOcVp0d0NiLURTMmtZTXc5MkpPei01cmNVdy0ycTdEQ0hNaTRVTEJiTDVWVk11Nl9pbld3Sk1lTktUaEEtN05HLWNGOHFJNmROT3NranFtbXdsMEVmdUhrWnhaLTRrQXNSaXhQWkVKVUNGWllRV2hzVVhVRHp1UGo1RXd5SWhuRzZjN3hKREpfM1hHX1k0MWpKM0g2REQ4cG8?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-11-18T22:40:02.000Z",
+      "region": "US",
+      "category": "central_bank",
+      "relevanceScore": 51,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "The Motley Fool"
+      ]
+    },
+    {
+      "id": "news-1mq5hzr",
+      "title": "Morning Wrap: ASX 200 to fall, S&P 500 slips with Nvidia, Fed minutes flag more hikes - Market Index",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSG5kOUpUSUdFTFg2dWdBbnNvUkZnUmFWdERLbkFvUzBJNFFVbG4waFo0UkZmS2ozN0gxbXFBTUh1Sjg0alltUUlxaWFUODYweUpNTGlfUmZadVlqWnp4QVVuZlJMaGx4bF84S3d3TWlYU1dtUElXV0x0MUpIY3FtMk5KUGExZWhFZU5LU3FRR1lCR3FWbnZ4QWk3VzE2dTh6NVJvUDB3ZHhlUQ?oc=5",
+      "source": "Market Index",
+      "publishedAt": "2026-11-18T22:08:57.000Z",
+      "region": "US",
+      "category": "central_bank",
+      "relevanceScore": 51,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Market Index"
+      ]
+    },
+    {
       "id": "news-i7h4j1",
       "title": "UK Inflation Hits 3.6%: Will the Bank of England Raise Rates Again in December? - BBN Times",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSHdMR1JjUFh4eGtqdWxfMl9fWFB1aWlaZnBzeGdmdThod2p2eUUza2xOM2NiOGphcEV5THV3NVUyWDNJbTJoSnNoOUUzZFdpZmVUTU9pbWY4OW5HYzFRVy1zN0FTWk1rRkM3clEwWUxIMWlaTjFEaXphQnNZdTBKRjBsN1lPRnRt?oc=5",
@@ -1154,12 +920,12 @@
       ]
     },
     {
-      "id": "news-1i6plqo",
-      "title": "UK inflation rises to 3.6% after petrol and diesel prices hit record high - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNamlMSFR1VS1LcjJjd253VGlsM1lUa0ZjZXJjclZ3ajdqZTdaMnc3dUdhcDd6RV9XWnNSYm1EM1BGTDZvTUkxTHgzeWw2TldJYm1JQlN1UHlhRkZJalpGZEFqT0lWNFR4N0pfSWVxZTg2LUJYRUhCMFhYTW5RVnh0dXlXcHcyRDctMWxZSGlaT3Bhc2x6SXR2REV3?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-11-18T07:01:00.000Z",
-      "region": "GLOBAL",
+      "id": "news-2m9x29",
+      "title": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQXJzSFVRT3F5bTNfazJQNnFQZFVoeDJrYml1TjgzSnRmNVF0UFpMa2JMNkppaHI0SWM1US1qOHVYS1NrQkZqOGE1b3U4Uk1xMmwzOThXYmlkdG84V0dlN0NabEUxdUV1VVA4QkRacGdKTXJ0d05HdmdJd01maDV5aGVRQdIBiAFBVV95cUxQMlpRaFh0Nk54cDduSERwc3FJX1hDSXpPUmNlQVBxZWJKOTBtTEZUUUd5YlF2bzJ4c3locHNCSWJVRUdFSHJ4amRNa0FXTFkweklkdjFBUkJuOVhHODJYMXBhSUdkQ1YwVENNX2Zxc1U3a3EwOWs2bVYtM3hCd2ptWjJaUEthVURS?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-11-19T00:01:00.000Z",
+      "region": "IN",
       "category": "inflation_macro",
       "relevanceScore": 50,
       "relevanceLevel": "medium",
@@ -1168,15 +934,51 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "The Guardian"
+        "CNBC"
       ]
     },
     {
-      "id": "news-13rdgd0",
-      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd1hJVEJaZS1neDVWZk40eFYyV3dvaUU3ZTVJT3dlWk0tWi1LWHUxZGtfYUQ2b21iNTJ6ajVYeWd2OVpfcGk2RzJzZ3I4N3F2Rl9mNmJjY20xT3lXcUxKN1k3dHY2MmM1RlhvZm1xZGlUcVFiR2xjWWJZMFVHM2ZCc3hOYjZXZw?oc=5",
-      "source": "AOL.com",
-      "publishedAt": "2026-11-18T21:35:52.000Z",
+      "id": "news-417cas",
+      "title": "SEBI not keen on extending trading hours, reviewing MTF framework: Tuhin Kanta Pandey - ETLegalWorld.com",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbXFSTmZyR242cFRzQkMzeE9RVkdQRkhSc1o3OVpFaDg4eERFV3A5c1R6RjFnWmt6S2dHVFNWd1RrNjZhYkNrck94XzNYT081ZzlxTmNpV1NUeG1aQ1JBVEtrcEprUUJqeXNuQXY0SG43QUhmZ3NIa19DSnI3Nzk1c0lCVTA5elF2b0lGMmZSUkZqb2pHeTlBNFRoZkJ5QmdIQWdCN0JlLXI0TWhNbzdDc2xFaXpxNVdqYVJFRXJOZ1VNcERkU2VQOWk1dUtaRUZhbzdvTXZCYnFtZGp2clFhQi1tQ19ESTDSAesBQVVfeXFMUHltbEpDTDVWTXY4WXVHYTVOWXFtUWFHdkEwb1BlaWw3SWhETGttOThtb0lHYnhPVUNpQjhSc0VQVUw4Y1VUa0xHVURScnVXQnVkNmFtd3NVSmNwdWtQR014UkFlb2JoYkRtSHNBWDhZSVlKQlowY0Rhd0pTSjRNcTFvQzBCUzB4VEkzX1BIbFVMYVJib2Fud0NOM01YZklxQzMtNjVPd2pHcncwY1REc25taWE1dFB6YW42ejNiMkFTTlVReHkzZmc4NDY2aGJaVkFFSDdwZ215RmpWOFVYUUVNTUlaQlU2ZUFuNA?oc=5",
+      "source": "ETLegalWorld.com",
+      "publishedAt": "2026-11-19T04:47:22.000Z",
+      "region": "IN",
+      "category": "government_regulation",
+      "relevanceScore": 49,
+      "relevanceLevel": "medium",
+      "reason": "Government / regulatory development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "ETLegalWorld.com"
+      ]
+    },
+    {
+      "id": "news-1ugou7v",
+      "title": "Indian shares set to open lower as hawkish Fed minutes weigh - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQjYtTjc0MTVhdnRjU0RIaG9acXN5UjgtZE5BODFJYkp2ZWdRWFFZbFNCZm8tV21HQUVsWU1YZUhtMFR6MmdNWHVlQWg1dXdhdDJXZ2E4YXUwY2RHWGU2MjRVVDUtSWpUbXNyczVNLXlZaTZIS2FHUktSY0xmbXMxMVUwUzl6WnlDMkZuZl9makN3UDZPTk5WZjQ1U3o4WExkN0JNbWFVc25FdUlkalBHR3Zha01Caml6bDdJSEZNeHJta3hMOXlDUk1B0gHPAUFVX3lxTE5ySFI5eURKQV9hQVVZanl2VkFhaHZWUS1oWG5tUF9IckV0aWh3WnpSV25OaVE0X2RlNTItWGNWemNJc0xienZ0U2FTcWxqbUVCMmxfYkt0TGVHTTU4ZzlXdE5GU0xDNTd0WkJ1R2hzVDU3ejlOSWNjWHF2VGZXX0R2ZGtJd1M4OUVySzhhSm8tbDFlbG03ZE40S3BLeTBpLUtDcUhIT3pDLXNNTlRnUW1SRzhuWjhOblNCSVU1TUNjZzZrUVZtMzk0LXNiMzlvWQ?oc=5",
+      "source": "Livemint",
+      "publishedAt": "2026-11-19T02:33:18.000Z",
+      "region": "IN",
+      "category": "central_bank",
+      "relevanceScore": 49,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Livemint"
+      ]
+    },
+    {
+      "id": "news-19e8u8h",
+      "title": "Stocks Edge Higher After Fed as Oracle Surges 11%: Markets Wrap - Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdFZXQ0F0WGVCT3FPRFB5RndJRUYtdHFQNVlfVmxJV1dmd0ZKMklnSl8yYnV6Z0N0bERBbmVhenJGS3dTOF95VERJeC0xektmNXVOSzJzTUVySzRSYWRIWHl6RGNxU1o2eWRmcU5EcEN3OTlzaldJUERqdWloQ1pRa1Q2ZUI4YUZCejlrUzk3NzBRdmdf?oc=5",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-28T07:00:00.000Z",
       "region": "US",
       "category": "central_bank",
       "relevanceScore": 49,
@@ -1186,25 +988,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "AOL.com"
-      ]
-    },
-    {
-      "id": "news-1lknkza",
-      "title": "Rupee ends flat after hitting seven-month high as firmer dollar offsets inflows - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdTlWWmtObE8xMHhyN1lJWmdqajZvblBaUW5UNjliOElTVWZYaXpGZk8tZjZWdUcxdFAtWTZYZ3JlR2RTRXBDdUM4TW9NLVJSdVo4ZDVscVg3MGJwdDF1R3R2VnF4bWQ0alFMcjFfbmw3ZFB2SzR3ZFVTZy1qYWN4RTByeWE1aTB0UDlSaUpkdVZYbFR0S0owT0wtUnJrZ0JpNUotdm5DRWFmTmVQNGhKYmtmVVBMSjIwWWI0MGE2OA?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-18T02:21:00.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 49,
-      "relevanceLevel": "medium",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Reuters"
+        "Bloomberg"
       ]
     },
     {
@@ -1244,30 +1028,30 @@
       ]
     },
     {
-      "id": "news-1wkc5bc",
-      "title": "Nifty At 28,500, Rupee At 96 By 2027: Goldman Sachs' Big Calls For Indian Market - NDTV Profit",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbGZ5V1NOOTlsWEZtRlJrQUdWR281LUpLNGJfV0hQV2xQNmVqc3RDTW9jaHNMZGg0RTZ5N3ZQazlweGlscjR0Z0FpcWhlOElKdkNoVkpBcHhYbXZ2cHQtckFSakxtZzBtakdHd2VtRVhjU2Z0aldmTG53bmVjY2l3cnlJczliY0w5VC1aR2I3Z2pZV3hWMV8tMVhTOUs1Q2RHVGlOMmp3STVkWENoNmdIVlMydXp0UEVqT2JURmVR0gHGAUFVX3lxTE1iVXo1aHJwSlpzUmhhakUxZ1BFZkE0RlhTMU5HQnl3c3RZVUFNcG5kMjk5TjhxUzFvdHBKT2Fob0pVVEhjamRBMkltUGNRVExiV0E4eUo1M1IxWkdYSFNiYjR2emk3VnBCcjZZemRtWkEydGNYcTVMb0J6S1lNYkxJTUt4aEpCcTJlR3NYRmwxb093cWdTLVJDNW1yTHJ4UTdqcFZ0U1RQUlNhaE01RDVmekltSnMtVUZtQXFydDJaeEFpdERxdw?oc=5",
-      "source": "NDTV Profit",
-      "publishedAt": "2026-11-18T09:03:33.000Z",
+      "id": "news-ho29i5",
+      "title": "Indian shares decline from nine-month high levels on profit-taking - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdEEyOUpKbWZ1NExUZWdZN0pEMTMzZjlLOVBhYUdIM0lsWmhYb3ZzTl9CRjJCVjJTcjlTQ29wTjBXdkVjSHRscm9QNlpUU1RTc3JzQllhUGVGVzkwZmtOc015VFJYV1hlSnJySzBrdW81THJHckNqOEh5bTFUd3ZUM0NHYUQ1QkJqa2wxQlJjUDNYc0hNVlE0VEkxQWdxWWZSN21TRk5KdDJSSTAwdEYyTk9iNWJXNEJwWUE?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-18T02:37:00.000Z",
       "region": "IN",
       "category": "earnings_guidance",
-      "relevanceScore": 46,
+      "relevanceScore": 48,
       "relevanceLevel": "medium",
       "reason": "Earnings / guidance update",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "NDTV Profit"
+        "Reuters"
       ]
     },
     {
-      "id": "news-vwwpjo",
-      "title": "Stock Markets Today: Sensex, Nifty Down on Profit-taking - Rediff",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORkE3UWlyb0VrWmdfZy1IamtIemhZQU9YTjRfMGpnV3pNSVpRblc1SUZJWlAxRGNyNkJDMFpCWld3ekJSaDdpVWsyZ3lCQXY4SUdCSzc4bzJ3V1RjRFoxdkxwREdLTjFIUXlsWGtJQjM0VHlCR1ZuTnpaQk5VZENfelplNEZUejB2RUxKVXNtZFo3V1JiNFJQOVhHYW42UC15SzhDYmJOWG03M2xvLXN4MURiWWcxcExtLVJVaWhvWENyLUFScU9VRTR6Q1p5ZGhzN3Z2ZXM0c0prZUQ1bkRMcNIB4wFBVV95cUxPZjRrX3ZvejZibE9UU3NXMlVzZGNUcV9IMTM4SmRsTG5YM0FWazBwMXUwdG1MZHRhS1MtbFByZDJpY0cySzhPRzkyV3FPczJjTUltTm5fYVhMYlZCWGRQc3plUjIza2tfdWtpVTJYNnZzS0NqcndqdnJaTjJsUS1UbUg4VExnTW1TTEhtRXRET0k5RklfQlpBd3ZiZGNkOWhlckk5YVRZQ0pDVG41RVdZRWx3ZFZoeFNiS1pSTjl4TmFIdVd3Tk56LWJ1V2JnX01yZEwwb190ay1iU2JLaWh6bTU5WQ?oc=5",
-      "source": "Rediff",
-      "publishedAt": "2026-11-18T05:31:42.000Z",
-      "region": "IN",
+      "id": "news-1vqa5ob",
+      "title": "Nvidia Doubles Earnings but Still Sold Off; Dow Plunges 561 Points as S&P 500 Falls for Fifth Straight Session - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54R0tnQUdWcS1lemJ3WldWT3NWbGc5azMyNEt3MndPdnVwN2c2VEFQLWxXUm0xRVRyRDMwcUloMndwNl9odU1oNlNUX0RQWHV3c1BXWEwyLW83bVQ1dUlYQU9raUhZckZYaC1HdFN3UF9pcFhnelE?oc=5",
+      "source": "BigGo Finance",
+      "publishedAt": "2026-11-18T23:26:00.000Z",
+      "region": "US",
       "category": "earnings_guidance",
       "relevanceScore": 46,
       "relevanceLevel": "medium",
@@ -1276,7 +1060,43 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Rediff"
+        "BigGo Finance"
+      ]
+    },
+    {
+      "id": "news-1a4ucci",
+      "title": "India stocks, rupee, bonds, swaps, call at 1: 05 pm IST - marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa1lVNVViY2hxWGM5Y2E4OWNyc1VRcmN6MGlMZ0hzeEU0a3BzTU9DSDhrU21Xam9yRUhXeVJiME55VUktYndHMkd1YlF0U1pQci1kSlh0MXdiYjNYcjBNMVZXYmFPYWVBdUhVWjNscElTczA2ekJIeC1SdEZfUHVtVEdHelU2VS0xU3FKMk1zcGhUT0kwYXU4c25jb2JrUEp2NHc3dmx3?oc=5",
+      "source": "marketscreener.com",
+      "publishedAt": "2026-11-19T07:37:27.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 45,
+      "relevanceLevel": "medium",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "marketscreener.com"
+      ]
+    },
+    {
+      "id": "news-1hg5o4w",
+      "title": "Sensex, Nifty trade lower as IT, metal stocks face selling pressure - Free Press Kashmir",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYmxvSFJTaDYyWDltWFRjdG52UEptU0psVzQzTG9EdVI3MmVJUWtyRlo0amN3RURoc05UcG9PR1ZuV3ZfbmRWeFlELUtVcnBkOEVmdUdWT21SaXVCV1dyaWRsclJBMXM3ZTlTM0wwcVdFQk5KTVdlX3VkbGpWd0NkcHhrSGlFa1FJZ2QydG9zbjZuVDl0WDV5Z2RZeFo5Y1ZJWGFUYjFLYnpSazjSAbABQVVfeXFMT1VyWWUxeW5WOHhLLXBLYmtyWTJPbUx6Z25NaUlaNzQzQm9mZEtNQkVVZzlxeEV3QWFVOFQtODhDandna1o4THhVa1BzZ1dybkdZcWx4MTFqMmVjTW5ra3NSdl9MNzNqU29BaE11VGk0bUNfendIQlhVZVhNTmhHYy1EQzZYX24zYjBJNGU3YU9MVE1uWl9vbGJvcnFzOXlSaDlzWEdiNkZfcTJSNDkxcTg?oc=5",
+      "source": "Free Press Kashmir",
+      "publishedAt": "2026-11-19T07:34:31.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 45,
+      "relevanceLevel": "medium",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Free Press Kashmir"
       ]
     },
     {
@@ -1334,24 +1154,6 @@
       ]
     },
     {
-      "id": "news-zbtwa6",
-      "title": "Tata group stocks rally up to 9% after RBI nudges Tata Sons to comply with listing norms - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPOGpyUDBxSUotRlRZUEkxeDZsUDk1WWdZUk1TRnFRVWppd0wzNGpJR3FTSU5vanRFQnQybWo1VFh3ZkJNZ05WdnBCc2pJMnJmRG9CcWpPZ19wa1VHT1BIU0dxSnNaMmo0TGstd3o2U2VsNzYwclRQLTZ0Y1BkUDZFRGk2bGxhMTdiS2NhenlDcDZvTnBtOEtvQnFmM0owa2tMS0lESVZMZmVQUU1HbXRhems5LVRES09JVEZMZzFkLURwZngzSHhaRTQ4clNTNld1TllzUUlYMlphckI4WHBEeTZtalFkN0hRU2xvdGNhbDVrOGlyMUJRZmZ6SFBhNWRqSlZz0gGIAkFVX3lxTFB5Zlg1NHhhNlNTeF9QN3NIUFFmZU5KQWtweGVWaU1kcWlCa1IxSUdpc2tGczU4Rk5WRk5mQnVyckVQejlRWnFSeWV6dHpBQ0JkeUtYUEdvd3RPTFlTby1XRXhkdHpvM3J0a1VNYmZpcVNZQndmY3NZQmN6Qm1FbUNPVVdJOEloamNaa2Z0STFEbnF5UnR4dkFwbnpBSUxSaTVhR0VTLXZqSExsOW5MMFNGekFReUtkSm9CSi15Tlh3bXRTaENKdTNid2hQemYzWUN5d21MenppU3ZuQzA0MUQyRWpoZFNPdzJxYlpqNVFXV04wYjltb1oxbENzamVsQldGaGNFc3FScw?oc=5",
-      "source": "The Times of India",
-      "publishedAt": "2026-11-17T06:50:00.000Z",
-      "region": "IN",
-      "category": "central_bank",
-      "relevanceScore": 45,
-      "relevanceLevel": "medium",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "The Times of India"
-      ]
-    },
-    {
       "id": "news-1830u7j",
       "title": "What a Fed Rate Hike Could Mean for US Stocks - Goldman Sachs",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWTBLZmZzeFJtcjY1dVRma3NsTVBuTU1JSjFNbTdVdDUyWFFLNWcxaVV6QkJ1OVd2NWFfal8waFRBdHpnNl9VQXpybzBjU1h3eG9NSjAzWVo1dUNybDZyVHRnWjEyYVc2a21KdEdHaWFVWF9RTkMtNmJPanlLam8zMHp3SjBVZ29tZG04NGdxZnlHWjB2TzFoQ2Ftaw?oc=5",
@@ -1367,6 +1169,42 @@
       "official": false,
       "corroboratingSources": [
         "Goldman Sachs"
+      ]
+    },
+    {
+      "id": "news-1i6plqo",
+      "title": "UK inflation rises to 3.6% after petrol and diesel prices hit record high - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNamlMSFR1VS1LcjJjd253VGlsM1lUa0ZjZXJjclZ3ajdqZTdaMnc3dUdhcDd6RV9XWnNSYm1EM1BGTDZvTUkxTHgzeWw2TldJYm1JQlN1UHlhRkZJalpGZEFqT0lWNFR4N0pfSWVxZTg2LUJYRUhCMFhYTW5RVnh0dXlXcHcyRDctMWxZSGlaT3Bhc2x6SXR2REV3?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-11-18T07:01:00.000Z",
+      "region": "GLOBAL",
+      "category": "inflation_macro",
+      "relevanceScore": 44,
+      "relevanceLevel": "medium",
+      "reason": "Inflation / macro data",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "The Guardian"
+      ]
+    },
+    {
+      "id": "news-13rdgd0",
+      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd1hJVEJaZS1neDVWZk40eFYyV3dvaUU3ZTVJT3dlWk0tWi1LWHUxZGtfYUQ2b21iNTJ6ajVYeWd2OVpfcGk2RzJzZ3I4N3F2Rl9mNmJjY20xT3lXcUxKN1k3dHY2MmM1RlhvZm1xZGlUcVFiR2xjWWJZMFVHM2ZCc3hOYjZXZw?oc=5",
+      "source": "AOL.com",
+      "publishedAt": "2026-11-18T21:35:52.000Z",
+      "region": "US",
+      "category": "central_bank",
+      "relevanceScore": 43,
+      "relevanceLevel": "medium",
+      "reason": "Central-bank / rates development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "AOL.com"
       ]
     },
     {
@@ -1406,21 +1244,21 @@
       ]
     },
     {
-      "id": "news-1hzuzau",
-      "title": "SEBI weighs tighter margin trading rules, rules out longer market hours - India Today",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRi11dWZDU0N4TmhmQ1JjOHdScGJ0R2Vxa2tLeldneThJbEx4djk1OXVYLUdZX1VrYXNVTEpSSmx6WHdQUnJZbHFMUlZDMEFUQm9YNGhVVnp0Qi1xUGRPcDZLZnI3NTBIbTdwTlpSenZlUDFPdEdZZjJuNXhISVZ3WlJRZkhpclUzNlgyWi1pcmo5UW1DUXVvRnhQYmdMMkF4LXptcnRpRFI0RGZQamJ1UzdHUFNqd2M4SU9hZjA1b0ZjS1FuM2hFeDJ30gHPAUFVX3lxTE1Fd19NSzZDRUY0UFdlNUJhbzZlR1h3OUtmZzYxanMzUXZaRXZGUndrSnZvNGxOVUx2T2gzUjB3UVB1anp3Q3Rjc3BrUVptdEdMRzNFdEVOcV8tZkhjbXFhbFBaQkw2cTV2azh2THZoSG1feXJ4eHZ0cEpmakVDVnh5UzJsMk9pT3I1WFZGdVJSSjJmY0d4UV85OE5Hbm5KRWxrQlRBSGdUdlRjN2xHVDhQTXgtTzVBVWtxN3FvU09zQUVubjhINGZFaE5RdHJHMA?oc=5",
-      "source": "India Today",
-      "publishedAt": "2026-11-18T07:11:11.000Z",
+      "id": "news-1lknkza",
+      "title": "Rupee ends flat after hitting seven-month high as firmer dollar offsets inflows - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdTlWWmtObE8xMHhyN1lJWmdqajZvblBaUW5UNjliOElTVWZYaXpGZk8tZjZWdUcxdFAtWTZYZ3JlR2RTRXBDdUM4TW9NLVJSdVo4ZDVscVg3MGJwdDF1R3R2VnF4bWQ0alFMcjFfbmw3ZFB2SzR3ZFVTZy1qYWN4RTByeWE1aTB0UDlSaUpkdVZYbFR0S0owT0wtUnJrZ0JpNUotdm5DRWFmTmVQNGhKYmtmVVBMSjIwWWI0MGE2OA?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-18T02:21:00.000Z",
       "region": "IN",
-      "category": "government_regulation",
+      "category": "other_market_moving",
       "relevanceScore": 43,
       "relevanceLevel": "medium",
-      "reason": "Government / regulatory development",
+      "reason": "Broader market-moving development",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "India Today"
+        "Reuters"
       ]
     },
     {
@@ -1460,21 +1298,21 @@
       ]
     },
     {
-      "id": "news-erhyi",
-      "title": "Stocks slip with Nvidia, dollar ticks higher - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6allzaTc1SU8zUmVIeXRZRkU2dE9reVo1MXBLSllnX0lsb1FmemdwR2RnNzZvQ0tqSzR6cTgzVHI2bGlYWWxxLTJWY3V4OXBrczR5OXF5ZkdNQnBfak1tYUs1NlVOQVVSLTdacXdnaEt0Y2VHVmM4NEN2WQ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-18T01:46:00.000Z",
-      "region": "GLOBAL",
-      "category": "other_market_moving",
+      "id": "news-156ju8",
+      "title": "S&P 500 Forecast: SPX flat ahead of FOMC rate decision and tech earnings - StoneX",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjgxZzVKblZ0aDNsQUN0azRrZHN6LVdDd2ZIV3R5TFlaSTRYQ2xnNnFFQmZmVHN4RkhTTEpudUpUelVmbE5rX0N2cEZBRU5JX1cyZ09SeDhldUJJOXU3cHNsdndJNlFiUzlWYzlSWU8zUXVCM3hFd3o2cVRqNm5KUk5RN1pLcEZ1Z2pKelNxUjRKTzFQMEVGUUs2dXRFZUN5Qms1a3NfQ2hNaEE4aS1QY0VHMmdtSUo5aXF1SFNR?oc=5",
+      "source": "StoneX",
+      "publishedAt": "2026-10-28T14:12:42.000Z",
+      "region": "US",
+      "category": "central_bank",
       "relevanceScore": 41,
       "relevanceLevel": "medium",
-      "reason": "Broader market-moving development",
+      "reason": "Central-bank / rates development",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Reuters"
+        "StoneX"
       ]
     },
     {
@@ -1586,6 +1424,24 @@
       ]
     },
     {
+      "id": "news-vwwpjo",
+      "title": "Stock Markets Today: Sensex, Nifty Down on Profit-taking - Rediff",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORkE3UWlyb0VrWmdfZy1IamtIemhZQU9YTjRfMGpnV3pNSVpRblc1SUZJWlAxRGNyNkJDMFpCWld3ekJSaDdpVWsyZ3lCQXY4SUdCSzc4bzJ3V1RjRFoxdkxwREdLTjFIUXlsWGtJQjM0VHlCR1ZuTnpaQk5VZENfelplNEZUejB2RUxKVXNtZFo3V1JiNFJQOVhHYW42UC15SzhDYmJOWG03M2xvLXN4MURiWWcxcExtLVJVaWhvWENyLUFScU9VRTR6Q1p5ZGhzN3Z2ZXM0c0prZUQ1bkRMcNIB4wFBVV95cUxPZjRrX3ZvejZibE9UU3NXMlVzZGNUcV9IMTM4SmRsTG5YM0FWazBwMXUwdG1MZHRhS1MtbFByZDJpY0cySzhPRzkyV3FPczJjTUltTm5fYVhMYlZCWGRQc3plUjIza2tfdWtpVTJYNnZzS0NqcndqdnJaTjJsUS1UbUg4VExnTW1TTEhtRXRET0k5RklfQlpBd3ZiZGNkOWhlckk5YVRZQ0pDVG41RVdZRWx3ZFZoeFNiS1pSTjl4TmFIdVd3Tk56LWJ1V2JnX01yZEwwb190ay1iU2JLaWh6bTU5WQ?oc=5",
+      "source": "Rediff",
+      "publishedAt": "2026-11-18T05:31:42.000Z",
+      "region": "IN",
+      "category": "earnings_guidance",
+      "relevanceScore": 40,
+      "relevanceLevel": "medium",
+      "reason": "Earnings / guidance update",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Rediff"
+      ]
+    },
+    {
       "id": "news-1pfuejb",
       "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed Ahead of Nvidia’s Q3 Earnings— CBRS, AMZN, RCAT in Focus (UPDATED) - TradingView",
       "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOZUZacXliVWZvMjZxRU45OWFVa1lIUlhaTlQ0ZnN2U182Rm5FcDYxZXp3MDNYWmp5RmRTbTZoQWcwZmpJQ09hOGdrdmJ6dW9PUUg3al9fSXg1MjR4NW1TV1loYnlILXZvWGVBSTdHelMtb00wXzlvdE9HUnUzUzU1bDIzbE85MTNUVlYzVDl3Y01mZkU0NXdoNGpSczUzYVRCOEpVR0NtX1psM1N6d2tRNEIzV3hxY1d4V295SXJ6ZHNVSWczaGtRSVNVZk1XSUZjZUJjd1dWSEpNdjVHVk9kLXZXSnpoR3dYSTAxTGFPM0IzSU8teWg2eW15eWRGa0h5cjNWTXNjSngxU3lsNXNnWTg1TzVteEU?oc=5",
@@ -1601,6 +1457,210 @@
       "official": false,
       "corroboratingSources": [
         "TradingView"
+      ]
+    },
+    {
+      "id": "news-1gxyk0d",
+      "title": "Stock market update: Sensex gains 42 points, Nifty falls 41 points as Indian markets open mixed - Mid-Day",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOblFmWTBQRWZjZHg5UFZwT3AzZU05dnZRY3FjbjVSZ1FNczRaSnc2blVwMnVBRHdFM1E0T210RmJENE1DanYydXlCLVNiRmxwQXVobVJGT01jUkVPQi1sLVdVTWU3R3lIenJMVkJ1Z0dUWENvTzBXRXlfbDVpWHZEWXZwSWtvR1V3dnppUVVLVERZc1ZOcmtSbkhEd3BIRzN6eG92d2JLVm1BT3lHWmVreHkxbElqU0ZvZDF0WEI0aXd0WHQzNjBCMVpSVzE2NEh5Q2pkZmpnZVFzc3dWVDE5UWozbnZWQ19OR2RMVld3?oc=5",
+      "source": "Mid-Day",
+      "publishedAt": "2026-11-19T05:43:00.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 39,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Mid-Day"
+      ]
+    },
+    {
+      "id": "news-1dali7i",
+      "title": "Sensex rises 150 points, Nifty above 25,250. Why analysts see potential for more uptrend? - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRVBtc1JZY1lVc1J0T1BuaUlUUlFPRmdXM3llUUJOTzA5MkZKLXhhSnBkNFNXcGtFcnNIdGR6b0NobGd1ZUFPaWczSTM1RURpWjUtc3Q5TUx5V3dtbS1xaUQ5SkdGb2RuLVBQci1rTGY2UW1kUC1BLWlLMWZZel9QT1JrNkx4MU5rZG5TWFlQbm9TWjZHUzJ6VUtILUg4YTloUzdMMDhlQlA2NFVDRlRlVWd6SW91WUpHckJ6UHUwdjV5VWFQLTZxM3ZlX0RvRU1OcGplRzF1RS1wbW5rNElxR01fYU9UdE9EUFoxVVNXS2nSAfYBQVVfeXFMTnNMU2ZVR19EZG56SThCdUZNUXlXdmJmRE1TenFCX2J3SlVySE5IbUxmeUE3bTJTYl9wRE5kdUNYaFNKS2paN0RTSzFycDVfSm1vR25xeVl4c3RPVWZXMmJnMzF2N1d1bmYyRnc5V092MEc3WEV1RWZ2Z2hkX1R2MXUwaDFZVTRkbHU3dWsza0NfY2lwdG5mUjlQSVlhSjRFRXV6R293elRLbV92amdWb3Z0WW1CQ2hmVkg3bk9mdXhEWEM1QXRDaVp2Q3BIRzhtZi11bERWZzlMU3VaQ2VvZUJ4QWNNWXp0eHMxZV9CQWlEOWlhTVBR?oc=5",
+      "source": "The Economic Times",
+      "publishedAt": "2026-11-19T05:16:33.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 39,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "The Economic Times"
+      ]
+    },
+    {
+      "id": "news-18r04db",
+      "title": "Sensex, Nifty trade lower in early deals amid selling in IT, metal shares - bfsi.economictimes.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaG96MTBBdzZNWjNqbWNfRkI2cEZQTjlaYjcxU1Jzd2JLdDAyWjVvUXdlWVdpX2NyLXVJUEJMbE96NWNRQWlhLXZZWERLSk04VHlkQ2lzU3BaMUV1U3hXTE8tQ1M1N3laaHRpWmlYYjdsRFAtRE42UFhfckRGbDdZaE1PUlc3aDFyRmdheUMxeXRBN19kOVZJU290dWFVSFRNaTBITTRfU0FTSjJGaTU5U1lzbGQxN2x1d0lIbXVzanFEVzJBdHpmSG1RTHXSAdIBQVVfeXFMTVE0X1BCYnhBekY1VThmekIzYWctdnY3WlFuR0h3THpuX0QwdmdCZGhxNHIyQUhZS1QtZDdRWU1Rb1NuOHcxa0FfcEd0cG01TGlQUDlrTE5sWmh3RVdoSWNTM0FYcWFEOFcyMlNxWFlyWHFBLWJ1Q01iNVN1Zmd1TTQtMGdPN0xHaGJ2aTljRy1UMjZzWmZZTVJXQUgtUW5iZ0dzUnRuNVdJSDJBckdwZkNrM3RGYTB2MmhudmR2djB5eDF4Q0xKZmItSE55UHVqQm5B?oc=5",
+      "source": "bfsi.economictimes.indiatimes.com",
+      "publishedAt": "2026-11-19T04:53:28.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 39,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "bfsi.economictimes.indiatimes.com"
+      ]
+    },
+    {
+      "id": "news-o1azme",
+      "title": "Indian Stock Market Today: Sensex, Nifty Recover in Morning Trade; PSU Banks and Auto Stocks Lead Gains - Business News This Week",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQV1U1R3lQamRQcTF4X1Q1NnIzZDJZa2FVMlNpaUIwZ0hrOXFoN1VBcUhnOEtjYkl2Uk0yUkdTQUx6UjlaTTgyY095Rl9qVWJWU3p3WXBrU2dZc2w1empUWFVacC1FYTUxSVAxbDQ4dDJRX0pKS3RIM1lseGpuVjNJaXo0czVFSGxQY0otcFBHLVJLMWp3US1XQVlrX1M4cTJ1UmpjSVNhcU1aRHhnNTdBbk9ucDhqT3Ixbm9tYmJvZDNOR01tN1NmSHAwbmd5Y0VwWWM1clBjc2ItR0U?oc=5",
+      "source": "Business News This Week",
+      "publishedAt": "2026-11-19T04:50:22.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 39,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Business News This Week"
+      ]
+    },
+    {
+      "id": "news-1j6elkm",
+      "title": "Sensex Today Trades Marginally Higher | Nifty Above 25,200 | Maruti Suzuki & Bharat Elec Top Gainers - Equitymaster",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQYzY5X1dTSTBDSDR0alpSelRHdzd1d1dkcnVpTUFHMU40MTdQcmRTc3FqbVcwRXdRXzNGX1dEN1J1NmNDa0VwRWU0LVdJbjVpMHEtb3k4VnpUbXJVR19UN19yRkNMY2xOb05RM2dGdFMtbWZSazVsZjItN2ZHRzZSVFlNeTNnN05ZZVE4VDlUVThNNUhId1RSLU55NTdDcFNyM3NEMHgzNzB3U2QxOHp3eWlfYkZUT0JKZzBFUll4RlQybWtwbExYRWhiMUNQWjZ4QlVnVmZkT2tpTjNfSmd2M0dhLVZUYVBBYWlnTWdn?oc=5",
+      "source": "Equitymaster",
+      "publishedAt": "2026-11-19T04:40:13.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 39,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [
+        "MARUTI"
+      ],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Equitymaster"
+      ]
+    },
+    {
+      "id": "news-n7xnci",
+      "title": "Indian Stocks Open Lower as Rupee Weakens and Gold Slips - Investing.com India",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTFM1MUFBQnEzaU9hLVZWakE1Vk9xSGFfdVRNWENMNUhaOWw3S1B1ODFFbUFBTVcwSEpabGdwLV81YVJZbjI1alo2RkNqWGdWVlNsUjFDNmRVSUQydXhiWG5XN2RyTmxKX0pOVVctbE5kTXNrSFNvbnpfRDEweTBlWjVmNHJ1Y0F1S3hhRmpIT0VCWXZjWVVISE51MFVVSlVqZnNTWTR0bFVIZmxaUERLNmRB?oc=5",
+      "source": "Investing.com India",
+      "publishedAt": "2026-11-19T04:18:22.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 39,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Investing.com India"
+      ]
+    },
+    {
+      "id": "news-184zvi8",
+      "title": "Nasdaq, Dow, S&P 500 Futures Climb Ahead Of Anthropic’s Record Debut: SLS, GLD, TTWO, UNH In Focus - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNT2dCbmg0eU45cU1vQmNIZVZ1bXpZb1BlZ3JTbTFLYXF3dnVPMWVGY2R0S2FuZ3ZJQnd5VkdiOFRqS0Q4UXN5YlhnV3dEejh0aHJuYVZ5ZWdHdHdnVWNjZ19IZTY0OUpmNzJQTFpxZjA3YTRJbFZGS1dibXN5Q0Y4TFZNcVp2OW8tcGktQzJ1cjg0WjRiby04bU5RZDIxZmpnN3Utcm9wWlFqT1JYYVJuVHlBS2tkejIwSkttWjlnMjJFTldWdTVVb1lwQUlDd05HQjlzVlVNQjhRQ29pOWNvaDZtaVh2UU9s?oc=5",
+      "source": "TradingView",
+      "publishedAt": "2026-11-19T04:15:00.000Z",
+      "region": "US",
+      "category": "other_market_moving",
+      "relevanceScore": 39,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "TradingView"
+      ]
+    },
+    {
+      "id": "news-1xy2iqw",
+      "title": "19 November, 2026 Stock Market Updates: Sensex opens in green, Nifty below 25,200 as IT stocks drag - India TV News",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQaUJLWDI3MVg3dHZfZzdrdkpfS2NnQVpXdWRFSTE2RlViRVdxd2poV2I0QTBmVUtKWWxrWlVoYjVFbWIySzNqbkljQXFHU09wMTlzdElnVWVrUTM3NE9ST3FvWU5udlltOUpmUGJVUS01WEJLb0FaQ1NjN2JrOWczUm5GbHJTNFhuREJOcVNDX0F6aUgzNjFFZmxTb3NHZEZPdWlYdnFtbDZld1YzcW9nRm5uMk5leXR2eTkyLTJLMnQxX0pxZ1dvLVlIZE5jdnB3bkptMnlTbHNuTlFfb2RrU2QwNDJWTTFZUVlWRlJEMFRJZ9IB9wFBVV95cUxPLUpNOUF6cVRMOVNyS0R5dHlnSUU5d3plazE2cXl0X2VOd3llN0phWVhzOWJOMlZzUEVFVklkNXpLOHdud2I4T0RhLVpkMXBvV285MmJKU0IxNGs2NlN1Mmo0TkkyZFQ4VjVJUWhFYnEwS1h6TlNFZjZYMjkxOXNJQVlrVWJ1ODQ3X0R3bHI5WmhWZTVXTkszRGFEaFBoUE1CWnVFZ2hTZnE0aEJNa0luUWEzZFdCdUxBVGR2RjVzVGI0SjBMVEh3RHowUGp4aEpKWFBoTURDVHFlanBNcFMyMFB6SWVpUVlYRTVuaEtHN2IzM3dHdFVv?oc=5",
+      "source": "India TV News",
+      "publishedAt": "2026-11-19T03:50:58.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 39,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "India TV News"
+      ]
+    },
+    {
+      "id": "news-vsdfyg",
+      "title": "Stock market opens mixed: Sensex gains, Nifty falls; Infosys leads losers - India Today",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNLXpIdFdLRUp0aFVtc3lJdUkyS2NlLUthSWZvb01OUkh0bXZUaEo0XzQ0V296SkN4dFd6NzNXaC1LWHhBVHlURXVYVnZXZWk5dy1nV1FvLUxHUnVoNHprZUxoTk1rZDJtbUhKbVJ0cVdfMDVnLV8yaFItYVFRTnFvaFlmRk1iLThFRmRfcWs3S2RrYkFYNjNLM0MwQ3NtV1VpR1VwS0YxcE1yUXUxMlRJVlNMZy1EcWN3eFc5c21PVTYtSmlMaWpzcURR0gHPAUFVX3lxTE1XMG1Lb3ZYV1VCUVRRQWx0anB1NTU5OThvdENyV2NFR05hLW5yRHhiUVBOZWpLelQyNHBIT2dackhXUmY0T291ZVVSV0tFRldla1ZSbFFnT3Azay1raXZmX3J0SzAwZEctRE9TT25DYnRMZDNUYUw2SktUaGQ4aGhwejlYQ0RwRGhFWGxPdzBWbmRHTlZjV08wMXo1T0l0OHhmUTUxUy1DbVhVcWRJR1Q4Y0N2MHJjWFh5N001TURNZ212WWs2ZVhDbUNCY0RTSQ?oc=5",
+      "source": "India Today",
+      "publishedAt": "2026-11-19T03:50:57.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 39,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [
+        "INFY"
+      ],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "India Today"
+      ]
+    },
+    {
+      "id": "news-15yyhzf",
+      "title": "Sensex Today | Stock Market Live: Nifty slips below 25,300, Sensex falls 360 pts; consumer durables - IndiaIPO",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNTFyM3Q3LVNQNlRlYkl1S0ZyX3ZjUzhVZXZDSEJGMTdkc1F4Q1plODFqRXFiOWkwZ21ZN0dQNDBUSDhhb1N5SmpURmF1eWlWcDNaUFFlX2hLYUlnS3VoYkRkcURua240c1NGU2o0Ukc0bGpCd0FDd1hNMkpZZklWaGc0NVAycHZkdzk0WklYNkJWRUpQV3c1NzVTQ0tUcldKVW5ILXVHZXRGaXNKUFBsY0d2TzdCRXJDcmhsV3dRanZ3enJLNHJLZA?oc=5",
+      "source": "IndiaIPO",
+      "publishedAt": "2026-11-19T03:06:30.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 39,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "IndiaIPO"
+      ]
+    },
+    {
+      "id": "news-1m4kb7",
+      "title": "Top stocks to watch today: Coal India, Jio Financial, NALCO, Bharat Forge, Sky Gold, Dalmia Bharat and 7 others in focus - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNSS1HQnlNdWJ1MFFvSWNvMlV5eklPUEtkNlppdlQ3bWQxUzhfNTZQSlBxelJ5VmNFQ1FSSElwaVVkbzdlVXVXbXNyU1BNWEl1elVWWVhOTU0zSmtydGZMTnFockpVUTJJVGF3bUxOWmNGUmVrQnYwS1l6Y1o0U2ZOLUdPM2FxdEEwdjFkQ1FUU044VEJlRVlzMkVjRW9CSThyQ1pHSVpEekpQY1ktQzBQTnZzLVdLbEJoa2pyNHZnNDdaSGlyWkhaYVdGeFFxXy1pVi1WR1dSSzBZTFQyTldYOVJDT2RTclVrSmlFVkNlaFRzc3BEeUdoYTVrdGg4YkpfX3hEUDBSeHRpQmZIWXFIZ3Z30gGXAkFVX3lxTE1oZkY5T1ViLWdjQ3dsWGdnd1Z3YXZob3FkWWVaa3NOM2pKTFU2NFdZSzktZXFCOURiMVZ4NjhVaHRxbXg4akw3cEFmLTFWZlF6TnNTbWV0STJQMHQ3alRia3FHQW1PVzQycVhJZXlYaHd2STZzMjk3S2R5NmcxLU9nM0pqX21aUnF5eG5HUEUtQU1wZnQ0X3gwOXFyZU9CVXo2aUtlTFJrMGVXNFQ4RmY4OFlYY2JiV05EaXdsQnNxNVlnSENrb1lJR2h4dXR4aS1TbHdESmJlOGtsb1E3M2g4VDBqSEhzZzZLMDZGdWswbDBSNVlYWWFiNTlLVVE0UFRJYjc5dGtRSWNDQ1czTG5UczVZMnFwaw?oc=5",
+      "source": "Livemint",
+      "publishedAt": "2026-11-19T02:11:12.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 39,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [
+        "COALINDIA"
+      ],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Livemint"
       ]
     },
     {
@@ -1640,65 +1700,32 @@
       ]
     },
     {
-      "id": "news-1b4gxs8",
-      "title": "BoE Issues Statement: UK Inflation Predicted to Rise Further in 2024 - Global Banking & Finance Review",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWndRQ3lEbFhnd2FVMHprVldKb0NPQzlMZDR6UFc3V1U5cTlNSnE0TUtrNG9EZW9QbE1xVGlrRzh2RXpTTVQyMHFabUtWYnVqeks0RndOSzFRN0V0N3RjUUM5azR2QzlxNVZ4T1c2cjFlNVlSalkyNjA5amxtVC05M3F5cVZ3dXpaOUE?oc=5",
-      "source": "Global Banking & Finance Review",
-      "publishedAt": "2026-11-18T08:49:51.000Z",
-      "region": "GLOBAL",
-      "category": "inflation_macro",
-      "relevanceScore": 38,
-      "relevanceLevel": "low",
-      "reason": "Inflation / macro data",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Global Banking & Finance Review"
-      ]
-    },
-    {
-      "id": "news-iynjod",
-      "title": "India’s earnings recovery could put large-caps back in favour - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMmN4NS01NWc0WnhRMVdVQ1FPU3RYcWgxbmFXQVNWcWtIZG5ZaTdhSGwxVUZvdEduMGV3MW5pZmdpeHg1MGJ3MjJ3a3kySTZGYzBDT3ZQQWZiVDc4cVFQRGJSSUNOLUNNQ0o1bnptNjJvU21EZTk1eUZkY29LeklFbGliMkVHbU1STHVZNXp4TUF0RC0zT3A5bG5KQ2tPbk5JVTROZTB6NjhGNW1WRk8ybzlhclBFbG55bGZqWGVHOUNaNDYzXzF3etIBzgFBVV95cUxPUWdYWXJWVmlZb2U1WVVsTXBjUlNDQXZGNHhRVGJQaV9yQmM3ZkFaWWNUdk9XYTY5UVlHR2xoMnBOVVhkbU42TFE4YkR2ZlRHWlF1U3FvZkFnMHZqVkRDWDlYWVQtYXBoc3ZWNmpNeTVsUk9CZmh2ZGhxQW1mVC1ob2oxWWFhZkd5cDJVQzlWemdpaWFIbHdVdFpSWUFscjR3Q1NDNlBCcEtvZ2hIay1UTDhzcG9Sb0o3aFFfdkNHZzV3aXF3SlJpa01VTjlfQQ?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-11-18T07:43:31.000Z",
+      "id": "news-10c9hnp",
+      "title": "Nvidia Q3 Revenue Jumps 103%: Why Did TCS and Infosys Fall? - NiftyTrader",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNTEtdFlabjUxSlY3WFVhSjFVS0tPUXdXQlhteUFaWmtJWW5GdVViNFZiMU9KaXNVYzRpU0c2bXFoU3NPOHYxVFF5MVFxbXFVR0dQZjE2dkg1ZXNsUjE3eHg0cS1HRnBmR3V2ODFqMkhmU19XVkhDTGlybGJhbVFtbm1R?oc=5",
+      "source": "NiftyTrader",
+      "publishedAt": "2026-11-18T08:13:18.000Z",
       "region": "IN",
       "category": "earnings_guidance",
       "relevanceScore": 38,
       "relevanceLevel": "low",
       "reason": "Earnings / guidance update",
-      "matchedStocks": [],
+      "matchedStocks": [
+        "INFY",
+        "TCS"
+      ],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Livemint"
+        "NiftyTrader"
       ]
     },
     {
-      "id": "news-1aqan3x",
-      "title": "Stock Market Today: Textile Stock Jumps Into Focus After 33% Revenue Growth. Buy or Avoid? - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTVVvM3dzeFJXZUxnM1V2ZWlxSlFYS3pVTmNxRmVISWhLUDNTYjJ3UjBRZWhEZ0JsVlE0LTQzM3RSMVFhMm4zRWcxV3J6RnA5UHcwWEVsazA5OXhiRE9IRmIwblVPSmFXUmprVHlSYkdkMUVtdnlUc01HNmNtOGtjN0ktQktzWURiZ0hzaEI4OGFnbjBIc2NzdjJsckM2cGNqSWxOeC1ucXAtNTNwZlZfQ1BOWS0wQTRFVmRBeERWbFlPLS1rY09WS29n0gHSAUFVX3lxTE9CREJrRk45ZkJubDFWZlp4RUdFb08yUklqbVBDNFE2OGdmMlhFSnhiTi1RRkRMZ29jUDEwcWhYdmJpZy0tT3BsNkNwbUVvcDZPSjJBVEl2MHpOLWZTaVdYUzJ6Zm9LYkNjZWc5bXN3VDFON3BxbGYyX1hPR3JfTEZoRFV0SU5BVjhuXzlEaHlmcFI0TTFKMk12VDBnVjA5NlVMZFk3WHJrQ0pEeWtwNTdXZ05JbkhXQ1BONU1ONmpYU2lidV80UVJrSy1pWHZiQkdjZw?oc=5",
-      "source": "NDTV",
-      "publishedAt": "2026-11-18T02:23:44.000Z",
-      "region": "IN",
-      "category": "earnings_guidance",
-      "relevanceScore": 38,
-      "relevanceLevel": "low",
-      "reason": "Earnings / guidance update",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "NDTV"
-      ]
-    },
-    {
-      "id": "news-g1i75p",
-      "title": "Stock recommendations for 19 November from MarketSmith India - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWnE0d3hiWlk5ZjRvRGpUUHhKTVFobHdad2xXT1hDYUpzbmFlTi1EQkJJWUZyeTVVSHE1YTg2NURIVFpOR0V2OWgtTDlCTTRaMmhCdzdWM3V6MmdWdnBkTjJ5YWVxcllteExaWERFNkRRUV93TEhrTFREaUZidEUxTDlYNEhpSzVjaDlJRzUzWjJKcWVnV1ltLVQ5NEg4UjVFUWU5ZEdTQVVUNTFIZEZuSVc5eWdlaUV4czBJWXJVYXR4U3c4YmRqMEln0gHPAUFVX3lxTFBPUmtLMHBTZ3R0Y3JCTi0wOHpVWU9JM3dHSE1neUo5MlRRRV9NRWR0ODh2V0NycENNcHZScGxrbmFtN1ZnX0JYcTZWRW5iOUJrdVctYmJ0anhBMHRGZmwyUHRmNm1ndjZzdVRWM1RHalpqMlB2NE1PMjREb0VlWGZ2N2dKMnpHWk1tT3Nib1VLcERNV002Z0tCZjA5T3FyRy16TXVTZURPU1NNc1hwZGh1YVEzRHhibWZFUE5fZ2tqQWVoWjVSTllEandQZXdmUQ?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-11-19T00:30:57.000Z",
+      "id": "news-rbfy8o",
+      "title": "Three US tech giants worth $13 trillion; India's entire market at $5 trillion: What should investors make - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPY0V4NEtqYW5JeGdJOVhGS2F2VndVejhBejBuOTJ2OF9OUldxS2dxRGN5VUdTT0dLb2RUeE1WWElHc2FocHFIZXNwUGVGYS1sNllrNVVjNUxzblN4ckVGeHNqa2N4LVlsSkhxSE9tRkctSkdRV3BBNWpvZnVzZnotQ0ZDeEFVVThlTm5vemlwWkRaTXRlMFA1UUF2blhTb1dMQ0hMOU1lb3BqVmxqRTVFM2NaZ21MZFREUjB3akptU09aRW51V0hISS02TzBsNmMxcUstdnVFdWJtWkhoLXBvX2Y1ZHpkdUNFMXg0RWs0OHprU09GM0lFTC1KR1FiRDBYazMyVWVDM2lFMVN5c2w4WNIBlgJBVV95cUxPM2k4UkNpNU0zY09PSU9LQlotbV9nNDlnVlR3UjFUSnpHYzlPVTlwVnhlNEpjSjNZQVZoZXhDS3N6N2JOcVBLYXZwa1ZTRW1hMGJMYTFGVVFsbTQwTFlDWkRmMDQ2Z2cybk1EOGhlTnFTTU12Wk1kLXRuVkFHTzNzTENXRWJLbDl4MHQ4SFF0cnBJN2NRTTlSWTA0NF9CMnlFSFZHRVZHdUF6Q0JiUUtGVzgySUZFT1AxUjRxUGtOWF9LYVpYbkZPekV1MXl0bzBpNmJyTUMyTXQxNlhSU0tHdTljNVh3Q2I5TWZsWWg1U1R5THRHZ3lDTHYwcDV1S045bUxlSXJWU1lpUWhBVmh3Q215YU9Ndw?oc=5",
+      "source": "The Economic Times",
+      "publishedAt": "2026-11-19T07:36:17.000Z",
       "region": "IN",
       "category": "other_market_moving",
       "relevanceScore": 37,
@@ -1708,61 +1735,43 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Livemint"
+        "The Economic Times"
       ]
     },
     {
-      "id": "news-i7wkzt",
-      "title": "GK Energy Subsidiary Expands into Green Hydrogen Business | HCL Tech Joins Hands with Cohere for Sovereign AI | Top Buzzing Stocks Today - Equitymaster",
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQZnJ5bU9QeVducFcycW5KNUVfVGZHVTFpS1ZqYThKZjFaSFd4TGpOS1lXQk8zTG1qSVBEellzdU1XTUVFQjlDVkVIaEg3N09Rc2Y0b3BYODY5YWNtUG5IVTNCZ3FicThmS280ZzcySEFEMEI2cElMTWtYbV9aZXJxeFhUTk83VlRGeXJ6dUF0NjVaaG8yTjR4ZmE2dFlWZGVndFBMSGJHaDAzUk1oVGlvRHBCeGJSc2RsUDlnWGNsMUx5dEtxZ0xyNHBGeTFrNXk4TE0za09QM1JaRDhTYThIVFhjUmNudnNseVpISGN2VHVTcDk2QkZRazlSQ2FEbnB4bWV3dUNpcDdJMmlBbFUtV0dNT3dNZWFhemdxWnZSbEs?oc=5",
-      "source": "Equitymaster",
-      "publishedAt": "2026-11-19T00:30:00.000Z",
+      "id": "news-1x3i24r",
+      "title": "बदलते भारत की Banking, बदलता SBI का अंदाज...!!!🚀 ₹115 लाख करोड़ का Business, कामयाबी की नई आवाज...💪🏻 IPO और भविष्य पर होंगे खुलासे दमदार...👇 कल 11 बजे Zee Business पर देखिए SBI Chairman C. S. Setty जी का Intervie - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMitwVBVV95cUxNeFUwWU1TYzd1Sl81czFkeVhIcnhhTVJwMHhIT0dDbC0wS3Y3dzltSHJiblRXQzNJdzVmcDR2bmdpQVhjX2pDN21temF4ZEdpRGFtTzBZd2k5WkNjd24zZ0RIY2hGZG9PUjItZnc0dUFNYVhaLTQ0eDI4eDRBSHhBUXVMVnVFc3FLREtNbjQ4T0ZERnNEckxFdDItWkxHSDRlTklOemppNWEzOGJMdFRBU1JPSGJYSUlFSkl2aU90Qy1sTmd5VktDVHJqMzlfUlZSMmZlSk9DZzJsWmZWLUc2SXhfbjAxR0RIc1J3bVJRdWVrSDVIRG0wZktZUmdIc3BnZmI5QUFmVkRkR2JaX1RSUzhoaUZsX21pT3hRZHNRTUQ5bmRkSjhOVnZGUzF2eEZ1ejdMTllFUVRRbVBrMUtWUmZHd0ZjTnZzLTdLcks1Q3hHSE1uUU4yUUpUYnJDYWludFlMdlNLbVVjREJxdUNLSUU4eU93a2Q1YUZmYUlfRVpQV2M5bW0tMUVxd1FURWNTMWRfbElORHdQUmpEWnlrTW1XVFF1SE9VTHlNdnZmckdJd1lFTGQyWmJwSlR0MXF1MXBjdy1mWU1XZ2RKM0tkdVhpcjNyNXF3UmNRR0VpZWdia2J2dERPOWh6VkR6SEluWXhaSTMwd285SGFyNlpWRl9GNTFSTnlnWVVJYk5HdEhsaDVIMnltM0tQSWJ6YWt1YkREUEwwd0dFVmxWcWgzbFNJelpCZjYyaVV0a0x4cW1MeDEyeUhxVnAtcGl2cjcxcFpyYUdXOWRxSjVwbjhQS1dweHAwbEtUVHFWb1c1ZVZjdzlXaUloOHR3ajFuQUs0aHNIV0M0X3FhSVM1RnJkNF9yaXVBWEo4TnBHVDltYno0VjJieHZBb2hkaXQyRVZPeE1OVWxQWQ?oc=5",
+      "source": "Facebook",
+      "publishedAt": "2026-11-19T07:28:59.000Z",
       "region": "IN",
-      "category": "technology",
+      "category": "other_market_moving",
       "relevanceScore": 37,
       "relevanceLevel": "low",
-      "reason": "Technology-sector development",
+      "reason": "Broader market-moving development",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Equitymaster"
+        "Facebook"
       ]
     },
     {
-      "id": "news-w0ihbr",
-      "title": "Sebi weighs margin trading facility curbs amid growing market concerns - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxON0Jkb2h6ZUhGRWN0QldDTkQ5dFZ3X1Z6RGJCM3lVSzVmTVJlZF9WZGlNQkR6TFBfZ05wQmhOZ0NNaC1xVWNXdTJhY1JLSmd2T0Z0QUM1QWo4WEZrWnptdFAwSGlaTmxlcFVYd2dGN1F6ZEZmQUt3S0hYLWJHMUxjVzRXMXo1R2c2alQ5bW5qME9BSVpCOWRVWDVMZEdIYU9mOVUyTzNLTW9lLXZDNXk0REJyM2lQZF9xWTlBaG1udWNDMWRNYWw4Z0dzcm1iZ3kwM3Rv0gHYAUFVX3lxTE9jMjBkeTFfRnB0eHc3WmFGWVNyTDlTVm9hNkJYdjhVRGdyM2Znd2VxajU1ZG13WVJzZUdGbVBlcDV4Ri1FeUdnbzFsWEIyUzkzTlk0VFB5UjVpQUgwNG1GRlFPcGxnZERYMFM5T1N6YTJXRGsxU1hqekVkdkNOQ2RWX0g0b1Jia2RhejNzVk9QQm02YzNzc3piaEtkUm1nakt1OFRGdWN5TThHcUU4ZWlJT01HblRCYW4xbk1jdGJRZ0EwUHJ5VnJZMVA0a0JDU2NiQWF4Wk5QWA?oc=5",
-      "source": "Business Standard",
-      "publishedAt": "2026-11-17T18:18:53.000Z",
-      "region": "IN",
-      "category": "government_regulation",
-      "relevanceScore": 37,
+      "id": "news-erhyi",
+      "title": "Stocks slip with Nvidia, dollar ticks higher - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6allzaTc1SU8zUmVIeXRZRkU2dE9reVo1MXBLSllnX0lsb1FmemdwR2RnNzZvQ0tqSzR6cTgzVHI2bGlYWWxxLTJWY3V4OXBrczR5OXF5ZkdNQnBfak1tYUs1NlVOQVVSLTdacXdnaEt0Y2VHVmM4NEN2WQ?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-18T01:46:00.000Z",
+      "region": "GLOBAL",
+      "category": "other_market_moving",
+      "relevanceScore": 35,
       "relevanceLevel": "low",
-      "reason": "Government / regulatory development",
+      "reason": "Broader market-moving development",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Business Standard"
-      ]
-    },
-    {
-      "id": "news-couxby",
-      "title": "Sebi may limit margin-funded stock purchases as retail leverage hits record - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVGVOaHlxRzhGVk9YRUo5RGFpeFZ0RnBQYWlpa1BsLXk3a1RGdFNPajNlazZXSWNzbGwtam5zOGlkT1o2MnJ5ZF96ZVJKUXNpUUhaVnNSY3hqQUIyaFJSdXI2aTlFZTBDc0ZDaWx2ZEQtM3U2cVJvT0FJSko0Vi1oeVpHVXJxdHBQdk93WkUzRVdvYndsOHNHZS16WUtJckV5V1U1U1ZRMVY0TllIQnRUSVBnQlN1empqc1VvU25VdTFacGhGMHNHX0M3V0w2UjNuR0Fzc2RxUTkyZ9IB3wFBVV95cUxONzJKSEZiTFVxMnc2UDBVbnoxMkNQMDFCRjZQOUFhYk1ReXFVaWR6WmVBZDBCZjJnMkJ1WHZFdXJqNVBTM1IxZlU2dUtOcFo2NF9HNjk0aVV5bHVCa3h1S1JkYVVpb21DRnlKMG9VaTVZX1daMU45allKVWlfVWQxZXRMNklZMEZiam9VOWtKZV9tZDN5Z0V6NTBFS3lwSnpjWTdQRFB2b0ROSElJaHVxUDEtUzBmQ0ZZUzhCaVhuQkozQVJEbkZoc3BOYWl6ZVlYRmZ5RWY2SkY4X1ktQkQ0?oc=5",
-      "source": "Business Standard",
-      "publishedAt": "2026-11-17T08:07:32.000Z",
-      "region": "IN",
-      "category": "government_regulation",
-      "relevanceScore": 37,
-      "relevanceLevel": "low",
-      "reason": "Government / regulatory development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Business Standard"
+        "Reuters"
       ]
     },
     {
@@ -1802,6 +1811,44 @@
       ]
     },
     {
+      "id": "news-17tklr1",
+      "title": "Sensex gains 400 points, Nifty above 25,300 in afternoon trade; Maruti jumps 6.5% - The Financial Express",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZzBudm8tazFCOU9sQ3RrUGxiMlduRlJuVXJpcFFINlRNMjFzNUdzTjc0VHQxUExWMVZEeHhNRTRKckwwN3JhLVNEd1RvbXBjeGhjUUJHOHF5X1poOFhmdnZueHNfWUl5TXVBSFFHbVlZa0dGeEJ1QjUyWWNwRUgyeTQ0RGVKaW9rSVF0SW5ZYkxZVXBvdWJGQWVGVnJuNWdJLU8tc1I0UVVOQlliMHA3V1RDTmpKQmdvSXJvWVV6QW54ejQ3X1ZDREc1VTA3Ylo2YmNLdG5EVlY0eVg5dTBvZUpQaWFBY0pzYy1uRnJLamFQN0JSbkpTQtIB_wFBVV95cUxPUnZONzRUSGw1NnhSSXR4Y1EyYUtjLU55X1JNdHdQUzVyckNKb2pGU0RSUzhfc25OU3BnQ2swWnY1cWV1MkktMlFweEhTMzFHa2otTnk0M0tjanFoaUlrRW9FNXZvSTAzUWMyeTdhNEVnUHNJTC00SmZ1VXVJc3ctQUMzUm1ObVFkZXNfc1hVSHpPelpiZ3B0WlBCMmlxR3RjMGIwczdPN1ZaSjFYVnk3eDV5Y0RXcUJ4c2xWZnViZFF0S2daOF9lNEpjSTB2Ry1TSW9EWTkwaU4xdTdadjBmQTUtUndiSV82VVZMNEF6NXplWUw5X0thM3dTMWVDOUU?oc=5",
+      "source": "The Financial Express",
+      "publishedAt": "2026-11-19T01:52:08.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 33,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [
+        "MARUTI"
+      ],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "The Financial Express"
+      ]
+    },
+    {
+      "id": "news-1tn3z4s",
+      "title": "S&P 500 Breaches 200-Day Moving Average in Fifth Straight Loss as U.S. Stocks Diverge - NAI500",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcV9qRl9fOFAzQ2R3d0x0M3MxSXFuMUM1QTVkak45U3pNN1paYklreUNodXFZejc1NXZnaHFIVzVFNG9rc1V4SFd5YTZHaExuNXNYVHkycmloWU0yU01abVI3T2tKR2dlRENsbmFDdEEyV3lhaUdNUThsNUs0TFdEVDlGenRyU1V1S0EzTWVZMmwyRzBRRy1ma2J5aU5wU1d6cllWWWdGWWc1d2M4OExLWDN1Qkxia0E?oc=5",
+      "source": "NAI500",
+      "publishedAt": "2026-11-19T01:49:16.000Z",
+      "region": "US",
+      "category": "other_market_moving",
+      "relevanceScore": 33,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "NAI500"
+      ]
+    },
+    {
       "id": "news-9fr9m2",
       "title": "S&P 500 Reverses Gains as Jim Cramer Warns of Further Losses - www.tokenpost.com",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2cXc5dFBXcDM1dkN1QktDZEJ4dGc2UWFQVmZyQWhzOVJJWTJTUTNEOTZQLUNhT2RzVU1UTjJrS0xiTU15Q3Y5TXV5ZExoeFFhc25BUnJvcjV0UQ?oc=5",
@@ -1820,11 +1867,11 @@
       ]
     },
     {
-      "id": "news-nye60j",
+      "id": "news-12clgtk",
       "title": "Indian Stocks Slide as Sensex Falls 500 Points, Nifty Drops Below 25,250 - INDIA New England News",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZmNJd01YVlJRV3loM3ExU2lIa1YxZ3c2Z3FnQmlCOW5XQVY3NEpVd2U5SUI1MWJMakRGcVNfcXhsRC1IS0k5WjlheFZ3a21iRjJwYXpYZUt4cURYZzYzdVRkelpfLThZWVBGVkZqaWlTZWowNmRkX2lkbjFSeHhLVU5ieHFYSWxLSldISlo0WmNfeUFNQy1GbHNLVF9fQmNN?oc=5",
       "source": "INDIA New England News",
-      "publishedAt": "2026-11-18T16:36:11.000Z",
+      "publishedAt": "2026-11-18T16:36:12.000Z",
       "region": "IN",
       "category": "other_market_moving",
       "relevanceScore": 33,
@@ -1874,42 +1921,6 @@
       ]
     },
     {
-      "id": "news-1wgx1vq",
-      "title": "Indian Rupee gives back some upside but still manages slight gains - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRTBOS3FUWFQxUDZ6TmJGN0pRdEk1NHN0OXVvZFdaemg0ZGstQjI2SjZrOHdQT2hmcVVKczRuZDlBWV9TZzAyMTF1dWo2VWhsdGFlMEpWRkJ6SERkSHFRUktEVjl3MnhOcG1qQ0lKMUtJbm92T0NTUkF4Zlh2OGJsYnA3Smp5RmtsRGdMNmxZeUVYVFZsak51dFkxZk9NdUp0Nng5NFZVdWtnRGRQUURlYUY1MEJLcVpJWVVYQXhiZTdxWFVI?oc=5",
-      "source": "FXStreet",
-      "publishedAt": "2026-11-18T11:36:38.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 33,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "FXStreet"
-      ]
-    },
-    {
-      "id": "news-qo0xzm",
-      "title": "Nifty Bank crosses 62,000, jumps 20% from 52-week low: What's driving rally? Check performance; best bank stock to buy? - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNZGVGalpJNGNpcTY3ZFpEcUhxT2JSRDRNMlVsVF9aLXdHRTZIRE4zSVVUYnpRRDBrRUo0NTZhZkZrN1o4TXpRMV9rVjB3NFNFSkdETmNwdkozVjhwelhhRE1Dc25EWWVTRTNmejRSd1J1MzI4eU5nN3VlN0gzT05UZnN6SWxVWGZrOXlZb2ZWSmtab0MxVGNSUGxYMTFzS19sMDhkYThoM0kwa2Nmd3B4eThsbEFoLUU2cWowcTNUWUJSWWdSajdWSmxGUG5mX2FGSldkbFNQUEdNQ0x4YUJ6VmMxTXF2MFFRcVpNSE9QUGNmTi1vcGdpRmI5b1FlWUo5LXRIWkF0TDE5TVBnQzdR0gGUAkFVX3lxTE5kVG5Ram5jTjdGZEh1X3lqSVdWZHZlYW00cEY3TnhWV1lTOUxDYXVZenFJQU5xaGFPdnB2RG5zWFVWUUZtU2laOXlqMnU0dW0tWHZkNDUxYW1ncC1HRTluTG83ZldnOVZKanNlMk5PTW41MXd2dFk1V3FHR2twdko2UFpEdW56eDh3R294VzBUWGt0cXc2RS1rdWsxVjFDMW11Nzd2amZRRjhmWERLNXIwczcxVFRGYmc5T2k0SS1ZT0RtOW8xSVhqWHlldTl5ajE0UFBJN1pPcTdQallVOEF6dkd5R3loZzhjN3c1ejRJT0dyOWNScWdBcHo4NFl0cUM1MjBZckV5N2RsYVpXUThVNGNGRA?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-11-18T11:31:43.000Z",
-      "region": "IN",
-      "category": "banking_credit",
-      "relevanceScore": 33,
-      "relevanceLevel": "low",
-      "reason": "Banking / credit development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Livemint"
-      ]
-    },
-    {
       "id": "news-zfianb",
       "title": "Share Market Today: Nifty 50, Bank Nifty | Nov 18, 2026 - Liquide Blog",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUkRndGctQVdwZFpNWnVQSmx2NGdNN0dpVlNlQnVUNWc5ZzBQN3lrOFc5RUlOcGJqSGRpQWd6UHR5LWRLdTl5UGNlT0pBUlpRMFlwX0JybXZWMjl2RV9ZaU5mU3RZeFJIcUtRdEdrNmdiNlpBOE9SZDFPSkFaa2xzYUxYc0JQNzlKaXZfMXlCMUY0MFJzaDEzRG1IVEd2bWQ1cm9maUJaemVKYWtRam5jdXBfM2F5Y21DNXpQOG9kaTFROWtVWlBERUR2NzBWUWRkT3F4cXNCa3pRLV9HQXQ2dHlhbXlDdGc?oc=5",
@@ -1946,8 +1957,8 @@
       ]
     },
     {
-      "id": "news-rmuisc",
-      "title": "India shares lower at close of trade; Nifty 50 down 0.63% By Investing.com - Investing.com India",
+      "id": "news-upm9xb",
+      "title": "India shares lower at close of trade; Nifty 50 down 0.63% - Investing.com India",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZnZabi1RRnJFa1NTc3k0WFJVYlVnSXFGU2lyQkRySUtsMjNCdUU4UlNmaG9CSzN0enQyZHY4cENxMTl5bVdiNnMxbll5RV9uSGgtY1FVblRJeG5oTVhzYkZ2U29NTW5vUm9XNjV0OFBwS3N6R0VNU2FCQjB2dnp5cmlLcEUzOXpCX254OFRjaGlFdm5hcHg5Uk5GSU1qQUhFZHB0QnB5eTV2b1NOdUFZ?oc=5",
       "source": "Investing.com India",
       "publishedAt": "2026-11-18T10:32:57.000Z",
@@ -1961,24 +1972,6 @@
       "official": false,
       "corroboratingSources": [
         "Investing.com India"
-      ]
-    },
-    {
-      "id": "news-4iqn2u",
-      "title": "India stocks, rupee, swaps, call at 3: 30 p.m. IST - marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZjBJMkd6YkgwUmZKMjRCRDJOd1h3UERVWWdQbE40RWJod3lIbHFYaF9pUm1ZVVN3SmNYdmNGRndpTHdacldJbFppckp5bG1LUlVmSy0zQzZkZy1FS2NqZDNsODZFaThCRldTcUxDUnZzUWtNMnpIaTJJLWVBVGtYTlNjcl9DTm5pZmdwWFEwZl9SWVFCS05xQVNYeGhGY3c?oc=5",
-      "source": "marketscreener.com",
-      "publishedAt": "2026-11-18T10:28:27.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 33,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "marketscreener.com"
       ]
     },
     {
@@ -1997,6 +1990,26 @@
       "official": false,
       "corroboratingSources": [
         "Equitymaster"
+      ]
+    },
+    {
+      "id": "news-38i1i0",
+      "title": "Market wrap, Nov 18: SENSEX falls 500 pts, NIFTY50 ends below 25,250; 126 stocks hit lower circuit, Titan Company top loser - Upstox",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNVmxvMWl2UWNpTndiT3hXTmZmamxmbUNycFFoYjFYanFoWjN1ZkVtQVIwbkxVbnIwdGd0NWFsWkdja29CZFh1dklhNDA0dm5GRlVNalhabGdqXzZKeGxLazJUWFJjNjVGWHpBMXc1YzVRN0UtUk5Hd3FwcHNuQkdIQzd0SWI2SkxONVBiaHJRQWxiQXFoMFgyT0RqT2JBb082c28teGlqZ25yWUlXNTBsd19PbTBBUk1JZ2liUk90cDMxQnN6UjRPTVRDbTljLVdvRmFUOUJXN3l1TVFwbzkxMGF0eldxemdnRmhqUWs3NFZJa2NibTc1am5rNmgwWktfbVhmZTZvdWM2YmM?oc=5",
+      "source": "Upstox",
+      "publishedAt": "2026-11-18T10:23:37.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 33,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [
+        "TITAN"
+      ],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Upstox"
       ]
     },
     {
@@ -2035,24 +2048,6 @@
       "official": false,
       "corroboratingSources": [
         "Business Standard"
-      ]
-    },
-    {
-      "id": "news-12qrcrz",
-      "title": "Nifty target 28,500: Why Goldman Sachs is betting on India’s mean reversion - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUldfZ25vU21pcnE2RTVpbnRvSjd3cUxkRU10eE15X0R1Z0paNEs0WEpMTUl3Mm90WnBrYVl2cEhjemx0d2wzVXdUZU81cTQtaG5FaTMtZ3h0OUU3QlJySnFzSVBIR1lJbWl0Z0pJcTRRTHFuWnVORmhNR2xfUkZHYkNfaFdOWmRPakIxTDNRUUlqWjhvTkcyQW50U014SnpjTzdTS25aM3FoUUpEU0hVUlQ1cHlWQjVzb2xQY0QxTzNGZk1sbjlHOGFYNzhEcVZtOXZUVVZ0WmJuZ3RKek440gHkAUFVX3lxTFB6SUFjZ2JJTF81VFRnMVAwWEpET1RyZHlqbEZBWU04T1hmQy1qdnM3SUlMVG40V0xOS1Y5YW1odDZNN2RsMlU1cVE0b2RYY01xSUhYeTJ4aUdUa2RHR0liSU0zTkkxN1Y2NUZqOEc4VWwxRjFFRHpMcVEtOFFiak9KOHVGbXN1SE1aWHY1MldDYjZ6SDhyWl8tZXgxSmxROE9MTDBJLWdhZTZxUVhTTjhBTFhOV3RFOV96RGJ3TjJfREFxcFhwc1JiMWdjTFJPcWxtb3dHUFNRRDZkVTR1bEFYOFNrdQ?oc=5",
-      "source": "The Economic Times",
-      "publishedAt": "2026-11-18T09:19:03.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 33,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "The Economic Times"
       ]
     },
     {
@@ -2097,140 +2092,11 @@
       ]
     },
     {
-      "id": "news-1pyiqrl",
-      "title": "Sensex falls 500 points, Nifty declines 0.63% as investors book profits after November rally - https://www.indiagazette.com/",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTzZyUHYyOTUxSFJhSVNMS3hHdG5HVGRhNjhCVTJxWW1qR3V4UElNUU1aV2s2VGdzTnlwMG1fWG9fbk1uTTU5VC1DME9UNXptMXBtY1h1dy16WnZUUW5Dei0tNEhwVC15QzdmUGx1N0lUemg4VmVTX0tiN3FrWGZDYUgwUTloMlp1VXhFMm1Bcmc4Sl85S3dDM2N2Q3FvSm1kMWx0NWUyTUVDZnJHU1A5T3hwS2hjLWF3UzZjSEVyY1V0NjJvaE5VNjE2ZDBwdw?oc=5",
-      "source": "https://www.indiagazette.com/",
-      "publishedAt": "2026-11-18T07:15:00.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 33,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "https://www.indiagazette.com/"
-      ]
-    },
-    {
-      "id": "news-1w85kfj",
-      "title": "Indian Rupee extends gains as sustained foreign inflows support Indian equities - www.tmgm.com",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOckdpRnpiQWJLNnZWamx1dTdLT2JVeWRVUTJyYjJKT0NuRUJYZWg0QU4wb2xIY0gzbXE2bkR3UGdNdlBnbTJLdnF3SUNpanZNdHRrLWxOVnFTTkE4MW5EZVJEMVFuMGJrekJYVThDM2wxRFA2OWlkY3A1RnBQTXhWZDFRUno5MVJ6YjN3TFNUQWlwQU1sVzkwd3NOMkdONktpdDdSMG4zcDZwdV92eGl5YmJVc3VFdFR5NktaejE1M0E5MnBiNDc1ZldTRUNlRGwxVVhaWEtsNXd2SllsX1FzMVd4akoyTWc?oc=5",
-      "source": "www.tmgm.com",
-      "publishedAt": "2026-11-18T06:53:11.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 33,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "www.tmgm.com"
-      ]
-    },
-    {
-      "id": "news-qkslf5",
-      "title": "Sensex pares losses after 750-point intraday slide, Nifty reclaims 25,200; metals, consumer durables drag - Fortune India",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWWFkMlNlek1PRzZrZlV3V3hpUTNfM1RLT3BFdFVaNzhUOHR0MGdkbkY5Rnhhckl2WEV6Y3NmZ2xpOFltLW9BY2VLLWtsZHJ2c2xEZTdrTFlqajlKMGJ6aDZaenR0WEtaUUVUUW1lQnZvVHVuVjJ1Qjd1VzN2c01URm40QU5YVWFnQ1hoOTcxT1Y1ekdzQjJiV1lLVkpjYTFKSHItVFZSNEhGeVFxTHdkaXFaQWJPV2tROVlZR1p0MlBtT3RuSlFOWDlKbWp0d1JNemfSAd8BQVVfeXFMTzAyM29GU3hEWk10ajlDR3psM0ZBYUtfU1JwOV9IdUVqWWZONlZMODgxLXNxMVA1aTdpUGhKNE9ZeERZWDRReVA3b2RZaHJNMGVDWXZYMGpMLUs0aFZwR3JQcE10QjB3XzAxaGw1SUJyV0d1N0taYmhielRrNkVyakRXZExqOGJVS0lMV0VmVTE4Rjd1cDg4YTMtNTAwOG8xR2pCN1AwVExBQ3pZWUVnTkM4bTd4Q1lKVHRWU1IxTnc0Z1pfbzA3NHNFcG9rang3UksxZUdMdmpVOUFXd0Vvcw?oc=5",
-      "source": "Fortune India",
-      "publishedAt": "2026-11-18T06:08:02.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 33,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Fortune India"
-      ]
-    },
-    {
-      "id": "news-srsklh",
-      "title": "Sensex Today Trades Marginally Lower | Nifty Below 25,400 | TCS & Titan Company Top Losers - Equitymaster",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWGQ2OFV0SVpETUpHX1ZDLTVIaXNLYzZkWlpsTWRtamg1TnBWcExUQ0JGLU1WQ3p0c2Y0V0JTbC1WUU9vTkJUZjRXemtvOWZ5NDVoMXY1QjdwYWM2UWF6emZhcGQwVFpWMnlXX3ZNbEFURVlHVjlWUjBzOGJJMjF6ZkdhU2JoZlk5NXNqMTFmd2lGOXhsUTV4QVNlZ1p6d09WcDVsQXEzYkVoQzh5cFF2QkVhVHR2Mi1CaDZwejFWa2M0b0JTSU9GRXBudnVhUmFRbXkxa3d5bzktYUtvWVVaSA?oc=5",
-      "source": "Equitymaster",
-      "publishedAt": "2026-11-18T04:29:04.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 33,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [
-        "TCS",
-        "TITAN"
-      ],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Equitymaster"
-      ]
-    },
-    {
-      "id": "news-13c1i6z",
-      "title": "Indian Stocks Open Lower as Oil and Gold Prices Retreat By Investing.com - Investing.com India",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMVp4S0FibGd0ZURVenI3em1iZkxZbi1UMXZQTjFwSlg1aUl6alhLWmtJTFBTMGxBUU84TUFKREZIV2Zqa2tBMlpPeXoxMjNSY2c5bnZoX0hndGR3d0NfdEM1djNLdkNqZ3FtaUJSYl90ZDRFYW1NYzh5SjBiTUF0VEhHZWhuR1NtWkVVRVZXT19GbEVTd3B0MWZsVlN1Y3FGR0JyTHNfaVhMZkpvd1BzRA?oc=5",
-      "source": "Investing.com India",
-      "publishedAt": "2026-11-18T04:11:47.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 33,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Investing.com India"
-      ]
-    },
-    {
-      "id": "news-1nqws0s",
-      "title": "Stock market outlook today,18 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQQW1aTkFLSmQ3QUdyQkM1dVFVWlJ0ZHZOV1VIVzNUSlQyc191NEtJMW55Q0tVY1pEN3Bab1NHeVNpQ0pmTENWQ0x3eHNFWWZSS01UdkF0OC02YkhzZkg2c1pyTjcwaUhraGEzSGp0SG1zMTBNcm9ZdFZuQlRkRVpMeFNZRFlRalRDRzMwcVkwemhWQnZYWERHZWZQM1lSN1p2Z0V6RHN5bWwyanNRdDBlNEZNY3pIZXllaUhrTTFuREVoMzkxeEc1OXVkclpEUDdlVGVWbDY4OUZQNEs1eVVpYWRzajJMRUdRaFlyczduZVYySW5rME9lclFpSDM0VXVwaC0wMkZpVF9WcU3SAZACQVVfeXFMTjZnTkdVcldVZ1RqWlRtWG5Ha0hleEhVSnFDbXdvemtxbjlfa2NxNm9PMFRfaEd5SnFZV0pVM2Qxajlla2NHa3JTVGlxSjZwWVpnTHJIUjRlekU4eE41U214V1hVOFd4VW5ubGRuSlU1N0pRYjhBR20tbUVTN25oUHZCLUhKTmVVcVNmM2ppWkxKUG1CWkdJZ2J6RkZRNlZ0aW9IZVlZdTVMNWFqOTRmcUIyVG9ZdVpBTVFFc3ExVVJsaFBKVjNvNzB6WUE2RnZ0TTAwRFdCNkotZGhhNks2NlJSN3hnUG1DZmNMaV9OcEZNMFZuOHNqNHlwZzdhZ0VVdVFUdFN6ekh3WEZ6T2VKNng?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-11-18T01:09:19.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 33,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Livemint"
-      ]
-    },
-    {
       "id": "news-1ag9n3b",
       "title": "U.S. Stocks Add to Gains Ahead of Earnings, Fed Statement - WSJ",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXFITkNuNWUwVzRMV055bkVYaTZWMmpSZTFCSnN1MGh4dWZJb0wyQVI3c1c1c0EyZFZRZHlsbWRVajExeEJzc0lDQWtUY2VFRE1QRE1zM0ZJak93QllaNjlvQTZKaG81STFFelRWNnpDd204ZFRWYnB1T3ppdXFHT1JTTndZYV80R3N5SFUwdFJwTXJpRWtBanNCOWwxU0pC?oc=5",
       "source": "WSJ",
       "publishedAt": "2026-10-28T07:00:00.000Z",
-      "region": "US",
-      "category": "central_bank",
-      "relevanceScore": 33,
-      "relevanceLevel": "low",
-      "reason": "Central-bank / rates development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "WSJ"
-      ]
-    },
-    {
-      "id": "news-15hc9u4",
-      "title": "U.S. Stocks Fall After Fed Rate Increase - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONzlDTWMtUEI0WmthSXloUDV3emx6WThIXzg1M2lCMEI0ektFSmZMR0VZNk9FZmIyVUc4MHJDX1o2NDBDbUo0NXBlRVplRUJ0UUVtcndzOWNRaXpLd3RwY3VmM0RXdTRMUDlJbzFUZ1ozWFE2MVVnc21hOHFqc1RXZE4xTUl5V09SSFlV?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-09-16T20:25:16.000Z",
       "region": "US",
       "category": "central_bank",
       "relevanceScore": 33,
@@ -2262,11 +2128,11 @@
       ]
     },
     {
-      "id": "news-1qksivs",
-      "title": "India Inc logs best quarterly profit growth in 4 years, lifts market hopes - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTTJjYTVtLWpGX2hBQ3M2cGV3d21OSVNZaGlUejhFSzFlVENGUDFVZ3d1TnI3VDM2Z2NZX1phLXZiaFFtUlVlR2xHY1Q1dG9nSmY4Q2FvMC1YQ0d4a0RsUVJSRHIzQ0VwSThlMjlCRW5YQnh3N1ZtT3U1NDk0aEwtSk1yTHVqN2VVSF9xNVhwRFFLWmRFZWRQWXQ0TVYwcU12WEpWWFVlaWFXVldXTDVfVHJ1QmpYeEoxNm01bk1heXBMbDBZN0F2NFlkSzhXd2VfQ1AyTEZ4MNIB3AFBVV95cUxNZEVabTZzNzJtSG1zbHhJaW1tOVhUcWwyZVg0S1R6VTFoc3VFaEZPRTFVck1IYVl2Qk9YY1ZROW1penU2dzdLYWVSUHFxeDMtYkZQZEo2UFdmSUhReVlUY0RWN0h3V2k2UTFMQzZlTG5RcHJnejlJRmo4dzJ4bUpaWF9tYXNydlZmTzVSX181OWpJOEtjb0t3OTZlSUM2cERpU3FheU1WTmI1VE1wbWFZTjk4MDI3NHFSbEVabjQ3dnlldDdrUnNSQUJXNEZRTHdSSFlsQkJlazdfZnRq?oc=5",
-      "source": "Business Standard",
-      "publishedAt": "2026-11-17T08:44:49.000Z",
+      "id": "news-iynjod",
+      "title": "India’s earnings recovery could put large-caps back in favour - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMmN4NS01NWc0WnhRMVdVQ1FPU3RYcWgxbmFXQVNWcWtIZG5ZaTdhSGwxVUZvdEduMGV3MW5pZmdpeHg1MGJ3MjJ3a3kySTZGYzBDT3ZQQWZiVDc4cVFQRGJSSUNOLUNNQ0o1bnptNjJvU21EZTk1eUZkY29LeklFbGliMkVHbU1STHVZNXp4TUF0RC0zT3A5bG5KQ2tPbk5JVTROZTB6NjhGNW1WRk8ybzlhclBFbG55bGZqWGVHOUNaNDYzXzF3etIBzgFBVV95cUxPUWdYWXJWVmlZb2U1WVVsTXBjUlNDQXZGNHhRVGJQaV9yQmM3ZkFaWWNUdk9XYTY5UVlHR2xoMnBOVVhkbU42TFE4YkR2ZlRHWlF1U3FvZkFnMHZqVkRDWDlYWVQtYXBoc3ZWNmpNeTVsUk9CZmh2ZGhxQW1mVC1ob2oxWWFhZkd5cDJVQzlWemdpaWFIbHdVdFpSWUFscjR3Q1NDNlBCcEtvZ2hIay1UTDhzcG9Sb0o3aFFfdkNHZzV3aXF3SlJpa01VTjlfQQ?oc=5",
+      "source": "Livemint",
+      "publishedAt": "2026-11-18T07:43:31.000Z",
       "region": "IN",
       "category": "earnings_guidance",
       "relevanceScore": 32,
@@ -2276,15 +2142,15 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Business Standard"
+        "Livemint"
       ]
     },
     {
-      "id": "news-k4byxh",
-      "title": "Anthropic IPO set to raise $90.4 billion, could become biggest stock market debut ever - IndiaIPO",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc1AzMWhkTWdPcmhKYTU1alBpSFpzcVVDRUktY2R3T2dHRHh4NnFHY1AtRFFsOHY3c3AzZFRweFlCU1UzQVA3eWJQUmRvNHRCQ2daSjMwWXhVZDhzVHFBM1dqMElKNXFMQ0xmR1JRR0VLUU8yZ1FtY2FIb1M0dUFlWmY5NV9yZXd3NGRlLXFjSEdYa193NExUNnkxSVZJTnQtTDBXVUx0Tm9NRUk0TGNoWHFsWkNiNE1YMEZZ?oc=5",
-      "source": "IndiaIPO",
-      "publishedAt": "2026-11-18T22:32:55.000Z",
+      "id": "news-13lkpq6",
+      "title": "Will The Indian Stock Market Soon Trade 24/7? Ashishkumar Chauhan Speaks - Business Today",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNN1hrang1MDNKNTdNWVk0eXNZSXJaSnNFaGxqZ0tCYzUzM2xzcDFOeWI5ZUg5R3dieGpLZlZBeC1jLWtBUTZHOThhUEI2V1hZV1V4WnZBVVRQbFo2UDNaSDJKLUVycFFwMGxFcjhYR2dmSnZSZk5odTNjNXI2Ukt2TjVqN19PdFR1TWpvOFB5TEJjYms1N1prMFBZMzB3N091QVdIWkpGa2pkME9TNnJNZUp5cWtzLTBCX0FWUlhYa3JMY3htbzBnZDJGb0JkNjJz?oc=5",
+      "source": "Business Today",
+      "publishedAt": "2026-11-19T06:15:34.000Z",
       "region": "IN",
       "category": "other_market_moving",
       "relevanceScore": 31,
@@ -2294,16 +2160,72 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "IndiaIPO"
+        "Business Today"
       ]
     },
     {
-      "id": "news-k8lg3i",
-      "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZEJobHpHMl90WUdVbnpzSGxLb1l3bi1BczhrN29iVW9rUzBtQWE4aFNuM2ZGS1RIQThLdEZPWmZjeExVaHhRaXBubkdqR3R3TXJYTlRqUmRYcXZxYS1pV1lyRlExUDdEUWJ3cTg4aktJVWcxbkg5UW9oeVRXLXhCZjdRQmFNeFJlLXhpWTRMM1lEUVlodGwxVHNCSE9ONTlnem0yekw1dDNraElYZGc?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-16T23:45:50.000Z",
-      "region": "US",
+      "id": "news-1q4a4gg",
+      "title": "Anthropic IPO: Can Indians purchase stock of the Claude maker? - Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQejZRYTdVbGEtbTQ3MVNhdjl6MUN3ajRZcE9SaVBVUEgzNFFPNjBlSzFZTVhXZkptVnRKRjE4ajlPRFJLelhFN2dhdG1iU1pVQXpjbUN1RW92T01vYlFJUEFGQ2VBTXFabjBZOU9JUWJjY2NJT1FNT1RBMjlhOGc1dnkwUS1FODhFSXI0bzBqSVcyYXNMRHVrZk5oQdIBoAFBVV95cUxOVmVnNy11QXluY1VhRmdTRXdOS3B5dWJSVDVGOTBIZVpSZ21tMDVmaDJ6WU0ybGEzMUZGUzBnOE5mQlhXeVFLWFlwSzFwbVM2cDNtTVBRRVQtMHE2QXN5akV4VVdhc1JfSXdLSEZVdE4wM3F0VmZ6UE1rdFFTZ0RNcHFjZ1d3RUVVR3VkeUxxcERFcGxLbmlCdE1zYmwyb01D?oc=5",
+      "source": "Firstpost",
+      "publishedAt": "2026-11-19T06:14:02.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Firstpost"
+      ]
+    },
+    {
+      "id": "news-1muajly",
+      "title": "Anthropic's $1.5 Trillion IPO Valuation: Uday Kotak Questions India's Market Value | I.T. Stocks - Business Today",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMjhnOFBfcVVDbU0yVkNtVGRrZjFsLV9fMjFuWTgxOEk0MHdNYkpXMXRPVDNQa29CRGlCbnJoZGEyVzREMV9CdnNiMGhvcnVvanFNU1hDZXdlS3UzTE9OWjBSMEZXeUtQbHV1a0xIU2dPV0I4ZkZwNDJ5dncyTG1KWUR4M0Z3c2EzcjQwYVdFRDdmd1NWcmNIQnNoNHQ5SjhiLVB6SUhzd1ZCT2lSZGx3bmEyX0xocXJsQllzR3A0VF9uRVgyblNQMWZ4N29iYWNlOEJyQmhMM2hsakdzaDFic3UyUV91cUZmZ1MzczFISXM2UdIB9wFBVV95cUxPS19nVFFyU2lRRXA2WFpEX3VHR0RaeXVqbHY2a0dRclJjVUgtTF9qS25FOHlBcEt0LWVVRjNrdnZFYjNnaDljZjRjZjJJMy1IZFhIa09Ca2RxdzI5aW9MdGs2ZlRWWGs1Vng5LVlBUDlCb2MzTy1SNHppZV8xOEpRNDVhWWZBa1VHLTkzUFpuQTZrdVpfc29JTUtzaVBQbHRJbUVsRlpQdklQNU9SYjUzVmhFTXF1bUdTTEZEY1JyZVB6RHdqZ0tnUUtDNl9BSXJJTHN6c1l1WWJEdnByREI4MFdtNXJSLWRrQmMyZmVsYzUwY1h3MVVF?oc=5",
+      "source": "Business Today",
+      "publishedAt": "2026-11-19T06:13:29.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Business Today"
+      ]
+    },
+    {
+      "id": "news-2tyne6",
+      "title": "Maruti Suzuki India shares gain nearly 7% for best day in 15 months - Here's what is aiding the rally - CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWmhQT1ZUOTVkMUN2ZlRmY2V5bl9zdm5RR2hVc1UwakpYWlZhWlJheEpuVlNaZGcwOThYZzZTM1Q1SHREVE9UblpSS1E3b2hlRGZoVWZVWndhRzdVVURhVHl6bVNMb0dET3lqekVVQkdZNC1SV2Zvd0pNN3BQMUptempyU2VCaWNqWlRXVl9MWGdrUWRNMkhiZy1GWExDcUlKblVaNVVhUGlKREJ2bDdPWWl0eko2N29QdE5EVTNvRkEwOVJLQktLeFg0RHBfd2Vwa3VfWjJYSjhYTm9XSnFvOVBYWXN0UXU1aDg0M9IB8gFBVV95cUxPQjllQW5oODdqN2s1QmgtR0FvZGJyME15bVNWVlhjMG52RWJUemVFS0NtQ0RDY3c4MC1WWXZwQ0FVRnAxc2pQTVZHR3hkaEEyUXZVVmZtTWFjUTdBbGlCNGlFM2dUTVdQcnhmR0swQXR2ZXduWjN0dXVVTHVtdUg1WTNlMTFlN0xjUXBHYzdLOExsTzFwTTRDbWJubHdsblNyRjVSMzh1Mk8xcEYwLWJ1bFI0eTBTVVRPTTJkMmpNTnRzdmxxd1hLWlphYklzbkZieTZabkxwV2kyMGF2SWxXY2VrdVJZTW5fbXdyRGc4Z0pqQQ?oc=5",
+      "source": "CNBC TV18",
+      "publishedAt": "2026-11-19T06:07:43.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [
+        "MARUTI"
+      ],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "CNBC TV18"
+      ]
+    },
+    {
+      "id": "news-1z08wix",
+      "title": "Anthropic’s stock market debut marks many firsts. Will it boost a struggling AI sector? - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZUJOdlNZVjE3VzBlNDNmMU1iZ1I4QjVuV2h6MmhjUXRldUtnOUhmakxBVXRiQmRnaU9obERmM1RDTGZGYW5IVjNqaHJIM1pTSzJhdVJ1b0twMHhUM1NSNl9EQk5raHdma1l3VXVpclY2eElGTkhMU2twdTRHT0M5V1hUcUZHa1RreVM5OXN2YXdvZHUzX3FHcy1uTjlkdS1heXdfeHlURkt0RDlwSVVhbVNEWWVqdHJiX3ZNMNIBwwFBVV95cUxOLTVtMUhZdkZZOERSZ2wtN2tNWWh3NGJWY0hNdWQ5RUNXS0dsVDNWNkVJaGFpUnh4X0wwNHhaZjJWZEhuWUVOTkdBZDV6QmJOU21CN2FhUThFNlpvTk84ZHF5c05pc1pZY2huNGhKMHdKTWlqZkxDTUM1QnNJMVNwMmo0NVhoZFdZZXVyV0p0ZjJJUWdIMGY3Y0djeEVmekRlWFFRWHZKei1Jc3NsQlZiaTY0QTZwU3cyYWZ3UUxrbnF1b0U?oc=5",
+      "source": "The Indian Express",
+      "publishedAt": "2026-11-19T06:05:51.000Z",
+      "region": "IN",
       "category": "technology",
       "relevanceScore": 31,
       "relevanceLevel": "low",
@@ -2312,7 +2234,250 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Reuters"
+        "The Indian Express"
+      ]
+    },
+    {
+      "id": "news-5t829f",
+      "title": "India rice market outlook amid rising public stocks and stable FOB prices - CMB News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQmJZdklCQTVHRWtfWlhndHU4NXFlUnRHRVBxVTdlUWNhMVFLMHZ3T1dBcV9Ba1phR1M0MkRCdE81ZDNQUTlfb0VGR28zZXBIaWwzQzFENHc5T1BlTW5YS25lYVItVUFIUGlBSGtoQ3dUdXEwMXF6bjJsNGxnNklTaDl4Vl9JM2RLLWgyWA?oc=5",
+      "source": "CMB News",
+      "publishedAt": "2026-11-19T05:50:47.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "CMB News"
+      ]
+    },
+    {
+      "id": "news-15o152m",
+      "title": "Lentils market: heavy Indian stocks and imports cap masoor prices - CMB News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdFJGSV8xOGNpRV9YUkNyNmhFRFQyaW4yUFVVejJZZTNySXl0Tk9Fb1pGSkU5TUp4bWpqWkxsVkozQVBDUTJSbmNSYmlqQ2hYWFVzNllyU2NhREVpRGNMMjVfWmR2amNrQUIwVzZxc0xWYk82b2NrbHNTSGVHdl9odjdRX0tiOWxxdGc?oc=5",
+      "source": "CMB News",
+      "publishedAt": "2026-11-19T05:30:59.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "CMB News"
+      ]
+    },
+    {
+      "id": "news-tl5wje",
+      "title": "Ather's stock surge revives investor interest in India's electric two-wheeler startups - ET Auto",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPaXNHVmFTM05DU0F4TmswUHdWbE9JZm54djAzZXBzY2pYY01YWlJzVjhoQnVQSlpHdnRkMHZDTlpacXdGRkloVG1vcGxEY0tkdXJlNERha3dqRTU5MUhveFR2NUJZMHFYY1E0Qnd3UmdmeXc2ekJoQTZ5T25jVGVoX3lockNqMWRwdXFDQ3ZIeHZYWnNjMlQ3TEgwSy1vT1ZQU0tmWWF5V1JibkNKbDlmSi1meXlxRFNDRVEyTHVIbHZWZTl0QUotaWFkdTc3eThFaGVST1MtRURfMzBhQ1k1Q1hMWWxHazE1M3fSAe4BQVVfeXFMTTdRWmJpeDkyMTJMT1NYc19rQjFpbXpHWDAtbmJIM1p1dHlTQXc2eW5MV1Y2SVU4UHNpUjJKclBPMkZ6WGJEZm5aZ2U2eXpiWlNvZ3lEQl9WRHl5T3dLOW9KMHdmSC0zTkRKV2U5LTJKT3RrcTU1d2JURFFvQ3RYLUc2S0FNVTBpV0E0UDROTXQ4SFRhVDZqd1YxSUc3aUFGc2lZWTY2M2ZZUUZRamxiYlNvS0xaa2VsZlVRamNrelNhSi1WYTc3SzdkZzFMQVF5Y3NKblNiMWIzS0hmX2ZYcXhVY0otUVpuRnlsRVlqdw?oc=5",
+      "source": "ET Auto",
+      "publishedAt": "2026-11-19T05:29:23.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "ET Auto"
+      ]
+    },
+    {
+      "id": "news-mijf60",
+      "title": "Pea Market Analysis: India’s Pulse Controls and Stable EU FOB Prices - CMB News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZkxNeS1pU1IyUHk3NkY1R0d5b3ExcGtjblFpUUZZRnBkeFJjN1U0U2dRV2YyUmxxSFhqT2d2S1JWb2xpTG16SUxvNWpKaUVpSF9GdDR2ZkN1UEtoWEVHYTE3c0FHQ0M3eHVpZF8xUUh3bWJkOEpjMmM5REtjZjdnUmxpTDNQRWRka1AzMEMtRFVNWkJ5b2paTk1fZzExcEtmMWRv?oc=5",
+      "source": "CMB News",
+      "publishedAt": "2026-11-19T05:28:59.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "CMB News"
+      ]
+    },
+    {
+      "id": "news-nc6xeq",
+      "title": "India VIX Falls 7.41% to 14.04 as Markets Recover - HDFC Sky",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOR1ZSSmVPNWpyWWFzNkJtbGR5R2NpaXlKLU0xbDVCRGw4Nl9aMExucUFDZWVUQ1BCZjhkWkYxNTItckZveWJNQmxNMDk2WUFYSC00S3lLZ1QwcktWWmhYQ2lWUktEeHg0Smt1LTFZTHY4WTl0TzBqOVEyYlNKa3RCNmRyQ2NjMkp6TVptMHFMMm1rNzhVcmVocEhaMjcwZHlwU0paQ0pmNnpMNmFOV2ZFNTJpMEZFRjVUX2xQU25TNC1BbDFRR3RZWEgzbVJ5UzJPbkpYOUNmWk0yak0zaElv?oc=5",
+      "source": "HDFC Sky",
+      "publishedAt": "2026-11-19T05:18:38.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "HDFC Sky"
+      ]
+    },
+    {
+      "id": "news-12jaiyq",
+      "title": "Maruti, M&M, Hero Moto, Eicher rally up to 5%; what's driving auto stocks? - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLWl5RXlRQy1SMFViZWFGLTRkZHQ4VkFGUEZjNmdSc0RQdmJCODFyVENjMlhDd19QS0N1b3lEYjh5MklBU3Z5MmZ5RjZlWV9wOWY0WlRtX3ZsaGo3bjNWc203UnFGaUFZM1M5bjB5YS1KZmRYY0EzX1dPdGk1Sk5QRm5leEUtYW52bjFreXd2MDhmVC1PQUZTYjlScEdxQ0JYUm9PTnVYWEFWTHN0X1NZZmFGeURwM0pCdHBaVXNfX0h5X3lBZlBDMG8tYUZpSUxW0gHWAUFVX3lxTE12ZHlNaXE3S20zUXRfNlhmbXR5QTQ1QUdiNHRxUTJXT2ZfZGh6TFpXb2pYME5SVHJEcy16dlZFdGtiSGNqY1Q4ZTJ2UTRxSzhJYUtqd0RCbTBQTnBpUnBlVVdoRnptLXotTk1jcEN0QmtFc1FZUzFLRmZzdXlMaWZXZzkxdkY0V0pxVzdEQ1NLRkNEczVoTlNCcUIwQy1FdnZQVzJLWXM0bkVSQlU1b3BtZ0dGb0VkZjFnX1d0YXcxODBTSTBLLTVURFF2YmdRZ2ludVducVE?oc=5",
+      "source": "Business Standard",
+      "publishedAt": "2026-11-19T05:16:00.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [
+        "M&M",
+        "MARUTI"
+      ],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Business Standard"
+      ]
+    },
+    {
+      "id": "news-1sazpoj",
+      "title": "Uday Kotak on Anthropic valuation: A company that did not exist till 5 years ago, listed at a valuation o - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMirwNBVV95cUxNMWgyR3J2a2VlbExPal84LVB5M25JMUR3R2dNUXA1UkUzVzdUR3dNZzIzYzlnRmNjd2YtejJuRmhXOVRFZ2tILVFvQlJQSW55UWp0M2VaeDZjcExlSTcwVUZUR0wtUk5hNmV5SFRFOHhrYXV6a2lpd1VYczZnZjBydzIyOEpnY1lPb0M4UVNKamV2TmplQlloR29ncFg5U1JNY3I4cGJaaEpPQ0o3V0I5NmxzamRXazd2d0dxMlR6T2pkMy1RZ2dfcVVHUkpSU3lVcnA0MDRFVndZYkhneXRLSnNaOWJZdnR3ZVpUc1FTalVIVlQyektkUHQxQWdEd2c2cHYxWUwyaFlqRGtRQVB1c1JNY2VxeXMyWXRMSmVYd1dHMnlOUWlNeXZjUW55QmZpTEZfa0Z3WlYzYWRQc25icjg0akwzOGpXWG1LSmpJQVBYT0V0ak4tcFUzdDNLZktCM1V0aDlWLTQ2UjU5OWNMSDJKNUhZZ0F2cDY3VG9McHE5eThrVG94V3ZDN3JaMVNOUUdzZDV4eFBWVmJ1a3hPUU5XOWlSemk5Z1pzTXEzUdIBtANBVV95cUxNdG5maHFxWXI2Y2hxbW5DUnlPSFItajdNUzJkdHExdlhKbWVSZEFTOVdWTlM1Z0VQX1hEMjlRSkdnempoeFVsS0lQMVBGZFkzczlxemE4d0NGUEQ4dnVMa3E0aENSTXBFZy1ITXdMcDloZHRPeTltUEV1LXFZOFlnS3ZJYUFDOHhZOXg3a2U1anRRTVc3QzlLRU5JN29aOUxUOVpmY1BINTN2eDlUTWRueTRXbl8taTZfTEVwNkNvcV9ibGxuV0ZXUEJYZDlpVng3ZkNGQUE2djFZYnRFTDJYR3Q1dkIzT0ptTldTaGFGZnpBWkFXdmRnY3kwd2w1LTdPZ2o1VHh2LVc0akdoY0x5T2Q2NFg5bGlDeVpJNWo0VWJSMTBVR2ZvM3ZmZlB2MHY1OU1WY005NWE2Q3ZQRHVCbHV6eEV2VFBFRGJtUlRjc3RUWnBEUmJ6dmJ0T3JBOWxMQXhvVVNia01rcmgzSElaQVVOOUQ1UzVHMnQ4VGh1am5CbjVfeEZhVFZWaHphRWh3cGNfZFBQVVpWM1ZrbEN1aE1CUDlLY1B1SGhDM3hHb2tLS29m?oc=5",
+      "source": "The Times of India",
+      "publishedAt": "2026-11-19T04:38:00.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "The Times of India"
+      ]
+    },
+    {
+      "id": "news-s3w6wf",
+      "title": "+47%, +22%, +19%: AI-picked Indian stocks riding record foreign inflows - Investing.com India",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONjRtWjJWSWZJVk9wYTJiQWpEQkhudjh0WnM1U3NQYzA2UzBxT0NVU0FCa0NDV2dwZHJRd1lHS19NbU5Idm5pNUl3VVByOXV2Sjh0a3F0dkljdDR4dE5nNktXODBpbXd6M3Q3Q1JTT1MyX2xVSEJlZWlramRjSVhWRWNZU3pKdFBrSEhISC1sLVBHWXZUcHNmNkF6bVJyRUVNdEhOYlM2X2YzejAzOVAtUGFBRTJkN2t2?oc=5",
+      "source": "Investing.com India",
+      "publishedAt": "2026-11-19T04:19:39.000Z",
+      "region": "IN",
+      "category": "technology",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Technology-sector development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Investing.com India"
+      ]
+    },
+    {
+      "id": "news-c3m4na",
+      "title": "Mahanadi Coalfields IPO GMP today at ₹3 vs ₹136 price band - Should you apply for Coal India arm's shares or not? - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNVlhQS0NJbUZaQzl6OXBGSngzMHdTWWpaejh1T3JXTkRRZ0tnWHMwXzJ6X3BKSi1MRnVPQkNPUE50TWoxamF1aExsNE5HRXN5YWt3MjZyTnNXUlQ1UGJDdUdCSG1oRFRxV2NtX2tEZXpIVWhWRHM5bnhzYm1ZNGhLakRBWUJqRm53blNJQmpNa0ZPbmNzTmI5Y21qOTJWUUwwNUwtQndDQzd5d3VKd2JCeGtNc2c4czV0T2ltbnZTTGV5Yjdwb1czYnFOeGExMjJ6MEdwZjJyR2s5X1VJTmNfUG9TX2lGQzhwQ2EyaWNHUS1INEVVUmNva1pKMDRHZ9IBgwJBVV95cUxObWd0eTFMWl9EVDJidEtKd3VaR1NHbFk0dXc3MEFvemZJT18yY3JwTzV3WkdfOUl2NkhXcnRUNmJnOXhtRUplR2RyTnFuYjRWZjhIRzdWa1htWVRmU2hkdjI4QVVxYmJmSzNqTzNpMFlHaE5QMENCdk9mMFVhVU54aXZEaTI5QXBhME10MlBzdmxub2N5Wk9USWl5eTdqZnY4akpXNlRGb3pqT0x6N0h4WkZGYXdzMlVOVEh2MENoNWhsSVZGVG1XcHJCaDgwQnRtNGF0LTV3THBTZTFNNWRBVUdjWHdwMkIxSlhlMjRWMnBBV0NpZlpOTHk4X0VRZTk3Tk5R?oc=5",
+      "source": "Livemint",
+      "publishedAt": "2026-11-19T02:59:03.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [
+        "COALINDIA"
+      ],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Livemint"
+      ]
+    },
+    {
+      "id": "news-1xi45sw",
+      "title": "Govt weighs tax tweaks to boost stock trading, curb derivatives: Report - cfo.economictimes.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMC1YbUxUTmxZampqSkhJdk1ZMHh4Z0lZRzlRUmJTZ2NoTGlLdm43SWYzZWtHaG90aFBkbVlwT0QxRXNkTnJDX1I4WGhGVml5a1RCY3dYZ3pMUEhLWEtUVnRXMlJOaVdwazNqVTJNZjdrMkxLVmlDS0tBNVlkVW9DbkI1U2NJOU1VejJQbTB1VDVfRDc0aVR1STZLYWVZM0hKQ3B2Nm9OTGRLS25IYUdtc1RMazR5eHJZTXNpMEpib0NtZWRzV2lhVGxBVXIwVmRrQ1o2V041eng1MTVKbFMw0gHkAUFVX3lxTE9HVFRXYUZNa1Y0d0lXX2NJOFc4UWllNmNUa1p1Q2paUm9jTkROZVhjcFBpUDdnVHBNS1ppMUE4dWhJR3RQN0tQTzk4emY2THBoTzVGQV9uWDdBNVJGNG53ZzRkb196aXFXcW9UQlFfYVotbU9qa1h4azdudDllUnY4UlB2eGlGMVJOaWV2WmpOVElISWw1OUx1cEpFSkkyX2k4R3Nwanp4dkVNQTB0X2VBQmxTYjk3OGREdFRFNVowNDFxTUlISnBUMnNCcjhXTFdYOThHUlF6am5XSUJmcXUwQUhQUw?oc=5",
+      "source": "cfo.economictimes.indiatimes.com",
+      "publishedAt": "2026-11-19T02:55:04.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "cfo.economictimes.indiatimes.com"
+      ]
+    },
+    {
+      "id": "news-1rb7h3o",
+      "title": "Stocks to watch, Nov 19: Dalmia Bharat, Coal India, defence stocks, NALCO, Physicswalla, IIFL Finance - Upstox",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTlNoS2VxaE1YTzdiLVRjVmhyN1ljbjFDSlU2aWpTWmt4WVZReUkzZk1uLUJkd3pMM1FjdWRsMmVNaGdKbHY3b0ZsaXpraFpyUFJUVTM5bklrS3RFWHI5WEU4cU05R29HeUsyUXFQZmhXSklSQ1AzUXFISkFfRmNNTGhQSmk3Tm1wWVNTZldKNnRnWVlxQk9vcHIwMGVRdEJ6emdYclphSTBUZzZHeHRJZFo1MmZjSjJTZHo5REtIRzltNTFSamxzTG5Rcm5QTEYwRkZ0aF9QdExGS1N5Zm52WGZNVzh6YWhL?oc=5",
+      "source": "Upstox",
+      "publishedAt": "2026-11-19T02:43:12.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [
+        "COALINDIA"
+      ],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Upstox"
+      ]
+    },
+    {
+      "id": "news-p4pmmo",
+      "title": "Defence stocks take off! Bharat Dynamics, BEL, Bharat Forge rally; 3 key triggers driving the gains - Upstox",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOQkZwSHZZTEFLSXB4QW9tRWgwQ0ZwMmUzaVloTU5vTVNaYS1fYjJHQWhmWHJpdFZVSXZ1Z3QyTUdLaFF0N0FZbG8wWGFZQzEzQ0NLMzhFbDlndnJMRVhMS1dUdS1yaUFxTEpWYTNEYlc0Vm9xMV9vbnNZT3E3X1R3M1p0SE5MNlN5NmE4emJjOEkyMzZOZXE3dmFiUXVjRTNna0NGa09tTFhTRW5nQ0FtbGxIQUtUeGJrWEpIWHJQek5WNHNSR2NYZnUta21oang2bEFJXzRoeVpONnhMX2Z1dFlqMWVKZU4xaGxlNDBGaXVPcTZs?oc=5",
+      "source": "Upstox",
+      "publishedAt": "2026-11-19T02:23:12.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [
+        "BEL"
+      ],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Upstox"
+      ]
+    },
+    {
+      "id": "news-65k9aa",
+      "title": "Fairfax India Announces Sale of Equity Interest in IIFL Finance Limited - www.marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRUE0clJzbVdGOURLMVpEX0ZmdnhRWjJHS24yVEU0S1gxYXZNZ21oUG5Nb1BzNDdnQ0V4eGtyZl9iMFEyMEpkTWZTcTJqc09weS1HMDdyUXNhbzZFQ2l1LU1mV3V6WmhPeThfNkFZN3ZGTjBmaEhydXhYclROOVFzak43bUxyMGxhSkkyUWM2YmRKT2FrNF9LYkFwazQ3QkFTMHNKTzN6dlhsQ2pBc3Q1MFVwcHdva2R5eTVPVGxrUkpaUQ?oc=5",
+      "source": "www.marketscreener.com",
+      "publishedAt": "2026-11-19T02:02:05.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 31,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "www.marketscreener.com"
       ]
     },
     {
@@ -2334,42 +2499,6 @@
       ]
     },
     {
-      "id": "news-1tqb500",
-      "title": "India central bank tells Tata Sons to comply with listing rule, letter shows - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNHVqWmtHNjNMcTJ1ZzUtdjBKcWpaYjBXN0NhYTgzWUtnMWMzTnVyRV85ek9KR0xwamdQWVRBQTRQb2hkTXN3ZDlmY2V5dF9lZUpGZUxJUmRNZzIyQ1lVQ0x4cTQ4M1Z0NVpvbWV2Y0lSd1hhQkU0VC1JNXVyWE1TeTVIUWFiSDJvSlAzMDRzRkFnLTNPM2c3OEJUTmZQNVd4Nkp3Qk1MbW5aMk05eWFQX0ZiRHZjYmJud2FMYg?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-16T17:17:45.000Z",
-      "region": "IN",
-      "category": "banking_credit",
-      "relevanceScore": 31,
-      "relevanceLevel": "low",
-      "reason": "Banking / credit development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Reuters"
-      ]
-    },
-    {
-      "id": "news-jo0jok",
-      "title": "MTNL-BSNL merger needs a fresh review as India's telecom market evolves - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSERMbG5fZ3Y2RWhwaG5ibmtNQXdZVEVyUGVxUG5iSnFXdEFmYkw0SmpoZWRRd2xYSElVZXRreDdCLUN2Q2lZS2NDOG95bm5jQUpHMk1fbGZ2S2t5VHZYNnNYU0VvTFlVZHVBVHA0eF83QzMxWDNXSGN1SmdKRWp1SXRSSnk5SXlySGtjTWtoZ1lIeXoteHprdG1qYmZxMEdNc29VM09ldXRrNzlRR0ZpZUZBQUIxMkI2a1B1Z1V1ZzBmMFFtQVl1QWkwR0lELWl5Rjh5Mm0zRUpNX1XSAeABQVVfeXFMTUdDX09TNS1FQUNKNGVocG8tZ0NJMDR6dEV6dDhESW1MUlAwc1JfejdiSUV4emlQeW96ckhYbl82UDFkcXZ3bEYtaFpEbmNkRHJmalJGV0FCZ0NmRk9RV29qSXJpVk5zSDJZenV2VWFwZ0c2U0pkSGNiVU02TEp3ZFhHa0ZURmRuWDlwWmtsOXlYdWdFSjJKcERvcmxYbHU0bHk3a3dBd05aYXJhWWNGQklqVGNUNUxlSUlvcV8wUXFUcHhSbHlYLXB4OGR3WmtTNlBvd3NaRG5Qc2ZvMWdLZUE?oc=5",
-      "source": "Business Standard",
-      "publishedAt": "2026-11-16T17:47:10.000Z",
-      "region": "IN",
-      "category": "corporate_actions",
-      "relevanceScore": 28,
-      "relevanceLevel": "low",
-      "reason": "Corporate action / M&A development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Business Standard"
-      ]
-    },
-    {
       "id": "news-1frpa8w",
       "title": "UK Markets Brief: Housebuilder Stocks Fall as House Prices Slide, UK Inflation Expected to Rise, and Trusts With Anthropic Exposure - Morningstar",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSmEwOFphMnZLSWh6aG4taks5OXVDU2VfVlBadldhSlFVaFFIU0xGVHhNYnByV0YwZUJmTW1xS2dYVFFUdlFYU1FBLV9wLVd2V0U1LTNJTXZHYW1OX0FSZDUxTzVWUGhwU2REMmVtSUpMVlBjVjNTNVVUeHJic2xGLVVLVk1Tby1INzliN09fNVVOWGd3VEFpQk0tMjFueExxVmJla2ZyS2pJc1pTNzRJeTZJU0R4UE1BdXVaaDNlZ1NYbG9Wc0dWSE9oSXhBbFFsTEVMVVZWUUZud0lkcENuSGdpZE5wNDZfS2I5SEh1WnJ1TFBZYUE?oc=5",
@@ -2388,23 +2517,96 @@
       ]
     },
     {
-      "id": "news-1wm7e6w",
-      "title": "Senco Gold Festive Sales | Bajaj Finance and Aegis Logistics QIPs | Top Buzzing Stocks Today - Equitymaster",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNempjVUk2VklBVFdpNXFUc2RvUERycWtuTW5mX1RLSEZpX19vcmU3U0JCd3FCeW96UU9JVzV3WlJZZVJrb1huVnRVR01wekJ1aE5IUzFreE5IX0dYUERUZkszbzhiQk9pTzFkOXZqd2FISmNaWFpIbDBfLUdHU1JhczI5TFBxZTB4MGhSS0JTTGpoaWVyOEhQQllzWGFvS0ZqdUxBNE9WR3BYczZydk82WWlxTE1JalU0Q3lCTnpyT2F4TnFBaVQtc1Rib2Mycm9keTljZG1QZE96bGlRZWRDeFFVSlFKdjdYTndFcWxoelktbW8yQWRSOXU2bnZZTjNzcWJ5TlFsX1FVZ1RqWk8wck90Qnk2NFBCLTdfbnZTNHFWdzBHemRBMWwyTVZ4clAyc0hhazFtVW5EOHpHT2pyY040TVRRQmlSVXc?oc=5",
+      "id": "news-qkslf5",
+      "title": "Sensex pares losses after 750-point intraday slide, Nifty reclaims 25,200; metals, consumer durables drag - Fortune India",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWWFkMlNlek1PRzZrZlV3V3hpUTNfM1RLT3BFdFVaNzhUOHR0MGdkbkY5Rnhhckl2WEV6Y3NmZ2xpOFltLW9BY2VLLWtsZHJ2c2xEZTdrTFlqajlKMGJ6aDZaenR0WEtaUUVUUW1lQnZvVHVuVjJ1Qjd1VzN2c01URm40QU5YVWFnQ1hoOTcxT1Y1ekdzQjJiV1lLVkpjYTFKSHItVFZSNEhGeVFxTHdkaXFaQWJPV2tROVlZR1p0MlBtT3RuSlFOWDlKbWp0d1JNemfSAd8BQVVfeXFMTzAyM29GU3hEWk10ajlDR3psM0ZBYUtfU1JwOV9IdUVqWWZONlZMODgxLXNxMVA1aTdpUGhKNE9ZeERZWDRReVA3b2RZaHJNMGVDWXZYMGpMLUs0aFZwR3JQcE10QjB3XzAxaGw1SUJyV0d1N0taYmhielRrNkVyakRXZExqOGJVS0lMV0VmVTE4Rjd1cDg4YTMtNTAwOG8xR2pCN1AwVExBQ3pZWUVnTkM4bTd4Q1lKVHRWU1IxTnc0Z1pfbzA3NHNFcG9rang3UksxZUdMdmpVOUFXd0Vvcw?oc=5",
+      "source": "Fortune India",
+      "publishedAt": "2026-11-18T06:08:02.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 27,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Fortune India"
+      ]
+    },
+    {
+      "id": "news-y9wpgf",
+      "title": "Indian Rupee rallies further amid continuous foreign inflows in Indian stock market - Mitrade",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcDgyRHNvb2RSMExkcXhlekZsRGpzd2VNS3V1bWVDaTNMcXZFd28tTEREMHVabmRubFpHZUZwUFBRYTJCY3JpbXRUM0ZxS3RQUDZLenU1cGUyemtlMThHbjVzVzk1Uk5WNkJobWxNN0xmc1lPd196NV8zNkVSTFdYbFRlSQ?oc=5",
+      "source": "Mitrade",
+      "publishedAt": "2026-11-18T05:33:35.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 27,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Mitrade"
+      ]
+    },
+    {
+      "id": "news-srsklh",
+      "title": "Sensex Today Trades Marginally Lower | Nifty Below 25,400 | TCS & Titan Company Top Losers - Equitymaster",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWGQ2OFV0SVpETUpHX1ZDLTVIaXNLYzZkWlpsTWRtamg1TnBWcExUQ0JGLU1WQ3p0c2Y0V0JTbC1WUU9vTkJUZjRXemtvOWZ5NDVoMXY1QjdwYWM2UWF6emZhcGQwVFpWMnlXX3ZNbEFURVlHVjlWUjBzOGJJMjF6ZkdhU2JoZlk5NXNqMTFmd2lGOXhsUTV4QVNlZ1p6d09WcDVsQXEzYkVoQzh5cFF2QkVhVHR2Mi1CaDZwejFWa2M0b0JTSU9GRXBudnVhUmFRbXkxa3d5bzktYUtvWVVaSA?oc=5",
       "source": "Equitymaster",
-      "publishedAt": "2026-11-18T00:30:00.000Z",
+      "publishedAt": "2026-11-18T04:29:04.000Z",
       "region": "IN",
       "category": "other_market_moving",
       "relevanceScore": 27,
       "relevanceLevel": "low",
       "reason": "Broader market-moving development",
       "matchedStocks": [
-        "BAJFINANCE"
+        "TCS",
+        "TITAN"
       ],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
         "Equitymaster"
+      ]
+    },
+    {
+      "id": "news-1pozm5y",
+      "title": "Indian Stocks Open Lower as Oil and Gold Prices Retreat - Investing.com India",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMVp4S0FibGd0ZURVenI3em1iZkxZbi1UMXZQTjFwSlg1aUl6alhLWmtJTFBTMGxBUU84TUFKREZIV2Zqa2tBMlpPeXoxMjNSY2c5bnZoX0hndGR3d0NfdEM1djNLdkNqZ3FtaUJSYl90ZDRFYW1NYzh5SjBiTUF0VEhHZWhuR1NtWkVVRVZXT19GbEVTd3B0MWZsVlN1Y3FGR0JyTHNfaVhMZkpvd1BzRA?oc=5",
+      "source": "Investing.com India",
+      "publishedAt": "2026-11-18T04:11:47.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 27,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Investing.com India"
+      ]
+    },
+    {
+      "id": "news-1nqws0s",
+      "title": "Stock market outlook today,18 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQQW1aTkFLSmQ3QUdyQkM1dVFVWlJ0ZHZOV1VIVzNUSlQyc191NEtJMW55Q0tVY1pEN3Bab1NHeVNpQ0pmTENWQ0x3eHNFWWZSS01UdkF0OC02YkhzZkg2c1pyTjcwaUhraGEzSGp0SG1zMTBNcm9ZdFZuQlRkRVpMeFNZRFlRalRDRzMwcVkwemhWQnZYWERHZWZQM1lSN1p2Z0V6RHN5bWwyanNRdDBlNEZNY3pIZXllaUhrTTFuREVoMzkxeEc1OXVkclpEUDdlVGVWbDY4OUZQNEs1eVVpYWRzajJMRUdRaFlyczduZVYySW5rME9lclFpSDM0VXVwaC0wMkZpVF9WcU3SAZACQVVfeXFMTjZnTkdVcldVZ1RqWlRtWG5Ha0hleEhVSnFDbXdvemtxbjlfa2NxNm9PMFRfaEd5SnFZV0pVM2Qxajlla2NHa3JTVGlxSjZwWVpnTHJIUjRlekU4eE41U214V1hVOFd4VW5ubGRuSlU1N0pRYjhBR20tbUVTN25oUHZCLUhKTmVVcVNmM2ppWkxKUG1CWkdJZ2J6RkZRNlZ0aW9IZVlZdTVMNWFqOTRmcUIyVG9ZdVpBTVFFc3ExVVJsaFBKVjNvNzB6WUE2RnZ0TTAwRFdCNkotZGhhNks2NlJSN3hnUG1DZmNMaV9OcEZNMFZuOHNqNHlwZzdhZ0VVdVFUdFN6ekh3WEZ6T2VKNng?oc=5",
+      "source": "Livemint",
+      "publishedAt": "2026-11-18T01:09:19.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 27,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Livemint"
       ]
     },
     {
@@ -2462,11 +2664,11 @@
       ]
     },
     {
-      "id": "news-s8xhit",
+      "id": "news-kj10xz",
       "title": "Prediction: Dec. 9 Will Mark a Turning Point for the S&P 500 - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObGhVWHJyVjZLMnltSS0xSXo4bkZsTVZ4dW5VZWdQQXZVaEVlMVBYRnVqcEZKbHdsRm84bmhMWlZ0c2NXU0o2a0pqSzF1MXA0eUthd0FxT2RlRmszRVB5Z1pFSktZZkZNMHVYUjlOamZvcThZUU1lVVFyWkRBVXJuTmhkcUdjRzlkWkNhNU1ucklrNUFBbUw3QWlaRzE5QXFPMnotLVRwVC0?oc=5",
       "source": "The Motley Fool",
-      "publishedAt": "2026-11-17T14:27:00.000Z",
+      "publishedAt": "2026-11-17T14:27:02.000Z",
       "region": "US",
       "category": "other_market_moving",
       "relevanceScore": 27,
@@ -2516,42 +2718,6 @@
       ]
     },
     {
-      "id": "news-1n9mwl4",
-      "title": "Nifty at 28,000? Why Citi and HSBC are turning bullish on India - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMkZvZUM1NTE5VHBZTlQxOTBQMDRNUTFiVHdsMWJYZU1SaHNFNkVLUnhNcUQyU1RmTGdkRktPdUpiN2FDUFZzaGpNQ1dGOUN5bW9kSXVHWVBKcmQtUnk3VmUzM3daNzFNY2ZtOC02Q0QwWjdGRmFVY0JfRkxRbWc5RnlDUENZM2VUMGJyYTVFdUZOQktNNDhCRmpMYjRnelZGZ2ZQcUxod3lRbjRqenJQM2NkekNoWEpqV0x1SHlBamtxejZURGJqNtIBzgFBVV95cUxNNlpKYU5hSTkyNkhTVGxWc29xRnFKXy03Z0xVSVNORXk1MGpjNE1VbElEQ25mREhoSHQ3OWFGaUlyZHRFZDNtZW9MWGtxbkFVcHBobTVnSzRPajNSd3dGWTJ3ZEFnMXNTTTJKd1ZlOXFkdzl3ODM3eWZDZkFuSUphajdvdkdUMjZIeFlKSXJCMmtyeDZUbGZObmJyRGR4bDFyQ3hQWk5CVTJjUmlTRWI0bU80Q3F1dHJ4dkh3UVJRVG1hQ3huOVRkaG9XMlM3QQ?oc=5",
-      "source": "Business Standard",
-      "publishedAt": "2026-11-17T12:28:00.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 27,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Business Standard"
-      ]
-    },
-    {
-      "id": "news-1ewj1aj",
-      "title": "India stocks, rupee, swaps, call at close - marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdGc0V3BiMWJlbkp0Zy0xbE5hZ042bTM3NWlHQ1VGb1NpU3dmakxrYmZuQzdpQWt1a0YxN3djOHdmMTJQa1R2R3lCZmJWQ095c3VmRnY1RFY2Zzc5RjZIT3BwSEs5UzhXN0Q5ZFZvQ1pwNHN5YTJsTWZsV1ZBVjQtWW1kUjFmTE1McXdRVGZLbEk2a3FPY2c?oc=5",
-      "source": "marketscreener.com",
-      "publishedAt": "2026-11-17T11:53:32.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 27,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "marketscreener.com"
-      ]
-    },
-    {
       "id": "news-z0pcvx",
       "title": "Share Market Today: Nifty 50, Bank Nifty | Nov 17, 2026 - Liquide Blog",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQci1aRlFuUkg5RmM2OGozNU12RS1GLURqbDlXTUhza2NuUE5WT2FYU1NwSTVNMjU2dnNJSC1kQ2JkQURncVR6ckltbl9iRWRkMWxZdHZfMkRwNVp3MWtjdTJOYndQRFVHb04tQUFxcXNkc1o0TlNyYkFkaXZEaHpFdVJjaVl1NjM4UEpEdGp4eXZiN1lFQ0xRREFHY1kzUWhwT3h5eEVYUVQxZmEzRjRsXzdDcEhvdmpxazdpdGt0ZHlaOXdkVU5qWEFyS25OcEgzTVBxcU5QTFB0Q292RHlPcjh3?oc=5",
@@ -2588,11 +2754,11 @@
       ]
     },
     {
-      "id": "news-1ydanra",
-      "title": "India shares higher at close of trade; Nifty 50 up 0.38% - Investing.com India",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcjg2NlVJRWNXMGpuemdCMmItbHhDSkFUdVpsMUtPcHA2MmFLQ1ZwWG9VdWI3dWZUYV9RV2VWeGhfWU9MNEdxR1ZYdFZ2M0lLX2lUclIxM1YtaG5mOU4yMHVHMmxjenVobDA3Y0txOEx1QnVsSVpadTh3TzhZR1RfV1JrQ0JqM0hrakI5S1c5bWdyVExkTjlZYUo2SE1qVDNZNkZUeVhDaExyOHZLbGc?oc=5",
-      "source": "Investing.com India",
-      "publishedAt": "2026-11-17T10:32:56.000Z",
+      "id": "news-kl963k",
+      "title": "India stocks, rupee, swaps, call at 3: 30 p.m. IST - marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdEhnM3JJQkMyTkcxcUhMYzRSWmU0ODk2Z09iU25nZ3JBeGtfdHljTmYyYnBRZnliX3RyMFhHRFhfMW55VHJ6YVpsUG1ub3h5bzdRR250djhzUG1pSDVZU1hUMkhpcVkwMW5WZnBDQ3l4TTktNk9uS1dmZThzM0tqYUxycnlOSmgxWmZXUmpJSDhjSllqd2dGR09qVU9ZMWs?oc=5",
+      "source": "marketscreener.com",
+      "publishedAt": "2026-11-17T10:18:54.000Z",
       "region": "IN",
       "category": "other_market_moving",
       "relevanceScore": 27,
@@ -2602,7 +2768,7 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Investing.com India"
+        "marketscreener.com"
       ]
     },
     {
@@ -2626,70 +2792,50 @@
       ]
     },
     {
-      "id": "news-5ktwwd",
-      "title": "Sensex Today Trades Higher | Nifty Above 25,350 | Asian Paints & SBI Top Gainers - Equitymaster",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcEUtNXNMcjczTUx4cjd1c3hDMXRwSUJNT3B3MFpHcGpyTTBLZDVhQm0xeE5Oa1dRVUUxdXpyVHNfM01zUUFuV2pNRUZaSFpmdzl2MWZMMzdGeVRaWWhkVnpJR3prbmt3b1Vjc3F0eHBsYk1JVHJYTHVrNGlyOHRMQnNpOUlad1RQOHpleXYzTUpMTzBfbVhVQklLRmdIaDVXV2xNZTVvZlFYQmN4UGYydjgzWVVaNzQxcFljMC15S3FJenZBb053REVPXzQ3V2VseVF3?oc=5",
-      "source": "Equitymaster",
-      "publishedAt": "2026-11-17T05:22:42.000Z",
+      "id": "news-12l1peo",
+      "title": "Anthropic IPO: How Can Indian Investors Buy Stock, And Is It Worth It? - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNR3d0Z0hQVEU3MjNMM1h6RTZCTjY2ZTlmXzIzNzBMbzdRdWs1QUZMdGk1b2l3Nml3Xy1lWDdaeFhTY2xrWE5mWW9fcjJwYmdSQVd4QnVaaFVhX19rNHREcmd3SVNySFhybDdxSmFXSDRNUGFyYkdCWExCU21PRHNHVDFZM3dsSm9CbmtYQ3VYSF82MU5sa2dYQUFheGhNVXVuTDZRQ05LQkc4aDZMZDJtVdIBuAFBVV95cUxQUEFCRDJBTEhWOFJPWF9WYnBBTlo5ak1EYjlxR2RUY0NVc09EY2oxcGE5SXJPNzJycF8wdldkdlZHZ2tMTWJrUUwtV190V2JZWmpPaWJGMVFPQ3o4NzBWU3JQRU1SbmRReVBVTnprNUZldm55X1hGUXhsaUxVMmpNdEJRNTNQblNiZ3Z4QnJabWlvc29KWjN3SDF4NWtSWFVnQ3BVNlRfaWxySTNfdjJGRXI0TDV0R1Jx?oc=5",
+      "source": "NDTV",
+      "publishedAt": "2026-11-19T01:53:16.000Z",
       "region": "IN",
       "category": "other_market_moving",
-      "relevanceScore": 27,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [
-        "ASIANPAINT"
-      ],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Equitymaster"
-      ]
-    },
-    {
-      "id": "news-lrdd7a",
-      "title": "Stock Market Today: Sensex, Nifty Open Higher - HDFC Sky",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWEt1YmJYSlJTVldqYWcwTUpiTkVfb2hpaHR6X20yTGZtVkxKbk1WcGZVWElpWW9UOVdMWG1RX29WamNVeHhzWkFTaFpLT09vSGxOMHE1M0V1ek5kakE5U3haUmZDYVozWjkyQ0ZsXzFYLUo0MU1yYXczNUMySVh0akFhSGdURTNQSGNOOEVqM2FOWjVkX3lKSWw5V21KbTNJUnNjLU5IaEdubWVQbGtiSU52SDEza1d6X3BWdHV6bzFXcWo0MzdxbzBDbzkxb1BkVEVjZ2FIcHQ0T0VIVGxzWEdjeFp4QQ?oc=5",
-      "source": "HDFC Sky",
-      "publishedAt": "2026-11-17T04:39:55.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 27,
+      "relevanceScore": 25,
       "relevanceLevel": "low",
       "reason": "Broader market-moving development",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "HDFC Sky"
+        "NDTV"
       ]
     },
     {
-      "id": "news-8pie5f",
-      "title": "Stock Market Today: Sensex, Nifty Eye Higher Opening - HDFC Sky",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdFhaOE42YVp1RHp0b0YzdWRIVFh6ZWpqUklrR19XVVhUSl92bm5SenJDUlBiTUdNUF9GV1BPRGUydlZzQmZDMHBjLUdpSFA5YXJydnBrVklrM2F2UU52QU5lTE5fYnR6ZDRPenkwLVUtbzhNRy1rcFJJT3pYRXdwc2tDOXE2eFVxN0tfbzV3VkRGanZoRVk3bklPby1HZU1lUFRWVUtGd3Q3MlBpVGdnUFkxejhDMWo1T0lwVDV1aDFkOWRTSjJ6NDA3UTJkbnc1cGdCRTl6TFFXa2VQMGtNRFVtWDd4OElN?oc=5",
-      "source": "HDFC Sky",
-      "publishedAt": "2026-11-17T03:37:18.000Z",
+      "id": "news-1x4w5qo",
+      "title": "1,309,000 Equity Shares of National Stock Exchange of India Limited are subject to a Lock-Up Agreement Ending on 19-NOV-2026. - marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdnpqcVF6RGVBZGlzWk9IOVhaeFF0d1E2VnQ5eW9EaW5id3pTMkdTaE5tVVJVSWUxS2FzZzZTek9jVlJEQkhsb1RfUXdlUV9Pa0tWX2NMVE9BNW50ZE9TcFFpeFFHbTRRaFdiREw1YzdsbTNIN25nbXZPVHR1T3lUUF9Mc3lZZ2xiTFVnWFI5MXdJZ29IM3JsN1Nud3ZmRHJ0ZFdsVlFOSlZvN3h0UXg2djI4T0xNcFdzOFFGNEZOWGNkVUdXdmJoRWJISVFKeHpJcWRuSjBERUhDbDlsTl9aX3pBektsTHEx?oc=5",
+      "source": "marketscreener.com",
+      "publishedAt": "2026-11-19T00:37:49.000Z",
       "region": "IN",
       "category": "other_market_moving",
-      "relevanceScore": 27,
+      "relevanceScore": 25,
       "relevanceLevel": "low",
       "reason": "Broader market-moving development",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "HDFC Sky"
+        "marketscreener.com"
       ]
     },
     {
-      "id": "news-11llacv",
-      "title": "Stock market outlook today,17 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOQmM1b1V4Z0wyazRoTEdXMVB1OHo0TmZrRWx3R2s3Q3d4YTZXVkdBaGRFaU43dm5rUnpCSzJNRnBrMGN6bnZ2aF80UFlKcDVJcG5QWHVZWkxhaHdYUVVhM2ZjaW5VYWpLbjMyU0kxS1A0RGRlWGJ1c2ZVNWFvNW55Wlo5bS0xMmRjU3FOUk4tRERVM2VsZi1zV2dYdFN4enhwYm1LZjRLTjZVM09DVkU5dVR2Q3dCY1JSNWNOSTdTVElpdG16VWk3a1lYZ0NuaFNVZ0dmY3FzbFQ4UWxwUTlTcGQ0RWRmXy1obEJOZmxSVllhTTN1bDQ2YUZ1NnhnWkF1T3Q3WjFGMlJZZ9IBjwJBVV95cUxNVHhOeXd1Z0pmZGlqdEJUM2w3REJCMHJWUk1pTHFZbEJsN0VMQlBWNkFrQ1Z3ZDJSUXI0cXRWRWxEc1RSLUpVSjYwYTFLTEEzdDdxSlpzQ3BGREdlTWZZai12MG9ObmZKYmpWOEx5NmZoelpCRFZfTFVFUnU1VWF0WVRNS1JuUmR4aVNka0NzZkk1eFdTWlBLTW1qTU1PT1VFNzNNLVE3cWpCc1J0TXZ4Q2g1Rld0am1wVGZxd3k5SW1DODhlTnlHai02TjZlZUlrQlRfZ3IxSkh1bTUyR19TNWs3TFBaTVhPbVdhUzBVbEdSTVNiSlBzOVhsWkYySTNlaU9QVTd5b016UWVsLXZz?oc=5",
+      "id": "news-g1i75p",
+      "title": "Stock recommendations for 19 November from MarketSmith India - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWnE0d3hiWlk5ZjRvRGpUUHhKTVFobHdad2xXT1hDYUpzbmFlTi1EQkJJWUZyeTVVSHE1YTg2NURIVFpOR0V2OWgtTDlCTTRaMmhCdzdWM3V6MmdWdnBkTjJ5YWVxcllteExaWERFNkRRUV93TEhrTFREaUZidEUxTDlYNEhpSzVjaDlJRzUzWjJKcWVnV1ltLVQ5NEg4UjVFUWU5ZEdTQVVUNTFIZEZuSVc5eWdlaUV4czBJWXJVYXR4U3c4YmRqMEln0gHPAUFVX3lxTFBPUmtLMHBTZ3R0Y3JCTi0wOHpVWU9JM3dHSE1neUo5MlRRRV9NRWR0ODh2V0NycENNcHZScGxrbmFtN1ZnX0JYcTZWRW5iOUJrdVctYmJ0anhBMHRGZmwyUHRmNm1ndjZzdVRWM1RHalpqMlB2NE1PMjREb0VlWGZ2N2dKMnpHWk1tT3Nib1VLcERNV002Z0tCZjA5T3FyRy16TXVTZURPU1NNc1hwZGh1YVEzRHhibWZFUE5fZ2tqQWVoWjVSTllEandQZXdmUQ?oc=5",
       "source": "Livemint",
-      "publishedAt": "2026-11-17T01:10:38.000Z",
+      "publishedAt": "2026-11-19T00:30:57.000Z",
       "region": "IN",
       "category": "other_market_moving",
-      "relevanceScore": 27,
+      "relevanceScore": 25,
       "relevanceLevel": "low",
       "reason": "Broader market-moving development",
       "matchedStocks": [],
@@ -2697,6 +2843,60 @@
       "official": false,
       "corroboratingSources": [
         "Livemint"
+      ]
+    },
+    {
+      "id": "news-i7wkzt",
+      "title": "GK Energy Subsidiary Expands into Green Hydrogen Business | HCL Tech Joins Hands with Cohere for Sovereign AI | Top Buzzing Stocks Today - Equitymaster",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQZnJ5bU9QeVducFcycW5KNUVfVGZHVTFpS1ZqYThKZjFaSFd4TGpOS1lXQk8zTG1qSVBEellzdU1XTUVFQjlDVkVIaEg3N09Rc2Y0b3BYODY5YWNtUG5IVTNCZ3FicThmS280ZzcySEFEMEI2cElMTWtYbV9aZXJxeFhUTk83VlRGeXJ6dUF0NjVaaG8yTjR4ZmE2dFlWZGVndFBMSGJHaDAzUk1oVGlvRHBCeGJSc2RsUDlnWGNsMUx5dEtxZ0xyNHBGeTFrNXk4TE0za09QM1JaRDhTYThIVFhjUmNudnNseVpISGN2VHVTcDk2QkZRazlSQ2FEbnB4bWV3dUNpcDdJMmlBbFUtV0dNT3dNZWFhemdxWnZSbEs?oc=5",
+      "source": "Equitymaster",
+      "publishedAt": "2026-11-19T00:30:00.000Z",
+      "region": "IN",
+      "category": "technology",
+      "relevanceScore": 25,
+      "relevanceLevel": "low",
+      "reason": "Technology-sector development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Equitymaster"
+      ]
+    },
+    {
+      "id": "news-1gg28zd",
+      "title": "Anthropic prices IPO at $83 per share, overtakes SpaceX's stock market debut - Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcU5WaGNHQlUtLVBnQ0hOVy1kcEhvSUJRR2lJMDlhRnRQVEh1Y2xVMmlyd2M4ZWRqbFh3clpWR2xaMDFYcTA0WWE4UmhTY2dTYzVTMHpjTHlsSF9ybzQ4UzNtTWRKUGxaZVFnREQ4ckxfYnNCTXVlVXo1NXQ1MlJHT2RxZm14eTVFTmJRR01TTnpMLUpKR1FxSkp2NnlVZ3fSAaQBQVVfeXFMT2NfTmdMOWQ3NUthVFhkekxPSjZpLUtEQmhzTnJIVzkzNjRaTmE3SjZHSEVtNVRDODhDZ1pCczVKSVRVSjhUbERGSUtOVUtqZmxVOEZ0dGxxLUxWWGRjeG1hLTQ4WnBHTkd0c19ES19URkdNT19pQTJMb1NIUVhNSkJWSjR0MlJHYi0zMWRMT2NrTWJDQV9xQUhUMEg2bHI0Z0JRLWQ?oc=5",
+      "source": "Firstpost",
+      "publishedAt": "2026-11-19T00:14:48.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 25,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Firstpost"
+      ]
+    },
+    {
+      "id": "news-1hkcjao",
+      "title": "UK Finance Sector Faces Surge in Cyber Incidents, FCA Reports - Global Banking & Finance Review",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWxSZEpBVTB3Y2hVaUhUeXRZM0Z2dWhVRjFyTkV0TWpIc3JScTNTd09QNHhvUTB3aHNhV1JGbDA1UldWN2xpVnlOU0xZWGlTOWFTZkd6Y0Zma2ppVzNTTnR1dkp6WG5QaGlTam1jT3kzQUpZYl9Hbnhwd2MtdjlLNnlBYWE3dDBFWmFGT1cwMDAzQVYyQTdlT2t5QkcxaTNx?oc=5",
+      "source": "Global Banking & Finance Review",
+      "publishedAt": "2026-11-19T00:10:55.000Z",
+      "region": "GLOBAL",
+      "category": "other_market_moving",
+      "relevanceScore": 25,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Global Banking & Finance Review"
       ]
     },
     {
@@ -2710,60 +2910,6 @@
       "relevanceScore": 25,
       "relevanceLevel": "low",
       "reason": "Banking / credit development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Bloomberg.com"
-      ]
-    },
-    {
-      "id": "news-1omdijq",
-      "title": "FPIs turn big buyers again as India emerges as top emerging-market draw - CNBC TV18",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzNSUE9LZzdlajZtRFZESWU1V0ZYMkR0T1BPOUNZN25UdXR5RVRRVFd4aXdxRXN6UDRKcFlVNVJBUFBHbmNHVTl5VkZCY1g0enhyaXZpdHdhREdjVERhX1ZoenhMR0oxMHExXzJudlQ3MUVjdGt2TjBsT3hBY3JYTFNTenF6R2QtOU1LajVTWHptTGlxM1FFclNlUjJGY2xTNEtzVklfbHdvX3pMNXFtZnNGMHEyMlnSAbwBQVVfeXFMTmtGU3hLWHBQNVdRVloyX2xFTzg5TVFoYWpDdDlZLXZqazI0WkFhWGYyZFFpN000SDNWbloxSkFHZTBVd1dNSGs2UWpaSW5ZblFSZDNxOGZYaDNBNGNid0FjZkx5SWdDbWtRRjdpLUE4eG1vNjNpVEFhTzEzSjBKYTVKRUJmb1RiXzRrVGVIRVFEbnJxS0NnZ0FNSWs3OENyUkZHRVpKV0U5QlZXcXd5SnJKa2ltdktKWDc4MnQ?oc=5",
-      "source": "CNBC TV18",
-      "publishedAt": "2026-11-18T14:33:32.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "CNBC TV18"
-      ]
-    },
-    {
-      "id": "news-1xho2np",
-      "title": "PSC policy change can drive upstream investments; ICICI Securities prefers Oil India, GAIL - CNBC TV18",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOOHVBUVhVRkN4b0NXVktfeUFlZmRLdS1GRmVUemZvNmZ4c2JrMDVRYmZNbEtOa0pOQjU2Rl9OTEw2ZGVKbHp5a0pERG9Nb19ucUlzWXlMcW8wbFVvVGhtNHpJMm1rRUtibHhzUEE1SnI0SWd3VXFOUjRrY1c5ZWNBbHFCQmRDUFcyOVFQNGt3eU1LZUFOUURVU2FCMXVEYV9CcTNvN3k1OWRsb3lRT3RSRGk4UGpaME5uLU12NGxfeHF0N2ZERnJ2UWRxd3Etd3dDaVk5QkRMRVNNd3R2ODQzNkZmU2lxcVkxOTFUNElUOGhCRWlZXzhFeU1PemlfNEFxYmfSAYcCQVVfeXFMTUY4Z2hTZldfZjhtbER0WXZjcTBxRHJQaU9Za0lmUVRpdG80aGZuN3JReHFOek9wNFdhRTZJT2huX2I0LWhmeE9QeVNmVi03bk4wY3paakE2dlVsanhWV2ljUmZEOHBSNVdOd01zcDhvYWRSdXNzM3AxY0c2RFNRQmRCRnMweXR3SkVqSDZ4QzE0dU91MnVGYkp5bGFXZmctdzJnOHQxNnZCbk0zeHNPdGlwQm9aN2J0QXZ1N2F6bE41RC0yMV9xUmd1UGIxUUxKNGZmbUdmTWV1dG5WdUZZS2Q2TWlTWE9maVh2ZFd3MTh5b0hVcFhTN04xMjNJWUtQMC1DdkYwWlk?oc=5",
-      "source": "CNBC TV18",
-      "publishedAt": "2026-11-18T11:33:16.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "CNBC TV18"
-      ]
-    },
-    {
-      "id": "news-fefi6g",
-      "title": "India Weighs Tax Tweaks to Boost Stock Trading, Curb Derivatives - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSUNnWFZ5VkRNSnpmX3pGRVh0UmZSLVA1Mm82T3V5b1hlRXRkaG9EY0pId2NOX1R2ODlZSDB5Z1FtSUMzTWxUTnRlNmNva3pxWlRwTUQ2OHBZeF9KQ04wN2VDTDBtN1NHRmNzQzk1eDE2bmFQT3pFR1VhWlZvNGtMTFZIakhUcnhPUnRJalVYbklnRFAxU2ZwclUwZkJYT29ZcEVpdlRkX1RTaVlfQjlFYzNlVXg?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-18T11:18:11.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
@@ -2787,6 +2933,24 @@
       "official": false,
       "corroboratingSources": [
         "Saur Energy"
+      ]
+    },
+    {
+      "id": "news-1id59mz",
+      "title": "India Two-Wheeler Sales October 2026: Dispatches Rise 16.1% to 25.78 Lakh Units; Hero Leads, TVS Gains Market Share - Autopunditz",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQW5tOHBHWXRnM3BnY1dHWDBPZlVob2gwUi1HYkNCVTI5THZxZ09ZSDR1Zy15VUw2ZUhaclhYeEFSbVBvNU10RjdnLWE4MzRlVFJNRDZEN1Z1MFN4N25LcktyMC0ySzR5UHlmTVlyN25vekpEMkZlSHlJTjVXTjRTU21sa0JMZXN3VXBZdFhQOG8?oc=5",
+      "source": "Autopunditz",
+      "publishedAt": "2026-11-18T10:43:00.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 25,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Autopunditz"
       ]
     },
     {
@@ -2846,46 +3010,6 @@
       ]
     },
     {
-      "id": "news-1bb00t0",
-      "title": "Mahanadi Coalfields vs Coal India: Is the subsidiary worth a higher valuation than its parent? - Upstox",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSUJOM2F1cGVxQVFuS2lRbU9zdkZsVlZOU1owcDhaN01RWHgwelpPNGZReW9lQ3M1Yk9URmpVRE04SU5EX2RYb3d2MjVRWTlXeDdSOXltTzJ5R0x0cGJLVl9Tc1d2M3lqc3NJeXJYM213ZU5RbENfWGNjcGJTRHZ5QXVBT1A1cmkwYS1tUTZSaEV1SHhKVk1LN0REMkRDMnI5S2hPR0JfR0dPWHQ4Wl9XTEs3TlZaNHFqSS1GZllfQTlQTEljV3JJaWktNzBCb2lHa2JGWktZUzhndmU4Y2owNElB?oc=5",
-      "source": "Upstox",
-      "publishedAt": "2026-11-18T10:17:31.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [
-        "COALINDIA"
-      ],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Upstox"
-      ]
-    },
-    {
-      "id": "news-1o1vktd",
-      "title": "Mahanadi Coalfields IPO: Should you bet on Coal India’s cash cow despite muted growth? - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNanNqRTY3ZkJ4ZTcwVUY2eXY3VWN2ZUd0TmFGRjZXQ0tCem05a2MtdzNfdEcyVnVkVmE3TE9XUmVNek5DVENodDVwaE81YXVsUGo3bEFVQW1WeHlzSDZyMVI5djlsLUl6S1laLXNvSzB6bGRLYmZhODhYME1oSUNtQ1VMUy1haG5RTExxZDVDYVFyckNJQmdRWndPSFBqSFhOT0ZTT2pIS2dUZnFwQnRVTFlJTW5LenVZeUFkSDViTHJ4SU1jU2fSAcsBQVVfeXFMTVpqQUZCT1liVUs0QzhmdzhCajF2dGxERUlRUHl3bkFtM3ZNcmNhMGh5RE55eDJId3l4RERRbVlqUHROZkhQTi1RT094aUxJczROeFhzbTZCZHVEWEtkOHU1dmhkaUFuVDdwekFORlJaN3FQZ3N3V3hkdEMweTZZbmo3RVl5cWFHQmdCYXd4dE85cVZ6MjVmQ3Z3OHgyQl9JdVFya2lsd2ZHdWR0anNmWmUwNzF6QzhyVTIzRUd6Rm9KSXVxb3IyZlpUSm8?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-11-18T10:11:06.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [
-        "COALINDIA"
-      ],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Livemint"
-      ]
-    },
-    {
       "id": "news-12be415",
       "title": "Sterling slips to one-month low versus dollar after UK core infla - Global Banking & Finance Review",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdm1zaDZNYVJYdVRqaUxzdjRqWjh4TkVBOVpMSjhzNzVvSFNmODRfb1Atd0hScEdPTjdWalJVVkJoZThnRlMyZkJ0dDlhQVBsMkpQT21mS3R0TWRQMHhMOElFWG9yZEY3WjlmNk9Sb1g5Ry1Hbk9QYlA1ZFU2Z2lZUkRFWnhPamk2M1dlV0JLS3BmOXpfWUVJenhNYjRrcXpsMTRj?oc=5",
@@ -2922,49 +3046,11 @@
       ]
     },
     {
-      "id": "news-1s29u3q",
-      "title": "India Two-Wheeler Sales October 2026: Dispatches Rise 16.1% to 25.78 Lakh Units; Hero Leads, TVS Gains Market Share - Autopunditz",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQW5tOHBHWXRnM3BnY1dHWDBPZlVob2gwUi1HYkNCVTI5THZxZ09ZSDR1Zy15VUw2ZUhaclhYeEFSbVBvNU10RjdnLWE4MzRlVFJNRDZEN1Z1MFN4N25LcktyMC0ySzR5UHlmTVlyN25vekpEMkZlSHlJTjVXTjRTU21sa0JMZXN3VXBZdFhQOG8?oc=5",
-      "source": "Autopunditz",
-      "publishedAt": "2026-11-18T09:39:46.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Autopunditz"
-      ]
-    },
-    {
-      "id": "news-ygy7ez",
-      "title": "Zee Business. . Stock In Action IIFL Finance में अभी भी खरीदारी का मौका ? क्या कॉपर की कीमतों में गिरावट से टूटा Polycab India ? Hindustan Zinc में कमजोरी क्यों ? Hindalco में कहां से आई गिरावट ? गोल्ड NBFCs औ - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMijAVBVV95cUxOOXNUSDFjT2poVTdpRHVUc0JYdUJYd0pyN1U3NHNPWUtiMUJsOVZ3dVFjejVFUmhlNl9OZjZLNG5KY3l5X0U5WWpoTWpJckpaVENUNG9kVUZVbXQ2MHY3WnRhZnpiSXUzR0lHVENqc2FabXREN0pydlFlcHZIVzBuVVpTNnNUTzhKTkdpWjM3NnV4cWpvcTZhenZrTEZxdWdPUFlnMFlQMllqVUZWdmN0bXVmUjNCRzFaZUZVdWNESzIyekNoYnFfM1RDTlZoVFFZd3hEWjAycy0tMUZGcWtBekdmYVV1aDdsQ2I4aVM2eDB0UGFmVlA2MEJjMEVOSUlkRE1pcEhKaFBJdEh2bGN5SENvSFV4b2tCRmpIbzV6a19nSlQ3azY1LUJTcndZamo2b2J6Rnd1UU8xUUVZZ3FEbEtlWHBwc1QtOTZ3Qi1yaEdpUC1KTFlkdFVIYjJLbk5VWlR0MlNHeC0xamRlY3lBZGlDalVwN2JicllkOVBKb1ZiSkdFaU15Z1psR25FaHkwa3JxVFpWSmNlV2ZEVmNYUGY3ZDEyRDBpcWw5b2NZNzFjaXM0M3ZORUt2V0ZPY0JlS3N3ZFVrY1Z4TENmcGFUWUx4ZTN3UFM0LXY4em9ma1p0TlR1Wjd2Y256VG5LUkhsUmdWNUFMLWFhUXdDYWFtZ0hkNzdUalI2WGZQdGZmbzBUSXhGbVRxR3lFUUczVWpGYjhSeDU4NlluVmpzQi1CR3lVUTRobU5qeDZweVVia0xva1loN0ttOXpodUgtNmFfQnlaM2dJRnJOOUlFX3RYYmRLSzhPV3BlYWJJUjhXeXF2ZkZYVm5TQUl6VXZKd283TVNQMldnZkJOWWZ1?oc=5",
-      "source": "Facebook",
-      "publishedAt": "2026-11-18T09:21:28.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [
-        "HINDALCO"
-      ],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Facebook"
-      ]
-    },
-    {
-      "id": "news-1l62dxb",
-      "title": "iFAST Global Bank Expands Multi-Currency Visa Debit Card Access to Overseas Customers - The Manila Times",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORHQtVF9FckJSUWZNd3JMQnJ0bXVBRkpRVm5rX3BINks3YzZ5Mkh3YURzS19tbzVyNmwwTDJmejkzU2I2X2E1OEktV2lDTl9CS2thWTF6TlBvY2xJYTNuN3p2b21tMHpsNk9tXzVxZW9OQ0FtS1E4S2l1ZUt2clBsendsaFVHRVNQaGpmRDVvNE5oMFYtZFFXZExVdE1kN18yN09jTzRrRjhUSE5HaFk2LV9NN19jMDROalJDSm53WE5jckRHR29Valp2REY3SFRiZE1oU0RDN1p3NXRKbnRmcUFLQm05TVhrWV9NX21hUXHSAfYBQVVfeXFMTVhxOVRWWjF0aG5tTTc1aDM1clZ5YVhaUzlRbUxYanpJTmNLZkliZ1JBc2EtTDdYZUJLYTFnemw0cEFnS0wzSGpiWWpobjdrZTFaekUxTlN4eHphNmRYUW0ya3IwZzhwaDJSRmwyeVpWVnBobFJUUy1NNnZUVFh1UGpDYnpLeXpEN0hjTk1YdzhRcGhSZ2dvUjRZM0hxSVBRWlNaN3UzLVlIRC1WOUZubEhuczNGdmg0R2VrZEloV2pMOVk5bUxuWHFGNmhmYkJLRzVrYVlVOFl5cTF4OUNiVHlPYkJqdDVtVmtxRFpxM0RMUnRGeGhR?oc=5",
-      "source": "The Manila Times",
-      "publishedAt": "2026-11-18T09:05:58.000Z",
+      "id": "news-1gpeeev",
+      "title": "iFAST Global Bank Expands Multi-Currency Visa Debit Card Access to Overseas Customers - StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVmZUTThQRDEwaWM2aWZFY1JLSVpfZnhFMmFCbjN4dWJzeTJhRmU3SUdlZ2w4TkJOcDNfTGlwdjMtd3o0MmRWY0JVT0N4dkVqNFgyWkRyY0xGallRVWVXTDBMek5jREhfU05DbC1lQWVIdkFXZnp6THRkMmtNX0lfQnpjUUdWX2NWRDNHcE5GOE5zT1BXUGs5NjBzS1phanIyZlF5Vml1WFZqd2xGTG1JNkxsVVF4WnNWUVlBb2NHUDI3eHYzZEE3bGg2dkhHb241SU1xQ04teFR3Zk9I?oc=5",
+      "source": "StreetInsider",
+      "publishedAt": "2026-11-18T09:11:58.000Z",
       "region": "GLOBAL",
       "category": "banking_credit",
       "relevanceScore": 25,
@@ -2974,126 +3060,38 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "The Manila Times"
+        "StreetInsider"
       ]
     },
     {
-      "id": "news-l8yt46",
-      "title": "UK markets show resilience and technology volatility - Jersey Evening Post",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORFpiSnlXSVhkOVU5VlJLOGI4MHFSal9lQjFCYnBNRGlzOXFXZ25fTXZyMXhBZ1RNS1l1Q2dmRVg3eHYwdDlHZzdUZWNYTlEwVjNRTTV6M1Q0M0xfMVNEbWNhUFhYYzNXMWhzZFBKX2dCeDJVTnR0c3FKQXJiZm5tRmxRa2JERDJwYmRacXBLZFRtYzZlZnluUUdZZ0hqVGdUWWRNTUxR?oc=5",
-      "source": "Jersey Evening Post",
-      "publishedAt": "2026-11-18T07:30:00.000Z",
-      "region": "GLOBAL",
-      "category": "technology",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Technology-sector development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Jersey Evening Post"
-      ]
-    },
-    {
-      "id": "news-558xcu",
-      "title": "SBI trades firm in down market, stock up 16% in Nov; brokerages stay upbeat - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQzFGNFRCYlY3SU5HNWpVZktMMFZMM2pPdW1tWUwxSWFvdnZQa2puNzZUaWZYOTNIc3Z6SDE4TVFzVC15T18zV0NvT1pfeFI4ZGZ5ekJweEEtMzNyZ3MzYWx2STJ5RFFHZC1YWkJEMFhENmxRZ2ZISWJub3NTNzM3T0IwZ3JrVndvbExZSE9XSXA1blNfLUpoS1dFeXNTdG9nOGZVT3hiLUtFV2RteUtpM2I3ZnlTanlKUDVvTjlsUEJCVFVEeDdhVXdqa0d6a1FUMk42VUh30gHbAUFVX3lxTE1nR3VNS1NKS0lSbUNpYzdDY1lrei10WlRleC1QbXVSNlZuSnF2RUdFellTaFhuUmNYU3loSVRJSFRwNnFwaGtJOGF5dzVpLW9hTVlOTmYwVU5nVUNMdlNNbXFTNmQzTjQ3bHpmS0VEbl9MeXBLRTJnWGs3Q3RQdkZiZmZmV2stZmFuVGlKYlZQZjJoUkdiSno4THJvZWZ3aVJSaDJDUlFTMFNSVkhOX2pIbGEtR19RamMycTRnSEhNLTBETTd4SElna3RNZ0VGeGdKamU2ak1tTFVQSQ?oc=5",
-      "source": "Business Standard",
-      "publishedAt": "2026-11-18T06:56:44.000Z",
+      "id": "news-5ktwwd",
+      "title": "Sensex Today Trades Higher | Nifty Above 25,350 | Asian Paints & SBI Top Gainers - Equitymaster",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcEUtNXNMcjczTUx4cjd1c3hDMXRwSUJNT3B3MFpHcGpyTTBLZDVhQm0xeE5Oa1dRVUUxdXpyVHNfM01zUUFuV2pNRUZaSFpmdzl2MWZMMzdGeVRaWWhkVnpJR3prbmt3b1Vjc3F0eHBsYk1JVHJYTHVrNGlyOHRMQnNpOUlad1RQOHpleXYzTUpMTzBfbVhVQklLRmdIaDVXV2xNZTVvZlFYQmN4UGYydjgzWVVaNzQxcFljMC15S3FJenZBb053REVPXzQ3V2VseVF3?oc=5",
+      "source": "Equitymaster",
+      "publishedAt": "2026-11-17T05:22:42.000Z",
       "region": "IN",
       "category": "other_market_moving",
-      "relevanceScore": 25,
+      "relevanceScore": 23,
       "relevanceLevel": "low",
       "reason": "Broader market-moving development",
-      "matchedStocks": [],
+      "matchedStocks": [
+        "ASIANPAINT"
+      ],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Business Standard"
+        "Equitymaster"
       ]
     },
     {
-      "id": "news-g33fsi",
-      "title": "Lentils market update: weak Indian masoor prices on heavy imports - CMB News",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUlNJWmg3VDFpOEMxSEdYWnUtUE9FMzdoTU5HQ0NvMVllRDc5Rm0zSzdtV0ZlZ3ZUVmlBRHVreFZhWkNWRXRWcVJJRTU2czZCVUpkclNwNmU2aGNlOHNHSUF2RTVPRk5mTkJkTGdTRUZrM1ktQXdrSldtdHMwVlBJNTZPX0dteFpYWGc?oc=5",
-      "source": "CMB News",
-      "publishedAt": "2026-11-18T06:54:20.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "CMB News"
-      ]
-    },
-    {
-      "id": "news-16rkxha",
-      "title": "Pea Market Steady While India’s Tur Tension Supports Pulse Prices - CMB News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQXRPM19fRnZYUUs2U1VLVTl5YlQ4eEtMUUphSEREckFyU2t1QWFWeTV0b1VZSmVmWERNUThPZHl3M3otMldqNXdQc0xUeGo3bzFHNXluWldTNTdqRTR4aDdLUjVCZmNKcnRPUVFrTVo0UzVmanVYdklGOUFqYkpwbW8wQ2Z0UEI1YlJ6d0dQdzBBMGt0eTcw?oc=5",
-      "source": "CMB News",
-      "publishedAt": "2026-11-18T06:53:52.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "CMB News"
-      ]
-    },
-    {
-      "id": "news-1myzyo0",
-      "title": "India wheat price rebound and global wheat market outlook - CMB News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPekRJeVQtckZwbkZOSGxnMXdKT210djg0d3padC0xX0I4RXBsV3Q4QkM5QUtkWjdybG8xOVUxeGlrUDlCekNjMFpzTmNQN040bE5UY2tOM3NMN01sTW5pWkstXzhiZ2RuUjVKYzJGSGpSWlRzQlpIM2ZMSG5mSXA4U0Vya0JJSlVRM0NNcXRvUVBoSldrTUZmamJCMjhaVnRDUUNHUHd3?oc=5",
-      "source": "CMB News",
-      "publishedAt": "2026-11-18T06:39:54.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "CMB News"
-      ]
-    },
-    {
-      "id": "news-1ozxw",
-      "title": "US Stock Market Experiences Notable Fluctuations Amid Uncertainty - India News Network",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTWw5VzFLdXFYOHJid3NydmFENmlHU3RMd0k1UjdhYnVVYV9KRTBQZDRYY0R2QXZoRHhfYjRHdDZEOUxhaWVfWTRoSm1xUWNlbUJ6MXhkQzNjeU1XYWxRU1lvWEhTdF95dDkwUTRFQzNJY1E2ZTZtVHlVUVM0NjFCdnJLZW9iSzJVbHN5Z09jNUkxRUUwMlMwTnNvMkkyYmp4YlRwVTFwRmh6bnloZ0Z3?oc=5",
-      "source": "India News Network",
-      "publishedAt": "2026-11-18T05:45:05.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "India News Network"
-      ]
-    },
-    {
-      "id": "news-ls3w3m",
-      "title": "India VIX Falls 7.41% to 14.04 as Markets Recover - HDFC Sky",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaUY5TVZhNHBTbmVzb3JoRlN3ZFRZeTlGcVZsS1prQzNmMWNQeV9mYmI3eFB2Mm8zYUMxcTBaLTV4ekE0c2p4bFNMLVZzU08ybWo0azlNNGwzaHBZWXdxQkNkdWlwTlVWeEZ6cmgwUzFsaW1JX0gwelJXRnlmV1hhdWFWbG1JWGEtXzhhWGhCR08zdl9PRlQyNm9Fd29DbERtSnRTb29WR0I2SXF2N3BSalhkM28zODVqT0NzSkh6MDgxR2VhYjRNVDlZUFU3eTg?oc=5",
+      "id": "news-lrdd7a",
+      "title": "Stock Market Today: Sensex, Nifty Open Higher - HDFC Sky",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWEt1YmJYSlJTVldqYWcwTUpiTkVfb2hpaHR6X20yTGZtVkxKbk1WcGZVWElpWW9UOVdMWG1RX29WamNVeHhzWkFTaFpLT09vSGxOMHE1M0V1ek5kakE5U3haUmZDYVozWjkyQ0ZsXzFYLUo0MU1yYXczNUMySVh0akFhSGdURTNQSGNOOEVqM2FOWjVkX3lKSWw5V21KbTNJUnNjLU5IaEdubWVQbGtiSU52SDEza1d6X3BWdHV6bzFXcWo0MzdxbzBDbzkxb1BkVEVjZ2FIcHQ0T0VIVGxzWEdjeFp4QQ?oc=5",
       "source": "HDFC Sky",
-      "publishedAt": "2026-11-18T05:16:02.000Z",
+      "publishedAt": "2026-11-17T04:39:55.000Z",
       "region": "IN",
       "category": "other_market_moving",
-      "relevanceScore": 25,
+      "relevanceScore": 23,
       "relevanceLevel": "low",
       "reason": "Broader market-moving development",
       "matchedStocks": [],
@@ -3104,41 +3102,21 @@
       ]
     },
     {
-      "id": "news-sktve1",
-      "title": "Mahanadi Coalfields IPO: How Coal India investors can apply under shareholders’ quota - Upstox",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObzFDWTlwSGZMTGFUR3hidWMtcDB3M2ladkwzcm5NUHd2Ml84LURqeUZaN0FXTEhnZE5wNm5rNHZPeWZmc2VsX3FRYmdkazNiVlUzYmVjbmtPTlhjUVhnR29helROdmJLOHQ0TnZoSy12am5CeXlLalVIYUVGYU5tc0ZwZlRlZzFVWS1hVDZBcTl3NmlORkV6eExJNDNpcWU5LUo0d1g3ZGZEczJPd0RsSHkxZm1EVmNsVXBEaGg5bFdMNHl3WFhMNFM1RGgtdUtPY1pRZUZIWS1QNGJCek9YYlZ2aw?oc=5",
-      "source": "Upstox",
-      "publishedAt": "2026-11-18T04:17:12.000Z",
+      "id": "news-8pie5f",
+      "title": "Stock Market Today: Sensex, Nifty Eye Higher Opening - HDFC Sky",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdFhaOE42YVp1RHp0b0YzdWRIVFh6ZWpqUklrR19XVVhUSl92bm5SenJDUlBiTUdNUF9GV1BPRGUydlZzQmZDMHBjLUdpSFA5YXJydnBrVklrM2F2UU52QU5lTE5fYnR6ZDRPenkwLVUtbzhNRy1rcFJJT3pYRXdwc2tDOXE2eFVxN0tfbzV3VkRGanZoRVk3bklPby1HZU1lUFRWVUtGd3Q3MlBpVGdnUFkxejhDMWo1T0lwVDV1aDFkOWRTSjJ6NDA3UTJkbnc1cGdCRTl6TFFXa2VQMGtNRFVtWDd4OElN?oc=5",
+      "source": "HDFC Sky",
+      "publishedAt": "2026-11-17T03:37:18.000Z",
       "region": "IN",
       "category": "other_market_moving",
-      "relevanceScore": 25,
+      "relevanceScore": 23,
       "relevanceLevel": "low",
       "reason": "Broader market-moving development",
-      "matchedStocks": [
-        "COALINDIA"
-      ],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Upstox"
-      ]
-    },
-    {
-      "id": "news-1gqwu72",
-      "title": "+27%, +26%, +22%: Which AI-picked Indian stocks are up as Wall Street sells off - Investing.com India",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT0VaT1JRMTJ2V2NYeWFhTmlQQXlxckJORTVleUhNWEtTbFhxZWh3MkMwUDlaSVBjT1BNaUljNXAwYXlBdDZBUFpnQm1HMkE5aVVLMUoyQkctQUxqc0t5SUxNN283cUlDTFMtWllsVGpVcVJwZ2RKNHg3TmdBZWlSX1hUUG5Fd1dSZnk1QXh5TmtDaThLTk1xTjF3TEhHc18teWp2TmFzNGxRVUdGdTRwTGMxbzdDcUN2akVpVTdWU3FyS1U?oc=5",
-      "source": "Investing.com India",
-      "publishedAt": "2026-11-18T04:01:13.000Z",
-      "region": "IN",
-      "category": "technology",
-      "relevanceScore": 25,
-      "relevanceLevel": "low",
-      "reason": "Technology-sector development",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Investing.com India"
+        "HDFC Sky"
       ]
     },
     {
@@ -3175,101 +3153,6 @@
       "official": false,
       "corroboratingSources": [
         "Liquide Blog"
-      ]
-    },
-    {
-      "id": "news-1tm8iia",
-      "title": "Sensex Jumps 510 Points, Nifty Nears 25,300 - HDFC Sky",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLXdKSUxXQmpRYl9Lekw4a3JMc0g2eFFxYThBZEN3UnFiQzJoVnJNMDBMRkktRTFteXlTZFZFb2VoOU1sUXpMTC00Sll3TEpUSU5nQlpEa1E3TGQzeW5UalAzUnJwa2J4eEJiVk0xS0xXdGUyRzZBNDNacTFJUDJfYVZwQzZnWjh1UGVKWXlUNGV2cGV0LVpKTDRUQnE4SDNsYVRyMXJGRlJpYTVmemdHMzVEVDk1TmJGdl8xTkJmYmRqVUlBcjJfSlRvWkhPYzdUZWc?oc=5",
-      "source": "HDFC Sky",
-      "publishedAt": "2026-11-16T11:07:25.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 23,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "HDFC Sky"
-      ]
-    },
-    {
-      "id": "news-1kefvml",
-      "title": "India stocks higher at close of trade; Nifty 50 up 0.58% - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSUVfU0RvaTc4VTk3MjZ0VmtLdTI4RmpiTXZuZ2JCTTMtaWIxRmhraFFDSkJBNTl1a1VMZEF6ZTlBNkpPYWpYM0xJb0ZvUVk5T3AwdXhoUDYxVGF1MTNVVWY4WjU5a1YxN3RBRzhNWGNNbFJRQ0dVbEwxOHhibF90OUtMWjYwTUYtcG9qeFNBelUxaEFXLW5VQmlaWlAwRkhlX2tORHVEYmk5UlpFTDB3?oc=5",
-      "source": "Investing.com",
-      "publishedAt": "2026-11-16T10:34:42.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 23,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Investing.com"
-      ]
-    },
-    {
-      "id": "news-yqs5pw",
-      "title": "Sensex Today Ends 318 Points Higher | Nifty Above 25,200 | BSE Insurance Index Up 1.15% - Equitymaster",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWFRTcjZIY1JrM2lHemFJV19pdU9jNVZ5dk5tSGZSdHJ5UWZ5Q09zUTNERkRwWmhqVGwyOXVkVmlTSGJ4VW54aTRLYjRVWHdfaTNYUU9ST0lEVGRKOEY0RmlOa1N3Y0NPbG13YlhHSlREX1pXeFF4YXBwSHRYQTF1YVNuWFlDMi1yZE5ldlJ5Z1haN1RDTXRHVU9FaGtUZTQ4Q3R0b1ZYMmMtVjRJQlJ2anFjdVFyRG9lRF9FYzUydkg4NzdlZ2RpYmZ0eF94TGE3cldmaU5KTzNIZms?oc=5",
-      "source": "Equitymaster",
-      "publishedAt": "2026-11-16T10:22:41.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 23,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [
-        "BSE"
-      ],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Equitymaster"
-      ]
-    },
-    {
-      "id": "news-1dsakf1",
-      "title": "Sensex Today Trades Higher | Nifty Above 25,200 | Asian Paints & Bharti Airtel Top Gainers - Equitymaster",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSVo5Y01fc0JhOWhiOHlJNm9KaEhkekFzbHczOHRINkJiaHZUZGkyVVE2TC0xRHpIVzh0NHF6b0xrWXprd0gwSFh4OG5UQ2I3amZBXzd3dldEYk4wbUhSU3piQkV1MUxidXptclIyV095eHNQdVdjNE9MQXFyNFR1aGd5VFNNOEVQb096VUQ5T2c1bEV0bW9yLTdzREJTcFJEMTAxdnpmQ2RBeW1jWjA2RGFaS2J5MmpjT01qYlBCUzQ1dDZaUVZxTTN2TDM3b1hYaENlaTlDRDhUQXQ2eVRRZg?oc=5",
-      "source": "Equitymaster",
-      "publishedAt": "2026-11-16T04:53:41.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 23,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [
-        "ASIANPAINT",
-        "BHARTIARTL"
-      ],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Equitymaster"
-      ]
-    },
-    {
-      "id": "news-pgg3w8",
-      "title": "Sensex Rises 418 Points, Nifty Crosses 25,200 - HDFC Sky",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcGFJSm1xY3daald5NUxSLVJpOUpfeFUwNG9mTGM2Q0RjQ0xUTUd5YVUyV2pjcmltMEF3YlJYNnhJMlVsMS1QTTNKUVhwdXRuS3hJWEh2bjhEQnZ2VWtIOGRmY21KWlVXN3E3eWFhQklmRHExY3Y1WFhCRzIyMnROaWU2WldRU0RBaElvdkxmaTN1MWZLaUNsUngtUldXUmlQRUd6bllIcFNaN09reTN5ZHl5MHFtd3dUMjN2dXlUZENCSF9oMWw0eG53S0E?oc=5",
-      "source": "HDFC Sky",
-      "publishedAt": "2026-11-16T04:29:21.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 23,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "HDFC Sky"
       ]
     },
     {
@@ -3327,6 +3210,24 @@
       ]
     },
     {
+      "id": "news-70qnmj",
+      "title": "US - Federal Funds Rate vs. S&P 500 - MacroMicro",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aVkdPazBOVmduYUxDdmNRUXpCVENLUThMcHA1QlUxcGhYXzh2YUlUYUtBZngwRUxRd1ZySkVpeFR4czhQc2d2UHV1NW15Y1djVU44aFZDamtOcDVNRmM2azRzMk0?oc=5",
+      "source": "MacroMicro",
+      "publishedAt": "2017-02-02T13:17:51.000Z",
+      "region": "US",
+      "category": "other_market_moving",
+      "relevanceScore": 23,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "MacroMicro"
+      ]
+    },
+    {
       "id": "news-f76q9n",
       "title": "US - Federal Funds Rate vs. S&P 500 | US Market | Collection - MacroMicro",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM2dXSVZBNWdMOEt2VTRjTGo1ZEJvd0VDVlJIRDExYzV4RXhaUm1zMFA5RlV6TVc0VFU5YzBZOVFQV1o3eW1PWkVicEp4c1BzOS05TlNxclRISVBISkVXOGhiUnd6SjhmQ2dZYVZoU1pweDNKRDNtRHFKWGxmSERfZzlFVlY3WXc?oc=5",
@@ -3345,11 +3246,29 @@
       ]
     },
     {
-      "id": "news-16dwt7p",
-      "title": "Stock recommendations for 18 November from MarketSmith India - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcFFadGthY0ZqNnI0Nk55V056b0FsSVlzQ1JBdlNvZUs1dmpwczJVQnh5RjZoUXd3UjJFRmFlaFF4VGN4Z1ZjdzZfdEJSaklKckZGOUpuZXFUQzFpNHFBckY0TjVqN2YxSmtCMVp6SGVERVhxdGVBdDRoM2ZDSjhFUV8zWnJEVXdET1lTbE1iWV94aDJFZWlLLVZfOTBfZkk2MlRNZlJLLVViMEdZVzFsbHdSSEFMcUczR2RsSi1pMW1RcG5fZG41bld30gHPAUFVX3lxTE10MjdGaUlQQjU3RGhvTi05Mnh1WFJzdTVBSDlEYnpnY2hCSFR3R0lDT01uMkVtOGlvcm55ZW9sSmxCaTlLVG1fT1pnLVI4RjVvTUxGX25YOC1QTm9icXdvR3k0cDYyeGpEQmhQaVJVczFpalRqZ2lDZGFJekxwSEFzRzN6Wm14YWNBZ0dnSjNuZW00X3RtbHVjT183TS1nWVg1TkxLWHMxTWljTWFfczZKQ0pMNXB5YTVNUF9KbXBTcVBIeXhHd2k1bTM2OElNRQ?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-11-18T00:31:11.000Z",
+      "id": "news-l8yt46",
+      "title": "UK markets show resilience and technology volatility - Jersey Evening Post",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORFpiSnlXSVhkOVU5VlJLOGI4MHFSal9lQjFCYnBNRGlzOXFXZ25fTXZyMXhBZ1RNS1l1Q2dmRVg3eHYwdDlHZzdUZWNYTlEwVjNRTTV6M1Q0M0xfMVNEbWNhUFhYYzNXMWhzZFBKX2dCeDJVTnR0c3FKQXJiZm5tRmxRa2JERDJwYmRacXBLZFRtYzZlZnluUUdZZ0hqVGdUWWRNTUxR?oc=5",
+      "source": "Jersey Evening Post",
+      "publishedAt": "2026-11-18T07:30:00.000Z",
+      "region": "GLOBAL",
+      "category": "technology",
+      "relevanceScore": 19,
+      "relevanceLevel": "low",
+      "reason": "Technology-sector development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Jersey Evening Post"
+      ]
+    },
+    {
+      "id": "news-g33fsi",
+      "title": "Lentils market update: weak Indian masoor prices on heavy imports - CMB News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUlNJWmg3VDFpOEMxSEdYWnUtUE9FMzdoTU5HQ0NvMVllRDc5Rm0zSzdtV0ZlZ3ZUVmlBRHVreFZhWkNWRXRWcVJJRTU2czZCVUpkclNwNmU2aGNlOHNHSUF2RTVPRk5mTkJkTGdTRUZrM1ktQXdrSldtdHMwVlBJNTZPX0dteFpYWGc?oc=5",
+      "source": "CMB News",
+      "publishedAt": "2026-11-18T06:54:20.000Z",
       "region": "IN",
       "category": "other_market_moving",
       "relevanceScore": 19,
@@ -3359,7 +3278,99 @@
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Livemint"
+        "CMB News"
+      ]
+    },
+    {
+      "id": "news-1myzyo0",
+      "title": "India wheat price rebound and global wheat market outlook - CMB News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPekRJeVQtckZwbkZOSGxnMXdKT210djg0d3padC0xX0I4RXBsV3Q4QkM5QUtkWjdybG8xOVUxeGlrUDlCekNjMFpzTmNQN040bE5UY2tOM3NMN01sTW5pWkstXzhiZ2RuUjVKYzJGSGpSWlRzQlpIM2ZMSG5mSXA4U0Vya0JJSlVRM0NNcXRvUVBoSldrTUZmamJCMjhaVnRDUUNHUHd3?oc=5",
+      "source": "CMB News",
+      "publishedAt": "2026-11-18T06:39:54.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 19,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "CMB News"
+      ]
+    },
+    {
+      "id": "news-1ozxw",
+      "title": "US Stock Market Experiences Notable Fluctuations Amid Uncertainty - India News Network",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTWw5VzFLdXFYOHJid3NydmFENmlHU3RMd0k1UjdhYnVVYV9KRTBQZDRYY0R2QXZoRHhfYjRHdDZEOUxhaWVfWTRoSm1xUWNlbUJ6MXhkQzNjeU1XYWxRU1lvWEhTdF95dDkwUTRFQzNJY1E2ZTZtVHlVUVM0NjFCdnJLZW9iSzJVbHN5Z09jNUkxRUUwMlMwTnNvMkkyYmp4YlRwVTFwRmh6bnloZ0Z3?oc=5",
+      "source": "India News Network",
+      "publishedAt": "2026-11-18T05:45:05.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 19,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "India News Network"
+      ]
+    },
+    {
+      "id": "news-ls3w3m",
+      "title": "India VIX Falls 7.41% to 14.04 as Markets Recover - HDFC Sky",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaUY5TVZhNHBTbmVzb3JoRlN3ZFRZeTlGcVZsS1prQzNmMWNQeV9mYmI3eFB2Mm8zYUMxcTBaLTV4ekE0c2p4bFNMLVZzU08ybWo0azlNNGwzaHBZWXdxQkNkdWlwTlVWeEZ6cmgwUzFsaW1JX0gwelJXRnlmV1hhdWFWbG1JWGEtXzhhWGhCR08zdl9PRlQyNm9Fd29DbERtSnRTb29WR0I2SXF2N3BSalhkM28zODVqT0NzSkh6MDgxR2VhYjRNVDlZUFU3eTg?oc=5",
+      "source": "HDFC Sky",
+      "publishedAt": "2026-11-18T05:16:02.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 19,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "HDFC Sky"
+      ]
+    },
+    {
+      "id": "news-sktve1",
+      "title": "Mahanadi Coalfields IPO: How Coal India investors can apply under shareholders’ quota - Upstox",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObzFDWTlwSGZMTGFUR3hidWMtcDB3M2ladkwzcm5NUHd2Ml84LURqeUZaN0FXTEhnZE5wNm5rNHZPeWZmc2VsX3FRYmdkazNiVlUzYmVjbmtPTlhjUVhnR29helROdmJLOHQ0TnZoSy12am5CeXlLalVIYUVGYU5tc0ZwZlRlZzFVWS1hVDZBcTl3NmlORkV6eExJNDNpcWU5LUo0d1g3ZGZEczJPd0RsSHkxZm1EVmNsVXBEaGg5bFdMNHl3WFhMNFM1RGgtdUtPY1pRZUZIWS1QNGJCek9YYlZ2aw?oc=5",
+      "source": "Upstox",
+      "publishedAt": "2026-11-18T04:17:12.000Z",
+      "region": "IN",
+      "category": "other_market_moving",
+      "relevanceScore": 19,
+      "relevanceLevel": "low",
+      "reason": "Broader market-moving development",
+      "matchedStocks": [
+        "COALINDIA"
+      ],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Upstox"
+      ]
+    },
+    {
+      "id": "news-1gqwu72",
+      "title": "+27%, +26%, +22%: Which AI-picked Indian stocks are up as Wall Street sells off - Investing.com India",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT0VaT1JRMTJ2V2NYeWFhTmlQQXlxckJORTVleUhNWEtTbFhxZWh3MkMwUDlaSVBjT1BNaUljNXAwYXlBdDZBUFpnQm1HMkE5aVVLMUoyQkctQUxqc0t5SUxNN283cUlDTFMtWllsVGpVcVJwZ2RKNHg3TmdBZWlSX1hUUG5Fd1dSZnk1QXh5TmtDaThLTk1xTjF3TEhHc18teWp2TmFzNGxRVUdGdTRwTGMxbzdDcUN2akVpVTdWU3FyS1U?oc=5",
+      "source": "Investing.com India",
+      "publishedAt": "2026-11-18T04:01:13.000Z",
+      "region": "IN",
+      "category": "technology",
+      "relevanceScore": 19,
+      "relevanceLevel": "low",
+      "reason": "Technology-sector development",
+      "matchedStocks": [],
+      "corroboration": 1,
+      "official": false,
+      "corroboratingSources": [
+        "Investing.com India"
       ]
     },
     {
@@ -3381,21 +3392,21 @@
       ]
     },
     {
-      "id": "news-1uyhc1w",
-      "title": "Amazon’s India Clean Energy Projects Could Power 3.5 Million Homes a Year: Where Are They? - NiftyTrader",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Tc0ZHTkIxTDZDNnZIUlVYOTNuSHUtU25YSEZzXzFHWkpIOTlUNWg4V1g3elpRTzlIcVpFS19DUVJFRHpUZ3QzaFdHUDUwRE9XdG9QMkVyT2hCVUVJQzNRNjBtcDZKWS12VGZWWk5UT3ZLdHhjQjFRbFRGZw?oc=5",
-      "source": "NiftyTrader",
-      "publishedAt": "2026-11-17T12:51:55.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
+      "id": "news-1hyfig5",
+      "title": "UK sanctions firms over Israeli West Bank settlements - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jY015YVhxSmEycHFuQkhQYmVJVnJNM1ZsYnNzZnNBeDZwQzNqa1VyZU1wTDFLYnU1RXFqR0N2UE9WZm9kZHgxMlZLb0pYR3VOOERxQk0wRWNRV3ZzVXc?oc=5",
+      "source": "BBC",
+      "publishedAt": "2026-11-17T12:37:52.000Z",
+      "region": "GLOBAL",
+      "category": "banking_credit",
       "relevanceScore": 19,
       "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
+      "reason": "Banking / credit development",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "NiftyTrader"
+        "BBC"
       ]
     },
     {
@@ -3417,39 +3428,21 @@
       ]
     },
     {
-      "id": "news-xdm5vm",
-      "title": "From shipyards to stock markets: India’s $8 billion maritime push puts these companies in focus - Upstox",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSE5oY0M1YTJjSERfQ25RaWhjMG4zVmFDOGFrOFI4ZFVKNkxfUmhYSG84bEsxdEhmTS1mOGVyZ0l6anlXOUY3WXBXQmhtVnV5XzhZQndRZmo0bm1uX0FXYk5hYVo3NFVTNTcwUkM2WFB6Q1cwSGZDUU55dldTLWgzd3VGWEE4UkVURGZHN1owMl9hZG95UksySi1USUR0Ym1LcE40MV9kaUFHeXVLS0s2RDlWbS1sdW5kQWNvSGhfellqWGoycm93Q1hKY0JXRU42bHNURmF1dW1jTFJDbW9Ra3FxOXgtNTg?oc=5",
-      "source": "Upstox",
-      "publishedAt": "2026-11-17T07:14:57.000Z",
+      "id": "news-8at97r",
+      "title": "India's stock market premium faces test from slower growth, tight rates: UBS - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWEVSQ2ZWWjlmVFZvazBCN21SYjNyMzJrUS02MlJTd0pONDBtMWJ6RlJRQkVFS08yS0c4RHE2YVYzZXV5RDMyOEtQOFlvdHhZVnVaUEpCN05FRno1UkxLeGVpWTlHZ05XT1RadlptNGVOX1ktYVZGVmMyZUthLWo3NEdNREsyZC1mcDVLUGkwaFg4RUdJSi1uTmxTY0xLNXp1Y2YwTmM2Nk5VZmdUOC0wNHR1WDgyQjc5TFZZXzZZeHJIcTFibzhrUTNaY1c2c1RSQnpkQkpQNVjSAd4BQVVfeXFMTUc4LW45dkRaZ0R0NHU1dXJpaWpCZVN6SHdkeHdqcmZZQTlsMWhHS0ZTOGJsR0JvY1NrM3lYakQ0bGRjdFRSNzgybHA2OHJnUXJHNGpUUmFrNEhXbjBoVlM1QmRNWTQ1STJLRGpSMW9xWFRKZi1FMnN4dzdWMmltUWxOcVlneGhNVXM4c1JYVHVnTzZGT0FEakE3RGVxbEJUUm9RcFFBMzgxTERPY2dPNjh6dGxMM2hWRXlaRl9PU09xYXB2OEFkUjNTQnNNajZzSzh1aUhxM2M1S3NpR2Z3?oc=5",
+      "source": "Business Standard",
+      "publishedAt": "2026-11-17T06:05:31.000Z",
       "region": "IN",
       "category": "other_market_moving",
-      "relevanceScore": 19,
+      "relevanceScore": 15,
       "relevanceLevel": "low",
       "reason": "Broader market-moving development",
       "matchedStocks": [],
       "corroboration": 1,
       "official": false,
       "corroboratingSources": [
-        "Upstox"
-      ]
-    },
-    {
-      "id": "news-q6yt0u",
-      "title": "Indian Stock Market Sees Gains as Foreign Investments Surge - India News Network",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWjcxTDN6WmVzQ2dVbkNiRTRXU1AwaTlDMHF1bEd2Q3JIbkpuOGlLWnhSMmlyX1g1cWc5Q2F5eUs4UTFOVldLd05CT05PUmRrZ0x4RVVTMUFSUi1UajVNX2FqaHVCRUFTdWtDSWY4andBc2x0ZWViZ2RDeUF1SjRMdmFzS3pSbXNLT3VtV25hbzZMT0VhTEZhOGE5RmwxOGROS1hn?oc=5",
-      "source": "India News Network",
-      "publishedAt": "2026-11-17T05:42:21.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 19,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "India News Network"
+        "Business Standard"
       ]
     },
     {
@@ -3460,150 +3453,6 @@
       "publishedAt": "2026-11-17T04:37:17.000Z",
       "region": "IN",
       "category": "other_market_moving",
-      "relevanceScore": 19,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "HDFC Sky"
-      ]
-    },
-    {
-      "id": "news-rw9zmk",
-      "title": "Global Funds Cautiously Increasing Exposure to India IT Stocks - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ2NOQkNqYVZWbkN6TG0xVWxvcXkteG81NU93amR5aHNoSWlxT3V2SmJfSE9XVHNEWWI2RWhibWJGdENFd0s1T044cEZhYnllT2NtQWN3U0ZaT2xlN2c5eGpBSVE2R2xxd3VLUzZkWmRVdFY0a3Y2SVRqbzdXN0lpRzI2UVRuclRTX3FsR0N3WDZoc2tqOXlJZ0E0cEo2bDRRWTNJVk04UnZiajlQeXJtYXhwUTdyTmc?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-17T02:42:16.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 19,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Bloomberg.com"
-      ]
-    },
-    {
-      "id": "news-r8xn6i",
-      "title": "Markets Are Rallying, But Here's Why You Should Prepare For A Fall - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObjNWS1RKejVsUllfdlVia2ZCWm1GNjRPMnhWTFRfNGhEVlkwNTZTQV90dzZQcDhnZ21uTnRGS01ZLXdWT1EyTTZYVmRkQUF3VDJwQ1R0WldCZW1CX0FWR053UWlkSkxzOFVPR2x0b1N1UldqQ0ZwQ25TcHdHc1kzT1ppRVNQWVBhbG8zWTQ5Q1FKOHdiTmZ3VENUMlcwSG1FVEVSaFBRZjJLS3hrcnBHRWU0Z0NCZTJPZ3ZzNkNNZGdzeFRLNWhj0gHPAUFVX3lxTFBFXzdoeGltdU1GX0xybTRIckhpTzd4enZQRzR2R0hreGlqRWFYS0h0SlpFdk1oeVV1cWVZUUVzTW5LdFdZRGxEY3RWNklseHpZLXlLakd5Vmg1bWltaVV4bzhaMUtBeWtNLUhUenc1SE5BWHptaS1fMmdPRUdUNTNvRkpEWVFET3pqczVmT1c5Rkc2SlZ4RU5rMktwMUtiSU1nZno5Ulc0VWZNMGVBYjJhbU9WZGNVa01VS3Z1MmpVelJvVUc0N2pvbVFSLUhaMA?oc=5",
-      "source": "NDTV",
-      "publishedAt": "2026-11-17T02:41:19.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 19,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "NDTV"
-      ]
-    },
-    {
-      "id": "news-11d1cy2",
-      "title": "Stock recommendations for 17 November from MarketSmith India - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNT2FPVmM5LXkzNWFyMFRmOERVM2N5RVBRNVVsUVFEUE8wczNzOEEwWWtqSzZJY3Jqejh5bTE3LVBxb3c2WFBmN3laZVY5RUZHVjNMU3k5M056Si1obllPbGdVbklCeWI1Q0VyQzFYeGNuaENRZy0tR09wUEpqU2JnRVF6MEh1Wk1CWHJPUVdaOXFwUVI2a0QxdDRWeFBkT0VXaTdKUGc3UnBnQ3NkZWRRN2hpZHZSekdkN2NJVkF3OWhRd0xBRVI2UktB0gHPAUFVX3lxTE9teV9pM0Zrd2d1MjFDUWgwZEpOV3FJS3gyWFp1bjVGZUwwR0s5SlYzZDZkT1hqMGh4b0dSSXd1SUIzbkNNM2JOT2FlZi1fUzNadE9UbW4wTlRmLTdfMUZXMDU0dkd3SFJBM0R3UDVKTnhJYWhWbXVid3M4dEtVSHYzc2NtZVVTcmYyR0xHdjR6QS03NEt1dFNCcW9XZjRFNHlic1ljWHpaZUVMS1lfcUp2Rnp0c3ROMHV5bGxJTFdXTEJ5Qk9RdHZiSUVhTndfYw?oc=5",
-      "source": "Livemint",
-      "publishedAt": "2026-11-17T00:30:41.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 15,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Livemint"
-      ]
-    },
-    {
-      "id": "news-1uvaoik",
-      "title": "Kaynes Technology Q2 FY27 Results | Belrise Industries Q2 FY27 Results | Top Buzzing Stocks Today - Equitymaster",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPSVptTGhleGtHbW1HOFVXV0I2SGdLUE9MSC1VTkZtc2gyMm9kV3IwU0V1VkRubXFKT0ktaVF1Q0k4dDNwWENIaGVSRGNhNDBFenFiR0hmX2t1T1F2Z0pickh2VEM2dHNVMkRFelFyTlljNWlaUjBxV1NxVHpEc1VtbGo0NE1qeklXWUs4ZTh6ZWhScEdPNElVdTBIcEprQWZlQWZGYVNmem4zUE9nTDZtVzdPcm1hd1pLaFlLb1FpQTB0ZUZtTXFzYmVCRzdOWTZ4MDFvSGllSS1lc2lsZ1lZemY1YkNfRnFDbWpBNw?oc=5",
-      "source": "Equitymaster",
-      "publishedAt": "2026-11-17T00:30:00.000Z",
-      "region": "IN",
-      "category": "technology",
-      "relevanceScore": 15,
-      "relevanceLevel": "low",
-      "reason": "Technology-sector development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Equitymaster"
-      ]
-    },
-    {
-      "id": "news-47r42c",
-      "title": "India’s equity market: The cost of taxation, policy uncertainty and lost investor confidence - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZEROeXpsQzhHWjBaeXJDeW5MLU4tLTB2MDhCa2ItRHJ0OGdxcTF2cWJrUURsN0NEYkNsNFVKWjhLbXk3SnpGRktSWWgycENhZXN3ME00X3RNT185aURZUENSdVB4WTlqbkVncjBjcEFiQ3VXbmxub3dfVGtrS25sb0xuVlNrQzUxOFppUXRVWWI5SDFnNnFEZkRQVkc5MTEyTzJtVVZGaUJERm1QNFpaWDFTZ1BYWDllV1FoX21lc3FVQmd4Mkx2TlQxa285NFZDSGRQS3pRSndBQ2k4YlpTaNIB5wFBVV95cUxPSTFkRmJwWE5PWWY3VnVjekdlQ0Q5anhQLVNFak5jM0xmSk4wZ2FGelRURnloeWpEY2Nuejg5RnNKekhkNVVVa2h6U0gwelg4cnR2Q2xuQ0FPY0RNb0sxVkZFZjV0MkI3WVdSV1FLc09qOGxRcDlwY2E0OXlKVmF0UVZDMDUzVURfMWwwUC1uMWd4NW9NcUFoclFRRUM0dnBDeXptNXRTMUNJUjJxUE1nY3dEMHhUenhWLXpQODFLU0Zndl9wSl9PVkZBbDgzd1pHeEJRTVZzX1lKdkx2T2s2bmhmaDFGZFE?oc=5",
-      "source": "The Hindu",
-      "publishedAt": "2026-11-16T20:24:35.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 15,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "The Hindu"
-      ]
-    },
-    {
-      "id": "news-ykjlvw",
-      "title": "What makes Advanced Materials an emerging long-term growth opportunity for India? Explore the opportunities, growth drivers and long-term investment outlook of this emerging sector with Dhananjay Tikariha, Fund Manager, Kotak Mahindra Asset Managem - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOc01MUk9CN0RnNjZhVnlLRVVpODBURlpPbWdFRjJJMGMtTWpNTzlTNnFNMHBZbzFZczVvQ1NqaktzSXFiNkpRMEVXelNWelZfRG8xVklsT1hHUzhLZEw5YWVZOWptdHdUbm5OeF8yaTFNT01POHJJdnlEbVJGaUxueUhTMmNIcUw4bF8yTmpIX1lvb1NSU3VIUXZPdHVaN2N1Uml4eEVkV09sZW5mR280QUNKVldaZDZ2bFhrTmVHMGYyTjVFQ3hKMUhJZUh6SHN4VFZYVWdneFI1QmxPREZ6aUh3?oc=5",
-      "source": "Facebook",
-      "publishedAt": "2026-11-16T18:09:19.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 15,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Facebook"
-      ]
-    },
-    {
-      "id": "news-yhlav4",
-      "title": "Investing in China and India – opportunities, outlook plus 3 fund ideas - Hargreaves Lansdown",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObHVFenRnQXV3dHRhVzc5TUtiT21veGU1SUI3Mm1uNXc3bnRWMC1tX1RXNGpuLVNiOGxlUjMyMmF1a0dwbmRUbEhCa0dhMTBPeVJ4b1VXQU5CcFR1MGF2Qzc4R09qLXd4Ml8tNkdhV2s2Ml9Ka1VGbndmUjdTUEtOeU5GY1dGMUNVMEcyOUg1UjBrVTItX2VLM2lB?oc=5",
-      "source": "Hargreaves Lansdown",
-      "publishedAt": "2026-11-16T08:00:00.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 15,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Hargreaves Lansdown"
-      ]
-    },
-    {
-      "id": "news-1ls9qxy",
-      "title": "India VIX Rises 1.23% to 15.64 on November 16 - HDFC Sky",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSEh3eWxLWlM4amwyZ1VQTVhFakcxN2hkTGV2S1NQSUp3R2hmTHZVOWtJRk1KNGZtS0EteGQ0dlNsSkZNV3JPdGd5T1pFR2d2SG54TktBRTRFa0dOX0pzMW1MVUZXWXROa2JSZEM5ZHQ2MXJmZTJyNlk5Skh0ZFdfZEFtcW91dTFuUktLdFRzSzlleEhuNHEtLVE2cDFoVlI3R0ZSM0lGVkdUcnZ0RXRSZkFGWDFhNHBmN3RWZ2VLMDJWRTZUbk9iOXVpa0s?oc=5",
-      "source": "HDFC Sky",
-      "publishedAt": "2026-11-16T04:33:18.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
       "relevanceScore": 15,
       "relevanceLevel": "low",
       "reason": "Broader market-moving development",
@@ -3612,24 +3461,6 @@
       "official": false,
       "corroboratingSources": [
         "HDFC Sky"
-      ]
-    },
-    {
-      "id": "news-1qw0hfz",
-      "title": "Turtlemint Q2 FY27 Results | Oil India Q2 FY27 Results | Top Buzzing Stocks Today - Equitymaster",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcUVzcG1VWC1nT2ZvZzlnclZJTnhnQUZxMlU5WE1IbHZKWkFIQ1VXV1I5VlB6SHdLVnI2cnZsLWM4NVFuSHFFZXNGdFN3Y2dJdFJQNUQxdVh0UFlsV2s3ZVBWV3ZDUW5sTzlqRG1uQU9rN3FxVnpHQUtDYWZaNHl4RFV0cnpjN2o5RTIxSWZBcW01QjlVS1lkaHhkdHVwSDhLbHE4YVZpZWRjUHFQNUd5blVTNWRFT1Iwb1hFOVlPazVrVlBneXlzNjZoUFZhNzZvUUtOVDJUaw?oc=5",
-      "source": "Equitymaster",
-      "publishedAt": "2026-11-16T00:30:00.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 15,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Equitymaster"
       ]
     },
     {
@@ -3705,24 +3536,6 @@
       ]
     },
     {
-      "id": "news-mrzjg7",
-      "title": "Indian Stock Market Faces Major Downturn Amid Global & Domestic Pressures - Groww",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZld6YXZDVlF6ZnpReHY0NnY2ampVT3cxSDBxVHZKRkdISVFVaE4tY0dxTHNGd2FWWGdraDNMbG1vZmxvdGdreUJ2ZW1kNWFVR0dRNlMtSDNsVFlDc2dqWmhLN0RldXhrSk85WUVhcTFsM3N0dmNYNEN3VjRlbGJKUHVGMWNqMGNHYm5tY190NVo?oc=5",
-      "source": "Groww",
-      "publishedAt": "2025-02-12T08:00:00.000Z",
-      "region": "IN",
-      "category": "other_market_moving",
-      "relevanceScore": 15,
-      "relevanceLevel": "low",
-      "reason": "Broader market-moving development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "Groww"
-      ]
-    },
-    {
       "id": "news-1xvsxr9",
       "title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
@@ -3759,24 +3572,6 @@
       ]
     },
     {
-      "id": "news-pnek69",
-      "title": "Modernizing a Global Bank’s UK Call Center Using the Cloud - EPAM",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNmc4bmQzc3BxZjdTVTlmNkFSck1WN1BJODFBd3ZVa2hKMks2aVJKWFVfVG9xdnhuT1RITVFjTWt1WGNjbnlDNE5qMUdRdEZtaVpNaGNvbDQzcmlhXzIxcS1abUw5a0ZIZTFKQTB2WFhHMklQMEhVNHVVSjJDb1VBYXJibUdoX0VWQ2ppWmMwZU52VmJJeXNFVUhXalJtS1Fia1A4U1NR?oc=5",
-      "source": "EPAM",
-      "publishedAt": "2024-06-04T12:51:03.000Z",
-      "region": "GLOBAL",
-      "category": "banking_credit",
-      "relevanceScore": 15,
-      "relevanceLevel": "low",
-      "reason": "Banking / credit development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "EPAM"
-      ]
-    },
-    {
       "id": "news-1mmmb6h",
       "title": "UK to boost World Bank funding to help tackle global challenges - GOV.UK",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUEc4U3RubWRKa2FOTElfUXJFbHlCM1BjZHJMazVzOTdTemFVNEIyams0NjVOY2c3YVQtb2JYaVMwT08wRUp5OVA3akVQZi1hSWV1d1BMOTEyRDBtNmMwTXViLXk4czNpeTdkVWZPQjFqU2ZnMHEyc091eXl6dGpRYWZSV20wX0lSaktsa202dVhQbU55bUpDXzNZS0JoTU0?oc=5",
@@ -3810,24 +3605,6 @@
       "official": false,
       "corroboratingSources": [
         "J.P. Morgan"
-      ]
-    },
-    {
-      "id": "news-1j01x5z",
-      "title": "How do changing interest rates affect the stock market in 2026 - U.S. Bank",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVVJpa2pCR3B0TmxRZGlpSmRZaFctZ21ybGtrVUVBMFozZ0xiSGFRY0ZZdGNWaV80dnhHUTR2TTVoSnZEU190aGtMamY2MDAxT0hYYzRXcUl5OUEyOGRGYWlBbm54T3ppaEZWRWtyV01EOEJGcVRaM2xROWlCX2FxSFYxX1NXeUQwZmJLS3pqcGhCWjR5RVJrNlhmbUtRcy1EUGJLaFI4UTNkUHg4emNPUE95cTc0bnlDcklaaG5EcWhBeVU?oc=5",
-      "source": "U.S. Bank",
-      "publishedAt": "2022-02-17T00:26:25.000Z",
-      "region": "US",
-      "category": "banking_credit",
-      "relevanceScore": 15,
-      "relevanceLevel": "low",
-      "reason": "Banking / credit development",
-      "matchedStocks": [],
-      "corroboration": 1,
-      "official": false,
-      "corroboratingSources": [
-        "U.S. Bank"
       ]
     },
     {
