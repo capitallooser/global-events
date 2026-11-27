@@ -1,93 +1,93 @@
 {
-  "updatedAt": "2026-11-27T05:24:31Z",
+  "updatedAt": "2026-11-27T15:27:19Z",
   "instruments": [
     {
       "key": "nifty",
       "label": "NIFTY 50",
-      "price": 25755.1992,
-      "change": -129.3008,
-      "changePct": -0.5,
-      "sourceTimestamp": "2026-11-27T05:24:31Z",
+      "price": 25607.1992,
+      "change": -212.0008,
+      "changePct": -0.821,
+      "sourceTimestamp": "2026-11-27T10:00:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Live"
+      "status": "Delayed"
     },
     {
       "key": "banknifty",
       "label": "Bank NIFTY",
-      "price": 63398.1484,
-      "change": -137.1516,
-      "changePct": -0.216,
-      "sourceTimestamp": "2026-11-27T05:24:30Z",
+      "price": 63040.8984,
+      "change": -662.3016,
+      "changePct": -1.04,
+      "sourceTimestamp": "2026-11-27T10:00:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Live"
+      "status": "Delayed"
     },
     {
       "key": "sensex",
       "label": "Sensex",
-      "price": 83890.8516,
-      "change": -437.7384,
-      "changePct": -0.519,
-      "sourceTimestamp": "2026-11-27T05:09:30Z",
+      "price": 83339.2578,
+      "change": -599.0422,
+      "changePct": -0.714,
+      "sourceTimestamp": "2026-11-27T10:00:00Z",
       "sourceName": "Yahoo Finance",
-      "status": "Live"
+      "status": "Delayed"
     },
     {
       "key": "sp500",
       "label": "S&P 500",
-      "price": 7182.7798,
-      "change": -18.3102,
-      "changePct": -0.254,
-      "sourceTimestamp": "2026-11-25T21:00:00Z",
+      "price": 7244.3198,
+      "change": 61.5398,
+      "changePct": 0.857,
+      "sourceTimestamp": "2026-11-27T15:27:18Z",
       "sourceName": "Yahoo Finance",
-      "status": "Last available"
+      "status": "Live"
     },
     {
       "key": "nasdaq",
       "label": "Nasdaq Composite",
-      "price": 23585.8027,
-      "change": -147.7323,
-      "changePct": -0.622,
-      "sourceTimestamp": "2026-11-25T21:00:00Z",
+      "price": 23855.418,
+      "change": 269.615,
+      "changePct": 1.143,
+      "sourceTimestamp": "2026-11-27T15:27:15Z",
       "sourceName": "Yahoo Finance",
-      "status": "Last available"
+      "status": "Live"
     },
     {
       "key": "gold",
       "label": "Gold",
-      "price": 3620.3999,
-      "change": 55.7999,
-      "changePct": 1.565,
-      "sourceTimestamp": "2026-11-26T04:55:00Z",
+      "price": 3656.8,
+      "change": 92.2,
+      "changePct": 2.587,
+      "sourceTimestamp": "2026-11-27T15:17:15Z",
       "sourceName": "Yahoo Finance",
-      "status": "Last available"
+      "status": "Live"
     },
     {
       "key": "crude",
       "label": "WTI Crude Oil",
-      "price": 84.42,
-      "change": 0.74,
-      "changePct": 0.884,
-      "sourceTimestamp": "2026-11-26T04:55:00Z",
+      "price": 83.83,
+      "change": 0.15,
+      "changePct": 0.179,
+      "sourceTimestamp": "2026-11-27T15:17:17Z",
       "sourceName": "Yahoo Finance",
-      "status": "Last available"
+      "status": "Live"
     },
     {
       "key": "usdinr",
       "label": "USD/INR",
-      "price": 92.7875,
-      "change": 0.3525,
-      "changePct": 0.381,
-      "sourceTimestamp": "2026-11-27T05:24:18Z",
+      "price": 92.98,
+      "change": 0.545,
+      "changePct": 0.59,
+      "sourceTimestamp": "2026-11-27T15:23:43Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     },
     {
       "key": "bitcoin",
       "label": "Bitcoin",
-      "price": 61644.5117,
-      "change": 1148.5617,
-      "changePct": 1.899,
-      "sourceTimestamp": "2026-11-27T05:24:26Z",
+      "price": 59703.0117,
+      "change": -792.9383,
+      "changePct": -1.311,
+      "sourceTimestamp": "2026-11-27T15:27:18Z",
       "sourceName": "Yahoo Finance",
       "status": "Live"
     }
