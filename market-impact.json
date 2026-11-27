@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T00:41:21Z",
+  "updatedAt": "2026-11-27T00:49:58Z",
   "methodology": {
     "minimumDirectionalSample": 8,
     "oneDayDefinition": "Close-to-close first reaction session",
@@ -11,17 +11,17 @@
     "nifty": {
       "label": "NIFTY 50",
       "priceSource": "Yahoo Finance chart",
-      "points": 2191
+      "points": 2192
     },
     "banknifty": {
       "label": "Bank NIFTY",
       "priceSource": "Yahoo Finance chart",
-      "points": 2192
+      "points": 2193
     },
     "sensex": {
       "label": "Sensex",
       "priceSource": "Yahoo Finance chart",
-      "points": 2188
+      "points": 2189
     },
     "sp500": {
       "label": "S&P 500",
@@ -36,22 +36,22 @@
     "gold": {
       "label": "Gold",
       "priceSource": "Yahoo Finance chart",
-      "points": 2240
+      "points": 2241
     },
     "crude": {
       "label": "WTI Crude Oil",
       "priceSource": "Yahoo Finance chart",
-      "points": 2240
+      "points": 2241
     },
     "usdinr": {
       "label": "USD/INR",
       "priceSource": "Yahoo Finance chart",
-      "points": 2317
+      "points": 2318
     },
     "bitcoin": {
       "label": "Bitcoin",
       "priceSource": "Yahoo Finance chart",
-      "points": 3251
+      "points": 3252
     }
   },
   "eventTypes": {
@@ -3131,17 +3131,17 @@
       "nifty": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2191
+        "points": 2192
       },
       "banknifty": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2192
+        "points": 2193
       },
       "sensex": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2188
+        "points": 2189
       },
       "sp500": {
         "status": "ok",
@@ -3156,22 +3156,22 @@
       "gold": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2240
+        "points": 2241
       },
       "crude": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2240
+        "points": 2241
       },
       "usdinr": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 2317
+        "points": 2318
       },
       "bitcoin": {
         "status": "ok",
         "source": "Yahoo Finance chart",
-        "points": 3251
+        "points": 3252
       }
     }
   }
