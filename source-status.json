@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-28T00:10:17Z",
-  "eventCount": 565,
+  "updatedAt": "2026-11-28T10:46:06Z",
+  "eventCount": 551,
   "sources": {
     "manual_fallback": {
       "status": "ok",
@@ -11,8 +11,9 @@
       "events": 923
     },
     "us_bls": {
-      "status": "ok",
-      "events": 313
+      "status": "error",
+      "events": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     "federal_reserve": {
       "status": "ok",
